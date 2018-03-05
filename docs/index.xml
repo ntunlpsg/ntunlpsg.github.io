@@ -38,7 +38,7 @@
     </item>
     
     <item>
-      <title>Speech Act Modeling of Models.</title>
+      <title>Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach.</title>
       <link>https://ntunlpsg.github.io/demo/publication/j_9/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
@@ -74,7 +74,19 @@
       <guid>https://ntunlpsg.github.io/demo/post/reding-group/</guid>
       <description>
 
-&lt;h1 id=&#34;2018&#34;&gt;2018&lt;/h1&gt;
+&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;The Natural Language Processing (NLP) reading group meets regularly (usually weekly) to discuss research topics on a particular sub-field of NLP.&lt;/p&gt;
+
+&lt;h3 id=&#34;subscription&#34;&gt;Subscription&lt;/h3&gt;
+
+&lt;h3 id=&#34;schedules&#34;&gt;Schedules&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;2018-march-multilingual-and-unsupervised-deep-learning&#34;&gt;2018 March  | Multilingual and Unsupervised Deep Learning&lt;/h5&gt;
+
+&lt;hr /&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -82,7 +94,7 @@
 &lt;th align=&#34;left&#34;&gt;Date&lt;/th&gt;
 &lt;th align=&#34;left&#34;&gt;Topic&lt;/th&gt;
 &lt;th align=&#34;left&#34;&gt;Content&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Author&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Author(s)&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
