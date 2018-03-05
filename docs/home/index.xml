@@ -39,7 +39,7 @@ function GetLatestReleaseInfo() { $.getJSON(&amp;lsquo;https://api.github.com/re
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/home/people/</guid>
-      <description>   Faculty        Dr. Shafiq Joty       Postdoc and Ph.D.        Muhammad Tasnim Mohiuddin       Visiting student        M Saiful Bari    </description>
+      <description>   Faculty        Asst. Prof. Shafiq Rayhan Joty       Associate Faculty            Assoc. Prof. Cai Jianfei (Vision) Assoc. Prof. Sun Aixin (IR) Assoc. Prof Cong Gao (Data mining)       Postdoc and Ph.D.        Muhammad Tasnim Mohiuddin       Research Assistant        M Saiful Bari    </description>
     </item>
     
     <item>
