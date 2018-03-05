@@ -39,7 +39,11 @@ function GetLatestReleaseInfo() { $.getJSON(&amp;lsquo;https://api.github.com/re
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/home/people/</guid>
-      <description>   Faculty        Asst. Prof. Shafiq Rayhan Joty       Associate Faculty            Assoc. Prof. Cai Jianfei (Vision) Assoc. Prof. Sun Aixin (IR) Assoc. Prof Cong Gao (Data mining)       Postdoc and Ph.D.        Muhammad Tasnim Mohiuddin       Research Assistant        M Saiful Bari    </description>
+      <description>Faculty        Shafiq Rayhan Joty
+Assistant Professor, NTU
+Natural Language Processing       Affiliated Faculty            Jianfei Cai
+Associate Professor, NTU Computer Vision Sun Aixin Associate Professor, NTU Information Retrieval Gao Cong
+Associate Professor, NTU Data Mining       Postdoc and Ph.D.        Muhammad Tasnim Mohiuddin       Research Assistant        M Saiful Bari       External Collaborators            Giuseppe Carenini</description>
     </item>
     
     <item>

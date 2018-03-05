@@ -251,7 +251,7 @@ defaultContentLanguageInSubdir = false
   weight = 1
 
 [[menu.main]]
-  name = "Members"
+  name = "People"
   url = "#people"
   weight = 2
 
@@ -264,6 +264,11 @@ defaultContentLanguageInSubdir = false
   name = "Resources"
   url = "resources/"
   weight = 4
+
+[[menu.main]]
+  name = "Reading Group"
+  url = "post/reding-group"
+  weight = 5
 
 #[[menu.main]]
 #  name = "Resources"

@@ -24,7 +24,7 @@ weight = 1
   label = '<i class="fa fa-clipboard"></i> News'
 [cta1]
   url = "./post/reding-group"
-  label = '<i class="fa fa-book"></i> Reding group'
+  label = '<i class="fa fa-book"></i> Reading group'
 +++
 
 NLP Research @ NTU

@@ -19,12 +19,12 @@ weight = 60
 | Faculty |
 |:---: |
 | <img class="img-circle" style="width: 150px;" src="./person/Joty.jpg"> |
-| [Asst. Prof. Shafiq Rayhan Joty](https://raihanjoty.github.io/) |
+| [Shafiq Rayhan Joty](https://raihanjoty.github.io/)<br>Assistant Professor, NTU<br> <small>Natural Language Processing</small>|
 
-| Associate Faculty | | |
+| Affiliated Faculty | | |
 |:---: | :---: | :---: |
 | <img class="img-circle" style="width: 150px;" src="./person/cai.jpeg"> |<img class="img-circle" style="width: 150px;" src="./person/Aixin.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/gao.jpg">
-| [Assoc. Prof. Cai Jianfei (Vision)](http://www.ntu.edu.sg/home/asjfcai/) | [Assoc. Prof. Sun Aixin (IR)](https://www.ntu.edu.sg/home/axsun/) | [Assoc. Prof Cong Gao (Data mining)] (http://www.ntu.edu.sg/home/gaocong/)|
+| [Jianfei Cai](http://www.ntu.edu.sg/home/asjfcai/)<br>Associate Professor, NTU <br> <small>Computer Vision</small> | [Sun Aixin](https://www.ntu.edu.sg/home/axsun/) <br> Associate Professor, NTU <br><small>Information Retrieval</small>| [Gao Cong] (http://www.ntu.edu.sg/home/gaocong/)<br> Associate Professor, NTU <br> <small>Data Mining</small>|
 
 |Postdoc and Ph.D. |
 |:---: |
@@ -34,4 +34,13 @@ weight = 60
 |Research Assistant |
 |:---: |
 | <img class="img-circle" style="width: 150px;" src="./person/saiful.jpg"> |
-| [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg/) |
+| [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg) |
+
+|External Collaborators | | |
+|:---: |:---: |:---: |
+| <img class="img-circle" style="width: 150px;" src="./person/carenini.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/Raymond_Ng.JPG"> | <img class="img-circle" style="width: 150px;" src="./person/glass.jpg"> |
+|[Giuseppe Carenini](http://www.cs.ubc.ca/~carenini/)<br>Associate Professor, UBC <br>|[Raymond T. Ng](https://www.cs.ubc.ca/~rng/)<br> Professor, UBC|[Jim Glass](https://www.csail.mit.edu/person/jim-glass)<br>Senior Research Scientist, MIT|
+| <img class="img-circle" style="width: 150px;" src="./person/marquez.jpeg"> | <img class="img-circle" style="width: 150px;" src="./person/preslav.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/murray.jpg"> |
+|[Lluis Marquez](https://scholar.google.com/citations?user=yFNUfjsAAAAJ&hl=en)<br>Chief Investigator, Amazon<br>|[Dr. Preslav Nakov](http://people.ischool.berkeley.edu/~nakov/)<br> Senior Scientist, QCRI|[Gabriel Murray](https://scholar.google.com/citations?user=8dzFxBkAAAAJ&hl=en)<br>Associate Professor, UFV|
+
+
