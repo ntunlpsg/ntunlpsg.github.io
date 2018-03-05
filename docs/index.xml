@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NTU-NLP on NTU-NLP</title>
-    <link>https://ntunlpsg.github.io/demo/</link>
+    <link>/</link>
     <description>Recent content in NTU-NLP on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
-    <atom:link href="/demo/" rel="self" type="application/rss+xml" />
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Selected Publications</title>
-      <link>https://ntunlpsg.github.io/demo/publications_selected/</link>
+      <link>/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publications_selected/</guid>
+      <guid>/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>https://ntunlpsg.github.io/demo/publications/</link>
+      <link>/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publications/</guid>
+      <guid>/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>https://ntunlpsg.github.io/demo/resources/list/</link>
+      <link>/resources/list/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/resources/list/</guid>
+      <guid>/resources/list/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Speech Act Modeling of Models.</title>
-      <link>https://ntunlpsg.github.io/demo/publication/j_9/</link>
+      <link>/publication/j_9/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/j_9/</guid>
+      <guid>/publication/j_9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News</title>
-      <link>https://ntunlpsg.github.io/demo/post/news/</link>
+      <link>/post/news/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/post/news/</guid>
+      <guid>/post/news/</guid>
       <description>
 
 &lt;h1 id=&#34;2018&#34;&gt;2018&lt;/h1&gt;
@@ -68,10 +68,10 @@
     
     <item>
       <title>Reading group</title>
-      <link>https://ntunlpsg.github.io/demo/post/reding-group/</link>
+      <link>/post/reding-group/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/post/reding-group/</guid>
+      <guid>/post/reding-group/</guid>
       <description>
 
 &lt;h1 id=&#34;2018&#34;&gt;2018&lt;/h1&gt;
@@ -100,82 +100,82 @@
     
     <item>
       <title>Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2018_1/</link>
+      <link>/publication/2018_1/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/2018_1/</guid>
+      <guid>/publication/2018_1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec.</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2017_2/</link>
+      <link>/publication/2017_2/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/2017_2/</guid>
+      <guid>/publication/2017_2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Domain Adaptation Using Neural Network Joint Model.</title>
-      <link>https://ntunlpsg.github.io/demo/publication/j_2/</link>
+      <link>/publication/j_2/</link>
       <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/j_2/</guid>
+      <guid>/publication/j_2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Translation Evaluation with Neural Networks.</title>
-      <link>https://ntunlpsg.github.io/demo/publication/j_3/</link>
+      <link>/publication/j_3/</link>
       <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/j_3/</guid>
+      <guid>/publication/j_3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cross-Language Question Re-ranking.</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2017_5/</link>
+      <link>/publication/2017_5/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/2017_5/</guid>
+      <guid>/publication/2017_5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Discourse Structure in Machine Translation Evaluation.</title>
-      <link>https://ntunlpsg.github.io/demo/publication/j_1/</link>
+      <link>/publication/j_1/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/j_1/</guid>
+      <guid>/publication/j_1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Neural Local Coherence Model.</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2017_1/</link>
+      <link>/publication/2017_1/</link>
       <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/2017_1/</guid>
+      <guid>/publication/2017_1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2017_3/</link>
+      <link>/publication/2017_3/</link>
       <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/2017_3/</guid>
+      <guid>/publication/2017_3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robust Classification of Crisis-Related Data on Social Networks using Convolutional Neural Networks.</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2017_6/</link>
+      <link>/publication/2017_6/</link>
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/publication/2017_6/</guid>
+      <guid>/publication/2017_6/</guid>
       <description></description>
     </item>
     
