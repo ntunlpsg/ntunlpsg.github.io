@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on NTU-NLP</title>
-    <link>/home/</link>
+    <link>https://ntunlpsg.github.io/demo/home/</link>
     <description>Recent content in Homes on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ntunlpsg.github.io/demo/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NTU-NLP</title>
-      <link>/home/hero/</link>
+      <link>https://ntunlpsg.github.io/demo/home/hero/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
       
-      <guid>/home/hero/</guid>
+      <guid>https://ntunlpsg.github.io/demo/home/hero/</guid>
       <description>NLP Research @ NTU Latest release   --- (function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })();
 function GetLatestReleaseInfo() { $.getJSON(&amp;lsquo;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&amp;lsquo;#academic-release&amp;rsquo;).text(&amp;lsquo;Latest release &amp;rsquo; + release.name);
 });
@@ -26,28 +26,28 @@ function GetLatestReleaseInfo() { $.getJSON(&amp;lsquo;https://api.github.com/re
     
     <item>
       <title></title>
-      <link>/home/about/</link>
+      <link>https://ntunlpsg.github.io/demo/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/about/</guid>
+      <guid>https://ntunlpsg.github.io/demo/home/about/</guid>
       <description>Welcome! We are the Natural Language Processing (NLP) Research Group at the Nanyang Technological University (NTU). Our work covers all aspects of NLP research, ranging from core NLP tasks to key downstream applications, and new machine learning methods. We collaborate with other research groups at NTU including computer vision, data mining, information retrieval, linguistics, and medical school, and also with external partners from academia and industry.</description>
     </item>
     
     <item>
       <title>People</title>
-      <link>/home/people/</link>
+      <link>https://ntunlpsg.github.io/demo/home/people/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/home/people/</guid>
+      <guid>https://ntunlpsg.github.io/demo/home/people/</guid>
       <description>   Faculty        Dr. Shafiq Joty       Postdoc and Ph.D.        Muhammad Tasnim Mohiuddin       Visiting student        M Saiful Bari    </description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
+      <link>https://ntunlpsg.github.io/demo/home/contact/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://ntunlpsg.github.io/demo/home/contact/</guid>
       <description></description>
     </item>
     

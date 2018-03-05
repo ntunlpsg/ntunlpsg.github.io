@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on NTU-NLP</title>
-    <link>/post/</link>
+    <link>https://ntunlpsg.github.io/demo/post/</link>
     <description>Recent content in Posts on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ntunlpsg.github.io/demo/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>News</title>
-      <link>/post/news/</link>
+      <link>https://ntunlpsg.github.io/demo/post/news/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
       
-      <guid>/post/news/</guid>
+      <guid>https://ntunlpsg.github.io/demo/post/news/</guid>
       <description> 2018 2017  15-Dec-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Tasnim Mohiuddin joins the lab as Ph.D. student. 28-Sep-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; M Saiful Bari Joins the lab as an exchange student. 31-Jul-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Prof. Dr. Shafiq Rayhan Joty opens the NTU-NLP lab.  </description>
     </item>
     
     <item>
       <title>Reading group</title>
-      <link>/post/reding-group/</link>
+      <link>https://ntunlpsg.github.io/demo/post/reding-group/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
       
-      <guid>/post/reding-group/</guid>
+      <guid>https://ntunlpsg.github.io/demo/post/reding-group/</guid>
       <description> 2018    Date Topic Content Author     07-03-2018 Recurrent Neural Network      </description>
     </item>
     
     <item>
       <title>Academic: the website designer for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>https://ntunlpsg.github.io/demo/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/post/getting-started/</guid>
+      <guid>https://ntunlpsg.github.io/demo/post/getting-started/</guid>
       <description>Academic is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. Check out the latest demo of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the Quick Start guide or take a look at the Release Notes.
 
 Key features:

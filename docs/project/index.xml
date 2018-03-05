@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on NTU-NLP</title>
-    <link>/project/</link>
+    <link>https://ntunlpsg.github.io/demo/project/</link>
     <description>Recent content in Projects on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ntunlpsg.github.io/demo/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Community Question Answering System</title>
-      <link>/project/5.-community-qa/</link>
+      <link>https://ntunlpsg.github.io/demo/project/5.-community-qa/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/5.-community-qa/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/5.-community-qa/</guid>
       <description>About This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum. The underlying technology is developed at QCRI and MIT in collaboration with Qatar Living.
 Watch the video to learn more:
   </description>
@@ -25,10 +25,10 @@ Watch the video to learn more:
     
     <item>
       <title>Deep Learning for Crisis Computing</title>
-      <link>/project/7.crisis-computing/</link>
+      <link>https://ntunlpsg.github.io/demo/project/7.crisis-computing/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/7.crisis-computing/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/7.crisis-computing/</guid>
       <description>This repository will host Python implementation of a number of deep neural networks classifiers for the classification of crisis-related data on Twitter.
  Requirementes:
 python 2.7 numpy, scikit-learn keras, tensorflow or theano backend  Dataset and Pre-process A sample of tweet data (data/sample.csv) is a .csv format with three columns
@@ -37,10 +37,10 @@ First, we need to pre-process tweets data: remove urls, special characters, lowe
     
     <item>
       <title>Discourse Parser for English</title>
-      <link>/project/1.parser/</link>
+      <link>https://ntunlpsg.github.io/demo/project/1.parser/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/1.parser/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/1.parser/</guid>
       <description>About This package includes:
  A discourse segmenter A discourse parser  Related publications -Shafiq Joty, Giuseppe Carenini, and Raymond Ng. 2015. CODRA: A Novel Discriminative Framework for Rhetorical Analysis. Computational Linguistics, Volume 41:3, MIT Press. [PDF]
 @article{jotycodra, title={CODRA: A Novel Discriminative Framework for Rhetorical Analysis}, author={Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T}, volume=41:3, publisher=MIT Press, year={2015} }   Shafiq Joty, Giuseppe Carenini, Raymond Ng and Yashar Mehdad.</description>
@@ -48,38 +48,38 @@ First, we need to pre-process tweets data: remove urls, special characters, lowe
     
     <item>
       <title>Discourse-based Evaluation Metric for Machine Translation</title>
-      <link>/project/10.-discourse-based-evaluation-metric-for-machine-translation/</link>
+      <link>https://ntunlpsg.github.io/demo/project/10.-discourse-based-evaluation-metric-for-machine-translation/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/10.-discourse-based-evaluation-metric-for-machine-translation/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/10.-discourse-based-evaluation-metric-for-machine-translation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Discourse-informed Sen2Vec</title>
-      <link>/project/3.discourse-info-sen2vec/</link>
+      <link>https://ntunlpsg.github.io/demo/project/3.discourse-info-sen2vec/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/3.discourse-info-sen2vec/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/3.discourse-info-sen2vec/</guid>
       <description>CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences.
 Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and Update  Copy the sen2vec_environment.yml file into anaconda/envs folder Get into anaconda/envs folder. Run the following command:  conda env create -f sen2vec_environment.yml  Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command.</description>
     </item>
     
     <item>
       <title>Neural Domain Adaptation Model for Machine Translation</title>
-      <link>/project/9.-neural-domain-adaptation-model-for-machine-translation/</link>
+      <link>https://ntunlpsg.github.io/demo/project/9.-neural-domain-adaptation-model-for-machine-translation/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/9.-neural-domain-adaptation-model-for-machine-translation/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/9.-neural-domain-adaptation-model-for-machine-translation/</guid>
       <description>Source Code</description>
     </item>
     
     <item>
       <title>Neural Local Coherence Model</title>
-      <link>/project/2.n_coh_model/</link>
+      <link>https://ntunlpsg.github.io/demo/project/2.n_coh_model/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/2.n_coh_model/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/2.n_coh_model/</guid>
       <description>CNN-Coherence Regard to WSJ license, we only provide entity grid files extracted using BrownCoherence toolkit.
 Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2017 paper.
 @inproceedings{tiennguyen2017, author = {Tien Nguyen, Dat and Joty, Shafiq}, title = {A Neural Local Coherence Model}, booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, month = {July}, year = {2017}, address = {Vancouver, Canada}, publisher = {Association for Computational Linguistics}, pages = {1320--1330}, url = {http://aclweb.</description>
@@ -87,29 +87,29 @@ Citation If you use the entity grid files (including permutations) and the code,
     
     <item>
       <title>Recurrent Neural Models for Fine-grained Opinion Analysis</title>
-      <link>/project/8.-opinion-analysis/</link>
+      <link>https://ntunlpsg.github.io/demo/project/8.-opinion-analysis/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/8.-opinion-analysis/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/8.-opinion-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Speech act recognizer for synchronous and asynchronous conversations</title>
-      <link>/project/4.speech-act/</link>
+      <link>https://ntunlpsg.github.io/demo/project/4.speech-act/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/4.speech-act/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/4.speech-act/</guid>
       <description>About This package includes:
  A bi-directional LSTM for speech act recognition (theano, keras) A global CRF model for thread-level inference (Matlab)  Related publications  Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL-2016) , Berlin, Germany. [PDF]  @article{jotySA, title={Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models.</description>
     </item>
     
     <item>
       <title>Topic Segmenter &amp; Labeler for Asynchronous Conversations</title>
-      <link>/project/6.-topic-segmenter/</link>
+      <link>https://ntunlpsg.github.io/demo/project/6.-topic-segmenter/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/6.-topic-segmenter/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/6.-topic-segmenter/</guid>
       <description></description>
     </item>
     
