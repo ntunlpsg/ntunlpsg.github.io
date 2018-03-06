@@ -32,7 +32,7 @@ filter_default = 0
   name = "All"
   tag = "*"
 [[filter]]  
-  name = "discourse"
+  name = "discourse-analysis"
   tag = ".discourse"
 [[filter]]  
   name = "representation-learning"
@@ -40,9 +40,9 @@ filter_default = 0
 [[filter]]
   name = "question-answering"
   tag = ".question-answering"
-[[filter]]
-  name = "demo"
-  tag = ".demo"
+#[[filter]]
+#  name = "demo"
+#  tag = ".demo"
 [[filter]]
   name = "multi-lingual"
   tag = ".multi-lingual"
