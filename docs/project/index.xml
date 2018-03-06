@@ -18,10 +18,11 @@
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/project/5.-community-qa/</guid>
-      <description>link to live Qatar Living system
+      <description>About This Resource includes:
+ A live demonstration of question-answering system. Relevant publications for question-answering system.  Demo link to live Qatar Living system
 This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum. The underlying technology is developed at QCRI and MIT in collaboration with Qatar Living.
 Watch the video to learn more:
-  </description>
+  Relevant publications Enamul Hoque, Shafiq Joty, Lluís Màrquez, and Giuseppe Carenini.</description>
     </item>
     
     <item>
@@ -55,7 +56,8 @@ Installation Required for the discourse segmenter:
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/project/3.discourse-info-sen2vec/</guid>
-      <description>CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences.
+      <description>About This resource contains the source code of CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences. paper.
+Source code Link to source code
 Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and Update  Copy the sen2vec_environment.yml file into anaconda/envs folder Get into anaconda/envs folder. Run the following command:  conda env create -f sen2vec_environment.yml  Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command.</description>
     </item>
     
@@ -74,8 +76,7 @@ Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/project/2.n_coh_model/</guid>
-      <description>Link to source code
-CNN-Coherence Regard to WSJ license, we only provide entity grid files extracted using BrownCoherence toolkit.
+      <description>About This resource contains the source code of &amp;ldquo;A Neural Local Coherence Model&amp;rdquo; paper. Source code Link to source code
 Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2017 paper.
 @inproceedings{tiennguyen2017, author = {Tien Nguyen, Dat and Joty, Shafiq}, title = {A Neural Local Coherence Model}, booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, month = {July}, year = {2017}, address = {Vancouver, Canada}, publisher = {Association for Computational Linguistics}, pages = {1320--1330}, url = {http://aclweb.</description>
     </item>

@@ -31,10 +31,6 @@ filter_default = 0
 [[filter]]
   name = "All"
   tag = "*"
-
-[[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
 [[filter]]  
   name = "discourse"
   tag = ".discourse"
@@ -45,7 +41,7 @@ filter_default = 0
   name = "question-answering"
   tag = ".question-answering"
 [[filter]]
-  name = "Other"
+  name = "demo"
   tag = ".demo"
 [[filter]]
   name = "multi-lingual"
