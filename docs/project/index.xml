@@ -18,7 +18,8 @@
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/project/5.-community-qa/</guid>
-      <description>About This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum. The underlying technology is developed at QCRI and MIT in collaboration with Qatar Living.
+      <description>link to live Qatar Living system
+This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum. The underlying technology is developed at QCRI and MIT in collaboration with Qatar Living.
 Watch the video to learn more:
   </description>
     </item>
@@ -42,17 +43,10 @@ First, we need to pre-process tweets data: remove urls, special characters, lowe
       
       <guid>https://ntunlpsg.github.io/demo/project/1.parser/</guid>
       <description>About This package includes:
- A discourse segmenter A discourse parser  Related publications -Shafiq Joty, Giuseppe Carenini, and Raymond Ng. 2015. CODRA: A Novel Discriminative Framework for Rhetorical Analysis. Computational Linguistics, Volume 41:3, MIT Press. [PDF]
-@article{jotycodra, title={CODRA: A Novel Discriminative Framework for Rhetorical Analysis}, author={Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T}, volume=41:3, publisher=MIT Press, year={2015} }   Shafiq Joty, Giuseppe Carenini, Raymond Ng and Yashar Mehdad.</description>
-    </item>
-    
-    <item>
-      <title>Discourse-based Evaluation Metric for Machine Translation</title>
-      <link>https://ntunlpsg.github.io/demo/project/10.-discourse-based-evaluation-metric-for-machine-translation/</link>
-      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/project/10.-discourse-based-evaluation-metric-for-machine-translation/</guid>
-      <description></description>
+ A discourse segmenter A discourse parser Evaluation metrics for discourse parsing  Download Document-level Discourse Parser for English
+Demo Link
+Installation Required for the discourse segmenter:
+ Charniak&amp;rsquo;s reranking parser. Put it in Tools/CharniakParserRerank and install it. Taggers from UIUC. Download POS tagger and shallow chunker [LBJPOS.jar, LBJChunk.jar, LBJ2.jar, LBJ2Library.jar] and put these in Tools/UIUC_TOOLs/ Install scikit-learn and scipy (instructions) Install java if not installed (instructions for Ubuntu) Make sure the Tools/SPADE_UTILS/bin/edubreak is set to executable.</description>
     </item>
     
     <item>
@@ -80,7 +74,8 @@ Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/project/2.n_coh_model/</guid>
-      <description>CNN-Coherence Regard to WSJ license, we only provide entity grid files extracted using BrownCoherence toolkit.
+      <description>Link to source code
+CNN-Coherence Regard to WSJ license, we only provide entity grid files extracted using BrownCoherence toolkit.
 Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2017 paper.
 @inproceedings{tiennguyen2017, author = {Tien Nguyen, Dat and Joty, Shafiq}, title = {A Neural Local Coherence Model}, booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, month = {July}, year = {2017}, address = {Vancouver, Canada}, publisher = {Association for Computational Linguistics}, pages = {1320--1330}, url = {http://aclweb.</description>
     </item>
