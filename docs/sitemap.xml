@@ -725,16 +725,6 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/tags/</loc>
-      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/demo/publication_types/1/</loc>
       <lastmod>2018-02-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -785,6 +775,16 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/demo/tags/discourse/</loc>
+      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/demo/tags/misc/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

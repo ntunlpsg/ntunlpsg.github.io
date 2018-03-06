@@ -46,6 +46,9 @@ filter_default = 0
 [[filter]]
   name = "multi-lingual"
   tag = ".multi-lingual"
+[[filter]]
+  name = "misc"
+  tag = ".misc"
 
 +++
 
