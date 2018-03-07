@@ -56,11 +56,12 @@
 
 &lt;h1 id=&#34;2018&#34;&gt;2018&lt;/h1&gt;
 
-&lt;h1 id=&#34;2017&#34;&gt;2017&lt;/h1&gt;
-
-&lt;p&gt;#* 15-Dec-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=&#34;https://bd.linkedin.com/in/tasnimmohiuddin&#34; target=&#34;_blank&#34;&gt;Tasnim Mohiuddin&lt;/a&gt; joins the lab as Ph.D. student.
-#* 28-Sep-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=&#34;http://775f4887654a19c7bf63f187f93b950a.blogspot.sg/&#34; target=&#34;_blank&#34;&gt;M Saiful Bari&lt;/a&gt; Joins the lab as an exchange student.
-#* 31-Jul-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a href=&#34;https://raihanjoty.github.io/&#34; target=&#34;_blank&#34;&gt;Prof. Dr. Shafiq Rayhan Joty&lt;/a&gt; opens the NTU-NLP lab.&lt;/p&gt;
+&lt;!---
+# 2017
+#* 15-Dec-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; [Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) joins the lab as Ph.D. student.
+#* 28-Sep-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg/) Joins the lab as an exchange student.
+#* 31-Jul-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; [Prof. Dr. Shafiq Rayhan Joty](https://raihanjoty.github.io/) opens the NTU-NLP lab.
+---&gt;
 </description>
     </item>
     
@@ -99,6 +100,7 @@
 &lt;th align=&#34;left&#34;&gt;Topic&lt;/th&gt;
 &lt;th align=&#34;left&#34;&gt;Content&lt;/th&gt;
 &lt;th align=&#34;left&#34;&gt;Presenter(s)&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Time&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -108,6 +110,7 @@
 &lt;td align=&#34;left&#34;&gt;Recurrent Neural Network&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Tasnim and Saiful&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;small&gt;2-3 PM (UTC +8)&lt;/small&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

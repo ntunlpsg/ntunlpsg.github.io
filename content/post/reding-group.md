@@ -27,6 +27,6 @@ You can receive announcements about the reading group by joining our mailing lis
 ##### 2018 March-May  | Multilingual and Unsupervised Deep Learning
 ---
 
-| Date | Topic | Content | Presenter(s) |
-| :--- |:--- |:--- |:--- |
-| 07-03-2018 | Recurrent Neural Network | | Tasnim and Saiful |
+| Date | Topic | Content | Presenter(s) | Time |
+| :--- |:--- |:--- |:--- | :--- |
+| 07-03-2018 | Recurrent Neural Network | | Tasnim and Saiful | <small>2-3 PM (UTC +8)</small> |
