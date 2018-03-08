@@ -19,7 +19,7 @@ The Natural Language Processing (NLP) reading group meets regularly (usually wee
 You can receive announcements about the reading group by joining our mailing list. To join the mailing list, please use an academic email address and send an email to ntunlpsg@gmail.com with a subject "subscribe ntu-nlp". If you use a non-academic email address, we would have to verify it which could delay your subscription process.
 
 ### Location 
-***NTU MICL*** Lab meeting room.
+***NTU MICL*** Lab (formerly MML Lab) meeting room.
 
 ### Schedules
 
