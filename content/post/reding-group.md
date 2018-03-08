@@ -20,6 +20,7 @@ You can receive announcements about the reading group by joining our mailing lis
 
 ### Location 
 ***NTU MICL*** Lab (formerly MML Lab) meeting room.
+Room No: N4-B1c-17b
 
 ### Schedules
 
