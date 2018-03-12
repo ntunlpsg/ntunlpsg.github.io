@@ -30,4 +30,4 @@ Room No: N4-B1c-17b
 
 | Date | Topic | Content | Presenter(s) | Time |
 | :--- |:--- |:--- |:--- | :--- |
-| 07-03-2018 | Recurrent Neural Network | | Tasnim and Saiful | <small>2-3 PM (UTC +8)</small> |
+| 07-03-2018 | Recurrent Neural Network |[Part 1](https://drive.google.com/file/d/1ciYPg1ktTv0Yh730b_7NBZhFjmaOTiq4/view?usp=sharing) | Tasnim and Saiful | <small>2-3 PM (UTC +8)</small> |
