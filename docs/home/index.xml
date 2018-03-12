@@ -43,7 +43,7 @@ function GetLatestReleaseInfo() { $.getJSON(&amp;lsquo;https://api.github.com/re
 Natural Language Processing       Affiliated Faculty              Jianfei Cai
 Computer Vision Sun Aixin
 Information Retrieval Gao Cong
-Data Mining Andrea Nanetti Humanities       Postdoc and Ph.D.        Muhammad Tasnim Mohiuddin       Research Assistant          Xuan Phi Nguyen M Saiful Bari       External Collaborators            Giuseppe Carenini (UBC)  Raymond T.</description>
+Data Mining Andrea Nanetti Digital Humanities       Postdoc and Ph.D.        Muhammad Tasnim Mohiuddin       Research Assistant          Xuan Phi Nguyen M Saiful Bari       External Collaborators            Giuseppe Carenini (UBC)  Raymond T.</description>
     </item>
     
     <item>
