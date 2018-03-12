@@ -90,8 +90,7 @@ Citation If you use the entity grid files (including permutations) and the code,
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/project/8.-opinion-analysis/</guid>
-      <description>Code Download
-Publications Pengfei Liu, Shafiq Joty, Helen Meng. Fine-grained Opinion Mining with Recurrent Neural Networks and Word Embeddings. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP-2015), Lisbon, Portugal, 2015.
+      <description>Publications Pengfei Liu, Shafiq Joty, Helen Meng. Fine-grained Opinion Mining with Recurrent Neural Networks and Word Embeddings. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP-2015), Lisbon, Portugal, 2015.
 @InProceedings{liu-joty-meng-emnlp-15, author = {Liu, Pengfei and Joty, Shafiq and Meng, Helen}, title = {Fine-grained Opinion Mining with Recurrent Neural Networks and Word Embeddings}, booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing}, year = {2015}, address = {Lisbon, Portugal}, series = {EMNLP&#39;15}, pages = {1433--1443}, url = {http://aclweb.</description>
     </item>
     
