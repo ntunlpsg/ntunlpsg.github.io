@@ -19,7 +19,7 @@ The Natural Language Processing (NLP) reading group meets regularly (usually wee
 You can receive announcements about the reading group by joining our mailing list. To join the mailing list, please use an academic email address and send an email to ntunlpsg@gmail.com with a subject "subscribe ntu-nlp". If you use a non-academic email address, we would have to verify it which could delay your subscription process.
 
 ### Location 
-***NTU MICL*** Lab (formerly MML Lab) meeting room.
+***NTU MICL*** Lab (former MML Lab) meeting room.
 Room No: N4-B1c-17b
 
 ### Schedules
@@ -30,4 +30,5 @@ Room No: N4-B1c-17b
 
 | Date | Topic | Content | Presenter(s) | Time |
 | :--- |:--- |:--- |:--- | :--- |
-| 07-03-2018 | Recurrent Neural Network | | Tasnim and Saiful | <small>2-3 PM (UTC +8)</small> |
+| 07-03-2018 | Recurrent Neural Network | [Part 1](https://drive.google.com/file/d/1ciYPg1ktTv0Yh730b_7NBZhFjmaOTiq4/view?usp=sharing)| Tasnim and Saiful | <small>2-3 PM (UTC +8)</small> |
+| 14-03-2018 | Sequence to Sequence Learning | | Tasnim and Saiful | <small>10:30-11:30 AM (UTC +8)</small> |
