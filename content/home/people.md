@@ -21,10 +21,11 @@ weight = 60
 | <img class="img-circle" style="width: 150px;" src="./person/Joty.jpg"> |
 | [Shafiq Joty](https://raihanjoty.github.io/)<br><small>Natural Language Processing</small>|
 
-| Affiliated Faculty | | |
-|:---: | :---: | :---: |
-| <img class="img-circle" style="width: 150px;" src="./person/cai_.jpeg"> |<img class="img-circle" style="width: 150px;" src="./person/Aixin_.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/gao_.jpg">
-| [Jianfei Cai](http://www.ntu.edu.sg/home/asjfcai/)<br> <small>Computer Vision</small> | [Sun Aixin](https://www.ntu.edu.sg/home/axsun/)<br> <small>Information Retrieval</small>| [Gao Cong] (http://www.ntu.edu.sg/home/gaocong/)<br> <small>Data Mining</small>|
+| Affiliated Faculty | | | |
+|:---: | :---: | :---: | :---: |
+| <img class="img-circle" style="width: 150px;" src="./person/cai_.jpeg"> | <img class="img-circle" style="width: 150px;" src="./person/Aixin_.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/gao_.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/andre.jpg">|
+| [Jianfei Cai](http://www.ntu.edu.sg/home/asjfcai/)<br> <small>Computer Vision</small> | [Sun Aixin](https://www.ntu.edu.sg/home/axsun/)<br> <small>Information Retrieval</small>| [Gao Cong] (http://www.ntu.edu.sg/home/gaocong/)<br> <small>Data Mining</small>| [Andrea Nanetti] (http://andreananetti.com) <br> <small>Humanities</small>|
+
 
 |Postdoc and Ph.D. |
 |:---: |
