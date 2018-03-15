@@ -17,7 +17,7 @@ caption = "Image credit: [**NTU Hive**](https://www.dezeen.com/2015/03/10/thomas
 # 2018
 |&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ||
 |---|---|
-|15 Mar, 2018 |NLP in the Era of Big Data, Deep Learning, and Post| Truth workshop at [ESSLLI 2018](http://esslli2018.folli.info/courses/)
+|15 Mar, 2018 |NLP in the Era of Big Data, Deep Learning, and Post Truth workshop at [ESSLLI 2018](http://esslli2018.folli.info/courses/)
 |01 Mar, 2018|Our lab is looking for highly motivated PhD students and postdoc researchers to work in natural language processing, deep learning, and machine learning.|
 |26 Feb, 2018|One paper accepted to Comp. Lingusitics Journal
 |21 Feb, 2018|One paper accepted to CVPR.
