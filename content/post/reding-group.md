@@ -31,4 +31,7 @@ Room No: N4-B1c-17b
 | Date | Topic | Content | Presenter(s) | Time |
 | :--- |:--- |:--- |:--- | :--- |
 | 07-03-2018 | Recurrent Neural Network | [Part 1](https://drive.google.com/file/d/1ciYPg1ktTv0Yh730b_7NBZhFjmaOTiq4/view?usp=sharing)| Tasnim and Saiful | <small>2-3 PM (UTC +8)</small> |
-| 14-03-2018 | Sequence to Sequence Learning | | Tasnim and Saiful | <small>10:30-11:30 AM (UTC +8)</small> |
+| 14-03-2018 | Sequence to Sequence Learning <br> [Paper 1](https://arxiv.org/abs/1409.1259),  [Paper 2](https://arxiv.org/abs/1409.3215) |[Part 2](https://drive.google.com/file/d/1W2BaUNc5IqaDypNiXcb0MweOtCetUqZm/view?usp=sharing) | Tasnim and Saiful | <small>10:30-11:30 AM (UTC +8)</small> |
+| 21-03-2018 | Attention Mechanism <br> [Paper 1](https://arxiv.org/abs/1409.0473), [Paper 2](https://arxiv.org/abs/1508.04025)| | Tasnim and Saiful | <small>10:30-11:30 AM (UTC +8)</small> |
+
+
