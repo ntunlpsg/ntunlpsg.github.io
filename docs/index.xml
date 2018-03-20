@@ -133,11 +133,11 @@ Room No: N4-B1c-17b&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;Date&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp;   &amp;nbsp; Date&lt;/th&gt;
 &lt;th align=&#34;left&#34;&gt;Topic&lt;/th&gt;
 &lt;th align=&#34;left&#34;&gt;Content&lt;/th&gt;
 &lt;th align=&#34;left&#34;&gt;Presenter(s)&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Time&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp;Time&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -147,7 +147,7 @@ Room No: N4-B1c-17b&lt;/p&gt;
 &lt;td align=&#34;left&#34;&gt;Recurrent Neural Network&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ciYPg1ktTv0Yh730b_7NBZhFjmaOTiq4/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Part 1&lt;/a&gt; &lt;a href=&#34;https://drive.google.com/file/d/1ciYPg1ktTv0Yh730b_7NBZhFjmaOTiq4/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Part 2&lt;/a&gt;&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Tasnim and Saiful&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;2-3 PM (UTC +8)&lt;/small&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;small&gt;14:00-15:00&lt;br&gt; (UTC +8)&lt;/small&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -155,19 +155,34 @@ Room No: N4-B1c-17b&lt;/p&gt;
 &lt;td align=&#34;left&#34;&gt;Sequence to Sequence Learning &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1409.1259&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;,  &lt;a href=&#34;https://arxiv.org/abs/1409.3215&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1RYUV3YmPrVoRTujaJ0kt6jyD6-4a8Zie/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Part 1&lt;/a&gt; &lt;a href=&#34;https://drive.google.com/file/d/1W2BaUNc5IqaDypNiXcb0MweOtCetUqZm/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Part 2&lt;/a&gt;&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Tasnim and Saiful&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;10:30-11:30 AM (UTC +8)&lt;/small&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;small&gt;10:30-11:30 &lt;br&gt; (UTC +8)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;code&gt;21-03-2018&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Attention Mechanism &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1409.0473&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/1508.04025&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Tasnim and Saiful&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;small&gt;10:30-11:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Neural MT and Image Caption Generation &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1610.03017&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/1502.03044&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Discourse Phenomena in NMT and Abstractive Summarization &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1711.00513&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;, &lt;a href=&#34;https://openreview.net/pdf?id=HkAClQgA-&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;p&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD&lt;/p&gt;
-
-&lt;h1 id=&#34;21-03-2018-attention-mechanism-br-paper-1-https-arxiv-org-abs-1409-0473-paper-2-https-arxiv-org-abs-1508-04025-tasnim-and-saiful-small-11-30-12-30-am-utc-8-small&#34;&gt;| 21-03-2018 | Attention Mechanism &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1409.0473&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/1508.04025&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;| | Tasnim and Saiful | &lt;small&gt;11:30-12:30 AM (UTC +8)&lt;/small&gt; |&lt;/h1&gt;
-
-&lt;p&gt;| 21-03-2018 | Attention Mechanism &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1409.0473&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/1508.04025&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;| | Tasnim and Saiful | &lt;small&gt;10:30-11:30 AM (UTC +8)&lt;/small&gt; |
-| &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | Neural MT and Image Caption Generation &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1610.03017&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/1502.03044&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;| | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; |
-| &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | Discourse Phenomena in NMT and Abstractive Summarization &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1711.00513&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;, &lt;a href=&#34;https://openreview.net/pdf?id=HkAClQgA-&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;| | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; |
-&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; 5ac05b183f9bbeba595d1d69c86d6f43990932e1&lt;/p&gt;
 </description>
     </item>
     
