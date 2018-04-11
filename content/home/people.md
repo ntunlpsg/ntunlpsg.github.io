@@ -32,10 +32,10 @@ weight = 60
 | <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> |
 | [Muhammad Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) |
 
-|Research Assistant | |
-|:---: | :---: | 
-| <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/saiful.jpg"> |
-| [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg) |
+|Research Assistant | | |
+|:---: | :---: | :---: |
+| <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/saiful.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/song.jpg"> |
+| [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg) | SONG SEOHO |
 
 |External Collaborators | | |
 |:---: |:---: |:---: |

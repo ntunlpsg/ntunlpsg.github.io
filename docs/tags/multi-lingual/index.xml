@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-lingual on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/demo/tags/multi-lingual/</link>
+    <description>Recent content in Multi-lingual on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/demo/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Neural Domain Adaptation Model for Machine Translation</title>
+      <link>https://ntunlpsg.github.io/demo/project/9.-neural-domain-adaptation-model-for-machine-translation/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/project/9.-neural-domain-adaptation-model-for-machine-translation/</guid>
+      <description>About This resource contain the source code of Domain adaptation using neural network joint model paper.
+Source code Link to github
+Publications Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali. Domain Adaptation Using Neural Network Joint Model. In Computer Speech &amp;amp; Language (Special Issue on Deep Learning for Machine Translation) : pages 161-179, 2017.
+@article{joty-durrani-sajjad-abdelali-csl-17, title=&amp;quot;{Domain Adaptation Using Neural Network Joint Model}&amp;quot;, author={Shafiq Joty and Nadir Durrani and Hassan Sajjad and Ahmed Abdelali}, journal = {Computer Speech &amp;amp; Language}, volume={45}, publisher={Elsevier}, pages={161-179}, year={2017}, doi = {https://doi.</description>
+    </item>
+    
+  </channel>
+</rss>
