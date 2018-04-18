@@ -38,6 +38,15 @@
     </item>
     
     <item>
+      <title>SegBot: A Generic Neural Text Segmentation Model with Pointer Network</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_4/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_3/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
@@ -271,15 +280,6 @@ Room No: N4-B1c-17b&lt;/p&gt;
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/j_1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Neural Local Coherence Model</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2017_1/</link>
-      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/2017_1/</guid>
       <description></description>
     </item>
     
