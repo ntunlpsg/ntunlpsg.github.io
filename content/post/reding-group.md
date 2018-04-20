@@ -35,6 +35,7 @@ Room No: N4-B1c-17b
 | 21-03-2018| Attention Mechanism <br> [Paper 1](https://arxiv.org/abs/1409.0473), [Paper 2](https://arxiv.org/abs/1508.04025)|[Part 1](https://drive.google.com/open?id=1niMR8LX77DnP_iPzjNRauOdz1wjd_eXp) [Part 2](https://drive.google.com/file/d/1rzX97LRgtQdg6YmVeAq92oLqXGCEjhpb/view) | Tasnim and Saiful | <small>11:30-12:30 <br>(UTC +8)</small> |
 | 04-04-2018| Discourse Phenomena in NMT <br> [Paper](https://arxiv.org/abs/1711.00513)| [Slide](https://drive.google.com/open?id=1FeCJUGiE5-Pnj2BbxehrHPbe-w5IWi-q) | Phi | <small>11:30-12:30 <br>(UTC +8)</small> |
 | 11-04-2018|  Unsupervised Machine Translation Using Monolingual Corpora Only <br> [Paper](https://arxiv.org/abs/1711.00043)|[Slide](https://drive.google.com/open?id=1wBDPufG-h581kFIr6H0sk-xLVWHSmETy)  | Song | <small>11:30-12:30 <br>(UTC +8)</small> |
+| 25-04-2018|   Fast and Accurate Entity Recognition with Iterated Dilated Convolutions <br> [Paper](https://arxiv.org/abs/1702.02098)|  | Saiful | <small>11:30-12:30 <br>(UTC +8)</small> |
 | <span style="color:red">TBA</span> | Neural MT and Image Caption Generation <br> [Paper 1](https://arxiv.org/abs/1610.03017), [Paper 2](https://arxiv.org/abs/1502.03044)| | <span style="color:red">TBA</span> | <span style="color:red">TBA</span> |
 | <span style="color:red">TBA</span> | Abstractive Summarization <br> [Paper](https://openreview.net/pdf?id=HkAClQgA-)| | <span style="color:red">TBA</span> | <span style="color:red">TBA</span> |
 
