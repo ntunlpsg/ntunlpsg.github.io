@@ -17,10 +17,10 @@
       
     
   
-  <meta name="description" content="Community Question Answering (cQA) is a new application of QA in social contexts (e.g., fora). It presents new interesting challenges and research directions, e.g., exploiting the dependencies between the different comments of a thread to select the best answer for a given question. In this paper, we explored two ways of modeling such dependencies: (i) by designing specific features looking globally at the thread; and (ii) by applying structure prediction models. We trained and evaluated our models on data from SemEval-2015 Task 3 on Answer Selection in cQA. Our experiments show that: (i) the thread-level features consistently improve the performance for a variety of machine learning models, yielding state-of-the-art results; and (ii) sequential dependencies between the answer labels captured by structured prediction models are not enough to improve the results,indicating that more information is needed in the joint model.">
+  <meta name="description" content="We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/demo/publication/2015_5/">
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/demo/publication/2018_5/">
 
   
 
@@ -82,7 +82,7 @@
   <link rel="icon" type="image/png" href="/demo/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/demo/img/icon-192.png">
 
-  <link rel="canonical" href="https://ntunlpsg.github.io/demo/publication/2015_5/">
+  <link rel="canonical" href="https://ntunlpsg.github.io/demo/publication/2018_5/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -90,19 +90,19 @@
   <meta property="twitter:creator" content="@ntunlpsg">
   
   <meta property="og:site_name" content="NTU-NLP">
-  <meta property="og:url" content="https://ntunlpsg.github.io/demo/publication/2015_5/">
-  <meta property="og:title" content="Thread-level Information for Comment Classification in Community Question Answering | NTU-NLP">
-  <meta property="og:description" content="Community Question Answering (cQA) is a new application of QA in social contexts (e.g., fora). It presents new interesting challenges and research directions, e.g., exploiting the dependencies between the different comments of a thread to select the best answer for a given question. In this paper, we explored two ways of modeling such dependencies: (i) by designing specific features looking globally at the thread; and (ii) by applying structure prediction models. We trained and evaluated our models on data from SemEval-2015 Task 3 on Answer Selection in cQA. Our experiments show that: (i) the thread-level features consistently improve the performance for a variety of machine learning models, yielding state-of-the-art results; and (ii) sequential dependencies between the answer labels captured by structured prediction models are not enough to improve the results,indicating that more information is needed in the joint model.">
+  <meta property="og:url" content="https://ntunlpsg.github.io/demo/publication/2018_5/">
+  <meta property="og:title" content="Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach | NTU-NLP">
+  <meta property="og:description" content="We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2015-09-21T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-04-20T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2015-09-21T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2018-04-20T00:00:00&#43;00:00">
   
 
-  <title>Thread-level Information for Comment Classification in Community Question Answering | NTU-NLP</title>
+  
+
+  <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach | NTU-NLP</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -241,10 +241,10 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Thread-level Information for Comment Classification in Community Question Answering</h1>
+    <h1 itemprop="name">Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</h1>
     <span class="pub-authors" itemprop="author">
       
-      Alberto Barrón-Cedeño, Simone Filice, Shafiq Joty, Lluís Màrquez, Preslav Nakov, Alessandro Moschitti
+      Shafiq Joty, Muhammad Tasnim Mohiuddin, Dat Nguyen
       
     </span>
     <span class="pull-right">
@@ -256,7 +256,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Community Question Answering (cQA) is a new application of QA in social contexts (e.g., fora). It presents new interesting challenges and research directions, e.g., exploiting the dependencies between the different comments of a thread to select the best answer for a given question. In this paper, we explored two ways of modeling such dependencies: (i) by designing specific features looking globally at the thread; and (ii) by applying structure prediction models. We trained and evaluated our models on data from SemEval-2015 Task 3 on Answer Selection in cQA. Our experiments show that: (i) the thread-level features consistently improve the performance for a variety of machine learning models, yielding state-of-the-art results; and (ii) sequential dependencies between the answer labels captured by structured prediction models are not enough to improve the results,indicating that more information is needed in the joint model.</p>
+    <p class="pub-abstract" itemprop="text">We propose a novel coherence model for written asynchronous conversations (e.g., forums, emails), and show its applications in coherence assessment and thread reconstruction tasks. We conduct our research in two steps. First, we propose improvements to the recently proposed neural entity grid model by lexicalizing its entity transitions. Then, we extend the model to asynchronous conversations by incorporating the underlying conversational structure in the entity grid representation and feature computation. Our model achieves state of the art results on standard coherence assessment tasks in monologue and conversations outperforming existing models. We also demonstrate its effectiveness in reconstructing thread structures.</p>
     
 
     
@@ -285,7 +285,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">In Proceedings of the 53rd annual meeting of the Association for Computational Linguistics and The 7th International Joint Conference of the Asian Federation of Natural Language Processing (ACL-2015), Beijing, China</div>
+          <div class="col-xs-12 col-sm-9">Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (ACL&rsquo;18)</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -299,7 +299,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            September, 2015
+            April, 2018
           </div>
         </div>
       </div>
@@ -319,17 +319,6 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="http://www.aclweb.org/anthology/P15-2113" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-<button type="button" class="btn btn-primary btn-outline js-cite-modal"
-        data-filename="/demo/files/citations/2015_5.bib">
-  Cite
-</button>
 
 
 
@@ -338,9 +327,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://raihanjoty.github.io/media/cedeno-et-al-acl-15-slides.pdf" target="_blank" rel="noopener">
-  Slides
-</a>
+
 
 
 
