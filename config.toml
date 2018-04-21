@@ -4,7 +4,7 @@
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`
 # https://ntunlpsg.github.io/demo/
-baseurl = ""
+baseurl = "https://ntunlpsg.github.io/demo/"
 publishDir="docs"
 # Title of your site
 title = "NTU-NLP"

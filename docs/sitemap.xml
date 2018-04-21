@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/publications_selected/</loc>
+      <loc>https://ntunlpsg.github.io/demo/publication/publications_selected/</loc>
       <lastmod>2016-04-20T00:00:00+08:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/publications/</loc>
+      <loc>https://ntunlpsg.github.io/demo/publication/publications/</loc>
       <lastmod>2016-04-20T00:00:00+08:00</lastmod>
     </url>
     
@@ -41,15 +41,6 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/publication/2018_6/</loc>
-      <lastmod>2018-04-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/demo/publication/2018_4/</loc>
       <lastmod>2018-04-18T00:00:00+00:00</lastmod>
     </url>
@@ -61,6 +52,15 @@
     
       <loc>https://ntunlpsg.github.io/demo/publication/2018_3/</loc>
       <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/demo/publication/2018_6/</loc>
+      <lastmod>2018-03-18T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -105,7 +105,7 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/demo/publication/2018_1/</loc>
-      <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+      <lastmod>2018-02-01T00:00:00+00:00</lastmod>
     </url>
     
   

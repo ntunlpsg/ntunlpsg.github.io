@@ -13,20 +13,29 @@
     
     
     <item>
+      <title>Selected Publications</title>
+      <link>https://ntunlpsg.github.io/demo/publication/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://ntunlpsg.github.io/demo/publication/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_5/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/2018_5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domain Adaptation with Adversarial Training and Graph Embeddings</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2018_6/</link>
-      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/2018_6/</guid>
       <description></description>
     </item>
     
@@ -45,6 +54,15 @@
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/2018_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation with Adversarial Training and Graph Embeddings</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_6/</link>
+      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_6/</guid>
       <description></description>
     </item>
     
@@ -69,7 +87,7 @@
     <item>
       <title>Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_1/</link>
-      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/2018_1/</guid>
       <description></description>
