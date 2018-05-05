@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -15,10 +13,14 @@
   
   
   
-  <meta name="description" content="">
+    
+      
+    
+  
+  <meta name="description" content="Topic Segmentation and Labeling in Asynchronous Conversations Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/demo/tags/question-answering/">
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/demo/project/topic-segmenter/">
 
   
 
@@ -34,13 +36,6 @@
   
     
   
-  
-    
-    
-      
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-      
-    
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
@@ -80,7 +75,7 @@
   <link rel="icon" type="image/png" href="/demo/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/demo/img/icon-192.png">
 
-  <link rel="canonical" href="https://ntunlpsg.github.io/demo/tags/question-answering/">
+  <link rel="canonical" href="https://ntunlpsg.github.io/demo/project/topic-segmenter/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -88,17 +83,19 @@
   <meta property="twitter:creator" content="@ntunlpsg">
   
   <meta property="og:site_name" content="NTU-NLP">
-  <meta property="og:url" content="https://ntunlpsg.github.io/demo/tags/question-answering/">
-  <meta property="og:title" content="Question-answering | NTU-NLP">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="https://ntunlpsg.github.io/demo/project/topic-segmenter/">
+  <meta property="og:title" content="Topic Segmenter &amp; Labeler for Asynchronous Conversations | NTU-NLP">
+  <meta property="og:description" content="Topic Segmentation and Labeling in Asynchronous Conversations Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations."><meta property="og:image" content="https://ntunlpsg.github.io/img/fqg.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2016-04-28T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2016-04-28T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2016-04-28T00:00:00&#43;00:00">
   
 
   
 
-  <title>Question-answering | NTU-NLP</title>
+  <title>Topic Segmenter &amp; Labeler for Asynchronous Conversations | NTU-NLP</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -232,31 +229,148 @@
 </nav>
 
 
-
-
-
-<div class="universal-wrapper">
-
-  <h1>Question-answering</h1>
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
-
+<div class="article-header">
+  <img src="/demo/img/fqg.png" class="article-banner" itemprop="image">
   
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/demo/project/community-qa/">Community Question Answering System</a></h2>
-    <div class="article-style">
-      
-      This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum.
-      
-    </div>
-  </div>
-  
-
-  
-
-
 </div>
+
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Topic Segmenter &amp; Labeler for Asynchronous Conversations</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h3 id="topic-segmentation-and-labeling-in-asynchronous-conversations">Topic Segmentation and Labeling in Asynchronous Conversations</h3>
+
+<p>Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations. Our approach extends state-of-the-art methods by considering a fine-grained structure of an asynchronous conversation, along with other conversational features by applying recent graph-based methods for NLP. For topic segmentation, we propose two novel unsupervised models that exploit the fine-grained conversational structure, and a novel graph-theoretic supervised model that combines lexical, conversational and topic features. For topic labeling, we propose two novel (unsupervised) random walk models that respectively capture conversation specific clues from two different sources: the leading sentences and the fine-grained conversational structure. Empirical evaluation shows that the segmentation and the labeling performed by our best models beat the state-of-the-art, and are highly correlated with human annotations.</p>
+
+<h3 id="source-code">Source code</h3>
+
+<p>Download:</p>
+
+<ul>
+<li><a href="http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/topic/topic_model.zip" target="_blank">Topic Segmenter(LCSEG+FQG) and Labeler v1 <a href="tested on windows" target="_blank">120 MB</a></a></li>
+<li><a href="http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/topic/topic_model[linux64].zip" target="_blank">Topic Segmenter(LCSEG+FQG) and Labeler v2 <a href="tested on Linux Matlab R2012A 64 bit" target="_blank">126 MB</a></a></li>
+</ul>
+
+<h3 id="publications">Publications</h3>
+
+<hr />
+
+<p>S. Joty, G. Carenini and R. T. Ng (2013) Topic Segmentation and Labeling in Asynchronous Conversations  JAIR, Volume 47, pages 521-573 (2013) [<a href="https://www.jair.org/media/3940/live-3940-7166-jair.pdf" target="_blank">PDF</a>].</p>
+
+<pre><code>@article{joty-carenini-ng-jair-13,
+    author = {Shafiq Joty and Giuseppe Carenini and Raymond Ng},
+    title = {{Topic Segmentation and Labeling in Asynchronous Conversations}},
+    journal = {Journal of Artificial Intelligence Research},
+    year = {2013},
+    pages     = {521--573},
+    volume = {47},
+    url       = {https://www.jair.org/media/3940/live-3940-7166-jair.pdf},
+}
+</code></pre>
+
+<hr />
+
+<p>Yashar Mehdad, Giuseppe Carenini, Raymond Ng and Shafiq Joty. Towards Topic Labeling with Phrase Entailment and Aggregation. In Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2013), Atlanta, USA. [<a href="https://raihanjoty.github.io/papers/mehdad-carenini-ng-joty-naacl-13.pdf" target="_blank">PDF</a>]</p>
+
+<pre><code>@InProceedings{mehdad-carenini-ng-joty-naacl-13,
+  author    = {Mehdad, Yashar  and  Carenini, Giuseppe  and  Ng, Raymond T.  and  Joty, Shafiq},
+  title     = {Towards Topic Labeling with Phrase Entailment and Aggregation},
+  booktitle = {Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  Series = {NAACL'13},
+  month     = {June},
+  year      = {2013},
+  address   = {Atlanta, Georgia},
+  publisher = {ACL},
+  pages     = {179--189}
+}
+</code></pre>
+
+<hr />
+
+<p>Shafiq Joty, Giuseppe Carenini, Gabriel Murray and Raymond Ng. Supervised Topic Segmentation of Email Conversations. In Fifth International AAAI Conference on Weblogs and Social Media (ICWSM) 2011, Barcelona, Spain, AAAI. (short paper) [<a href="https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2882/3228" target="_blank">PDF</a>]</p>
+
+<pre><code>@inproceedings{joty-carenini-murray-ng-icwsm-11,
+  Address = {Barcelona, Spain},
+  Author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymod Ng},
+  Booktitle = {Proceedings of the Fifth International AAAI Conference on Weblogs and Social Media},
+  Pages = {530--533},
+  Publisher = {AAAI},
+  Series = {ICWSM'11},
+  url    = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2882/3228},
+  Title = {{Supervised Topic Segmentation of Email Conversations}},
+  Year = {2011}
+}
+</code></pre>
+
+<hr />
+
+<p>Joty S.,  Carenini G., Murray G. and Ng R.. Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails. In Proc. of the Conference on Empirical Methods in NLP (EMNLP 2010), MIT, Massachusetts, USA, Oct. 2010 . [<a href="http://www.aclweb.org/anthology/D10-1038" target="_blank">PDF</a>]</p>
+
+<pre><code>@inproceedings{joty-carenini-murray-ng-emnlp-10,
+  Address = {Massachusetts, USA},
+  Author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymond Ng},
+  Booktitle = {Proceedings of the conference on Empirical Methods in Natural Language Processing},
+  Pages = {388--398},
+  Publisher = {ACL},
+  Series = {EMNLP'10},
+  Title = {{Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails}},
+  url    = {http://www.aclweb.org/anthology/D10-1038},
+  Year = {2010}
+}
+</code></pre>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/demo/tags/discourse">discourse</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -327,19 +441,6 @@
 
     
     
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
 
     
     
@@ -353,6 +454,4 @@
 
   </body>
 </html>
-
-
 

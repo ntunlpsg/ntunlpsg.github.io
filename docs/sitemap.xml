@@ -311,7 +311,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/5.-community-qa/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/community-qa/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -320,7 +320,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/7.crisis-computing/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/crisis-computing/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -329,7 +329,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/1.parser/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/parser/parser/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -338,7 +338,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/3.discourse-info-sen2vec/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/discourse-info-sen2vec/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -347,7 +347,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/9.-neural-domain-adaptation-model-for-machine-translation/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/neural-domain-adaptation-model-for-machine-translation/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -356,7 +356,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/2.n_coh_model/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/coherence/n-coh-acl17/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -365,7 +365,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/8.-opinion-analysis/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/coherence/n-coh-acl18/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -374,7 +374,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/4.speech-act/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/opinion-analysis/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -383,7 +383,16 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/6.-topic-segmenter/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/speech-act/</loc>
+      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/demo/project/topic-segmenter/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -401,7 +410,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/project/10.segbot/</loc>
+      <loc>https://ntunlpsg.github.io/demo/project/segbot/</loc>
       <lastmod>2016-04-18T00:00:00+00:00</lastmod>
     </url>
     

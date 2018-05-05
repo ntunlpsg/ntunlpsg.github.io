@@ -17,10 +17,14 @@
       
     
   
-  <meta name="description" content="Topic Segmentation and Labeling in Asynchronous Conversations Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations.">
+  <meta name="description" content="About This package includes:
+ A discourse segmenter A discourse parser Evaluation metrics for discourse parsing  Download Document-level Discourse Parser for English
+Demo Link
+Installation Required for the discourse segmenter:
+ Charniak&rsquo;s reranking parser. Put it in Tools/CharniakParserRerank and install it. Taggers from UIUC. Download POS tagger and shallow chunker [LBJPOS.jar, LBJChunk.jar, LBJ2.jar, LBJ2Library.jar] and put these in Tools/UIUC_TOOLs/ Install scikit-learn and scipy (instructions) Install java if not installed (instructions for Ubuntu) Make sure the Tools/SPADE_UTILS/bin/edubreak is set to executable.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/project/6.-topic-segmenter/">
+  <link rel="alternate" hreflang="en-us" href="/project/parser/1.parser/">
 
   
 
@@ -75,7 +79,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/project/6.-topic-segmenter/">
+  <link rel="canonical" href="/project/parser/1.parser/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -83,9 +87,13 @@
   <meta property="twitter:creator" content="@ntunlpsg">
   
   <meta property="og:site_name" content="NTU-NLP">
-  <meta property="og:url" content="/project/6.-topic-segmenter/">
-  <meta property="og:title" content="Topic Segmenter &amp; Labeler for Asynchronous Conversations | NTU-NLP">
-  <meta property="og:description" content="Topic Segmentation and Labeling in Asynchronous Conversations Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations."><meta property="og:image" content="/img/fqg.png">
+  <meta property="og:url" content="/project/parser/1.parser/">
+  <meta property="og:title" content="Discourse Parser for English | NTU-NLP">
+  <meta property="og:description" content="About This package includes:
+ A discourse segmenter A discourse parser Evaluation metrics for discourse parsing  Download Document-level Discourse Parser for English
+Demo Link
+Installation Required for the discourse segmenter:
+ Charniak&rsquo;s reranking parser. Put it in Tools/CharniakParserRerank and install it. Taggers from UIUC. Download POS tagger and shallow chunker [LBJPOS.jar, LBJChunk.jar, LBJ2.jar, LBJ2Library.jar] and put these in Tools/UIUC_TOOLs/ Install scikit-learn and scipy (instructions) Install java if not installed (instructions for Ubuntu) Make sure the Tools/SPADE_UTILS/bin/edubreak is set to executable."><meta property="og:image" content="/img/dt1.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2016-04-28T00:00:00&#43;00:00">
@@ -95,7 +103,7 @@
 
   
 
-  <title>Topic Segmenter &amp; Labeler for Asynchronous Conversations | NTU-NLP</title>
+  <title>Discourse Parser for English | NTU-NLP</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -233,8 +241,8 @@
 
   
 <div class="article-header">
-  <img src="/img/fqg.png" class="article-banner" itemprop="image">
-  
+  <img src="/img/dt1.png" class="article-banner" itemprop="image">
+  <span class="article-header-caption">discourse parse tree</span>
 </div>
 
 
@@ -242,7 +250,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Topic Segmenter &amp; Labeler for Asynchronous Conversations</h1>
+      <h1 itemprop="name">Discourse Parser for English</h1>
       <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
@@ -255,86 +263,139 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<h3 id="topic-segmentation-and-labeling-in-asynchronous-conversations">Topic Segmentation and Labeling in Asynchronous Conversations</h3>
+<h3 id="about">About</h3>
 
-<p>Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations. Our approach extends state-of-the-art methods by considering a fine-grained structure of an asynchronous conversation, along with other conversational features by applying recent graph-based methods for NLP. For topic segmentation, we propose two novel unsupervised models that exploit the fine-grained conversational structure, and a novel graph-theoretic supervised model that combines lexical, conversational and topic features. For topic labeling, we propose two novel (unsupervised) random walk models that respectively capture conversation specific clues from two different sources: the leading sentences and the fine-grained conversational structure. Empirical evaluation shows that the segmentation and the labeling performed by our best models beat the state-of-the-art, and are highly correlated with human annotations.</p>
-
-<h3 id="source-code">Source code</h3>
-
-<p>Download:</p>
+<p>This package includes:</p>
 
 <ul>
-<li><a href="http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/topic/topic_model.zip" target="_blank">Topic Segmenter(LCSEG+FQG) and Labeler v1 <a href="tested on windows" target="_blank">120 MB</a></a></li>
-<li><a href="http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/topic/topic_model[linux64].zip" target="_blank">Topic Segmenter(LCSEG+FQG) and Labeler v2 <a href="tested on Linux Matlab R2012A 64 bit" target="_blank">126 MB</a></a></li>
+<li>A discourse segmenter</li>
+<li>A discourse parser</li>
+<li>Evaluation metrics for discourse parsing</li>
 </ul>
 
-<h3 id="publications">Publications</h3>
+<h3 id="download">Download</h3>
+
+<p><a href="http://alt.qcri.org/tools/discourse-parser/releases/current/Discourse_Parser_Dist.tar.gz" target="_blank">Document-level Discourse Parser for English</a></p>
+
+<h3 id="demo">Demo</h3>
+
+<p><a href="http://alt.qcri.org/demos/Discourse_Parser_Demo/" target="_blank">Link</a></p>
+
+<h3 id="installation">Installation</h3>
+
+<p>Required for the discourse segmenter:</p>
+
+<ol>
+<li><a href="https://github.com/BLLIP/bllip-parser" target="_blank">Charniak&rsquo;s reranking parser</a>. Put it in Tools/CharniakParserRerank and install it.</li>
+<li><a href="http://cogcomp.cs.illinois.edu/page/software" target="_blank">Taggers from UIUC</a>. Download POS tagger and shallow chunker [LBJPOS.jar, LBJChunk.jar, LBJ2.jar, LBJ2Library.jar] and put these in Tools/UIUC_TOOLs/</li>
+<li>Install scikit-learn and scipy <a href="http://scikit-learn.org/stable/install.html" target="_blank">(instructions)</a></li>
+<li>Install java if not installed <a href="https://help.ubuntu.com/community/Java" target="_blank">(instructions for Ubuntu)</a></li>
+<li>Make sure the Tools/SPADE_UTILS/bin/edubreak is set to executable.</li>
+</ol>
+
+<p>Required for the discourse parser:</p>
+
+<ol>
+<li>Install wordNet (for example, On ubuntu you can write: apt-get install science-linguistics) and set the WNHOME environment variable to the WordNet directory. WNHOME should contain the dictionary files.</li>
+<li>Install WordNet::QueryData (<a href="http://search.cpan.org/dist/WordNet-QueryData/QueryData.pm" target="_blank">http://search.cpan.org/dist/WordNet-QueryData/QueryData.pm</a>; also provided). To install it properly you may need to set the <code>$wnHomeUnix</code> and <code>$wnPrefixUnix</code> to the appropriate directories.</li>
+</ol>
+
+<h3 id="usage">Usage</h3>
+
+<p>For parsing a raw text, you should run discourse segmenter followed by discourse parser.</p>
+
+<p>Running the discourse segmenter:</p>
+
+<p>$ python Discourse_Segmenter.py <infile>
+If it shows errors in apply_model method in loading the model, then it is due to differnt versions of the logistic regression in sklearn. To overcome this, open the commented &ldquo;train_model&rdquo; in do_segment method and run the segmenter. This learns the model and saves it. If it runs once, you don&rsquo;t need to run train_model again. You should comment it to save time.</p>
+
+<p>Running the discourse parser:</p>
+
+<p>$ python Discourse_Parser.py <discourse segmented file></p>
+
+<h3 id="download-1">Download</h3>
+
+<p><a href="http://alt.qcri.org/tools/discourse-eval/releases/current/discourse_eval.tar.gz" target="_blank">Evaluation Metrics for Discourse Parsing</a>. Latest release.
+Implementation of the standard evaluation metrics as described in <a href="http://mitpress.mit.edu/books/theory-and-practice-discourse-parsing-and-summarization's book" target="_blank">Dan Marcu&rsquo;s book</a>.</p>
+
+<h3 id="usage-1">Usage</h3>
+
+<ul>
+<li>Extract Set.tar.gz.</li>
+<li>Run the perl script:</li>
+</ul>
+
+<pre><code>Perl ParsingAccuracyMeasuresDocLevelForSystems.pl path_to_sys_dir path_to_gold_dir res.out
+</code></pre>
+
+<p>The main perl script takes three arguments:</p>
+
+<ol>
+<li>Path to the directory with the system annotations: The filenames should end with *. doc_dis, but you can change the code according to your need. Here is where you need to change:</li>
+</ol>
+
+<pre><code>my @canFiles = grep /\w+\.doc_dis/, readdir(DIR);
+</code></pre>
+
+<ol>
+<li>Path to the Directory with the gold annotations: It assumes that the file names are the same as the system outputs (e.g., *.doc_dis).</li>
+<li>The name of the output file: In the output file, it shows the results for the individual documents as well as the summary.</li>
+</ol>
+
+<p>A sample output file is attached. The parsed documents should have the same format as RST-DT.</p>
+
+<h3 id="related-publications">Related publications</h3>
 
 <hr />
 
-<p>S. Joty, G. Carenini and R. T. Ng (2013) Topic Segmentation and Labeling in Asynchronous Conversations  JAIR, Volume 47, pages 521-573 (2013) [<a href="https://www.jair.org/media/3940/live-3940-7166-jair.pdf" target="_blank">PDF</a>].</p>
+<p>Shafiq Joty, Giuseppe Carenini, and Raymond Ng. 2015. CODRA: A Novel Discriminative Framework for Rhetorical Analysis. Computational Linguistics, Volume 41:3, MIT Press. [<a href="https://www.mitpressjournals.org/doi/abs/10.1162/COLI_a_00226" target="_blank">Link to PDF</a>]</p>
 
-<pre><code>@article{joty-carenini-ng-jair-13,
-    author = {Shafiq Joty and Giuseppe Carenini and Raymond Ng},
-    title = {{Topic Segmentation and Labeling in Asynchronous Conversations}},
-    journal = {Journal of Artificial Intelligence Research},
-    year = {2013},
-    pages     = {521--573},
-    volume = {47},
-    url       = {https://www.jair.org/media/3940/live-3940-7166-jair.pdf},
+<pre><code>@article{joty-carenini-ng-cl-15,
+  title=&quot;{CODRA: A Novel Discriminative Framework for Rhetorical Analysis}&quot;,
+  author={Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T},
+  journal = {Computational Linguistics},
+  volume={41:3},
+  publisher={MIT Press},
+  pages={385-435},
+  year={2015},
 }
 </code></pre>
 
 <hr />
 
-<p>Yashar Mehdad, Giuseppe Carenini, Raymond Ng and Shafiq Joty. Towards Topic Labeling with Phrase Entailment and Aggregation. In Proceedings of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT 2013), Atlanta, USA. [<a href="https://raihanjoty.github.io/papers/mehdad-carenini-ng-joty-naacl-13.pdf" target="_blank">PDF</a>]</p>
+<p>Shafiq Joty, Giuseppe Carenini, Raymond Ng and Yashar Mehdad. Combining Intra- and Multi-sentential Rhetorical Parsing for Document-level Discourse Analysis. In Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (ACL 2013), Sofia, Bulgaria. [<a href="https://aclanthology.info/papers/P13-1048/p13-1048" target="_blank">Link to PDF</a>]</p>
 
-<pre><code>@InProceedings{mehdad-carenini-ng-joty-naacl-13,
-  author    = {Mehdad, Yashar  and  Carenini, Giuseppe  and  Ng, Raymond T.  and  Joty, Shafiq},
-  title     = {Towards Topic Labeling with Phrase Entailment and Aggregation},
-  booktitle = {Proceedings of the 2013 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-  Series = {NAACL'13},
-  month     = {June},
-  year      = {2013},
-  address   = {Atlanta, Georgia},
-  publisher = {ACL},
-  pages     = {179--189}
-}
-</code></pre>
-
-<hr />
-
-<p>Shafiq Joty, Giuseppe Carenini, Gabriel Murray and Raymond Ng. Supervised Topic Segmentation of Email Conversations. In Fifth International AAAI Conference on Weblogs and Social Media (ICWSM) 2011, Barcelona, Spain, AAAI. (short paper) [<a href="https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2882/3228" target="_blank">PDF</a>]</p>
-
-<pre><code>@inproceedings{joty-carenini-murray-ng-icwsm-11,
-  Address = {Barcelona, Spain},
-  Author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymod Ng},
-  Booktitle = {Proceedings of the Fifth International AAAI Conference on Weblogs and Social Media},
-  Pages = {530--533},
-  Publisher = {AAAI},
-  Series = {ICWSM'11},
-  url    = {https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2882/3228},
-  Title = {{Supervised Topic Segmentation of Email Conversations}},
-  Year = {2011}
-}
-</code></pre>
-
-<hr />
-
-<p>Joty S.,  Carenini G., Murray G. and Ng R.. Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails. In Proc. of the Conference on Empirical Methods in NLP (EMNLP 2010), MIT, Massachusetts, USA, Oct. 2010 . [<a href="http://www.aclweb.org/anthology/D10-1038" target="_blank">PDF</a>]</p>
-
-<pre><code>@inproceedings{joty-carenini-murray-ng-emnlp-10,
-  Address = {Massachusetts, USA},
-  Author = {Shafiq Joty and Giuseppe Carenini and Gabriel Murray and Raymond Ng},
-  Booktitle = {Proceedings of the conference on Empirical Methods in Natural Language Processing},
-  Pages = {388--398},
+<pre><code>@inproceedings{joty-carenini-ng-mehdad-acl-13,
+  Title = {Combining Intra- and Multi-sentential Rhetorical Parsing for Document-level Discourse Analysis},  
+  Author = {Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T. and Mehdad, Yashar},
+  Address = {Sofia, Bulgaria},
+  Booktitle = {Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics},
+  Numpages = {9},
   Publisher = {ACL},
-  Series = {EMNLP'10},
-  Title = {{Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails}},
-  url    = {http://www.aclweb.org/anthology/D10-1038},
-  Year = {2010}
+  Series = {ACL-13},
+  pages = {486-496},
+  Year = {2013},
+} 
+</code></pre>
+
+<hr />
+
+<p>Shafiq Joty, Giuseppe Carenini and Raymond Ng. A Novel Discriminative Framework for Sentence-Level Discourse Analysis. In Proceedings of the Conference on Empirical Methods in Natural Language Processing and the Conference on Natural Language Learning (EMNLP-CoNLL 2012), Jeju, Korea. [<a href="http://www.aclweb.org/anthology/D12-1083" target="_blank">PDF</a>]</p>
+
+<pre><code>@inproceedings{joty2012novel,
+  title={A novel discriminative framework for sentence-level discourse analysis},
+  author={Joty, Shafiq and Carenini, Giuseppe and Ng, Raymond T},
+  booktitle={Proceedings of the 2012 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning},
+  Series = {EMNLP-CoNLL-12},
+  pages={904-915},
+  year={2012},
+  organization={Association for Computational Linguistics}
 }
 </code></pre>
+
+<h1 id="license">License</h1>
+
+<p>The Discourse Parser is an Open Source Software, and is released under the Common Public License. You are welcome to use the code under the terms of the licence for research purposes ONLY, however please acknowledge its use with a citation given above in the Related publications.</p>
 
     </div>
 
@@ -344,6 +405,8 @@
 <div class="article-tags">
   
   <a class="btn btn-primary btn-outline" href="/tags/discourse">discourse</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/demo">demo</a>
   
 </div>
 
