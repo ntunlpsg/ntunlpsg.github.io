@@ -56,7 +56,7 @@
 
 &lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
 
-&lt;p&gt;If you use the entity grid files (including permutations) and the code, please refer to our &lt;a href=&#34;https://arxiv.org/abs/1805.02275&#34; target=&#34;_blank&#34;&gt;ACL 2017&lt;/a&gt; paper.&lt;/p&gt;
+&lt;p&gt;If you use the entity grid files (including permutations) and the code, please refer to our &lt;a href=&#34;https://arxiv.org/abs/1805.02275&#34; target=&#34;_blank&#34;&gt;ACL 2018&lt;/a&gt; paper.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;    @InProceedings{joty-mohiuddin-nguyen-acl-18,
      title=&amp;quot;{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}&amp;quot;,

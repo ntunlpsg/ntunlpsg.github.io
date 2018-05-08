@@ -35,7 +35,7 @@ This resource contains the source code of "[Coherence Modeling of Asynchronus Co
 [Link to source code](https://github.com/ntunlpsg/conv-coherence)
 
 ### Citation
-If you use the entity grid files (including permutations) and the code, please refer to our [ACL 2017](https://arxiv.org/abs/1805.02275) paper.
+If you use the entity grid files (including permutations) and the code, please refer to our [ACL 2018](https://arxiv.org/abs/1805.02275) paper.
 
 		@InProceedings{joty-mohiuddin-nguyen-acl-18,
 		 title="{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}",
