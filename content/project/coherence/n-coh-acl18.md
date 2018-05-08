@@ -6,7 +6,7 @@ date = "2018-04-28"
 title = "Coherence Modeling of Asynchronus Conversations"
 
 # Project summary to display on homepage.
-summary = "Neural coherence for asynchronus conversation"
+summary = "A neural approach for modeling coherence of asynchronus conversation"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "conv_coherence.png"
