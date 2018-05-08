@@ -54,6 +54,10 @@
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/ntunlpsg/conv-coherence&#34; target=&#34;_blank&#34;&gt;Link to source code&lt;/a&gt;&lt;/p&gt;
 
+&lt;h3 id=&#34;datasets&#34;&gt;Datasets&lt;/h3&gt;
+
+&lt;p&gt;Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.&lt;/p&gt;
+
 &lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
 
 &lt;p&gt;If you use the entity grid files (including permutations) and the code, please refer to our &lt;a href=&#34;https://arxiv.org/abs/1805.02275&#34; target=&#34;_blank&#34;&gt;ACL 2018&lt;/a&gt; paper.&lt;/p&gt;
@@ -73,7 +77,7 @@
 
 &lt;h1 id=&#34;licence&#34;&gt;Licence&lt;/h1&gt;
 
-&lt;p&gt;Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.&lt;/p&gt;
+&lt;p&gt;MIT licence.&lt;/p&gt;
 </description>
     </item>
     

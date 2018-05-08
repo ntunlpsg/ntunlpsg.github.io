@@ -19,8 +19,9 @@
       
       <guid>https://ntunlpsg.github.io/demo/project/coherence/n-coh-acl18/</guid>
       <description>About This resource contains the source code of &amp;ldquo;Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach&amp;rdquo; paper. Source code Link to source code
+Datasets Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.
 Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2018 paper.
- @InProceedings{joty-mohiuddin-nguyen-acl-18, title=&amp;quot;{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}&amp;quot;, author={Muhammad Tasnim Mohiuddin and Shafiq Joty and Dat Nguyen}, booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics}, series ={ACL&#39;18}, publisher={Association for Computational Linguistics}, address = {Melbourne, Australia}, pages={xx--xx}, url = {}, year={2018} }  Licence Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.</description>
+ @InProceedings{joty-mohiuddin-nguyen-acl-18, title=&amp;quot;{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}&amp;quot;, author={Muhammad Tasnim Mohiuddin and Shafiq Joty and Dat Nguyen}, booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics}, series ={ACL&#39;18}, publisher={Association for Computational Linguistics}, address = {Melbourne, Australia}, pages={xx--xx}, url = {}, year={2018} }  Licence MIT licence.</description>
     </item>
     
     <item>

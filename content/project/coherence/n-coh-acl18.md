@@ -34,6 +34,9 @@ This resource contains the source code of "[Coherence Modeling of Asynchronus Co
 ### Source code
 [Link to source code](https://github.com/ntunlpsg/conv-coherence)
 
+### Datasets
+Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.
+
 ### Citation
 If you use the entity grid files (including permutations) and the code, please refer to our [ACL 2018](https://arxiv.org/abs/1805.02275) paper.
 
@@ -50,4 +53,4 @@ If you use the entity grid files (including permutations) and the code, please r
 		}
 
 # Licence
-Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.
+MIT licence.
