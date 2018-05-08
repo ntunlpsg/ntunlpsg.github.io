@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/demo/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Coherence Modeling of Asynchronus Conversations</title>
+      <link>https://ntunlpsg.github.io/demo/project/coherence/n-coh-acl18/</link>
+      <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/project/coherence/n-coh-acl18/</guid>
+      <description>About This resource contains the source code of &amp;ldquo;Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach&amp;rdquo; paper. Source code Link to source code
+Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2017 paper.
+ @InProceedings{joty-mohiuddin-nguyen-acl-18, title=&amp;quot;{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}&amp;quot;, author={Muhammad Tasnim Mohiuddin and Shafiq Joty and Dat Nguyen}, booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics}, series ={ACL&#39;18}, publisher={Association for Computational Linguistics}, address = {Melbourne, Australia}, pages={xx--xx}, url = {}, year={2018} }  Licence Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.</description>
+    </item>
     
     <item>
       <title>Community Question Answering System</title>
@@ -82,15 +93,6 @@ Publications Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali. Doma
       <description>About This resource contains the source code of &amp;ldquo;A Neural Local Coherence Model&amp;rdquo; paper. Source code Link to source code
 Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2017 paper.
 @inproceedings{tiennguyen2017, author = {Tien Nguyen, Dat and Joty, Shafiq}, title = {A Neural Local Coherence Model}, booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, month = {July}, year = {2017}, address = {Vancouver, Canada}, publisher = {Association for Computational Linguistics}, pages = {1320--1330}, url = {http://aclweb.</description>
-    </item>
-    
-    <item>
-      <title>Neural Local Coherence Model</title>
-      <link>https://ntunlpsg.github.io/demo/project/coherence/n-coh-acl18/</link>
-      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/project/coherence/n-coh-acl18/</guid>
-      <description> About Citation Licence </description>
     </item>
     
     <item>

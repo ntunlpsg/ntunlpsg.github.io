@@ -38,6 +38,46 @@
     </item>
     
     <item>
+      <title>Coherence Modeling of Asynchronus Conversations</title>
+      <link>https://ntunlpsg.github.io/demo/project/coherence/n-coh-acl18/</link>
+      <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/project/coherence/n-coh-acl18/</guid>
+      <description>
+
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+
+&lt;p&gt;This resource contains the source code of &amp;ldquo;&lt;a href=&#34;https://arxiv.org/abs/1805.02275&#34; target=&#34;_blank&#34;&gt;Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach&lt;/a&gt;&amp;rdquo; paper.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;source-code&#34;&gt;Source code&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlpsg/conv-coherence&#34; target=&#34;_blank&#34;&gt;Link to source code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+
+&lt;p&gt;If you use the entity grid files (including permutations) and the code, please refer to our &lt;a href=&#34;https://arxiv.org/abs/1805.02275&#34; target=&#34;_blank&#34;&gt;ACL 2017&lt;/a&gt; paper.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    @InProceedings{joty-mohiuddin-nguyen-acl-18,
+     title=&amp;quot;{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}&amp;quot;,
+     author={Muhammad Tasnim Mohiuddin and Shafiq Joty and Dat Nguyen},
+     booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics},
+     series    ={ACL&#39;18},
+     publisher={Association for Computational Linguistics},
+     address   = {Melbourne, Australia},
+     pages={xx--xx},
+     url = {},
+     year={2018}
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;licence&#34;&gt;Licence&lt;/h1&gt;
+
+&lt;p&gt;Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_5/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
@@ -287,15 +327,6 @@ Room No: N4-B1c-17b&lt;/p&gt;
       <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/j_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Translation Evaluation with Neural Networks</title>
-      <link>https://ntunlpsg.github.io/demo/publication/j_3/</link>
-      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/j_3/</guid>
       <description></description>
     </item>
     
