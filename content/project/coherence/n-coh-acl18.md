@@ -24,7 +24,7 @@ highlight = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "conv_coherence.png"
-caption = "Conversational Neural Grid} model for assessing coherence in asynchronous conversations."
+caption = "Conversational Neural Grid model for assessing coherence in asynchronous conversations."
 
 +++
 
