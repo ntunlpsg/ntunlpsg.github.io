@@ -27,10 +27,10 @@ weight = 60
 | [Jianfei Cai](http://www.ntu.edu.sg/home/asjfcai/)<br> <small>Computer Vision</small> | [Sun Aixin](https://www.ntu.edu.sg/home/axsun/)<br> <small>Information Retrieval</small>| [Gao Cong] (http://www.ntu.edu.sg/home/gaocong/)<br> <small>Data Mining</small>| [Andrea Nanetti] (http://andreananetti.com) <br> <small>Digital Humanities</small>|
 
 
-|Postdoc and Ph.D. |
-|:---: |
-| <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> |
-| [Muhammad Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) |
+|Postdoc and Ph.D. | |
+|:---: | :---: |
+| <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/prathyusha.jpg"> |
+| [Muhammad Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://in.linkedin.com/in/prathyusha-jwalapuram-094220154) |
 
 |Research Assistant | | |
 |:---: | :---: | :---: |
