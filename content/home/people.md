@@ -30,7 +30,7 @@ weight = 60
 |Postdoc and Ph.D. | |
 |:---: | :---: |
 | <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/prathyusha.jpg"> |
-| [Muhammad Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://in.linkedin.com/in/prathyusha-jwalapuram-094220154) |
+| [Muhammad Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://researchweb.iiit.ac.in/~prathyusha.jwalapuram/) |
 
 |Research Assistant | | |
 |:---: | :---: | :---: |
