@@ -270,6 +270,11 @@ defaultContentLanguageInSubdir = false
   url = "post/reding-group"
   weight = 5
 
+[[menu.main]]
+  name = "News"
+  url = "post/news"
+  weight = 6
+
 #[[menu.main]]
 #  name = "Resources"
 #  url = "/#projects"
