@@ -74,7 +74,8 @@ Shafiq Joty. Speech Act Modeling of Written Asynchronous Conversations: A Neural
 
 ### Download
 - [Data - QC3 and BC3 ](http://alt.qcri.org/tools/speech-act/corpus.zip) We do not release other datasets (MRDA, SWBD, TA) for license issues
-- [Code (drafty)](http://alt.qcri.org/tools/speech-act/code.zip)
+<!--- - [Code (drafty)](http://alt.qcri.org/tools/speech-act/code.zip)-->
+- [Code](https://github.com/ntunlpsg/speech-act)
 
 # License
 The speech act recognizer is an Open Source Software, and is released under the Common Public License. You are welcome to use the code under the terms of the licence for research purposes ONLY, however please acknowledge its use with a citation.
