@@ -61,7 +61,7 @@ Shafiq Joty. Speech Act Modeling of Written Asynchronous Conversations: A Neural
 ```
 @article{joty-cl-si-18,
   title="{Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach}",
-  author={Shafiq Joty and Shafiq Joty},
+  author={Shafiq Joty and Tasnim Mohiuddin},
   journal = {Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information)},
   publisher={MIT Press},
   issue={},
