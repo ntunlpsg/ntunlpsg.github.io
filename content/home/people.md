@@ -26,6 +26,11 @@ weight = 4
 | <img class="img-circle" style="width: 150px;" src="./person/cai_.jpeg"> | <img class="img-circle" style="width: 150px;" src="./person/Aixin_.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/gao_.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/andre.jpg">|
 | [Jianfei Cai](http://www.ntu.edu.sg/home/asjfcai/)<br> <small>Computer Vision</small> | [Sun Aixin](https://www.ntu.edu.sg/home/axsun/)<br> <small>Information Retrieval</small>| [Gao Cong] (http://www.ntu.edu.sg/home/gaocong/)<br> <small>Data Mining</small>| [Andrea Nanetti] (http://andreananetti.com) <br> <small>Digital Humanities</small>|
 
+| Visiting Professor |
+| :---: |
+|<img class="img-circle" style="width: 150px;" src="./person/carenini.jpg">|
+| [Giuseppe Carenini](http://www.cs.ubc.ca/~carenini/) (UBC) <br><small>Natural Language Processing</small>| 
+
 
 |Postdoc and Ph.D. | |
 |:---: | :---: |
@@ -36,6 +41,11 @@ weight = 4
 |:---: | :---: | :---: |
 | <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/saiful.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/song.jpg"> |
 | [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg) | [SONG SEOHO](https://www.linkedin.com/in/seohosong/) |
+
+|Visiting Students|
+|:---:|
+|<img class="img-circle" style="width: 150px;" src="./person/sameer.jpeg">|
+|[Sameer Khurana](http://people.csail.mit.edu/sameerk/) <br> PhD Candidate, MIT |
 
 |External Collaborators | | |
 |:---: |:---: |:---: |

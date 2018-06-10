@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0700</lastBuildDate>
     <atom:link href="/demo/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Selected Publications</title>
       <link>https://ntunlpsg.github.io/demo/publication/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/publications_selected/</guid>
       <description></description>
@@ -22,7 +22,7 @@
     <item>
       <title>Recent Publications</title>
       <link>https://ntunlpsg.github.io/demo/publication/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/publications/</guid>
       <description></description>
@@ -129,7 +129,7 @@
     <item>
       <title>News</title>
       <link>https://ntunlpsg.github.io/demo/post/news/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/post/news/</guid>
       <description>
@@ -189,7 +189,7 @@
     <item>
       <title>Reading group</title>
       <link>https://ntunlpsg.github.io/demo/post/reding-group/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/post/reding-group/</guid>
       <description>
@@ -304,6 +304,34 @@ Room No: N4-B1c-17b&lt;/p&gt;
     </item>
     
     <item>
+      <title>Talk</title>
+      <link>https://ntunlpsg.github.io/demo/post/talk/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0700</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/post/talk/</guid>
+      <description>
+
+&lt;h1 id=&#34;2018&#34;&gt;2018&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;30 May, 2018&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~carenini/&#34; target=&#34;_blank&#34;&gt;Prof. Giuseppe Carenini&lt;/a&gt; from &lt;a href=&#34;http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/&#34; target=&#34;_blank&#34;&gt;UBC&lt;/a&gt; gave a talk at NTU on text summarization. &lt;a href=&#34;https://ntunlpsg.github.io/demo/talk/example-talk/&#34;&gt;link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sentiment Analysis by Capsules</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_2_ai/</link>
       <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
@@ -327,15 +355,6 @@ Room No: N4-B1c-17b&lt;/p&gt;
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/2017_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domain Adaptation Using Neural Network Joint Model</title>
-      <link>https://ntunlpsg.github.io/demo/publication/j_2/</link>
-      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/j_2/</guid>
       <description></description>
     </item>
     

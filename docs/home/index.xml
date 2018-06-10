@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0700</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/demo/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>NTU-NLP</title>
       <link>https://ntunlpsg.github.io/demo/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/home/hero/</guid>
       <description>NLP Research @ NTU Latest release   --- (function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })();
@@ -43,16 +43,7 @@ function GetLatestReleaseInfo() { $.getJSON(&amp;lsquo;https://api.github.com/re
 Natural Language Processing       Affiliated Faculty              Jianfei Cai
 Computer Vision Sun Aixin
 Information Retrieval Gao Cong
-Data Mining Andrea Nanetti Digital Humanities       Postdoc and Ph.D.          Muhammad Tasnim Mohiuddin Prathyusha Jwalapuram       Research Assistant            Xuan Phi Nguyen M Saiful Bari SONG SEOHO       External Collaborators            Giuseppe Carenini (UBC)  Raymond T.</description>
-    </item>
-    
-    <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://ntunlpsg.github.io/demo/home/talk/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/home/talk/</guid>
-      <description></description>
+Data Mining Andrea Nanetti Digital Humanities       Visiting Professor        Giuseppe Carenini (UBC) Natural Language Processing       Postdoc and Ph.</description>
     </item>
     
     <item>
