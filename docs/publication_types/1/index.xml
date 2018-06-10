@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/demo/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_5/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SegBot: A Generic Neural Text Segmentation Model with Pointer Network</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_4/</link>
+      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_4/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets</title>
@@ -18,6 +36,15 @@
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/2018_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation with Adversarial Training and Graph Embeddings</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_6/</link>
+      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_6/</guid>
       <description></description>
     </item>
     
@@ -33,7 +60,7 @@
     <item>
       <title>Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_1/</link>
-      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/2018_1/</guid>
       <description></description>

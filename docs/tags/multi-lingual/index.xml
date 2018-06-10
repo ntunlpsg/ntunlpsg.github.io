@@ -14,10 +14,10 @@
     
     <item>
       <title>Neural Domain Adaptation Model for Machine Translation</title>
-      <link>https://ntunlpsg.github.io/demo/project/9.-neural-domain-adaptation-model-for-machine-translation/</link>
+      <link>https://ntunlpsg.github.io/demo/project/neural-domain-adaptation-model-for-machine-translation/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/project/9.-neural-domain-adaptation-model-for-machine-translation/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/neural-domain-adaptation-model-for-machine-translation/</guid>
       <description>About This resource contain the source code of Domain adaptation using neural network joint model paper.
 Source code Link to github
 Publications Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali. Domain Adaptation Using Neural Network Joint Model. In Computer Speech &amp;amp; Language (Special Issue on Deep Learning for Machine Translation) : pages 161-179, 2017.

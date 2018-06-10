@@ -14,10 +14,10 @@
     
     <item>
       <title>Discourse Parser for English</title>
-      <link>https://ntunlpsg.github.io/demo/project/1.parser/</link>
+      <link>https://ntunlpsg.github.io/demo/project/parser/parser/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/project/1.parser/</guid>
+      <guid>https://ntunlpsg.github.io/demo/project/parser/parser/</guid>
       <description>About This package includes:
  A discourse segmenter A discourse parser Evaluation metrics for discourse parsing  Download Document-level Discourse Parser for English
 Demo Link
