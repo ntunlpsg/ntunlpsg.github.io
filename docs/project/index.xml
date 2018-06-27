@@ -113,7 +113,7 @@ Citation If you use the entity grid files (including permutations) and the code,
       
       <guid>https://ntunlpsg.github.io/demo/project/speech-act/</guid>
       <description>About This resource includes,
- A bi-directional LSTM for speech act recognition (theano, keras) A global CRF model for thread-level inference (Matlab)  Related publications  Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL-2016) , Berlin, Germany. [PDF]  @inproceedings{joty-hoque-acl-16, Author = {Shafiq Joty and Enamul Hoque}, Booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics}, Numpages = {9}, pages = {1746--1756}, Title = {Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models}, address = {Berlin, Germany}, Series = {ACL&#39;16}, Publisher = {ACL}, url = {papers/joty-hoque-acl-16.</description>
+ A bi-directional LSTM for speech act recognition (theano, keras) A global CRF model for thread-level inference (Matlab) Tensorflow implementation of all the models in Journal version.  Related publications  Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL-2016) , Berlin, Germany.</description>
     </item>
     
     <item>
