@@ -57,7 +57,7 @@ This resource includes,
 
 ---
 
-- Shafiq Joty and Tasnim Mohiuddin. Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach  In Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information) : pages (Conditionally accepted), 2018.
+- Shafiq Joty and Tasnim Mohiuddin. Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach. In Computational Linguistics (Special Issue on Language in Social Media, Exploiting discourse and other contextual information) : pages (Conditionally accepted), 2018.
 
 ```
 @article{joty-cl-si-18,
