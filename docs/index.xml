@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
     <atom:link href="/demo/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Selected Publications</title>
       <link>https://ntunlpsg.github.io/demo/publication/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/publications_selected/</guid>
       <description></description>
@@ -22,7 +22,7 @@
     <item>
       <title>Recent Publications</title>
       <link>https://ntunlpsg.github.io/demo/publication/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/publications/</guid>
       <description></description>
@@ -129,7 +129,7 @@
     <item>
       <title>News</title>
       <link>https://ntunlpsg.github.io/demo/post/news/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0700</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/post/news/</guid>
       <description>
@@ -148,6 +148,11 @@
 &lt;tr&gt;
 &lt;td&gt;30 May, 2018&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~carenini/&#34; target=&#34;_blank&#34;&gt;Prof. Giuseppe Carenini&lt;/a&gt; from &lt;a href=&#34;http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/&#34; target=&#34;_blank&#34;&gt;UBC&lt;/a&gt; gave a talk at NTU on text summarization. &lt;a href=&#34;https://ntunlpsg.github.io/demo/talk/example-talk/&#34;&gt;link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;21 Apr, 2018&lt;/td&gt;
+&lt;td&gt;Two long papers got accepted at ACL-2018.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -189,7 +194,7 @@
     <item>
       <title>Reading group</title>
       <link>https://ntunlpsg.github.io/demo/post/reding-group/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0700</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/post/reding-group/</guid>
       <description>
@@ -285,36 +290,33 @@ Room No: N4-B1c-17b&lt;/p&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;left&#34;&gt;13-06-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Semi-Supervised Learning with Graph Embedding &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1603.08861&#34; target=&#34;_blank&#34;&gt;Paper1&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Semi-Supervised Learning with Graph Embedding &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1603.08861&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1tcUFCgyswf6RPvV9ZWHcOWLOF1xe4vGT/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;Tasnim&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Neural MT and Image Caption Generation &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1610.03017&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/1502.03044&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Abstractive Summarization &lt;br&gt; &lt;a href=&#34;https://openreview.net/pdf?id=HkAClQgA-&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;27-06-2018&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Graph Convolutional Networks &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1609.02907&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1KznZg5msmuk6Xh_At_N0ZDTuDRRiJLWU/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Song&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;!---
+| &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | Neural MT and Image Caption Generation &lt;br&gt; [Paper 1](https://arxiv.org/abs/1610.03017), [Paper 2](https://arxiv.org/abs/1502.03044)| | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; |
+| &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | Abstractive Summarization &lt;br&gt; [Paper](https://openreview.net/pdf?id=HkAClQgA-)| | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; |
+--&gt;
 </description>
     </item>
     
     <item>
       <title>Talk</title>
       <link>https://ntunlpsg.github.io/demo/post/talk/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0700</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/post/talk/</guid>
       <description>

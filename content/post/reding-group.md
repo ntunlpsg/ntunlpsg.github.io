@@ -37,9 +37,12 @@ Room No: N4-B1c-17b
 | 11-04-2018|  Unsupervised Machine Translation Using Monolingual Corpora Only <br> [Paper](https://arxiv.org/abs/1711.00043)|[Slide](https://drive.google.com/open?id=1wBDPufG-h581kFIr6H0sk-xLVWHSmETy)  | Song | <small>11:30-12:30 <br>(UTC +8)</small> |
 | 25-04-2018|   Fast and Accurate Entity Recognition with Iterated Dilated Convolutions <br> [Paper](https://arxiv.org/abs/1702.02098)|[Slide](https://drive.google.com/file/d/10kI5PBvHs1iO1CdF_QkTsDsOIOeFRgH_/view) | Saiful | <small>11:30-12:30 <br>(UTC +8)</small> |
 | 09-05-2018|   Adversarial Domain Adaptation <br> [Paper1](https://arxiv.org/abs/1711.08561), [Paper2](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf) | [Slide](https://drive.google.com/open?id=1yZyn7dYYWQcrikgKoPeQJj9rDVtIsrne) | Shafiq | <small>11:30-12:30 <br>(UTC +8)</small> |
-| 13-06-2018|  Semi-Supervised Learning with Graph Embedding <br> [Paper1](https://arxiv.org/abs/1603.08861) | [Slide](https://drive.google.com/file/d/1tcUFCgyswf6RPvV9ZWHcOWLOF1xe4vGT/view?usp=sharing) | Tasnim  | <small>11:30-12:30 <br>(UTC +8)</small> |
+| 13-06-2018|  Semi-Supervised Learning with Graph Embedding <br> [Paper](https://arxiv.org/abs/1603.08861) | [Slide](https://drive.google.com/file/d/1tcUFCgyswf6RPvV9ZWHcOWLOF1xe4vGT/view?usp=sharing) | Tasnim  | <small>11:30-12:30 <br>(UTC +8)</small> |
+| 27-06-2018|  Graph Convolutional Networks <br> [Paper](https://arxiv.org/abs/1609.02907) | [Slide](https://drive.google.com/file/d/1KznZg5msmuk6Xh_At_N0ZDTuDRRiJLWU/view?usp=sharing) | Song  | <small>11:30-12:30 <br>(UTC +8)</small> |
+<!---
 | <span style="color:red">TBA</span> | Neural MT and Image Caption Generation <br> [Paper 1](https://arxiv.org/abs/1610.03017), [Paper 2](https://arxiv.org/abs/1502.03044)| | <span style="color:red">TBA</span> | <span style="color:red">TBA</span> |
 | <span style="color:red">TBA</span> | Abstractive Summarization <br> [Paper](https://openreview.net/pdf?id=HkAClQgA-)| | <span style="color:red">TBA</span> | <span style="color:red">TBA</span> |
+-->
 
 
 
