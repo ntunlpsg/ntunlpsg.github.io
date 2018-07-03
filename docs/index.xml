@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0700</lastBuildDate>
     <atom:link href="/demo/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Selected Publications</title>
       <link>https://ntunlpsg.github.io/demo/publication/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/publications_selected/</guid>
       <description></description>
@@ -22,7 +22,7 @@
     <item>
       <title>Recent Publications</title>
       <link>https://ntunlpsg.github.io/demo/publication/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/publications/</guid>
       <description></description>
@@ -34,6 +34,33 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/resources/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Representations of Tuples for Entity Resolution</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_9/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unpaired Image Captioning by Language Pivoting.</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_8/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions.</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_7/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_7/</guid>
       <description></description>
     </item>
     
@@ -129,7 +156,7 @@
     <item>
       <title>News</title>
       <link>https://ntunlpsg.github.io/demo/post/news/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/post/news/</guid>
       <description>
@@ -194,7 +221,7 @@
     <item>
       <title>Reading group</title>
       <link>https://ntunlpsg.github.io/demo/post/reding-group/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/post/reding-group/</guid>
       <description>
@@ -316,7 +343,7 @@ Room No: N4-B1c-17b&lt;/p&gt;
     <item>
       <title>Talk</title>
       <link>https://ntunlpsg.github.io/demo/post/talk/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/post/talk/</guid>
       <description>
@@ -339,33 +366,6 @@ Room No: N4-B1c-17b&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Sentiment Analysis by Capsules</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2018_2_ai/</link>
-      <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/2018_2_ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2018_1/</link>
-      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/2018_1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2017_2/</link>
-      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/2017_2/</guid>
-      <description></description>
     </item>
     
   </channel>
