@@ -118,15 +118,6 @@
     </item>
     
     <item>
-      <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2018_5/</link>
-      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/2018_5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_3/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
@@ -366,6 +357,15 @@ Room No: N4-B1c-17b&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis by Capsules</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_2_ai/</link>
+      <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_2_ai/</guid>
+      <description></description>
     </item>
     
   </channel>
