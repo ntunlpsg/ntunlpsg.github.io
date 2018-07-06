@@ -34,8 +34,10 @@ weight = 4
 
 |Postdoc and Ph.D. | | |
 |:---: | :---: | :---: |
-| <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/prathyusha.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/thomas.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/han.jpg"> |
-| [Muhammad Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://researchweb.iiit.ac.in/~prathyusha.jwalapuram/) | Nguyen Thanh Tung | Hancheol Moon |
+| <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/prathyusha.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/thomas.jpg"> |
+| |<img class="img-circle" style="width: 150px;" src="./person/han.jpg"> | |
+| [Muhammad Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://researchweb.iiit.ac.in/~prathyusha.jwalapuram/) | Nguyen Thanh Tung |
+| | Hancheol Moon | |
 
 |Research Assistant | | |
 |:---: | :---: | :---: |
