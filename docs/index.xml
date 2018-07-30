@@ -38,6 +38,15 @@
     </item>
     
     <item>
+      <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_5/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>SegBot: A Generic Neural Text Segmentation Model with Pointer Network</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_4/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
@@ -321,6 +330,14 @@ Room No: N4-B1c-17b&lt;/p&gt;
 &lt;td align=&#34;left&#34;&gt;Song&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
 &lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;11-07-2018&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Transformer Network &lt;br&gt; &lt;a href=&#34;https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/open?id=1z2alCCGLr8MQ0YTws8PVHj9UNd2-iocZ&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Phi&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
@@ -357,15 +374,6 @@ Room No: N4-B1c-17b&lt;/p&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Sentiment Analysis by Capsules</title>
-      <link>https://ntunlpsg.github.io/demo/publication/2018_2_ai/</link>
-      <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/2018_2_ai/</guid>
-      <description></description>
     </item>
     
   </channel>
