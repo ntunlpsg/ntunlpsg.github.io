@@ -40,6 +40,7 @@ Room No: N4-B1c-17b
 | 13-06-2018|  Semi-Supervised Learning with Graph Embedding <br> [Paper](https://arxiv.org/abs/1603.08861) | [Slide](https://drive.google.com/file/d/1tcUFCgyswf6RPvV9ZWHcOWLOF1xe4vGT/view?usp=sharing) | Tasnim  | <small>11:30-12:30 <br>(UTC +8)</small> |
 | 27-06-2018|  Graph Convolutional Networks <br> [Paper](https://arxiv.org/abs/1609.02907) | [Slide](https://drive.google.com/file/d/1KznZg5msmuk6Xh_At_N0ZDTuDRRiJLWU/view?usp=sharing) | Song  | <small>11:30-12:30 <br>(UTC +8)</small> |
 | 11-07-2018|  Transformer Network <br> [Paper](https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) | [Slide](https://drive.google.com/open?id=1z2alCCGLr8MQ0YTws8PVHj9UNd2-iocZ) | Phi  | <small>11:30-12:30 <br>(UTC +8)</small> |
+| 11-07-2018|  Limitations of Unsup. Word Translation <br> [Paper](https://arxiv.org/abs/1805.03620) | [Slide](https://drive.google.com/open?id=1WJ_bcG4RaRm6lvO1b0fbrnXO7Vp_UwvV) | Song  | <small>11:30-12:30 <br>(UTC +8)</small> |
 <!---
 | <span style="color:red">TBA</span> | Neural MT and Image Caption Generation <br> [Paper 1](https://arxiv.org/abs/1610.03017), [Paper 2](https://arxiv.org/abs/1502.03044)| | <span style="color:red">TBA</span> | <span style="color:red">TBA</span> |
 | <span style="color:red">TBA</span> | Abstractive Summarization <br> [Paper](https://openreview.net/pdf?id=HkAClQgA-)| | <span style="color:red">TBA</span> | <span style="color:red">TBA</span> |
