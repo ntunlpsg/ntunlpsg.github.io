@@ -38,11 +38,29 @@
     </item>
     
     <item>
+      <title>Aspect-based Neural Recommender</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_10/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_5/</link>
       <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/demo/publication/2018_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings </title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_11/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_11/</guid>
       <description></description>
     </item>
     
@@ -215,172 +233,6 @@
 #* 28-Sep-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg/) Joins the lab as an exchange student.
 #* 31-Jul-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; [Prof. Dr. Shafiq Rayhan Joty](https://raihanjoty.github.io/) opens the NTU-NLP lab.
 ---&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Reading group</title>
-      <link>https://ntunlpsg.github.io/demo/post/reding-group/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/post/reding-group/</guid>
-      <description>
-
-&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
-
-&lt;p&gt;The Natural Language Processing (NLP) reading group meets regularly (usually weekly) to discuss research topics on a particular sub-field of NLP.&lt;/p&gt;
-
-&lt;h3 id=&#34;subscription&#34;&gt;Subscription&lt;/h3&gt;
-
-&lt;p&gt;You can receive announcements about the reading group by joining our mailing list. To join the mailing list, please use an academic email address and send an email to ntunlpsg@gmail.com with a subject &amp;ldquo;subscribe ntu-nlp&amp;rdquo;. If you use a non-academic email address, we would have to verify it which could delay your subscription process.&lt;/p&gt;
-
-&lt;h3 id=&#34;location&#34;&gt;Location&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;NTU MICL&lt;/em&gt;&lt;/strong&gt; Lab (former MML Lab) meeting room.
-Room No: N4-B1c-17b&lt;/p&gt;
-
-&lt;h3 id=&#34;schedules&#34;&gt;Schedules&lt;/h3&gt;
-
-&lt;hr /&gt;
-
-&lt;h5 id=&#34;2018-march-may-multilingual-and-unsupervised-deep-learning&#34;&gt;2018 March-May  | Multilingual and Unsupervised Deep Learning&lt;/h5&gt;
-
-&lt;hr /&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;left&#34;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp;   &amp;nbsp;&amp;nbsp;  &amp;nbsp;    &amp;nbsp;  Date&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Topic&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Content&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;Presenter(s)&lt;/th&gt;
-&lt;th align=&#34;left&#34;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;  &amp;nbsp;Time&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;07-03-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Recurrent Neural Network&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/open?id=1Uf9ovCWkW44OR20f4puflLBlN0Nbmkfq&#34; target=&#34;_blank&#34;&gt;Part 1&lt;/a&gt; &lt;a href=&#34;https://drive.google.com/file/d/1ciYPg1ktTv0Yh730b_7NBZhFjmaOTiq4/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Part 2&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Tasnim and Saiful&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;14:00-15:00&lt;br&gt; (UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;14-03-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Sequence to Sequence Learning &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1406.1078&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;,  &lt;a href=&#34;https://arxiv.org/abs/1409.3215&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1RYUV3YmPrVoRTujaJ0kt6jyD6-4a8Zie/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Part 1&lt;/a&gt; &lt;a href=&#34;https://drive.google.com/file/d/1W2BaUNc5IqaDypNiXcb0MweOtCetUqZm/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Part 2&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Tasnim and Saiful&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;10:30-11:30 &lt;br&gt; (UTC +8)&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;21-03-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Attention Mechanism &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1409.0473&#34; target=&#34;_blank&#34;&gt;Paper 1&lt;/a&gt;, &lt;a href=&#34;https://arxiv.org/abs/1508.04025&#34; target=&#34;_blank&#34;&gt;Paper 2&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/open?id=1niMR8LX77DnP_iPzjNRauOdz1wjd_eXp&#34; target=&#34;_blank&#34;&gt;Part 1&lt;/a&gt; &lt;a href=&#34;https://drive.google.com/file/d/1rzX97LRgtQdg6YmVeAq92oLqXGCEjhpb/view&#34; target=&#34;_blank&#34;&gt;Part 2&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Tasnim and Saiful&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;04-04-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Discourse Phenomena in NMT &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1711.00513&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/open?id=1FeCJUGiE5-Pnj2BbxehrHPbe-w5IWi-q&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Phi&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;11-04-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Unsupervised Machine Translation Using Monolingual Corpora Only &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1711.00043&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/open?id=1wBDPufG-h581kFIr6H0sk-xLVWHSmETy&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Song&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;25-04-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Fast and Accurate Entity Recognition with Iterated Dilated Convolutions &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1702.02098&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/10kI5PBvHs1iO1CdF_QkTsDsOIOeFRgH_/view&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Saiful&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;09-05-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Adversarial Domain Adaptation &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1711.08561&#34; target=&#34;_blank&#34;&gt;Paper1&lt;/a&gt;, &lt;a href=&#34;http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf&#34; target=&#34;_blank&#34;&gt;Paper2&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/open?id=1yZyn7dYYWQcrikgKoPeQJj9rDVtIsrne&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Shafiq&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;13-06-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Semi-Supervised Learning with Graph Embedding &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1603.08861&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1tcUFCgyswf6RPvV9ZWHcOWLOF1xe4vGT/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Tasnim&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;27-06-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Graph Convolutional Networks &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1609.02907&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1KznZg5msmuk6Xh_At_N0ZDTuDRRiJLWU/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Song&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;11-07-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Transformer Network &lt;br&gt; &lt;a href=&#34;https://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/open?id=1z2alCCGLr8MQ0YTws8PVHj9UNd2-iocZ&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Phi&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;11-07-2018&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Limitations of Unsup. Word Translation &lt;br&gt; &lt;a href=&#34;https://arxiv.org/abs/1805.03620&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://drive.google.com/open?id=1WJ_bcG4RaRm6lvO1b0fbrnXO7Vp_UwvV&#34; target=&#34;_blank&#34;&gt;Slide&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;Song&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;small&gt;11:30-12:30 &lt;br&gt;(UTC +8)&lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;!---
-| &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | Neural MT and Image Caption Generation &lt;br&gt; [Paper 1](https://arxiv.org/abs/1610.03017), [Paper 2](https://arxiv.org/abs/1502.03044)| | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; |
-| &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | Abstractive Summarization &lt;br&gt; [Paper](https://openreview.net/pdf?id=HkAClQgA-)| | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; | &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; |
---&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Talk</title>
-      <link>https://ntunlpsg.github.io/demo/post/talk/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/post/talk/</guid>
-      <description>
-
-&lt;h1 id=&#34;2018&#34;&gt;2018&lt;/h1&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;30 May, 2018&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~carenini/&#34; target=&#34;_blank&#34;&gt;Prof. Giuseppe Carenini&lt;/a&gt; from &lt;a href=&#34;http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/&#34; target=&#34;_blank&#34;&gt;UBC&lt;/a&gt; gave a talk at NTU on text summarization. &lt;a href=&#34;https://ntunlpsg.github.io/demo/talk/example-talk/&#34;&gt;link&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
 </description>
     </item>
     
