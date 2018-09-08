@@ -25,6 +25,11 @@ weight = 1
 [cta1]
   url = "./post/reding-group"
   label = '<i class="fa fa-book"></i> Reading group'
+[cta2]
+  url = "./post/reding-group"
+  label = '<i class="fa fa-book"></i> Reading group'
+
+
 +++
 
 NLP Research @ NTU

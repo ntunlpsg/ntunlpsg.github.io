@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo on NTU-NLP</title>
-    <link>https://ntunlpsg.github.io/demo/tags/demo/</link>
+    <link>https://ntunlpsg.github.io/tags/demo/</link>
     <description>Recent content in Demo on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ntunlpsg.github.io/demo/tags/demo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ntunlpsg.github.io/tags/demo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Discourse Parser for English</title>
-      <link>https://ntunlpsg.github.io/demo/project/parser/parser/</link>
+      <link>https://ntunlpsg.github.io/project/parser/parser/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/demo/project/parser/parser/</guid>
+      <guid>https://ntunlpsg.github.io/project/parser/parser/</guid>
       <description>About This package includes:
  A discourse segmenter A discourse parser Evaluation metrics for discourse parsing  Download Document-level Discourse Parser for English
 Demo Link
