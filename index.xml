@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NTU-NLP on NTU-NLP</title>
-    <link>/</link>
+    <link>https://ntunlpsg.github.io/</link>
     <description>Recent content in NTU-NLP on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,37 +12,37 @@
     
     <item>
       <title>Selected Publications</title>
-      <link>/publication/publications_selected/</link>
+      <link>https://ntunlpsg.github.io/publication/publications_selected/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/publication/publications_selected/</guid>
+      <guid>https://ntunlpsg.github.io/publication/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>/publication/publications/</link>
+      <link>https://ntunlpsg.github.io/publication/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/publication/publications/</guid>
+      <guid>https://ntunlpsg.github.io/publication/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>/resources/list/</link>
+      <link>https://ntunlpsg.github.io/resources/list/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/resources/list/</guid>
+      <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Malay-English Neural Machine Translation System.</title>
-      <link>/project/malay-english-neural-machine-translator/</link>
+      <link>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/malay-english-neural-machine-translator/</guid>
+      <guid>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</guid>
       <description>&lt;p&gt;This is a tool to translate an English sentence into Malay and vice versa. Developing a translation tool for low-resource languages like Malay has always been a challenge. The main challenge comes from the fact that machine translation systems typically rely on a huge amount of sentence-parallel data, and creating such datasets is an expensive process. In our work, we collected parallel datasets from various sources including News, OpenSubtitiles (OPUS), Ted talks, and Youtube video. Therefore, our corpus is quite generic and covers both texts and conversations.&lt;/p&gt;
 
 &lt;p&gt;We used various state of the art deep &lt;strong&gt;Neural Machine Translation&lt;/strong&gt; (NMT) architecture for training our model. More specifically we use both &lt;strong&gt;seq2seq&lt;/strong&gt; and &lt;strong&gt;transformer-net&lt;/strong&gt; architecture for finding our best model. For pre-processing and post-processing datasets we used various tools of &lt;strong&gt;moses&lt;/strong&gt;. To train our model we used &lt;strong&gt;OpenNMT-py&lt;/strong&gt; framework which is very standard in the NMT community for it&amp;rsquo;s robust and modular implementation.&lt;/p&gt;
@@ -56,73 +56,73 @@
     
     <item>
       <title>Aspect-based Neural Recommender</title>
-      <link>/publication/2018_10/</link>
+      <link>https://ntunlpsg.github.io/publication/2018_10/</link>
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018_10/</guid>
+      <guid>https://ntunlpsg.github.io/publication/2018_10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
-      <link>/publication/2018_5/</link>
+      <link>https://ntunlpsg.github.io/publication/2018_5/</link>
       <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018_5/</guid>
+      <guid>https://ntunlpsg.github.io/publication/2018_5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings </title>
-      <link>/publication/2018_11/</link>
+      <link>https://ntunlpsg.github.io/publication/2018_11/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018_11/</guid>
+      <guid>https://ntunlpsg.github.io/publication/2018_11/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SegBot: A Generic Neural Text Segmentation Model with Pointer Network</title>
-      <link>/publication/2018_4/</link>
+      <link>https://ntunlpsg.github.io/publication/2018_4/</link>
       <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018_4/</guid>
+      <guid>https://ntunlpsg.github.io/publication/2018_4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Distributed Representations of Tuples for Entity Resolution</title>
-      <link>/publication/2018_9/</link>
+      <link>https://ntunlpsg.github.io/publication/2018_9/</link>
       <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018_9/</guid>
+      <guid>https://ntunlpsg.github.io/publication/2018_9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unpaired Image Captioning by Language Pivoting.</title>
-      <link>/publication/2018_8/</link>
+      <link>https://ntunlpsg.github.io/publication/2018_8/</link>
       <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018_8/</guid>
+      <guid>https://ntunlpsg.github.io/publication/2018_8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions.</title>
-      <link>/publication/2018_7/</link>
+      <link>https://ntunlpsg.github.io/publication/2018_7/</link>
       <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018_7/</guid>
+      <guid>https://ntunlpsg.github.io/publication/2018_7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coherence Modeling of Asynchronus Conversations</title>
-      <link>/project/coherence/n-coh-acl18/</link>
+      <link>https://ntunlpsg.github.io/project/coherence/n-coh-acl18/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/coherence/n-coh-acl18/</guid>
+      <guid>https://ntunlpsg.github.io/project/coherence/n-coh-acl18/</guid>
       <description>
 
 &lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
@@ -163,28 +163,28 @@
     
     <item>
       <title>Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets</title>
-      <link>/publication/2018_3/</link>
+      <link>https://ntunlpsg.github.io/publication/2018_3/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018_3/</guid>
+      <guid>https://ntunlpsg.github.io/publication/2018_3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Domain Adaptation with Adversarial Training and Graph Embeddings</title>
-      <link>/publication/2018_6/</link>
+      <link>https://ntunlpsg.github.io/publication/2018_6/</link>
       <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2018_6/</guid>
+      <guid>https://ntunlpsg.github.io/publication/2018_6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach</title>
-      <link>/publication/j_9/</link>
+      <link>https://ntunlpsg.github.io/publication/j_9/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/j_9/</guid>
+      <guid>https://ntunlpsg.github.io/publication/j_9/</guid>
       <description></description>
     </item>
     
