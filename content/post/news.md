@@ -5,7 +5,7 @@ date = 2018-02-28
 lastmod = 2018-02-28
 draft = false
 
-summary = "Create a beautifully simple website or blog in under 10 minutes."
+summary = "A list of related news of NTU-NLP."
 
 [header]
 image = "headers/hive.jpg"

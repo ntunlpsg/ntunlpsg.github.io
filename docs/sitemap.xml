@@ -32,6 +32,24 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/demo/project/malay-english-neural-machine-translator/</loc>
+      <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/demo/post/discourse_processing/</loc>
+      <lastmod>2018-09-07T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/demo/publication/2018_10/</loc>
       <lastmod>2018-08-03T00:00:00+00:00</lastmod>
     </url>
@@ -455,15 +473,6 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/demo/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/demo/project/segbot/</loc>
       <lastmod>2016-04-18T00:00:00+00:00</lastmod>
     </url>
@@ -862,6 +871,16 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/demo/tags/deep-learning/</loc>
+      <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/demo/tags/demo/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -893,7 +912,7 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/demo/tags/multi-lingual/</loc>
-      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+      <lastmod>2018-09-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -913,7 +932,7 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/demo/project/</loc>
-      <lastmod>2018-04-28T00:00:00+00:00</lastmod>
+      <lastmod>2018-09-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

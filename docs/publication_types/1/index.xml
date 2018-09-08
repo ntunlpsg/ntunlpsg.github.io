@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 03 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/demo/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aspect-based Neural Recommender</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_10/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_5/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings </title>
+      <link>https://ntunlpsg.github.io/demo/publication/2018_11/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/publication/2018_11/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SegBot: A Generic Neural Text Segmentation Model with Pointer Network</title>

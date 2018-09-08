@@ -38,6 +38,124 @@
     </item>
     
     <item>
+      <title>Malay-English Neural Machine Translation System.</title>
+      <link>https://ntunlpsg.github.io/demo/project/malay-english-neural-machine-translator/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/project/malay-english-neural-machine-translator/</guid>
+      <description>&lt;p&gt;This is a tool to translate an English sentence into Malay and vice versa. Developing a translation tool for low-resource languages like Malay has always been a challenge. The main challenge comes from the fact that machine translation systems typically rely on a huge amount of sentence-parallel data, and creating such datasets is an expensive process. In our work, we collected parallel datasets from various sources including News, OpenSubtitiles (OPUS), Ted talks, and Youtube video. Therefore, our corpus is quite generic and covers both texts and conversations.&lt;/p&gt;
+
+&lt;p&gt;We used various state of the art deep &lt;strong&gt;Neural Machine Translation&lt;/strong&gt; (NMT) architecture for training our model. More specifically we use both &lt;strong&gt;seq2seq&lt;/strong&gt; and &lt;strong&gt;transformer-net&lt;/strong&gt; architecture for finding our best model. For pre-processing and post-processing datasets we used various tools of &lt;strong&gt;moses&lt;/strong&gt;. To train our model we used &lt;strong&gt;OpenNMT-py&lt;/strong&gt; framework which is very standard in the NMT community for it&amp;rsquo;s robust and modular implementation.&lt;/p&gt;
+
+&lt;p&gt;Currently the live demo can be accessed from inside NTU network.
+&lt;form action=&#34;http://172.21.145.63:4200&#34;&gt;
+    &lt;input type=&#34;submit&#34; value=&#34;The link of the demo&#34; /&gt;
+&lt;/form&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discourse Processing and Its Applications in Text Mining --- Tutoral at ICDM-2018</title>
+      <link>https://ntunlpsg.github.io/demo/post/discourse_processing/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/demo/post/discourse_processing/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; TBD&lt;/br&gt;
+&lt;strong&gt;Location:&lt;/strong&gt; TBD&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Tutors&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;https://raihanjoty.github.io/img/nav/shafiq.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;http://www.cs.ubc.ca/~carenini/carenini.jpg &#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;https://www.cs.ubc.ca/~rng/Raymond_Ng.JPG&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;https://www.ufv.ca/media/assets/computer-information-systems/pictures/gabe-headshot-200x201.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://raihanjoty.github.io/&#34; target=&#34;_blank&#34;&gt;Shafiq Joty&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~carenini/&#34; target=&#34;_blank&#34;&gt;Giuseppe Carenini&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.cs.ubc.ca/~rng/&#34; target=&#34;_blank&#34;&gt;Raymond T Ng&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.ufv.ca/cis/faculty-and-staff/murray-gabriel.htm&#34; target=&#34;_blank&#34;&gt;Gabriel Murray&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;tutorialabstract&#34;&gt;Tutorial Abstract&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many text mining applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, essay scoring, sentiment analysis, machine translation, information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis – monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. It then covers traditional machine learning methods along with the most recent works using deep learning, and compare their performances on benchmark datasets. For each discourse structure we describe, we show its applications in downstream text mining tasks. Methods and metrics for evaluation are discussed in detail. We conclude the tutorial with an interactive discussion of future challenges and opportunities.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tutorialoutline&#34;&gt;Tutorial Outline&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Discourse &amp;amp; its different forms&lt;/li&gt;
+
+&lt;li&gt; Linguistic structures in discourse &amp;amp; discourse analysis tasks
+recognition&lt;/li&gt;
+
+&lt;li&gt; Applications of discourse analysis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Discourse Parsing &amp;amp; Its Applications&lt;/strong&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Discourse annotations&lt;/li&gt;
+
+&lt;li&gt; Discourse parsing with RST&lt;/li&gt;
+
+&lt;li&gt; Discourse parsing in PDTB&lt;/li&gt;
+
+&lt;li&gt; Applications of Discourse Parsing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Coffee Break&lt;/strong&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coherence Models &amp;amp; Its Applications&lt;/strong&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Coherence models for Texts&lt;/li&gt;
+
+&lt;li&gt; Coherence models for Conversations&lt;/li&gt;
+
+&lt;li&gt; Applications (Evaluation tasks)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Conversational Structures&lt;/strong&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Discourse Structures in Conversations&lt;/li&gt;
+
+&lt;li&gt; Thread identification models for synchronous &amp;amp; asynchronous conversations &lt;/li&gt;
+
+&lt;li&gt; Speech act recognition models for synchronous &amp;amp; asynchronous conversations&lt;/li&gt;
+
+&lt;li&gt; Evaluation &amp;amp; Applications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusions &amp;amp; Future Challenges&lt;/strong&gt; &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Learning from limited annotated data&lt;/li&gt;
+
+&lt;li&gt; Language &amp;amp; domain transfer &lt;/li&gt;
+
+&lt;li&gt; New emerging applications&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Aspect-based Neural Recommender</title>
       <link>https://ntunlpsg.github.io/demo/publication/2018_10/</link>
       <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
@@ -160,80 +278,6 @@
       
       <guid>https://ntunlpsg.github.io/demo/publication/2018_6/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach</title>
-      <link>https://ntunlpsg.github.io/demo/publication/j_9/</link>
-      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/publication/j_9/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>News</title>
-      <link>https://ntunlpsg.github.io/demo/post/news/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/demo/post/news/</guid>
-      <description>
-
-&lt;h1 id=&#34;2018&#34;&gt;2018&lt;/h1&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;30 May, 2018&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~carenini/&#34; target=&#34;_blank&#34;&gt;Prof. Giuseppe Carenini&lt;/a&gt; from &lt;a href=&#34;http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/&#34; target=&#34;_blank&#34;&gt;UBC&lt;/a&gt; gave a talk at NTU on text summarization. &lt;a href=&#34;https://ntunlpsg.github.io/demo/talk/example-talk/&#34;&gt;link&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;21 Apr, 2018&lt;/td&gt;
-&lt;td&gt;Two long papers got accepted at ACL-2018.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;15 Mar, 2018&lt;/td&gt;
-&lt;td&gt;NLP in the Era of Big Data, Deep Learning, and Post Truth workshop at &lt;a href=&#34;http://esslli2018.folli.info/courses/&#34; target=&#34;_blank&#34;&gt;ESSLLI 2018&lt;/a&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;01 Mar, 2018&lt;/td&gt;
-&lt;td&gt;Our lab is looking for highly motivated PhD students and postdoc researchers to work in natural language processing, deep learning, and machine learning.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;26 Feb, 2018&lt;/td&gt;
-&lt;td&gt;One paper accepted to Computational Linguistics Journal.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;21 Feb, 2018&lt;/td&gt;
-&lt;td&gt;One paper accepted to CVPR-2018.&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;17 Feb, 2018&lt;/td&gt;
-&lt;td&gt;Our &lt;a href=&#34;https://sites.google.com/view/nlpforconversations&#34; target=&#34;_blank&#34;&gt;tutorial&lt;/a&gt; proposal has been accepted for COLING-2018.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;!---
-# 2017
-#* 15-Dec-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; [Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) joins the lab as Ph.D. student.
-#* 28-Sep-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg/) Joins the lab as an exchange student.
-#* 31-Jul-2017 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; [Prof. Dr. Shafiq Rayhan Joty](https://raihanjoty.github.io/) opens the NTU-NLP lab.
----&gt;
-</description>
     </item>
     
   </channel>

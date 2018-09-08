@@ -47,6 +47,9 @@ filter_default = 0
   name = "multi-lingual"
   tag = ".multi-lingual"
 [[filter]]
+  name = "deep-learning"
+  tag = ".deep-learning"
+[[filter]]
   name = "misc"
   tag = ".misc"
 
