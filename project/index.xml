@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on NTU-NLP</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Malay-English Neural Machine Translation System.</title>
+      <link>/project/malay-english-neural-machine-translator/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/malay-english-neural-machine-translator/</guid>
+      <description>This is a tool to translate an English sentence into Malay and vice versa. Developing a translation tool for low-resource languages like Malay has always been a challenge. The main challenge comes from the fact that machine translation systems typically rely on a huge amount of sentence-parallel data, and creating such datasets is an expensive process. In our work, we collected parallel datasets from various sources including News, OpenSubtitiles (OPUS), Ted talks, and Youtube video.</description>
+    </item>
+    
+    <item>
+      <title>Coherence Modeling of Asynchronus Conversations</title>
+      <link>/project/coherence/n-coh-acl18/</link>
+      <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/coherence/n-coh-acl18/</guid>
+      <description>About This resource contains the source code of &amp;ldquo;Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach&amp;rdquo; paper. Source code Link to source code
+Datasets Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.
+Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2018 paper.
+ @InProceedings{joty-mohiuddin-nguyen-acl-18, title=&amp;quot;{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}&amp;quot;, author={Tasnim Mohiuddin and Shafiq Joty and Dat Nguyen}, booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics}, series ={ACL&#39;18}, publisher={Association for Computational Linguistics}, address = {Melbourne, Australia}, pages={xx--xx}, url = {}, year={2018} }  Licence MIT licence.</description>
+    </item>
+    
+    <item>
+      <title>Community Question Answering System</title>
+      <link>/project/community-qa/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/community-qa/</guid>
+      <description>About This Resource includes:
+ A live demonstration of question-answering system. Relevant publications for question-answering system.  Demo link to live Qatar Living system
+This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum. The underlying technology is developed at QCRI and MIT in collaboration with Qatar Living.
+Watch the video to learn more:
+  Relevant publications Enamul Hoque, Shafiq Joty, Lluís Màrquez, and Giuseppe Carenini.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning for Crisis Computing</title>
+      <link>/project/crisis-computing/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/crisis-computing/</guid>
+      <description>About This repository will host Python implementation of a number of deep neural networks classifiers for the classification of crisis-related data on Twitter.
+ Requirementes:
+python 2.7 numpy, scikit-learn keras, tensorflow or theano backend  Dataset and Pre-process A sample of tweet data (data/sample.csv) is a .csv format with three columns
+First, we need to pre-process tweets data: remove urls, special characters, lowercasing… - python data_helpers/preprocess.py data/sample.csv Split pre-processed data (data/sample_prccd.</description>
+    </item>
+    
+    <item>
+      <title>Discourse Parser for English</title>
+      <link>/project/parser/parser/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/parser/parser/</guid>
+      <description>About This package includes:
+ A discourse segmenter A discourse parser Evaluation metrics for discourse parsing  Download Document-level Discourse Parser for English
+Demo Link
+Installation Required for the discourse segmenter:
+ Charniak&amp;rsquo;s reranking parser. Put it in Tools/CharniakParserRerank and install it. Taggers from UIUC. Download POS tagger and shallow chunker [LBJPOS.jar, LBJChunk.jar, LBJ2.jar, LBJ2Library.jar] and put these in Tools/UIUC_TOOLs/ Install scikit-learn and scipy (instructions) Install java if not installed (instructions for Ubuntu) Make sure the Tools/SPADE_UTILS/bin/edubreak is set to executable.</description>
+    </item>
+    
+    <item>
+      <title>Discourse-informed Sen2Vec</title>
+      <link>/project/discourse-info-sen2vec/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/discourse-info-sen2vec/</guid>
+      <description>About This resource contains the source code of CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences. paper.
+Source code Link to source code
+Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and Update  Copy the sen2vec_environment.yml file into anaconda/envs folder Get into anaconda/envs folder. Run the following command:  conda env create -f sen2vec_environment.yml  Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command.</description>
+    </item>
+    
+    <item>
+      <title>Neural Domain Adaptation Model for Machine Translation</title>
+      <link>/project/neural-domain-adaptation-model-for-machine-translation/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/neural-domain-adaptation-model-for-machine-translation/</guid>
+      <description>About This resource contain the source code of Domain adaptation using neural network joint model paper.
+Source code Link to github
+Publications Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali. Domain Adaptation Using Neural Network Joint Model. In Computer Speech &amp;amp; Language (Special Issue on Deep Learning for Machine Translation) : pages 161-179, 2017.
+@article{joty-durrani-sajjad-abdelali-csl-17, title=&amp;quot;{Domain Adaptation Using Neural Network Joint Model}&amp;quot;, author={Shafiq Joty and Nadir Durrani and Hassan Sajjad and Ahmed Abdelali}, journal = {Computer Speech &amp;amp; Language}, volume={45}, publisher={Elsevier}, pages={161-179}, year={2017}, doi = {https://doi.</description>
+    </item>
+    
+    <item>
+      <title>Neural Local Coherence Model</title>
+      <link>/project/coherence/n-coh-acl17/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/coherence/n-coh-acl17/</guid>
+      <description>About This resource contains the source code of &amp;ldquo;A Neural Local Coherence Model&amp;rdquo; paper. Source code Link to source code
+Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2017 paper.
+@inproceedings{tiennguyen2017, author = {Tien Nguyen, Dat and Joty, Shafiq}, title = {A Neural Local Coherence Model}, booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, month = {July}, year = {2017}, address = {Vancouver, Canada}, publisher = {Association for Computational Linguistics}, pages = {1320--1330}, url = {http://aclweb.</description>
+    </item>
+    
+    <item>
+      <title>Recurrent Neural Models for Fine-grained Opinion Analysis</title>
+      <link>/project/opinion-analysis/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/opinion-analysis/</guid>
+      <description>Publications Pengfei Liu, Shafiq Joty, Helen Meng. Fine-grained Opinion Mining with Recurrent Neural Networks and Word Embeddings. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP-2015), Lisbon, Portugal, 2015.
+@InProceedings{liu-joty-meng-emnlp-15, author = {Liu, Pengfei and Joty, Shafiq and Meng, Helen}, title = {Fine-grained Opinion Mining with Recurrent Neural Networks and Word Embeddings}, booktitle = {Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing}, year = {2015}, address = {Lisbon, Portugal}, series = {EMNLP&#39;15}, pages = {1433--1443}, url = {http://aclweb.</description>
+    </item>
+    
+    <item>
+      <title>Speech act recognizer for synchronous and asynchronous conversations</title>
+      <link>/project/speech-act/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/speech-act/</guid>
+      <description>About This resource includes,
+ A bi-directional LSTM for speech act recognition (theano, keras) A global CRF model for thread-level inference (Matlab) Tensorflow implementation of all the models in Journal version.  Related publications  Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL-2016) , Berlin, Germany.</description>
+    </item>
+    
+    <item>
+      <title>Topic Segmenter &amp; Labeler for Asynchronous Conversations</title>
+      <link>/project/topic-segmenter/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/topic-segmenter/</guid>
+      <description>Topic Segmentation and Labeling in Asynchronous Conversations Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations.</description>
+    </item>
+    
+    <item>
+      <title>SegBot: A Generic Neural Text Segmentation Model with Pointer Network</title>
+      <link>/project/segbot/</link>
+      <pubDate>Mon, 18 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/project/segbot/</guid>
+      <description>Online Demo Figure 1 shows the model architecture of SegBot. For EDU segmentation, the units in the input $ U0 \ to \ U8 $ are words in a sentence. Formally, given an input sequence $ U = (U_1, U_2, &amp;hellip; , U_N) $ of length $N$, we get its distributed representations $ X = (x_1, x_2, &amp;hellip; , x_N $ by looking up the corresponding embedding matrix, where $x_n \in R^k$ is the representation for the unit $U_n$ with $K$ being the dimensions.</description>
+    </item>
+    
+  </channel>
+</rss>
