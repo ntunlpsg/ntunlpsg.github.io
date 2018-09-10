@@ -29,6 +29,15 @@
     </item>
     
     <item>
+      <title>Recent Posts</title>
+      <link>https://ntunlpsg.github.io/post/post/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Resources</title>
       <link>https://ntunlpsg.github.io/resources/list/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
@@ -243,15 +252,6 @@ recognition&lt;/li&gt;
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/2018_3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Domain Adaptation with Adversarial Training and Graph Embeddings</title>
-      <link>https://ntunlpsg.github.io/publication/2018_6/</link>
-      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/2018_6/</guid>
       <description></description>
     </item>
     
