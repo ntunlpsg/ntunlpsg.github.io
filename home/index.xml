@@ -40,11 +40,11 @@ function GetLatestReleaseInfo() { $.getJSON(&amp;lsquo;https://api.github.com/re
       
       <guid>https://ntunlpsg.github.io/home/people/</guid>
       <description>Faculty        Shafiq Joty
-Natural Language Processing       Affiliated Faculty               | Jianfei Cai
-Computer Vision | Sun Aixin
-Information Retrieval| Gao Cong
-Data Mining| Andrea Nanetti Digital Humanities| | | | | | | | Sourav S Bhowmick
-Data Management and Analytics | Francis Bond</description>
+Natural Language Processing       Affiliated Faculty              Jianfei Cai
+Computer Vision Sun Aixin
+Information Retrieval Gao Cong
+Data Mining Andrea Nanetti Digital Humanities          Sourav S Bhowmick
+Data Management and Analytics Francis Bond</description>
     </item>
     
     <item>
