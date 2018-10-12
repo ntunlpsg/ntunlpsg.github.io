@@ -25,6 +25,8 @@ weight = 4
 |:---: | :---: | :---: | :---: |
 | <img class="img-circle" style="width: 150px;" src="./person/cai_.jpeg"> | <img class="img-circle" style="width: 150px;" src="./person/Aixin_.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/gao_.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/andre.jpg">|
 | [Jianfei Cai](http://www.ntu.edu.sg/home/asjfcai/)<br> <small>Computer Vision</small> | [Sun Aixin](https://www.ntu.edu.sg/home/axsun/)<br> <small>Information Retrieval</small>| [Gao Cong] (http://www.ntu.edu.sg/home/gaocong/)<br> <small>Data Mining</small>| [Andrea Nanetti] (http://andreananetti.com) <br> <small>Digital Humanities</small>|
+| | <img class="img-circle" style="width: 150px;" src="./person/sourav.jpeg"> | <img class="img-circle" style="width: 150px;" src="./person/bond.jpg"> | |
+| | [Sourav S Bhowmick](http://www.ntu.edu.sg/home/assourav/)<br> <small>Data Management and Analytics</small> | [Francis Bond](http://www.ntu.edu.sg/home/fcbond/)<br> <small>Natural Language Processing</small>| |
 
 | Visiting Professor |
 | :---: |
@@ -35,7 +37,7 @@ weight = 4
 |Postdoc and Ph.D. | | |
 |:---: | :---: | :---: |
 | <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/prathyusha.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/thomas.jpg"> |
-| [Muhammad Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://researchweb.iiit.ac.in/~prathyusha.jwalapuram/) | Nguyen Thanh Tung |
+| [Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://researchweb.iiit.ac.in/~prathyusha.jwalapuram/) | Nguyen Thanh Tung |
 | |<img class="img-circle" style="width: 150px;" src="./person/han.jpg"> | |
 | | Hancheol Moon | |
 
