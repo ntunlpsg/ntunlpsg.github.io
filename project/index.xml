@@ -132,7 +132,7 @@ Citation If you use the entity grid files (including permutations) and the code,
       
       <guid>https://ntunlpsg.github.io/project/speech-act/</guid>
       <description>About This resource includes,
- A bi-directional LSTM for speech act recognition (theano, keras) A global CRF model for thread-level inference (Matlab) Tensorflow implementation of all the models in Journal version.  Related publications  Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL-2016) , Berlin, Germany.</description>
+ A bi-directional LSTM for speech act recognition (theano, keras) A global CRF model for thread-level inference (Matlab) Tensorflow implementation of all the models in Journal version. A web demo.  Related publications  Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL-2016) , Berlin, Germany.</description>
     </item>
     
     <item>
