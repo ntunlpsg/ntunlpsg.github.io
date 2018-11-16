@@ -44,7 +44,8 @@ Room No: N4-B1c-17b
 | 13-09-2018|  X-lingual NER <br> [Paper](https://arxiv.org/abs/1808.09861) | [Slide](https://drive.google.com/file/d/1Yjwev2U7fG97cm0EYmKV78Js-4Iufzn6/view?usp=sharing)  | Shafiq  | <small>12:00-13:00 <br>(UTC +8)</small> |
 | 04-10-2018|  Context-Aware Pronoun Translation, and Word Sense Disambiguation Test Suite <br> [Paper1](https://drive.google.com/file/d/1mQE_z6kTsDCFaYtLJpykgqGrwQ8ArNnf/view), [Paper2](https://drive.google.com/file/d/14E1gpIXt_bR9wZno-PIoHUWa447TWN_u/view) | [Slide](https://drive.google.com/open?id=1dyT5Gp_xn4MssaW0WHBuwwoeTFhwxSol)  | Jwala  | <small>12:00-13:00 <br>(UTC +8)</small> |
 | 11-10-2018|  NMT of Rare Words with Subword Units <br> [Paper](http://www.aclweb.org/anthology/P16-1162) | [Slide](https://drive.google.com/open?id=1YlnDvKrBpWrQD0W8fer3mRbcN8S4lJ0-) | Shafiq  | <small>12:00-13:00 <br>(UTC +8)</small> |
-| 18-10-2018|  Pointer Networks <br> [Paper](https://arxiv.org/abs/1506.03134) |  | Shafiq  | <small>10:00-11:00 <br>(UTC +8)</small> |
+| 18-10-2018|  Pointer Networks <br> [Paper](https://arxiv.org/abs/1506.03134) | [Slide](https://drive.google.com/open?id=10rAmmwGI7mBdMhI_-7V25_lWXVhTp8Ch) | Shafiq  | <small>10:00-11:00 <br>(UTC +8)</small> |
+| 08-11-2018|  Tree Structured Decoding for NMT <br> [Paper](http://aclweb.org/anthology/D18-1037) |  |   | <small>12:00-13:00 <br>(UTC +8)</small> |
 <!---
 | <span style="color:red">TBA</span> | Neural MT and Image Caption Generation <br> [Paper 1](https://arxiv.org/abs/1610.03017), [Paper 2](https://arxiv.org/abs/1502.03044)| | <span style="color:red">TBA</span> | <span style="color:red">TBA</span> |
 | <span style="color:red">TBA</span> | Abstractive Summarization <br> [Paper](https://openreview.net/pdf?id=HkAClQgA-)| | <span style="color:red">TBA</span> | <span style="color:red">TBA</span> |

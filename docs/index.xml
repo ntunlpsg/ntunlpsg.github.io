@@ -56,7 +56,7 @@
 
 &lt;p&gt;We used various state of the art deep &lt;strong&gt;Neural Machine Translation&lt;/strong&gt; (NMT) architecture for training our model. More specifically we use both &lt;strong&gt;seq2seq&lt;/strong&gt; and &lt;strong&gt;transformer-net&lt;/strong&gt; architecture for finding our best model. For pre-processing and post-processing datasets we used various tools of &lt;strong&gt;moses&lt;/strong&gt;. To train our model we used &lt;strong&gt;OpenNMT-py&lt;/strong&gt; framework which is very standard in the NMT community for it&amp;rsquo;s robust and modular implementation.&lt;/p&gt;
 
-&lt;p&gt;Currently the live demo can be accessed from inside NTU network.
+&lt;p&gt;Currently the live demo can only be accessed from inside NTU network.
 &lt;form action=&#34;http://172.21.145.63:4200&#34;&gt;
     &lt;input type=&#34;submit&#34; value=&#34;The link of the demo&#34; /&gt;
 &lt;/form&gt;&lt;/p&gt;

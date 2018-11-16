@@ -32,7 +32,7 @@ This is a tool to translate an English sentence into Malay and vice versa. Devel
 
 We used various state of the art deep **Neural Machine Translation** (NMT) architecture for training our model. More specifically we use both **seq2seq** and **transformer-net** architecture for finding our best model. For pre-processing and post-processing datasets we used various tools of **moses**. To train our model we used **OpenNMT-py** framework which is very standard in the NMT community for it's robust and modular implementation.
 
-Currently the live demo can be accessed from inside NTU network.
+Currently the live demo can only be accessed from inside NTU network.
 <form action="http://172.21.145.63:4200">
     <input type="submit" value="The link of the demo" />
 </form>

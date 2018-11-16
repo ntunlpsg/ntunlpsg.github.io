@@ -35,6 +35,7 @@ This resource includes,
 - A bi-directional LSTM for speech act recognition (theano, keras)
 - A global CRF model for thread-level inference (Matlab)
 - Tensorflow implementation of all the models in Journal version.
+- **A web demo**.
 
 ### Related publications
 - Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models. In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (ACL-2016) , Berlin, Germany. [[PDF](http://alt.qcri.org/~sjoty/paper/speech-act-acl-16.pdf)]
@@ -81,3 +82,11 @@ This resource includes,
 
 # License
 The speech act recognizer is an Open Source Software, and is released under the Common Public License. You are welcome to use the code under the terms of the licence for research purposes ONLY, however please acknowledge its use with a citation.
+
+### Demo
+**Currently only accessible inside ntu network.**
+The demo can take a paragraph of sentences and predicts speech-act for each of the sentences.
+
+<form action="http://172.21.144.214:4200/">
+    <input type="submit" value="The link of the demo" />
+</form>

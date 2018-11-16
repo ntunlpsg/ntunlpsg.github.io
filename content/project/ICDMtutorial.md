@@ -28,8 +28,8 @@ caption = ""
 
 +++
 
-<p><strong>Time:</strong> TBD</br>
-<strong>Location:</strong> TBD</p>
+<p><strong>Time:</strong> 18 Nov 3:40 - 5:40</br>
+<strong>Location:</strong> Virgo IV (Resort World Sentosa), Singapore </p>
 
 | Tutors | | | |
 |:---: | :---: | :---: | :---: |
