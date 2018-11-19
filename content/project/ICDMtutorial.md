@@ -29,8 +29,8 @@ caption = ""
 +++
 
 <p><strong>Time:</strong> 18 Nov 3:40 - 5:40</br>
-<strong>Location:</strong> Virgo IV (Resort World Sentosa), Singapore. </br>
-<strong>Slides:</strong>[Part-1](https://drive.google.com/open?id=1XmaN6tXxnVasw8Sp0cr0FXbG7KHsEJlM), [Part-2](https://drive.google.com/open?id=1QcbkKGZI8BAZh3v0_36BKDHw-rpOLjVC) </p>
+<strong>Location:</strong> Virgo IV (Resort World Sentosa), Singapore. </br></p>
+<strong>Slides:</strong> [Part-1](https://drive.google.com/open?id=1XmaN6tXxnVasw8Sp0cr0FXbG7KHsEJlM), [Part-2](https://drive.google.com/open?id=1QcbkKGZI8BAZh3v0_36BKDHw-rpOLjVC) 
 
 | Tutors | | | |
 |:---: | :---: | :---: | :---: |
