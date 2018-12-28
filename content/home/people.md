@@ -44,7 +44,7 @@ weight = 4
 |Research Assistant | |
 |:---: | :---: |
 | <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/song.jpg"> |
-| [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg) | [SONG SEOHO](https://www.linkedin.com/in/seohosong/) |
+| [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [SONG SEOHO](https://www.linkedin.com/in/seohosong/) |
 
 |Visiting Students| |
 |:---:| :---: |
