@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0600</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Recent Posts</title>
       <link>https://ntunlpsg.github.io/post/post/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0600</pubDate>
       
       <guid>https://ntunlpsg.github.io/post/post/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>News</title>
       <link>https://ntunlpsg.github.io/post/news/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0600</pubDate>
       
       <guid>https://ntunlpsg.github.io/post/news/</guid>
       <description>2018    &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;      30 May, 2018 Prof. Giuseppe Carenini from UBC gave a talk at NTU on text summarization. link   21 Apr, 2018 Two long papers got accepted at ACL-2018.   15 Mar, 2018 NLP in the Era of Big Data, Deep Learning, and Post Truth workshop at ESSLLI 2018.</description>
@@ -33,7 +33,7 @@
     <item>
       <title>Reading group</title>
       <link>https://ntunlpsg.github.io/post/reding-group/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0600</pubDate>
       
       <guid>https://ntunlpsg.github.io/post/reding-group/</guid>
       <description>Introduction The Natural Language Processing (NLP) reading group meets regularly (usually weekly) to discuss research topics on a particular sub-field of NLP.
@@ -43,7 +43,7 @@ Subscription You can receive announcements about the reading group by joining ou
     <item>
       <title>Talk</title>
       <link>https://ntunlpsg.github.io/post/talk/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0600</pubDate>
       
       <guid>https://ntunlpsg.github.io/post/talk/</guid>
       <description> 2018    &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;      30 May, 2018 Prof. Giuseppe Carenini from UBC gave a talk at NTU on text summarization. link    </description>

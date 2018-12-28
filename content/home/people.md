@@ -37,19 +37,19 @@ weight = 4
 |Postdoc and Ph.D. | | |
 |:---: | :---: | :---: |
 | <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/prathyusha.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/thomas.jpg"> |
-| [Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://researchweb.iiit.ac.in/~prathyusha.jwalapuram/) | Nguyen Thanh Tung |
-| |<img class="img-circle" style="width: 150px;" src="./person/han.jpg"> | |
-| | Hancheol Moon | |
+| [Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://pjwalapuram.in) | Nguyen Thanh Tung |
+|<img class="img-circle" style="width: 150px;" src="./person/han.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/saiful.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/LinXiang.jpg"> |
+| Hancheol Moon | [M Saiful Bari](https://sbmaruf.github.io) | Lin Xiang |
 
-|Research Assistant | | |
-|:---: | :---: | :---: |
-| <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/saiful.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/song.jpg"> |
+|Research Assistant | |
+|:---: | :---: |
+| <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/song.jpg"> |
 | [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [M Saiful Bari](http://775f4887654a19c7bf63f187f93b950a.blogspot.sg) | [SONG SEOHO](https://www.linkedin.com/in/seohosong/) |
 
-|Visiting Students|
-|:---:|
-|<img class="img-circle" style="width: 150px;" src="./person/sameer.jpeg">|
-|[Sameer Khurana](http://people.csail.mit.edu/sameerk/) <br> PhD Candidate, MIT |
+|Visiting Students| |
+|:---:| :---: |
+|<img class="img-circle" style="width: 150px;" src="./person/sameer.jpeg">| <img class="img-circle" style="width: 150px;" src="./person/majing.jpg">|
+|[Sameer Khurana](http://people.csail.mit.edu/sameerk/) <br> PhD Candidate <br> <small>Massachusetts Institute of Technology <br> July 2018 - Aug 2018</small> | [Jing Ma](https://sites.google.com/site/cuhkjma/) <br> PhD student, <br> <small> The Chinese University of Hong Kong (CUHK) <br>Dec 2018 - Aug 2019 </small>|
 
 |External Collaborators | | |
 |:---: |:---: |:---: |
