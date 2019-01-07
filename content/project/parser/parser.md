@@ -6,7 +6,7 @@ date = "2016-04-28"
 title = "Discourse Parser for English"
 
 # Project summary to display on homepage.
-summary = "A COmplete probabilistic Discriminative framework for performing Rhetorical Analysis (CODRA) in accordance with Rhetorical Structure Theory"
+summary = ""
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "dt1.png"
@@ -36,7 +36,7 @@ This package includes:
 * Evaluation metrics for discourse parsing
 
 ### Download
-[Document-level Discourse Parser for English](http://alt.qcri.org/tools/discourse-parser/releases/current/Discourse_Parser_Dist.tar.gz)
+[Document-level Discourse Parser for English](https://drive.google.com/file/d/1p6UWefyI7l2_nIj249UoaMAu1lOp5UQo/view?usp=sharing)
 
 ### Demo
 [Link](http://alt.qcri.org/demos/Discourse_Parser_Demo/)
