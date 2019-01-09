@@ -36,16 +36,14 @@ Room No: N4-B1c-17b
 | TBA | Recursive Deep Models <br> [Paper](https://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf) |  |  |  |
 | TBA | Top-down Treestructured Decoding <br> [Paper](http://aclweb.org/anthology/D18-1037) |  |  |  |
 | TBA | Constituency Parsing with a Self-Attentive Encoder <br> [Paper](https://arxiv.org/abs/1805.01052) |  |  |  |
-
-
-| :------- |:--- |:--- |:--- | :--- |
-| :------- |:--- |:--- |:--- | :--- |
+| | | | | |
+| | | | | |
 ---
 ##### 2018 March-November  | Multilingual and Unsupervised Deep Learning
 ---
 
 | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 	&nbsp;&nbsp;  &nbsp; 	&nbsp;  Date    | Topic | Content | Presenter(s) | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;Time |
-
+| :------- |:--- |:--- |:--- | :--- |
 | 07-03-2018 | Recurrent Neural Network | [Part 1](https://drive.google.com/open?id=1Uf9ovCWkW44OR20f4puflLBlN0Nbmkfq) [Part 2](https://drive.google.com/file/d/1ciYPg1ktTv0Yh730b_7NBZhFjmaOTiq4/view?usp=sharing)| Tasnim, and Saiful | <small>14:00-15:00<br> (UTC +8)</small> |
 | 14-03-2018 | Sequence to Sequence Learning <br> [Paper 1](https://arxiv.org/abs/1406.1078),  [Paper 2](https://arxiv.org/abs/1409.3215) |[Part 1](https://drive.google.com/file/d/1RYUV3YmPrVoRTujaJ0kt6jyD6-4a8Zie/view?usp=sharing) [Part 2](https://drive.google.com/file/d/1W2BaUNc5IqaDypNiXcb0MweOtCetUqZm/view?usp=sharing) | Tasnim, and Saiful | <small>10:30-11:30 <br> (UTC +8)|
 | 21-03-2018| Attention Mechanism <br> [Paper 1](https://arxiv.org/abs/1409.0473), [Paper 2](https://arxiv.org/abs/1508.04025)|[Part 1](https://drive.google.com/open?id=1niMR8LX77DnP_iPzjNRauOdz1wjd_eXp) [Part 2](https://drive.google.com/file/d/1rzX97LRgtQdg6YmVeAq92oLqXGCEjhpb/view) | Tasnim, and Saiful | <small>11:30-12:30 <br>(UTC +8)</small> |
