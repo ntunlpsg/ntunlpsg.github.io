@@ -39,7 +39,7 @@ weight = 4
 | <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/prathyusha.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/thomas.jpg"> |
 | [Tasnim Mohiuddin](https://bd.linkedin.com/in/tasnimmohiuddin) | [Prathyusha Jwalapuram](https://pjwalapuram.in) | Nguyen Thanh Tung |
 |<img class="img-circle" style="width: 150px;" src="./person/han.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/saiful.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/LinXiang.jpg"> |
-| Hancheol Moon | [M Saiful Bari](https://sbmaruf.github.io) | Lin Xiang |
+| Hancheol Moon | [M Saiful Bari](https://sbmaruf.github.io) | [Lin Xiang](https://sites.google.com/view/linxiang/home) |
 | |<img class="img-circle" style="width: 150px;" src="./person/linlin.png"> | |
 | | [Linlin Liu](https://sg.linkedin.com/in/linlin-liu-26392846) | |
 

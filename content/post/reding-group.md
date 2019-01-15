@@ -25,7 +25,8 @@ Room No: N4-B1c-17b
 ### Schedules
 
 ---
-##### 2019 March-May  | Deep Learning for Structured Objects and Variational Methods
+##### 2019 Jan-May  | Deep Learning for Structured Objects and Variational Methods
+##### Time: Tuesdays 11:30 - 12:30
 ---
 
 | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 	&nbsp;&nbsp;  &nbsp; 	&nbsp;  Date    | Topic | Content | Presenter(s) | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;Time |
