@@ -4,7 +4,7 @@
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`
 # https://ntunlpsg.github.io/
-baseurl = "https://ntunlpsg.github.io/"
+baseurl = ""
 publishDir="docs"
 # Title of your site
 title = "NTU-NLP"
@@ -267,7 +267,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Reading Group"
-  url = "post/reding-group"
+  url = "post/reading-group"
   weight = 5
 
 [[menu.main]]

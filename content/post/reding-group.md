@@ -9,9 +9,7 @@ summary = ""
 [header]
 image = "headers/reading.png"
 caption = ""
-
 +++
-
 ### Introduction
 The Natural Language Processing (NLP) reading group meets regularly (usually weekly) to discuss research topics on a particular sub-field of NLP.
 
