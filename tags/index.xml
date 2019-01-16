@@ -2,94 +2,94 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on NTU-NLP</title>
-    <link>https://ntunlpsg.github.io/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ntunlpsg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>https://ntunlpsg.github.io/tags/academic/</link>
+      <link>/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/academic/</guid>
+      <guid>/tags/academic/</guid>
       <description>Here is a list of all the content that has been tagged as academic.</description>
     </item>
     
     <item>
       <title>deep-learning</title>
-      <link>https://ntunlpsg.github.io/tags/deep-learning/</link>
+      <link>/tags/deep-learning/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/deep-learning/</guid>
+      <guid>/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>demo</title>
-      <link>https://ntunlpsg.github.io/tags/demo/</link>
+      <link>/tags/demo/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/demo/</guid>
+      <guid>/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>discourse</title>
-      <link>https://ntunlpsg.github.io/tags/discourse/</link>
+      <link>/tags/discourse/</link>
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/discourse/</guid>
+      <guid>/tags/discourse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>discourse-analysis</title>
-      <link>https://ntunlpsg.github.io/tags/discourse-analysis/</link>
+      <link>/tags/discourse-analysis/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/discourse-analysis/</guid>
+      <guid>/tags/discourse-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>misc</title>
-      <link>https://ntunlpsg.github.io/tags/misc/</link>
+      <link>/tags/misc/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/misc/</guid>
+      <guid>/tags/misc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>multi-lingual</title>
-      <link>https://ntunlpsg.github.io/tags/multi-lingual/</link>
+      <link>/tags/multi-lingual/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/multi-lingual/</guid>
+      <guid>/tags/multi-lingual/</guid>
       <description></description>
     </item>
     
     <item>
       <title>question-answering</title>
-      <link>https://ntunlpsg.github.io/tags/question-answering/</link>
+      <link>/tags/question-answering/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/question-answering/</guid>
+      <guid>/tags/question-answering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>representation-learning</title>
-      <link>https://ntunlpsg.github.io/tags/representation-learning/</link>
+      <link>/tags/representation-learning/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/representation-learning/</guid>
+      <guid>/tags/representation-learning/</guid>
       <description></description>
     </item>
     
