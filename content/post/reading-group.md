@@ -30,10 +30,10 @@ Room No: N4-B1c-17b
 
 | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 	&nbsp;&nbsp;  &nbsp; 	&nbsp;  Date    | Topic | Content | Presenter(s) | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;Time |
 | :------- |:--- |:--- |:--- | :--- |
-| 22-01-19 | Tree LSTM as an encoder [Paper](http://aclweb.org/anthology/P15-1150),<br>  Doubly Recurrent net as a decoder [Paper](https://openreview.net/pdf?id=HkYhZDqxg) |  | Shafiq | <small>11:30-12:30 <br>(UTC +8)</small>  |
+| 22-01-19 | Tree LSTM as an encoder [Paper](http://aclweb.org/anthology/P15-1150),<br>  Doubly Recurrent net as a decoder [Paper](https://openreview.net/pdf?id=HkYhZDqxg) | [Slide](https://drive.google.com/file/d/1hHsEAHukQ9h6T0OOTS4Skll7gMvdmIvL/view?usp=sharing)  | Shafiq | <small>11:30-12:30 <br>(UTC +8)</small> |
+| 29-01-19 | Top-down Treestructured Decoding <br> [Paper](http://aclweb.org/anthology/D18-1037) |  |  | <small>11:30-12:30 <br>(UTC +8)</small> |
 | TBA | Parsing with Recursive NNs <br> [Paper](https://nlp.stanford.edu/pubs/SocherLinNgManning_ICML2011.pdf) |  |  |  |
 | TBA | Recursive Deep Models <br> [Paper](https://nlp.stanford.edu/~socherr/EMNLP2013_RNTN.pdf) |  |  |  |
-| TBA | Top-down Treestructured Decoding <br> [Paper](http://aclweb.org/anthology/D18-1037) |  |  |  |
 | TBA | Constituency Parsing with a Self-Attentive Encoder <br> [Paper](https://arxiv.org/abs/1805.01052) |  |  |  |
 | | | | | |
 | | | | | |
