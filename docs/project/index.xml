@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unsupervised Word Translation</title>
+      <link>/project/unsup-word-translation/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/unsup-word-translation/</guid>
+      <description>About This resource contains the source code of our NAACL-HLT 2019 paper entitled &amp;ldquo;Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach&amp;rdquo;. Source code Link to source code
+Datasets  Conneau et al. (2018) Dataset: Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs. Dinu-Artexe dataset: Consists of monolingual embeddings of 300 dimension for English, Italian and Spanish.</description>
+    </item>
     
     <item>
       <title>Malay-English Neural Machine Translation System.</title>

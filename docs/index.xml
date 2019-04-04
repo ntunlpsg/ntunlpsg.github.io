@@ -47,6 +47,51 @@
     </item>
     
     <item>
+      <title>Unsupervised Word Translation</title>
+      <link>/project/unsup-word-translation/</link>
+      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/project/unsup-word-translation/</guid>
+      <description>
+
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+
+&lt;p&gt;This resource contains the source code of our NAACL-HLT 2019 paper entitled &amp;ldquo;&lt;a href=&#34;https://arxiv.org/abs/1805.02275&#34; target=&#34;_blank&#34;&gt;Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach&lt;/a&gt;&amp;rdquo;.
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;source-code&#34;&gt;Source code&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlpsg/unsup-word-translation&#34; target=&#34;_blank&#34;&gt;Link to source code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;datasets&#34;&gt;Datasets&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/facebookresearch/MUSE/tree/master/data&#34; target=&#34;_blank&#34;&gt;Conneau et al. (2018) Dataset&lt;/a&gt;: Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/artetxem/vecmap/&#34; target=&#34;_blank&#34;&gt;Dinu-Artexe dataset&lt;/a&gt;: Consists of monolingual embeddings of 300 dimension for English, Italian and Spanish. English and Italian embeddings were trained on WacKy corpora using CBOW, while the Spanish embeddings were trained on WMT News Crawl.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;    @InProceedings{mohiuddin-joty-naacl-19,
+     title=&amp;quot;{Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training}&amp;quot;,
+     author={Tasnim Mohiuddin and Shafiq Joty},
+     booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+     series    ={NAACL-HLT&#39;19},
+     publisher={Association for Computational Linguistics},
+     address   = {Minneapolis, USA},
+     pages={xx--xx},
+     url = {},
+     year={2019}
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;licence&#34;&gt;Licence&lt;/h1&gt;
+
+&lt;p&gt;Creative Commons Public Licenses.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Malay-English Neural Machine Translation System.</title>
       <link>/project/malay-english-neural-machine-translator/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
@@ -245,15 +290,6 @@ recognition&lt;/li&gt;
 
 &lt;p&gt;MIT licence.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets</title>
-      <link>/publication/2018_3/</link>
-      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018_3/</guid>
-      <description></description>
     </item>
     
   </channel>
