@@ -45,8 +45,8 @@ weight = 4
 
 |Research Assistant | |
 |:---: | :---: |
-| <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/song.jpg"> |
-| [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [SONG SEOHO](https://www.linkedin.com/in/seohosong/) |
+| <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/simeng.jpg"> |
+| [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [Han Simeng](https://www.linkedin.com/in/simeng-han-746135159/) |
 
 |Visiting Students| |
 |:---:| :---: |
