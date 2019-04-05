@@ -29,7 +29,7 @@ caption = "Unsupervised Word Translation with Adversarial Autoencoder"
 +++
 
 ### About
-This resource contains the source code of our NAACL-HLT 2019 paper entitled "Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach".
+This resource contains the source code of our NAACL-HLT 2019 paper entitled "Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training".
 <br>
 ### Source code
 [Link to source code](https://github.com/ntunlpsg/unsup-word-translation)
