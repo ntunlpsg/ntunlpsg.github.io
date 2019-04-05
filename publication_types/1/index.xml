@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 03 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Fatorial Deep Markov Model For Unsupervised Disentangled Representation Learning From Speech</title>
+      <link>/publication/2019_4/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptation of Hierarchical Structured Models for Speech Act Recognition in Asynchronous Conversation.</title>
+      <link>/publication/2019_1/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Unsupervised Representation Learning for Activity Time-Series</title>
+      <link>/publication/2019_3/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)</title>
+      <link>/publication/2019_5/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training</title>
+      <link>/publication/2019_2/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019_2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aspect-based Neural Recommender</title>
