@@ -48,10 +48,10 @@ weight = 4
 | <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/simeng.jpg"> |
 | [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [Han Simeng](https://www.linkedin.com/in/simeng-han-746135159/) |
 
-|Visiting Students| |
-|:---:| :---: |
-|<img class="img-circle" style="width: 150px;" src="./person/sameer.jpeg">| <img class="img-circle" style="width: 150px;" src="./person/majing.jpg">|
-|[Sameer Khurana](http://people.csail.mit.edu/sameerk/) <br> PhD Candidate <br> <small>Massachusetts Institute of Technology <br> July 2018 - Aug 2018</small> | [Jing Ma](https://sites.google.com/site/cuhkjma/) <br> PhD student, <br> <small> The Chinese University of Hong Kong (CUHK) <br>Dec 2018 - Aug 2019 </small>|
+|Visiting Students| | |
+|:---:| :---: | :---: |
+|<img class="img-circle" style="width: 150px;" src="./person/sameer.jpeg">| <img class="img-circle" style="width: 150px;" src="./person/majing.jpg">| <img class="img-circle" style="width: 150px;" src="./person/dominica.jpg">|
+|[Sameer Khurana](http://people.csail.mit.edu/sameerk/) <br> PhD Candidate <br> <small>Massachusetts Institute of Technology <br> July 2018 - Aug 2018</small> | [Jing Ma](https://sites.google.com/site/cuhkjma/) <br> PhD student, <br> <small> The Chinese University of Hong Kong (CUHK) <br>Dec 2018 - Aug 2019 </small>| Dominika Basaj <br> PhD student, <br> <small> Warsaw University of Technology <br>April 2019 - July 2019 </small>|
 
 |External Collaborators | | |
 |:---: |:---: |:---: |
