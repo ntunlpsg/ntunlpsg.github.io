@@ -29,7 +29,7 @@ caption = "Unsupervised Word Translation with Adversarial Autoencoder"
 +++
 
 ### About
-This resource contains the source code of our NAACL-HLT 2019 paper entitled "Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training".
+This resource contains the source code of our NAACL-HLT 2019 paper entitled [Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training](https://arxiv.org/pdf/1904.04116).
 <br>
 ### Source code
 [Link to source code](https://github.com/ntunlpsg/unsup-word-translation)
