@@ -110,7 +110,7 @@
 
 &lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
 
-&lt;p&gt;This resource contains the source code of our NAACL-HLT 2019 paper entitled &amp;ldquo;Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training&amp;rdquo;.
+&lt;p&gt;This resource contains the source code of our NAACL-HLT 2019 paper entitled &lt;a href=&#34;https://arxiv.org/pdf/1904.04116&#34; target=&#34;_blank&#34;&gt;Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training&lt;/a&gt;.
 &lt;br&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;source-code&#34;&gt;Source code&lt;/h3&gt;

@@ -18,7 +18,7 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/unsup-word-translation/</guid>
-      <description>About This resource contains the source code of our NAACL-HLT 2019 paper entitled &amp;ldquo;Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training&amp;rdquo;. Source code Link to source code
+      <description>About This resource contains the source code of our NAACL-HLT 2019 paper entitled Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training. Source code Link to source code
 Datasets  Conneau et al. (2018) Dataset: Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs. Dinu-Artexe dataset: Consists of monolingual embeddings of 300 dimension for English, Italian and Spanish.</description>
     </item>
     
