@@ -28,8 +28,11 @@ caption = "[A Unified Linear-Time Framework for Sentence-Level Discourse Parsing
 
 +++
 
-# A Unified Linear-Time Framework for Sentence-Level Discourse Parsing
 This repository contains the source code of our paper "[A Unified Linear-Time Framework for Sentence-Level Discourse Parsing](https://arxiv.org/abs/1905.05682)" in ACL 2019.
+
+<form action="https://github.com/ntunlpsg/UnifiedParser_RST">
+    <input type="submit" value="Github" />
+</form>
 
 ## Getting Started
 
@@ -67,9 +70,9 @@ We train and evaluate the model with the standard RST Discourse Treebank (RST-DT
     * [3, 17, 5, 30, 21] <br>
     
 * For training, you will need to prepare `decoder_input_index` as the decoder input and corresponding `parent_index`, `sibling_index` as the partial tree information.
-   * decoder_input_index: [0, 0, 0, 1, 4] (to take the first EDU as the representation of text span to be parsed.) or [5, 3, 2, 2, 5] (to take the last EDU as the representation of text span to be parsed.) 
-   * parent_index: [0, 5, 4, 3, 6]
-   * sibling_index: [99, 99, 99, 0, 4] ('99' denotes empty siblings.)
+   * decoder_input_index: [ 0 , 0 , 0 , 1 , 4 ] - to take the first EDU as the representation of text span to be parsed. or [ 5 , 3 , 2 , 2 , 5 ] - to take the last EDU as the representation of text span to be parsed. 
+   * parent_index: [ 0 , 5 , 4 , 3 , 6 ]
+   * sibling_index: [ 99 , 99 , 99 , 0 , 4 ]  - '99' denotes empty siblings.
 
 
 ## How To Run
@@ -82,6 +85,12 @@ You can also control any other arguments. Please refer to `main.py`. By default,
 
 * Segmenter: <br>
 To be released..
+
+
+<form action="https://github.com/ntunlpsg/UnifiedParser_RST">
+    <input type="submit" value="Github" />
+</form>
+
 
 
 ## Citation

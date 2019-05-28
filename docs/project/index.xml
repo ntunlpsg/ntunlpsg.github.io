@@ -54,9 +54,9 @@
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/parser/pointer-net-parser/</guid>
-      <description>A Unified Linear-Time Framework for Sentence-Level Discourse Parsing This repository contains the source code of our paper &amp;ldquo;A Unified Linear-Time Framework for Sentence-Level Discourse Parsing&amp;rdquo; in ACL 2019.
-Getting Started These instructions will help you to run our unified discourse parser based on RST dataset.
-Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train and evaluate the model with the standard RST Discourse Treebank (RST-DT) corpus.</description>
+      <description>This repository contains the source code of our paper &amp;ldquo;A Unified Linear-Time Framework for Sentence-Level Discourse Parsing&amp;rdquo; in ACL 2019.
+ Getting Started These instructions will help you to run our unified discourse parser based on RST dataset.
+Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train and evaluate the model with the standard RST Discourse Treebank (RST-DT) corpus. * Segmenter: we utilize all 7673 sentences for training and 991 sentences for testing.</description>
     </item>
     
     <item>
