@@ -18,8 +18,7 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/unsup-word-translation/</guid>
-      <description>About This resource contains the source code of our NAACL-HLT 2019 paper entitled Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training. Source code Link to source code
-Datasets  Conneau et al. (2018) Dataset: Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs. Dinu-Artexe dataset: Consists of monolingual embeddings of 300 dimension for English, Italian and Spanish.</description>
+      <description>Adversarial Autoencoder with Cycle Consistency and Improved Training</description>
     </item>
     
     <item>
@@ -28,7 +27,7 @@ Datasets  Conneau et al. (2018) Dataset: Consists of FastText monolingual embedd
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/malay-english-neural-machine-translator/</guid>
-      <description>This is a tool to translate an English sentence into Malay and vice versa. Developing a translation tool for low-resource languages like Malay has always been a challenge. The main challenge comes from the fact that machine translation systems typically rely on a huge amount of sentence-parallel data, and creating such datasets is an expensive process. In our work, we collected parallel datasets from various sources including News, OpenSubtitiles (OPUS), Ted talks, and Youtube video.</description>
+      <description>A demo of malay english Machine translation system.</description>
     </item>
     
   </channel>
