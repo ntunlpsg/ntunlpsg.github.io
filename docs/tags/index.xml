@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
     
     <item>
       <title>deep-learning</title>
@@ -22,20 +31,11 @@
     </item>
     
     <item>
-      <title>multi-lingual</title>
-      <link>/tags/multi-lingual/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      <title>demo</title>
+      <link>/tags/demo/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/multi-lingual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>discourse-analysis</title>
-      <link>/tags/discourse-analysis/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0700</pubDate>
-      
-      <guid>/tags/discourse-analysis/</guid>
+      <guid>/tags/demo/</guid>
       <description></description>
     </item>
     
@@ -49,20 +49,11 @@
     </item>
     
     <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <title>discourse-analysis</title>
+      <link>/tags/discourse-analysis/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
-      <title>demo</title>
-      <link>/tags/demo/</link>
-      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/demo/</guid>
+      <guid>/tags/discourse-analysis/</guid>
       <description></description>
     </item>
     
@@ -72,6 +63,15 @@
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/tags/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multi-lingual</title>
+      <link>/tags/multi-lingual/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/multi-lingual/</guid>
       <description></description>
     </item>
     

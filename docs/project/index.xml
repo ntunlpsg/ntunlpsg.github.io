@@ -18,7 +18,8 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>/project/unsup-word-translation/</guid>
-      <description>Adversarial Autoencoder with Cycle Consistency and Improved Training</description>
+      <description>About This resource contains the source code of our NAACL-HLT 2019 paper entitled Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training. Source code Link to source code
+Datasets  Conneau et al. (2018) Dataset: Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs. Dinu-Artexe dataset: Consists of monolingual embeddings of 300 dimension for English, Italian and Spanish.</description>
     </item>
     
     <item>
@@ -27,16 +28,18 @@
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/malay-english-neural-machine-translator/</guid>
-      <description>A demo of malay english Machine translation system.</description>
+      <description>This is a tool to translate an English sentence into Malay and vice versa. Developing a translation tool for low-resource languages like Malay has always been a challenge. The main challenge comes from the fact that machine translation systems typically rely on a huge amount of sentence-parallel data, and creating such datasets is an expensive process. In our work, we collected parallel datasets from various sources including News, OpenSubtitiles (OPUS), Ted talks, and Youtube video.</description>
     </item>
     
     <item>
       <title>Discourse Processing and Its Applications in Text Mining --- Tutoral at ICDM-2018</title>
       <link>/project/icdmtutorial/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0700</pubDate>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0800</pubDate>
       
       <guid>/project/icdmtutorial/</guid>
-      <description>Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many text mining applications.</description>
+      <description>Time: 18 Nov 3:40 - 5:40 Location: Virgo IV (Resort World Sentosa), Singapore. 
+Slides: Part-1, Part-2
+   Tutors              Shafiq Joty Giuseppe Carenini Raymond T Ng Gabriel Murray    Tutorial Abstract Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many text mining applications.</description>
     </item>
     
     <item>
@@ -45,7 +48,10 @@
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/coherence/n-coh-acl18/</guid>
-      <description>A neural approach for modeling coherence of asynchronus conversation</description>
+      <description>About This resource contains the source code of &amp;ldquo;Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach&amp;rdquo; paper. Source code Link to source code
+Datasets Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.
+Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2018 paper.
+ @InProceedings{joty-mohiuddin-nguyen-acl-18, title=&amp;quot;{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}&amp;quot;, author={Tasnim Mohiuddin and Shafiq Joty and Dat Nguyen}, booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics}, series ={ACL&#39;18}, publisher={Association for Computational Linguistics}, address = {Melbourne, Australia}, pages={xx--xx}, url = {}, year={2018} }  Licence MIT licence.</description>
     </item>
     
     <item>
@@ -65,7 +71,11 @@ Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train an
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/community-qa/</guid>
-      <description>This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum.</description>
+      <description>About This Resource includes:
+ A live demonstration of question-answering system. Relevant publications for question-answering system.  Demo link to live Qatar Living system
+This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum. The underlying technology is developed at QCRI and MIT in collaboration with Qatar Living.
+Watch the video to learn more:
+  Relevant publications Enamul Hoque, Shafiq Joty, Lluís Màrquez, and Giuseppe Carenini.</description>
     </item>
     
     <item>
@@ -74,7 +84,10 @@ Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train an
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/crisis-computing/</guid>
-      <description>Python implementation of a number of deep neural networks classifiers for the classification of crisis-related data on Twitter.</description>
+      <description>About This repository will host Python implementation of a number of deep neural networks classifiers for the classification of crisis-related data on Twitter.
+ Requirementes:
+python 2.7 numpy, scikit-learn keras, tensorflow or theano backend  Dataset and Pre-process A sample of tweet data (data/sample.csv) is a .csv format with three columns
+First, we need to pre-process tweets data: remove urls, special characters, lowercasing… - python data_helpers/preprocess.py data/sample.csv Split pre-processed data (data/sample_prccd.</description>
     </item>
     
     <item>
@@ -96,7 +109,9 @@ Installation Required for the discourse segmenter:
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/discourse-info-sen2vec/</guid>
-      <description>CON-S2V: A Generic Framework for Incorporating</description>
+      <description>About This resource contains the source code of CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences. paper.
+Source code Link to source code
+Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and Update  Copy the sen2vec_environment.yml file into anaconda/envs folder Get into anaconda/envs folder. Run the following command:  conda env create -f sen2vec_environment.yml  Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command.</description>
     </item>
     
     <item>
@@ -117,7 +132,9 @@ Publications Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali. Doma
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/coherence/n-coh-acl17/</guid>
-      <description>Neural coherence for monologue</description>
+      <description>About This resource contains the source code of &amp;ldquo;A Neural Local Coherence Model&amp;rdquo; paper. Source code Link to source code
+Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2017 paper.
+@inproceedings{tiennguyen2017, author = {Tien Nguyen, Dat and Joty, Shafiq}, title = {A Neural Local Coherence Model}, booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, month = {July}, year = {2017}, address = {Vancouver, Canada}, publisher = {Association for Computational Linguistics}, pages = {1320--1330}, url = {http://aclweb.</description>
     </item>
     
     <item>
@@ -136,7 +153,8 @@ Publications Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali. Doma
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/speech-act/</guid>
-      <description>This resource addresses the problem of speech act recognition in written asynchronous conversations</description>
+      <description>About This resource includes,
+ A bi-directional LSTM for speech act recognition (theano, keras) A global CRF model for thread-level inference (Matlab) Tensorflow implementation of all the models presented in the Journal version. Tensorflow implementation of all the models presented in the NAACL-HLT 2019 paper. A web demo.  Related publications  Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models.</description>
     </item>
     
     <item>
@@ -145,7 +163,7 @@ Publications Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali. Doma
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/topic-segmenter/</guid>
-      <description>This parser builds a discourse tree by applying an optimal parsing algorithm to probabilities inferred from two Conditional Random Fields: one for intra-sentential parsing and the other for multi-sentential parsing.</description>
+      <description>Topic Segmentation and Labeling in Asynchronous Conversations Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations.</description>
     </item>
     
     <item>
