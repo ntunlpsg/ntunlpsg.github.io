@@ -15,7 +15,7 @@
     <item>
       <title>Selected Publications</title>
       <link>/publication/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
       
       <guid>/publication/publications_selected/</guid>
       <description></description>
@@ -24,9 +24,27 @@
     <item>
       <title>Recent Publications</title>
       <link>/publication/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
       
       <guid>/publication/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</title>
+      <link>/publication/2019_7/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentence-Level Evidence Embedding for End-to-End Claim Verification with Hierarchical Attention Networks</title>
+      <link>/publication/2019_8/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019_8/</guid>
       <description></description>
     </item>
     
