@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 06 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -42,6 +42,24 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/resources/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</title>
+      <link>/publication/2019_7/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentence-Level Evidence Embedding for End-to-End Claim Verification with Hierarchical Attention Networks</title>
+      <link>/publication/2019_8/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2019_8/</guid>
       <description></description>
     </item>
     
@@ -236,24 +254,6 @@ recognition&lt;/li&gt;
  &lt;li&gt; New emerging applications&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Aspect-based Neural Recommender</title>
-      <link>/publication/2018_10/</link>
-      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018_10/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
-      <link>/publication/2018_5/</link>
-      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018_5/</guid>
-      <description></description>
     </item>
     
   </channel>
