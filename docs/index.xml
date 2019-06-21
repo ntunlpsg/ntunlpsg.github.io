@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NTU-NLP on NTU-NLP</title>
@@ -6,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Selected Publications</title>
       <link>/publication/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/publications_selected/</guid>
       <description></description>
@@ -21,7 +22,7 @@
     <item>
       <title>Recent Publications</title>
       <link>/publication/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>/publication/publications/</guid>
       <description></description>
@@ -30,7 +31,7 @@
     <item>
       <title>Recent Posts</title>
       <link>/post/post/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0700</pubDate>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0800</pubDate>
       
       <guid>/post/post/</guid>
       <description></description>
@@ -182,7 +183,7 @@
     <item>
       <title>Discourse Processing and Its Applications in Text Mining --- Tutoral at ICDM-2018</title>
       <link>/project/icdmtutorial/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0700</pubDate>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0800</pubDate>
       
       <guid>/project/icdmtutorial/</guid>
       <description>&lt;p&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 18 Nov 3:40 - 5:40&lt;/br&gt;
