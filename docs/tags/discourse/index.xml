@@ -18,10 +18,7 @@
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/coherence/n-coh-acl18/</guid>
-      <description>About This resource contains the source code of &amp;ldquo;Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach&amp;rdquo; paper. Source code Link to source code
-Datasets Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.
-Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2018 paper.
- @InProceedings{joty-mohiuddin-nguyen-acl-18, title=&amp;quot;{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}&amp;quot;, author={Tasnim Mohiuddin and Shafiq Joty and Dat Nguyen}, booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics}, series ={ACL&#39;18}, publisher={Association for Computational Linguistics}, address = {Melbourne, Australia}, pages={xx--xx}, url = {}, year={2018} }  Licence MIT licence.</description>
+      <description>A neural approach for modeling coherence of asynchronus conversation</description>
     </item>
     
     <item>
@@ -54,9 +51,7 @@ Installation Required for the discourse segmenter:
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/discourse-info-sen2vec/</guid>
-      <description>About This resource contains the source code of CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences. paper.
-Source code Link to source code
-Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and Update  Copy the sen2vec_environment.yml file into anaconda/envs folder Get into anaconda/envs folder. Run the following command:  conda env create -f sen2vec_environment.yml  Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command.</description>
+      <description>CON-S2V: A Generic Framework for Incorporating</description>
     </item>
     
     <item>
@@ -65,9 +60,7 @@ Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/coherence/n-coh-acl17/</guid>
-      <description>About This resource contains the source code of &amp;ldquo;A Neural Local Coherence Model&amp;rdquo; paper. Source code Link to source code
-Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2017 paper.
-@inproceedings{tiennguyen2017, author = {Tien Nguyen, Dat and Joty, Shafiq}, title = {A Neural Local Coherence Model}, booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, month = {July}, year = {2017}, address = {Vancouver, Canada}, publisher = {Association for Computational Linguistics}, pages = {1320--1330}, url = {http://aclweb.</description>
+      <description>Neural coherence for monologue</description>
     </item>
     
     <item>
@@ -76,8 +69,7 @@ Citation If you use the entity grid files (including permutations) and the code,
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/speech-act/</guid>
-      <description>About This resource includes,
- A bi-directional LSTM for speech act recognition (theano, keras) A global CRF model for thread-level inference (Matlab) Tensorflow implementation of all the models presented in the Journal version. Tensorflow implementation of all the models presented in the NAACL-HLT 2019 paper. A web demo.  Related publications  Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models.</description>
+      <description>This resource addresses the problem of speech act recognition in written asynchronous conversations</description>
     </item>
     
     <item>
@@ -86,7 +78,7 @@ Citation If you use the entity grid files (including permutations) and the code,
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/topic-segmenter/</guid>
-      <description>Topic Segmentation and Labeling in Asynchronous Conversations Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations.</description>
+      <description>This parser builds a discourse tree by applying an optimal parsing algorithm to probabilities inferred from two Conditional Random Fields: one for intra-sentential parsing and the other for multi-sentential parsing.</description>
     </item>
     
   </channel>
