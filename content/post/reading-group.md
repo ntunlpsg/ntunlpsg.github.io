@@ -24,13 +24,13 @@ Room No: N4-B1c-17b
 ### Schedules
 ---
 ##### 2019 Jun-Dec  | Deep Learning for Structured Objects and Variational Methods
-##### Time: Tuesdays 11:30 - 12:30
+##### Time: Fridays 15:30 - 17:30
 ---
 
 | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 	&nbsp;&nbsp;  &nbsp; 	&nbsp;  Date    | Topic | Content | Presenter(s) | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;Time |
 | :------- |:--- |:--- |:--- | :--- |
 | 21-06-19 | GPT [Paper](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf),<br> XLM [Paper](https://arxiv.org/abs/1901.07291),<br> Sparse Transformer [Paper](https://d4mucfpksywv.cloudfront.net/Sparse_Transformer/sparse_transformers.pdf) | [Slide](https://drive.google.com/file/d/1vV3v69el71Sq53IlH3OtWcpsn6o0kCGD/view?usp=sharing), <br> [Slide](https://drive.google.com/file/d/1Fb7ki6zxtnXT2Fd9Xfqt2uwSV1AiL9Du/view?usp=sharing), <br> [Slide](https://drive.google.com/file/d/1f_BLBrIiekUp7vQIfwzKrtyclIyVfb1J/view?usp=sharing)  | Tasnim, <br>Tasnim, <br> Shafiq | <small>15:30-17:30 <br>(UTC +8)</small> |
-| 28-06-19 |  |  |  | <small>15:30-17:30 <br>(UTC +8)</small> |
+| 28-06-19 |constituicy parsing [Paper](https://aclweb.org/anthology/P18-1108), <br> Sampling [Paper](https://www.aclweb.org/anthology/N19-1207)  |  | Lin, <br> LinLin | <small>15:30-17:30 <br>(UTC +8)</small> |
 | | | | | |
 | | | | | |
 ---
