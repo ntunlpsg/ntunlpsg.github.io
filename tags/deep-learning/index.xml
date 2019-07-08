@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>deep-learning on NTU-NLP</title>
-    <link>/tags/deep-learning/</link>
+    <link>https://ntunlpsg.github.io/tags/deep-learning/</link>
     <description>Recent content in deep-learning on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ntunlpsg.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Unsupervised Word Translation</title>
-      <link>/project/unsup-word-translation/</link>
+      <link>https://ntunlpsg.github.io/project/unsup-word-translation/</link>
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>/project/unsup-word-translation/</guid>
+      <guid>https://ntunlpsg.github.io/project/unsup-word-translation/</guid>
       <description>Adversarial Autoencoder with Cycle Consistency and Improved Training</description>
     </item>
     
     <item>
       <title>Malay-English Neural Machine Translation System.</title>
-      <link>/project/malay-english-neural-machine-translator/</link>
+      <link>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/malay-english-neural-machine-translator/</guid>
+      <guid>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</guid>
       <description>A demo of malay english Machine translation system.</description>
     </item>
     
