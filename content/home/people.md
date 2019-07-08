@@ -40,18 +40,24 @@ weight = 4
 | [Tasnim Mohiuddin](https://taasnim.github.io/) | [Prathyusha Jwalapuram](https://pjwalapuram.in) | Nguyen Thanh Tung |
 |<img class="img-circle" style="width: 150px;" src="./person/han.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/saiful.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/LinXiang.jpg"> |
 | Hancheol Moon | [M Saiful Bari](https://sbmaruf.github.io) | [Lin Xiang](https://sites.google.com/view/linxiang/home) |
-| |<img class="img-circle" style="width: 150px;" src="./person/linlin.png"> | |
-| | [Linlin Liu](https://sg.linkedin.com/in/linlin-liu-26392846) | |
+| <img class="img-circle" style="width: 150px;" src="./person/linlin.png"> | <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> | |
+|[Linlin Liu](https://sg.linkedin.com/in/linlin-liu-26392846) |[Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | |
 
-|Research Assistant | |
-|:---: | :---: |
-| <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> |<img class="img-circle" style="width: 150px;" src="./person/simeng.jpg"> |
-| [Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [Han Simeng](https://www.linkedin.com/in/simeng-han-746135159/) |
+
+|Research Assistant |
+|:---: |
+| <img class="img-circle" style="width: 150px;" src="./person/simeng.jpg"> |
+| [Han Simeng](https://www.linkedin.com/in/simeng-han-746135159/) |
+
 
 |Visiting Students| | |
 |:---:| :---: | :---: |
 |<img class="img-circle" style="width: 150px;" src="./person/sameer.jpeg">| <img class="img-circle" style="width: 150px;" src="./person/majing.jpg">| <img class="img-circle" style="width: 150px;" src="./person/dominica.jpg">|
 |[Sameer Khurana](http://people.csail.mit.edu/sameerk/) <br> PhD Candidate <br> <small>Massachusetts Institute of Technology <br> July 2018 - Aug 2018</small> | [Jing Ma](https://sites.google.com/site/cuhkjma/) <br> PhD student, <br> <small> The Chinese University of Hong Kong (CUHK) <br>Dec 2018 - Aug 2019 </small>| Dominika Basaj <br> PhD student, <br> <small> Warsaw University of Technology <br>April 2019 - July 2019 </small>|
+|<img class="img-circle" style="width: 150px;" src="./person/thomaz.jpg">| <img class="img-circle" style="width: 150px;" src="./person/barbara.jpeg">| |
+|[Tomasz Stanislawek](https://pl.linkedin.com/in/tomasz-stanisławek-91092729) <br> PhD Student <br> <small>Warsaw University of Technology  <br> July 2019 - Aug 2019</small> | [Barbara Rychalska](https://www.linkedin.com/in/barbara-rychalska-97825634/) <br> PhD student, <br> <small> Warsaw University of Technology <br>July 2019 - Aug 2019 </small> |
+
+
 
 |External Collaborators | | |
 |:---: |:---: |:---: |

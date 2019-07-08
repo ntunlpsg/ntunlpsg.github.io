@@ -4,7 +4,7 @@
     
     <url>
     
-      <loc>/publication/publications_selected/</loc>
+      <loc>https://ntunlpsg.github.io/publication/publications_selected/</loc>
       <lastmod>2016-04-20T00:00:00+07:00</lastmod>
     </url>
     
@@ -13,7 +13,7 @@
     
     <url>
     
-      <loc>/publication/publications/</loc>
+      <loc>https://ntunlpsg.github.io/publication/publications/</loc>
       <lastmod>2016-04-20T00:00:00+07:00</lastmod>
     </url>
     
@@ -22,7 +22,7 @@
     
     <url>
     
-      <loc>/post/post/</loc>
+      <loc>https://ntunlpsg.github.io/post/post/</loc>
       <lastmod>2018-09-10T00:00:00+07:00</lastmod>
     </url>
     
@@ -31,7 +31,7 @@
     
     <url>
     
-      <loc>/resources/list/</loc>
+      <loc>https://ntunlpsg.github.io/resources/list/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -40,7 +40,7 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
+      <loc>https://ntunlpsg.github.io/publication_types/1/</loc>
       <lastmod>2019-05-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>/publication/2019_7/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2019_7/</loc>
       <lastmod>2019-05-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,17 +59,7 @@
     
     <url>
     
-      <loc>/</loc>
-      <lastmod>2019-05-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
+      <loc>https://ntunlpsg.github.io/</loc>
       <lastmod>2019-05-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -79,7 +69,17 @@
     
     <url>
     
-      <loc>/publication/2019_8/</loc>
+      <loc>https://ntunlpsg.github.io/publication_types/</loc>
+      <lastmod>2019-05-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/publication/2019_8/</loc>
       <lastmod>2019-05-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -88,7 +88,7 @@
     
     <url>
     
-      <loc>/publication/2019_6/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2019_6/</loc>
       <lastmod>2019-04-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -97,7 +97,7 @@
     
     <url>
     
-      <loc>/publication/2019_4/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2019_4/</loc>
       <lastmod>2019-04-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -106,7 +106,7 @@
     
     <url>
     
-      <loc>/publication/2019_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2019_1/</loc>
       <lastmod>2019-04-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -115,7 +115,7 @@
     
     <url>
     
-      <loc>/publication/2019_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2019_3/</loc>
       <lastmod>2019-04-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -124,7 +124,7 @@
     
     <url>
     
-      <loc>/publication/2019_5/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2019_5/</loc>
       <lastmod>2019-04-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -133,7 +133,7 @@
     
     <url>
     
-      <loc>/publication/2019_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2019_2/</loc>
       <lastmod>2019-04-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -142,7 +142,7 @@
     
     <url>
     
-      <loc>/project/</loc>
+      <loc>https://ntunlpsg.github.io/project/</loc>
       <lastmod>2019-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -152,7 +152,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://ntunlpsg.github.io/tags/</loc>
       <lastmod>2019-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -162,7 +162,7 @@
     
     <url>
     
-      <loc>/project/unsup-word-translation/</loc>
+      <loc>https://ntunlpsg.github.io/project/unsup-word-translation/</loc>
       <lastmod>2019-04-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -171,7 +171,7 @@
     
     <url>
     
-      <loc>/tags/deep-learning/</loc>
+      <loc>https://ntunlpsg.github.io/tags/deep-learning/</loc>
       <lastmod>2019-04-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -181,7 +181,7 @@
     
     <url>
     
-      <loc>/project/malay-english-neural-machine-translator/</loc>
+      <loc>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</loc>
       <lastmod>2018-09-07T00:00:00+00:00</lastmod>
     </url>
     
@@ -190,7 +190,7 @@
     
     <url>
     
-      <loc>/tags/multi-lingual/</loc>
+      <loc>https://ntunlpsg.github.io/tags/multi-lingual/</loc>
       <lastmod>2018-09-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -200,7 +200,7 @@
     
     <url>
     
-      <loc>/project/icdmtutorial/</loc>
+      <loc>https://ntunlpsg.github.io/project/icdmtutorial/</loc>
       <lastmod>2018-09-07T00:00:00+07:00</lastmod>
     </url>
     
@@ -209,7 +209,7 @@
     
     <url>
     
-      <loc>/tags/discourse-analysis/</loc>
+      <loc>https://ntunlpsg.github.io/tags/discourse-analysis/</loc>
       <lastmod>2018-09-07T00:00:00+07:00</lastmod>
       <priority>0</priority>
     </url>
@@ -219,7 +219,7 @@
     
     <url>
     
-      <loc>/publication/2018_10/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_10/</loc>
       <lastmod>2018-08-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -228,7 +228,7 @@
     
     <url>
     
-      <loc>/publication/2018_5/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_5/</loc>
       <lastmod>2018-07-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -237,7 +237,7 @@
     
     <url>
     
-      <loc>/publication/2018_11/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_11/</loc>
       <lastmod>2018-07-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -246,7 +246,7 @@
     
     <url>
     
-      <loc>/publication/2018_4/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_4/</loc>
       <lastmod>2018-07-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -255,7 +255,7 @@
     
     <url>
     
-      <loc>/publication/2018_9/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_9/</loc>
       <lastmod>2018-07-02T00:00:00+00:00</lastmod>
     </url>
     
@@ -264,7 +264,7 @@
     
     <url>
     
-      <loc>/publication/2018_8/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_8/</loc>
       <lastmod>2018-07-02T00:00:00+00:00</lastmod>
     </url>
     
@@ -273,7 +273,7 @@
     
     <url>
     
-      <loc>/publication/2018_7/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_7/</loc>
       <lastmod>2018-07-02T00:00:00+00:00</lastmod>
     </url>
     
@@ -282,7 +282,7 @@
     
     <url>
     
-      <loc>/project/coherence/n-coh-acl18/</loc>
+      <loc>https://ntunlpsg.github.io/project/coherence/n-coh-acl18/</loc>
       <lastmod>2018-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -291,7 +291,7 @@
     
     <url>
     
-      <loc>/tags/discourse/</loc>
+      <loc>https://ntunlpsg.github.io/tags/discourse/</loc>
       <lastmod>2018-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -301,7 +301,7 @@
     
     <url>
     
-      <loc>/publication/2018_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_3/</loc>
       <lastmod>2018-04-02T00:00:00+00:00</lastmod>
     </url>
     
@@ -310,7 +310,7 @@
     
     <url>
     
-      <loc>/publication/2018_6/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_6/</loc>
       <lastmod>2018-03-18T00:00:00+00:00</lastmod>
     </url>
     
@@ -319,7 +319,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
+      <loc>https://ntunlpsg.github.io/publication_types/2/</loc>
       <lastmod>2018-03-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -329,7 +329,7 @@
     
     <url>
     
-      <loc>/publication/j_9/</loc>
+      <loc>https://ntunlpsg.github.io/publication/j_9/</loc>
       <lastmod>2018-03-03T00:00:00+00:00</lastmod>
     </url>
     
@@ -338,7 +338,7 @@
     
     <url>
     
-      <loc>/post/news/</loc>
+      <loc>https://ntunlpsg.github.io/post/news/</loc>
       <lastmod>2018-02-28T00:00:00+07:00</lastmod>
     </url>
     
@@ -347,7 +347,7 @@
     
     <url>
     
-      <loc>/post/reading-group/</loc>
+      <loc>https://ntunlpsg.github.io/post/reading-group/</loc>
       <lastmod>2018-02-28T00:00:00+07:00</lastmod>
     </url>
     
@@ -356,7 +356,7 @@
     
     <url>
     
-      <loc>/post/reding-group/</loc>
+      <loc>https://ntunlpsg.github.io/post/reding-group/</loc>
       <lastmod>2018-02-28T00:00:00+07:00</lastmod>
     </url>
     
@@ -365,7 +365,7 @@
     
     <url>
     
-      <loc>/post/talk/</loc>
+      <loc>https://ntunlpsg.github.io/post/talk/</loc>
       <lastmod>2018-02-28T00:00:00+07:00</lastmod>
     </url>
     
@@ -374,7 +374,7 @@
     
     <url>
     
-      <loc>/publication/2018_2_ai/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_2_ai/</loc>
       <lastmod>2018-02-18T00:00:00+00:00</lastmod>
     </url>
     
@@ -383,7 +383,7 @@
     
     <url>
     
-      <loc>/publication/2018_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2018_1/</loc>
       <lastmod>2018-02-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -392,7 +392,7 @@
     
     <url>
     
-      <loc>/publication/2017_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2017_2/</loc>
       <lastmod>2017-09-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -401,7 +401,7 @@
     
     <url>
     
-      <loc>/publication/j_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/j_2/</loc>
       <lastmod>2017-08-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -410,7 +410,7 @@
     
     <url>
     
-      <loc>/publication/j_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/j_3/</loc>
       <lastmod>2017-08-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -419,7 +419,7 @@
     
     <url>
     
-      <loc>/publication/2017_5/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2017_5/</loc>
       <lastmod>2017-08-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -428,7 +428,7 @@
     
     <url>
     
-      <loc>/publication/j_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/j_1/</loc>
       <lastmod>2017-08-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -437,7 +437,7 @@
     
     <url>
     
-      <loc>/publication/2017_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2017_1/</loc>
       <lastmod>2017-08-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -446,7 +446,7 @@
     
     <url>
     
-      <loc>/publication/2017_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2017_3/</loc>
       <lastmod>2017-08-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -455,7 +455,7 @@
     
     <url>
     
-      <loc>/publication/2017_6/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2017_6/</loc>
       <lastmod>2017-05-18T00:00:00+00:00</lastmod>
     </url>
     
@@ -464,7 +464,7 @@
     
     <url>
     
-      <loc>/publication/2017_4/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2017_4/</loc>
       <lastmod>2017-03-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -473,7 +473,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>https://ntunlpsg.github.io/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -482,7 +482,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>https://ntunlpsg.github.io/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -491,7 +491,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>https://ntunlpsg.github.io/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -500,7 +500,7 @@
     
     <url>
     
-      <loc>/talk/giuseppecarenini/</loc>
+      <loc>https://ntunlpsg.github.io/talk/giuseppecarenini/</loc>
       <lastmod>2017-01-01T00:00:00+07:00</lastmod>
     </url>
     
@@ -509,7 +509,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>https://ntunlpsg.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00+07:00</lastmod>
     </url>
     
@@ -518,7 +518,7 @@
     
     <url>
     
-      <loc>/resources/</loc>
+      <loc>https://ntunlpsg.github.io/resources/</loc>
       <lastmod>2017-01-01T00:00:00+07:00</lastmod>
     </url>
     
@@ -527,7 +527,7 @@
     
     <url>
     
-      <loc>/publication/2016_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2016_3/</loc>
       <lastmod>2016-12-16T00:00:00+00:00</lastmod>
     </url>
     
@@ -536,7 +536,7 @@
     
     <url>
     
-      <loc>/publication/2016_4/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2016_4/</loc>
       <lastmod>2016-12-16T00:00:00+00:00</lastmod>
     </url>
     
@@ -545,7 +545,7 @@
     
     <url>
     
-      <loc>/publication/j_4/</loc>
+      <loc>https://ntunlpsg.github.io/publication/j_4/</loc>
       <lastmod>2016-11-04T00:00:00+00:00</lastmod>
     </url>
     
@@ -554,7 +554,7 @@
     
     <url>
     
-      <loc>/publication/2016_6/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2016_6/</loc>
       <lastmod>2016-10-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -563,7 +563,7 @@
     
     <url>
     
-      <loc>/publication/2016_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2016_1/</loc>
       <lastmod>2016-08-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -572,7 +572,7 @@
     
     <url>
     
-      <loc>/publication/2016_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2016_2/</loc>
       <lastmod>2016-07-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -581,7 +581,7 @@
     
     <url>
     
-      <loc>/publication/2016_5/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2016_5/</loc>
       <lastmod>2016-06-13T00:00:00+00:00</lastmod>
     </url>
     
@@ -590,7 +590,7 @@
     
     <url>
     
-      <loc>/project/parser/pointer-net-parser/</loc>
+      <loc>https://ntunlpsg.github.io/project/parser/pointer-net-parser/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -599,7 +599,7 @@
     
     <url>
     
-      <loc>/project/community-qa/</loc>
+      <loc>https://ntunlpsg.github.io/project/community-qa/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -608,7 +608,7 @@
     
     <url>
     
-      <loc>/project/crisis-computing/</loc>
+      <loc>https://ntunlpsg.github.io/project/crisis-computing/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -617,7 +617,7 @@
     
     <url>
     
-      <loc>/project/parser/parser/</loc>
+      <loc>https://ntunlpsg.github.io/project/parser/parser/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -626,7 +626,7 @@
     
     <url>
     
-      <loc>/project/discourse-info-sen2vec/</loc>
+      <loc>https://ntunlpsg.github.io/project/discourse-info-sen2vec/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -635,7 +635,7 @@
     
     <url>
     
-      <loc>/project/neural-domain-adaptation-model-for-machine-translation/</loc>
+      <loc>https://ntunlpsg.github.io/project/neural-domain-adaptation-model-for-machine-translation/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -644,7 +644,7 @@
     
     <url>
     
-      <loc>/project/coherence/n-coh-acl17/</loc>
+      <loc>https://ntunlpsg.github.io/project/coherence/n-coh-acl17/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -653,7 +653,7 @@
     
     <url>
     
-      <loc>/project/opinion-analysis/</loc>
+      <loc>https://ntunlpsg.github.io/project/opinion-analysis/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -662,7 +662,7 @@
     
     <url>
     
-      <loc>/project/speech-act/</loc>
+      <loc>https://ntunlpsg.github.io/project/speech-act/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -671,7 +671,7 @@
     
     <url>
     
-      <loc>/project/topic-segmenter/</loc>
+      <loc>https://ntunlpsg.github.io/project/topic-segmenter/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -680,17 +680,7 @@
     
     <url>
     
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/misc/</loc>
+      <loc>https://ntunlpsg.github.io/tags/demo/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -700,7 +690,7 @@
     
     <url>
     
-      <loc>/tags/question-answering/</loc>
+      <loc>https://ntunlpsg.github.io/tags/misc/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -710,7 +700,7 @@
     
     <url>
     
-      <loc>/tags/representation-learning/</loc>
+      <loc>https://ntunlpsg.github.io/tags/question-answering/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -720,7 +710,17 @@
     
     <url>
     
-      <loc>/project/segbot/</loc>
+      <loc>https://ntunlpsg.github.io/tags/representation-learning/</loc>
+      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/segbot/</loc>
       <lastmod>2016-04-18T00:00:00+00:00</lastmod>
     </url>
     
@@ -729,7 +729,7 @@
     
     <url>
     
-      <loc>/publication/2015_6/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2015_6/</loc>
       <lastmod>2015-10-16T00:00:00+00:00</lastmod>
     </url>
     
@@ -738,7 +738,7 @@
     
     <url>
     
-      <loc>/publication/j_5/</loc>
+      <loc>https://ntunlpsg.github.io/publication/j_5/</loc>
       <lastmod>2015-09-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -747,7 +747,7 @@
     
     <url>
     
-      <loc>/publication/2015_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2015_2/</loc>
       <lastmod>2015-09-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -756,7 +756,7 @@
     
     <url>
     
-      <loc>/publication/2015_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2015_3/</loc>
       <lastmod>2015-09-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -765,7 +765,7 @@
     
     <url>
     
-      <loc>/publication/2015_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2015_1/</loc>
       <lastmod>2015-09-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -774,7 +774,7 @@
     
     <url>
     
-      <loc>/publication/2015_5/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2015_5/</loc>
       <lastmod>2015-09-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -783,7 +783,7 @@
     
     <url>
     
-      <loc>/publication/2015_4/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2015_4/</loc>
       <lastmod>2015-07-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -792,7 +792,7 @@
     
     <url>
     
-      <loc>/publication/2015_7/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2015_7/</loc>
       <lastmod>2015-06-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -801,7 +801,7 @@
     
     <url>
     
-      <loc>/publication/2014_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2014_2/</loc>
       <lastmod>2014-10-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -810,7 +810,7 @@
     
     <url>
     
-      <loc>/publication/2014_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2014_3/</loc>
       <lastmod>2014-10-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -819,7 +819,7 @@
     
     <url>
     
-      <loc>/publication/2014_5/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2014_5/</loc>
       <lastmod>2014-08-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -828,7 +828,7 @@
     
     <url>
     
-      <loc>/publication/2014_6/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2014_6/</loc>
       <lastmod>2014-06-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -837,7 +837,7 @@
     
     <url>
     
-      <loc>/publication/2014_7/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2014_7/</loc>
       <lastmod>2014-06-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -846,7 +846,7 @@
     
     <url>
     
-      <loc>/publication/2014_4/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2014_4/</loc>
       <lastmod>2014-06-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -855,7 +855,7 @@
     
     <url>
     
-      <loc>/publication/2014_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2014_1/</loc>
       <lastmod>2013-10-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -864,7 +864,7 @@
     
     <url>
     
-      <loc>/publication/2013_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2013_3/</loc>
       <lastmod>2013-08-24T00:00:00+00:00</lastmod>
     </url>
     
@@ -873,7 +873,7 @@
     
     <url>
     
-      <loc>/publication/2013_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2013_1/</loc>
       <lastmod>2013-08-09T00:00:00+00:00</lastmod>
     </url>
     
@@ -882,7 +882,7 @@
     
     <url>
     
-      <loc>/publication/j_6/</loc>
+      <loc>https://ntunlpsg.github.io/publication/j_6/</loc>
       <lastmod>2013-07-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -891,7 +891,7 @@
     
     <url>
     
-      <loc>/publication/2013_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2013_2/</loc>
       <lastmod>2013-06-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -900,7 +900,7 @@
     
     <url>
     
-      <loc>/publication/2012_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2012_1/</loc>
       <lastmod>2012-08-14T00:00:00+00:00</lastmod>
     </url>
     
@@ -909,7 +909,7 @@
     
     <url>
     
-      <loc>/publication/2012_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2012_2/</loc>
       <lastmod>2012-05-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -918,7 +918,7 @@
     
     <url>
     
-      <loc>/publication/2012_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2012_3/</loc>
       <lastmod>2012-05-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -927,7 +927,7 @@
     
     <url>
     
-      <loc>/publication/j_8/</loc>
+      <loc>https://ntunlpsg.github.io/publication/j_8/</loc>
       <lastmod>2011-11-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -936,7 +936,7 @@
     
     <url>
     
-      <loc>/publication/2011_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2011_1/</loc>
       <lastmod>2011-07-22T00:00:00+00:00</lastmod>
     </url>
     
@@ -945,7 +945,7 @@
     
     <url>
     
-      <loc>/publication/2011_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2011_2/</loc>
       <lastmod>2011-07-21T00:00:00+00:00</lastmod>
     </url>
     
@@ -954,7 +954,7 @@
     
     <url>
     
-      <loc>/publication/2011_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2011_3/</loc>
       <lastmod>2011-05-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -963,7 +963,7 @@
     
     <url>
     
-      <loc>/publication/2010_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2010_1/</loc>
       <lastmod>2010-10-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -972,7 +972,7 @@
     
     <url>
     
-      <loc>/publication/2010_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2010_2/</loc>
       <lastmod>2010-04-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -981,7 +981,7 @@
     
     <url>
     
-      <loc>/publication/2009_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2009_1/</loc>
       <lastmod>2009-12-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -990,7 +990,7 @@
     
     <url>
     
-      <loc>/publication/2009_4/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2009_4/</loc>
       <lastmod>2009-09-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -999,7 +999,7 @@
     
     <url>
     
-      <loc>/publication/2009_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2009_2/</loc>
       <lastmod>2009-08-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -1008,7 +1008,7 @@
     
     <url>
     
-      <loc>/publication/j_7/</loc>
+      <loc>https://ntunlpsg.github.io/publication/j_7/</loc>
       <lastmod>2009-05-28T00:00:00+00:00</lastmod>
     </url>
     
@@ -1017,7 +1017,7 @@
     
     <url>
     
-      <loc>/publication/2009_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2009_3/</loc>
       <lastmod>2009-05-23T00:00:00+00:00</lastmod>
     </url>
     
@@ -1026,7 +1026,7 @@
     
     <url>
     
-      <loc>/publication/2008_4/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2008_4/</loc>
       <lastmod>2008-11-29T00:00:00+00:00</lastmod>
     </url>
     
@@ -1035,7 +1035,7 @@
     
     <url>
     
-      <loc>/publication/2008_6/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2008_6/</loc>
       <lastmod>2008-11-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -1044,7 +1044,7 @@
     
     <url>
     
-      <loc>/publication/2008_5/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2008_5/</loc>
       <lastmod>2008-11-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -1053,7 +1053,7 @@
     
     <url>
     
-      <loc>/publication/2008_7/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2008_7/</loc>
       <lastmod>2008-11-25T00:00:00+00:00</lastmod>
     </url>
     
@@ -1062,7 +1062,7 @@
     
     <url>
     
-      <loc>/publication/2008_3/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2008_3/</loc>
       <lastmod>2008-11-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -1071,7 +1071,7 @@
     
     <url>
     
-      <loc>/publication/2008_1/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2008_1/</loc>
       <lastmod>2008-11-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -1080,7 +1080,7 @@
     
     <url>
     
-      <loc>/publication/2008_2/</loc>
+      <loc>https://ntunlpsg.github.io/publication/2008_2/</loc>
       <lastmod>2008-11-15T00:00:00+00:00</lastmod>
     </url>
     
@@ -1089,7 +1089,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://ntunlpsg.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
