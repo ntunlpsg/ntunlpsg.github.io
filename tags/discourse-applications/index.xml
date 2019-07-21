@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>discourse-analysis on NTU-NLP</title>
-    <link>https://ntunlpsg.github.io/tags/discourse-analysis/</link>
-    <description>Recent content in discourse-analysis on NTU-NLP</description>
+    <title>discourse-applications on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/tags/discourse-applications/</link>
+    <description>Recent content in discourse-applications on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://ntunlpsg.github.io/tags/discourse-analysis/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ntunlpsg.github.io/tags/discourse-applications/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://ntunlpsg.github.io/project/acl19tutorial/</guid>
       <description>Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many NLP applications.</description>
-    </item>
-    
-    <item>
-      <title>Discourse Processing and Its Applications in Text Mining --- Tutoral at ICDM-2018</title>
-      <link>https://ntunlpsg.github.io/project/icdmtutorial/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/icdmtutorial/</guid>
-      <description>Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many text mining applications.</description>
     </item>
     
   </channel>
