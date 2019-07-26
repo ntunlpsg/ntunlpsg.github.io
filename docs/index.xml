@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -43,6 +43,84 @@
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Discourse Processing and Its Applications --- Tutoral at ACL-2019</title>
+      <link>https://ntunlpsg.github.io/project/acl19tutorial/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/acl19tutorial/</guid>
+      <description>&lt;p&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 28 July 9:30 - 12:30 &lt;/br&gt;
+&lt;strong&gt;Location:&lt;/strong&gt; TBA &lt;/br&gt;&lt;/p&gt;
+&lt;strong&gt;Slides:&lt;/strong&gt; [Part-1] (), &lt;a href=&#34;https://www.dropbox.com/s/gj3hvij9rno35l8/ACL-19-tutorial-part2.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Part-2&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Tutors&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;https://raihanjoty.github.io/img/nav/shafiq.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;http://www.cs.ubc.ca/~carenini/carenini.jpg &#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;https://www.cs.ubc.ca/~rng/Raymond_Ng.JPG&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;https://www.ufv.ca/media/assets/computer-information-systems/pictures/gabe-headshot-200x201.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://raihanjoty.github.io/&#34; target=&#34;_blank&#34;&gt;Shafiq Joty&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~carenini/&#34; target=&#34;_blank&#34;&gt;Giuseppe Carenini&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.cs.ubc.ca/~rng/&#34; target=&#34;_blank&#34;&gt;Raymond T Ng&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.ufv.ca/cis/faculty-and-staff/murray-gabriel.htm&#34; target=&#34;_blank&#34;&gt;Gabriel Murray&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;h2 id=&#34;tutorialabstract&#34;&gt;Tutorial Abstract&lt;/h2&gt;
+ &lt;p&gt;&lt;em&gt;Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many downstream applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, machine translation, essay scoring, sentiment analysis,  information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis &amp;ndash; monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. We also give an overview of linguistic structures and corresponding discourse analysis tasks that discourse researchers are generally interested in, as well as key applications on which these discourse structures have an impact. &lt;/em&gt;&lt;/p&gt;
+ &lt;h2 id=&#34;tutorialoutline&#34;&gt;Tutorial Outline&lt;/h2&gt;
+ &lt;p&gt;&lt;strong&gt;Introduction [25 mins] &lt;/strong&gt; &lt;/p&gt;
+ &lt;ul&gt;
+&lt;li&gt; Discourse &amp;amp; its different forms&lt;/li&gt;
+&lt;li&gt; Two discourse phenomena &lt;/li&gt;
+ &lt;li&gt; Linguistic structures in discourse &amp;amp; discourse analysis tasks &lt;/li&gt;
+ &lt;li&gt; Applications of discourse analysis&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;p&gt;&lt;strong&gt; Coherence Structure, Corpora &amp;amp; Discourse Parsing [45 mins] &lt;/strong&gt; &lt;/p&gt;
+ &lt;ul&gt;
+&lt;li&gt; Discourse theories &amp;amp; coherence relations &lt;/li&gt;
+ &lt;li&gt; Discourse parsing with RST&lt;/li&gt;
+ &lt;li&gt; Discourse parsing in PDTB&lt;/li&gt;
+ &lt;li&gt; Final remarks &lt;/li&gt;
+&lt;/ul&gt;
+ &lt;p&gt;&lt;strong&gt;Coffee Break [15 mins]&lt;/strong&gt; &lt;/p&gt;
+ &lt;p&gt;&lt;strong&gt;Coherence Models &amp;amp; Applications of Discourse [45 mins] &lt;/strong&gt; &lt;/p&gt;
+ &lt;ul&gt;
+&lt;li&gt; Overview of coherence models &lt;/li&gt;
+ &lt;li&gt; Evaluation tasks &lt;/li&gt;
+ &lt;li&gt; Applications of discourse &lt;/li&gt;
+&lt;/ul&gt;
+ &lt;p&gt;&lt;strong&gt;Conversational Structure [35 mins]&lt;/strong&gt; &lt;/p&gt;
+ &lt;ul&gt;
+&lt;li&gt; Discourse Structures in Conversations&lt;/li&gt;
+ &lt;li&gt; Thread identification models for synchronous &amp;amp; asynchronous conversations &lt;/li&gt;
+ &lt;li&gt; Speech act recognition models for synchronous &amp;amp; asynchronous conversations&lt;/li&gt;
+ &lt;li&gt; Evaluation &amp;amp; Applications&lt;/li&gt;
+&lt;/ul&gt;
+ &lt;p&gt;&lt;strong&gt; Future Challenges [15 mins] &lt;/strong&gt; &lt;/p&gt;
+ &lt;ul&gt;
+&lt;li&gt; Learning from limited annotated data&lt;/li&gt;
+ &lt;li&gt; Language &amp;amp; domain transfer &lt;/li&gt;
+ &lt;li&gt; Discourse generation &lt;/li&gt;
+ &lt;li&gt; New emerging applications&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -176,83 +254,6 @@
 &lt;form action=&#34;http://172.21.145.63:4200&#34;&gt;
     &lt;input type=&#34;submit&#34; value=&#34;The link of the demo&#34; /&gt;
 &lt;/form&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Discourse Processing and Its Applications in Text Mining --- Tutoral at ICDM-2018</title>
-      <link>https://ntunlpsg.github.io/project/icdmtutorial/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/icdmtutorial/</guid>
-      <description>&lt;p&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 18 Nov 3:40 - 5:40&lt;/br&gt;
-&lt;strong&gt;Location:&lt;/strong&gt; Virgo IV (Resort World Sentosa), Singapore. &lt;/br&gt;&lt;/p&gt;
-&lt;strong&gt;Slides:&lt;/strong&gt; &lt;a href=&#34;https://drive.google.com/open?id=1XmaN6tXxnVasw8Sp0cr0FXbG7KHsEJlM&#34; target=&#34;_blank&#34;&gt;Part-1&lt;/a&gt;, &lt;a href=&#34;https://drive.google.com/open?id=1QcbkKGZI8BAZh3v0_36BKDHw-rpOLjVC&#34; target=&#34;_blank&#34;&gt;Part-2&lt;/a&gt;&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Tutors&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;https://raihanjoty.github.io/img/nav/shafiq.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;http://www.cs.ubc.ca/~carenini/carenini.jpg &#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;https://www.cs.ubc.ca/~rng/Raymond_Ng.JPG&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 150px;height: 150px;&#34; src=&#34;https://www.ufv.ca/media/assets/computer-information-systems/pictures/gabe-headshot-200x201.jpg&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://raihanjoty.github.io/&#34; target=&#34;_blank&#34;&gt;Shafiq Joty&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;http://www.cs.ubc.ca/~carenini/&#34; target=&#34;_blank&#34;&gt;Giuseppe Carenini&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.cs.ubc.ca/~rng/&#34; target=&#34;_blank&#34;&gt;Raymond T Ng&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.ufv.ca/cis/faculty-and-staff/murray-gabriel.htm&#34; target=&#34;_blank&#34;&gt;Gabriel Murray&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;h2 id=&#34;tutorialabstract&#34;&gt;Tutorial Abstract&lt;/h2&gt;
- &lt;p&gt;&lt;em&gt;Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many text mining applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse. Taken together, these structures can inform text summarization, essay scoring, sentiment analysis, machine translation, information extraction, question answering, and thread recovery. The tutorial starts with an overview of basic concepts in discourse analysis – monologue vs. conversation, synchronous vs. asynchronous conversation, and key linguistic structures in discourse analysis. It then covers traditional machine learning methods along with the most recent works using deep learning, and compare their performances on benchmark datasets. For each discourse structure we describe, we show its applications in downstream text mining tasks. Methods and metrics for evaluation are discussed in detail. We conclude the tutorial with an interactive discussion of future challenges and opportunities.&lt;/em&gt;&lt;/p&gt;
- &lt;h2 id=&#34;tutorialoutline&#34;&gt;Tutorial Outline&lt;/h2&gt;
- &lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt; &lt;/p&gt;
- &lt;ul&gt;
-&lt;li&gt; Discourse &amp;amp; its different forms&lt;/li&gt;
- &lt;li&gt; Linguistic structures in discourse &amp;amp; discourse analysis tasks
-recognition&lt;/li&gt;
- &lt;li&gt; Applications of discourse analysis&lt;/li&gt;
-&lt;/ul&gt;
- &lt;p&gt;&lt;strong&gt;Discourse Parsing &amp;amp; Its Applications&lt;/strong&gt; &lt;/p&gt;
- &lt;ul&gt;
-&lt;li&gt; Discourse annotations&lt;/li&gt;
- &lt;li&gt; Discourse parsing with RST&lt;/li&gt;
- &lt;li&gt; Discourse parsing in PDTB&lt;/li&gt;
- &lt;li&gt; Applications of Discourse Parsing&lt;/li&gt;
-&lt;/ul&gt;
- &lt;p&gt;&lt;strong&gt;Coffee Break&lt;/strong&gt; &lt;/p&gt;
- &lt;p&gt;&lt;strong&gt;Coherence Models &amp;amp; Its Applications&lt;/strong&gt; &lt;/p&gt;
- &lt;ul&gt;
-&lt;li&gt; Coherence models for Texts&lt;/li&gt;
- &lt;li&gt; Coherence models for Conversations&lt;/li&gt;
- &lt;li&gt; Applications (Evaluation tasks)&lt;/li&gt;
-&lt;/ul&gt;
- &lt;p&gt;&lt;strong&gt;Conversational Structures&lt;/strong&gt; &lt;/p&gt;
- &lt;ul&gt;
-&lt;li&gt; Discourse Structures in Conversations&lt;/li&gt;
- &lt;li&gt; Thread identification models for synchronous &amp;amp; asynchronous conversations &lt;/li&gt;
- &lt;li&gt; Speech act recognition models for synchronous &amp;amp; asynchronous conversations&lt;/li&gt;
- &lt;li&gt; Evaluation &amp;amp; Applications&lt;/li&gt;
-&lt;/ul&gt;
- &lt;p&gt;&lt;strong&gt;Conclusions &amp;amp; Future Challenges&lt;/strong&gt; &lt;/p&gt;
- &lt;ul&gt;
-&lt;li&gt; Learning from limited annotated data&lt;/li&gt;
- &lt;li&gt; Language &amp;amp; domain transfer &lt;/li&gt;
- &lt;li&gt; New emerging applications&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
 </description>
     </item>
     
