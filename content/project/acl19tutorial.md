@@ -30,7 +30,7 @@ caption = ""
 
 <p><strong>Time:</strong> 28 July 9:30 - 12:30 </br>
 <strong>Location:</strong> TBA </br></p>
-<strong>Slides:</strong> [Part-1] (), [Part-2](https://www.dropbox.com/s/gj3hvij9rno35l8/ACL-19-tutorial-part2.pdf?dl=0) 
+<strong>Slides:</strong> [Part-1] (https://www.dropbox.com/s/l1fyx5ejvwvsi6l/ACL-19-tutorial-part1.pdf?dl=0), [Part-2](https://www.dropbox.com/s/gj3hvij9rno35l8/ACL-19-tutorial-part2.pdf?dl=0) 
 
 | Tutors | | | |
 |:---: | :---: | :---: | :---: |

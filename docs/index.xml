@@ -6,13 +6,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Selected Publications</title>
       <link>https://ntunlpsg.github.io/publication/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/publications_selected/</guid>
       <description></description>
@@ -21,7 +21,7 @@
     <item>
       <title>Recent Publications</title>
       <link>https://ntunlpsg.github.io/publication/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/publications/</guid>
       <description></description>
@@ -30,7 +30,7 @@
     <item>
       <title>Recent Posts</title>
       <link>https://ntunlpsg.github.io/post/post/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/post/post/</guid>
       <description></description>
@@ -48,12 +48,12 @@
     <item>
       <title>Discourse Processing and Its Applications --- Tutoral at ACL-2019</title>
       <link>https://ntunlpsg.github.io/project/acl19tutorial/</link>
-      <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0700</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/acl19tutorial/</guid>
       <description>&lt;p&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 28 July 9:30 - 12:30 &lt;/br&gt;
 &lt;strong&gt;Location:&lt;/strong&gt; TBA &lt;/br&gt;&lt;/p&gt;
-&lt;strong&gt;Slides:&lt;/strong&gt; [Part-1] (), &lt;a href=&#34;https://www.dropbox.com/s/gj3hvij9rno35l8/ACL-19-tutorial-part2.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Part-2&lt;/a&gt;&lt;/p&gt;
+&lt;strong&gt;Slides:&lt;/strong&gt; &lt;a href=&#34;https://www.dropbox.com/s/l1fyx5ejvwvsi6l/ACL-19-tutorial-part1.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Part-1&lt;/a&gt;, &lt;a href=&#34;https://www.dropbox.com/s/gj3hvij9rno35l8/ACL-19-tutorial-part2.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Part-2&lt;/a&gt;&lt;/p&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
