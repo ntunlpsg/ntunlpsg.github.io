@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 04 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0700</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>acl-2019</title>
+      <link>https://ntunlpsg.github.io/tags/acl-2019/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0700</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/acl-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>discourse-analysis</title>
+      <link>https://ntunlpsg.github.io/tags/discourse-analysis/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0700</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/discourse-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>discourse-applications</title>
+      <link>https://ntunlpsg.github.io/tags/discourse-applications/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0700</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/discourse-applications/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>deep-learning</title>
@@ -27,15 +54,6 @@
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/tags/multi-lingual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>discourse-analysis</title>
-      <link>https://ntunlpsg.github.io/tags/discourse-analysis/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0700</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/discourse-analysis/</guid>
       <description></description>
     </item>
     
