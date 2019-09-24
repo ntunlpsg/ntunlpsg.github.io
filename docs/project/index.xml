@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hierarchical Pointer Net Parsing</title>
+      <link>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</guid>
+      <description>A hierarchical pointer network parsers applied to dependency and sentence-level discourse parsing tasks.</description>
+    </item>
     
     <item>
       <title>Discourse Processing and Its Applications --- Tutoral at ACL-2019</title>
