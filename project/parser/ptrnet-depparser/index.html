@@ -17,12 +17,10 @@
       
     
   
-  <meta name="description" content="This repository contains the source code of our paper &ldquo;A Unified Linear-Time Framework for Sentence-Level Discourse Parsing&rdquo; in ACL 2019.
- Getting Started These instructions will help you to run our unified discourse parser based on RST dataset.
-Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train and evaluate the model with the standard RST Discourse Treebank (RST-DT) corpus. * Segmenter: we utilize all 7673 sentences for training and 991 sentences for testing.">
+  <meta name="description" content="A hierarchical pointer network parsers applied to dependency and sentence-level discourse parsing tasks.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/parser/pointer-net-parser/">
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/parser/ptrnet-depparser/">
 
   
 
@@ -77,7 +75,7 @@ Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train an
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ntunlpsg.github.io/project/parser/pointer-net-parser/">
+  <link rel="canonical" href="https://ntunlpsg.github.io/project/parser/ptrnet-depparser/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -85,21 +83,19 @@ Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train an
   <meta property="twitter:creator" content="@ntunlpsg">
   
   <meta property="og:site_name" content="NTU-NLP">
-  <meta property="og:url" content="https://ntunlpsg.github.io/project/parser/pointer-net-parser/">
-  <meta property="og:title" content="A Unified Linear-Time Framework for Sentence-Level Discourse Parsing | NTU-NLP">
-  <meta property="og:description" content="This repository contains the source code of our paper &ldquo;A Unified Linear-Time Framework for Sentence-Level Discourse Parsing&rdquo; in ACL 2019.
- Getting Started These instructions will help you to run our unified discourse parser based on RST dataset.
-Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train and evaluate the model with the standard RST Discourse Treebank (RST-DT) corpus. * Segmenter: we utilize all 7673 sentences for training and 991 sentences for testing."><meta property="og:image" content="https://ntunlpsg.github.io/img/Parser.png">
+  <meta property="og:url" content="https://ntunlpsg.github.io/project/parser/ptrnet-depparser/">
+  <meta property="og:title" content="Hierarchical Pointer Net Parsing | NTU-NLP">
+  <meta property="og:description" content="A hierarchical pointer network parsers applied to dependency and sentence-level discourse parsing tasks."><meta property="og:image" content="https://ntunlpsg.github.io/img/h-ptrnet.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-04-28T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-09-24T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2016-04-28T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2019-09-24T00:00:00&#43;00:00">
   
 
-  <title>A Unified Linear-Time Framework for Sentence-Level Discourse Parsing | NTU-NLP</title>
+  
+
+  <title>Hierarchical Pointer Net Parsing | NTU-NLP</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -275,8 +271,8 @@ Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train an
 
   
 <div class="article-header">
-  <img src="/img/Parser.png" class="article-banner" itemprop="image">
-  <span class="article-header-caption"><a href="https://arxiv.org/abs/1905.05682" target="_blank">A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</a></span>
+  <img src="/img/h-ptrnet.png" class="article-banner" itemprop="image">
+  <span class="article-header-caption"><a href="https://arxiv.org/abs/1908.11571" target="_blank">Hierarchical Pointer Net Parsing</a></span>
 </div>
 
 
@@ -284,7 +280,7 @@ Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train an
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</h1>
+      <h1 itemprop="name">Hierarchical Pointer Net Parsing</h1>
       <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
@@ -297,110 +293,31 @@ Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train an
     <div class="article-style" itemprop="articleBody">
       
 
-<p>This repository contains the source code of our paper &ldquo;<a href="https://arxiv.org/abs/1905.05682" target="_blank">A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</a>&rdquo; in ACL 2019.</p>
+<p>This is the source code of our depedency parser proposed in paper &ldquo;Hierarchical Pointer Net Parsing&rdquo; accepted by EMNLP 2019.
+Git Repository: <a href="https://github.com/ntunlp/ptrnet-depparser.git" target="_blank">https://github.com/ntunlp/ptrnet-depparser.git</a></p>
 
-<form action="https://github.com/ntunlpsg/UnifiedParser_RST">
-    <input type="submit" value="Github" />
-</form>
+<h1 id="requirements">Requirements</h1>
 
-<h2 id="getting-started">Getting Started</h2>
+<p>Python 2.7, PyTorch &gt;=0.3.0, Gensim &gt;= 0.12.0</p>
 
-<p>These instructions will help you to run our unified discourse parser based on RST dataset.</p>
+<h1 id="models">Models</h1>
 
-<h3 id="prerequisites">Prerequisites</h3>
+<p>We have implemented the below models in this project, which can be found in ./neuronlp2/models/parsing2.py:
+- <strong>HPtrNetPSTGate</strong>: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.
+- <strong>HPtrNetPSTSGate</strong>: In each step, decoder receives hidden states from sibling, parent and previous step. Use SGate described in the paper.
+- <strong>HPtrNetPSGate</strong>: In each step, decoder receives hidden states from sibling and parent. Use Gate described in the paper.</p>
 
-<pre><code>* PyTorch 0.4 or higher
-* Python 3
-* AllenNLP
-</code></pre>
+<h1 id="data-format">Data Format</h1>
 
-<h3 id="dataset">Dataset</h3>
+<p>For CoNLL-x format, the schema is:
+ID, FORM, LEMMA, CPOSTAG, POSTAG, MORPH-FEATURES, HEAD, DEPREL, PHEAD, PDEPREL</p>
 
-<p>We train and evaluate the model with the standard RST Discourse Treebank (RST-DT) corpus.
-* Segmenter: we utilize all 7673 sentences for training and 991 sentences for testing.
-* Parser: we extract sentence-level DTs from a document-level DT by finding the subtrees that span over the respective sentences. This gives 7321 sentence-level DTs for training, 951 for testing, and 1114 for getting hu- man agreements.</p>
+<h1 id="running-experiments">Running Experiments</h1>
 
-<h3 id="data-format">Data format</h3>
-
-<h4 id="example">Example</h4>
-
-<ul>
-<li><p><code>Sentence</code>: (Input sentences should be tokenizaed first. &lsquo;[]&rsquo; denotes the EDU boundary tokens.) <br></p>
-
-<ul>
-<li>Although the [report,] which has [released] before the stock market [opened,] didn&rsquo;t trigger the 190.58 point drop in the Dow Jones Industrial [Average,] analysts [said] it did play a role in the market&rsquo;s [decline.]  <br></li>
-</ul></li>
-
-<li><p><code>EDU_Breaks</code>: (The indexes of the EDU boundary words, including the last word of the sentence.) <br></p>
-
-<ul>
-<li>[2, 5, 10, 22, 24, 33] <br></li>
-</ul></li>
-
-<li><p><code>Gold Discourse Tree structure</code>: (The output of the parser also holds for the format.) <br></p>
-
-<ul>
-<li>(1:Satellite=Contrast:4,5:Nucleus=span:6) (1:Nucleus=Same-Unit:3,4:Nucleus=Same-Unite:4) (5:Satellite=Attribution:5,6:Nucleus=span:6) (1:Satellite=span:1,2:Nucleus=Elaboration:3) (2:Nucleus=span:2,3:Satellite=Temporal:3) <br></li>
-</ul></li>
-
-<li><p><code>Parsing_Label</code> (This should accord with Top-Down Depth-First manner. e.g., There are 6 EDUs in this case. At the first decoding step, the parser will predict 4th (index 3) EDU as the break position such that two new splits (EDU1-EDU4 and EDU5-EDU6) are generated. <br></p>
-
-<ul>
-<li>[3, 2, 0, 1, 4] <br></li>
-</ul></li>
-
-<li><p><code>Relation_Label</code> (In all we have 39 relations in our model. Each time two newly splits are created, the classifier would predict the corresponding relation label between them.) <br></p>
-
-<ul>
-<li>[3, 17, 5, 30, 21] <br>
-<br /></li>
-</ul></li>
-
-<li><p>For training, you will need to prepare <code>decoder_input_index</code> as the decoder input and corresponding <code>parent_index</code>, <code>sibling_index</code> as the partial tree information.</p>
-
-<ul>
-<li>decoder_input_index: [ 0 , 0 , 0 , 1 , 4 ] - to take the first EDU as the representation of text span to be parsed. or [ 5 , 3 , 2 , 2 , 5 ] - to take the last EDU as the representation of text span to be parsed.</li>
-<li>parent_index: [ 0 , 5 , 4 , 3 , 6 ]</li>
-<li>sibling_index: [ 99 , 99 , 99 , 0 , 4 ]  - &lsquo;99&rsquo; denotes empty siblings.</li>
-</ul></li>
-</ul>
-
-<h2 id="how-to-run">How To Run</h2>
-
-<ul>
-<li><p>Parser: <br></p>
-
-<pre><code>cd Parser/
-python train.py
-</code></pre>
-
-<p>You can also control any other arguments. Please refer to <code>main.py</code>. By default, the parser will use the same parameters as described in the paper.</p></li>
-
-<li><p>Segmenter: <br>
-To be released..</p></li>
-</ul>
-
-<form action="https://github.com/ntunlpsg/UnifiedParser_RST">
-    <input type="submit" value="Github" />
-</form>
-
-<h2 id="citation">Citation</h2>
-
-<p>Please cite our paper if you found the resources in this repository useful.</p>
-
-<pre><code>@inproceedings{Xiang19,
-	Address     = {Florence, Italy},
-	Author      = {Xiang Lin and Shafiq Joty and Prathyusha Jwalapuram and M Saiful Bari},
-	Booktitle   = {Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
-	Numpages    = {9},
-	Publisher   = {ACL},
-	Series      = {ACL '19},
-        pages       = {xx--xx},
-	Title       = {{A Unified Linear-Time Framework for Sentence-Level Discourse Parsing}},
-	Year        = {2019},
-	url         = {https://arxiv.org/abs/1905.05682}
-}	
-</code></pre>
+<ol>
+<li>Update ./examples/run_HPtrNetParser.sh to select the model you want to test, for example <code>MODELNAME=HPtrNetPSTGate</code>.</li>
+<li>Run command <code>bash ./examples/run_HPtrNetParser.sh</code>.</li>
+</ol>
 
     </div>
 

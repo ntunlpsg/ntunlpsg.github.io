@@ -40,8 +40,8 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/project/acl19tutorial/</loc>
-      <lastmod>2019-07-15T00:00:00+07:00</lastmod>
+      <loc>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</loc>
+      <lastmod>2019-09-24T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -50,7 +50,7 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/</loc>
-      <lastmod>2019-07-15T00:00:00+07:00</lastmod>
+      <lastmod>2019-09-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -60,7 +60,7 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/project/</loc>
-      <lastmod>2019-07-15T00:00:00+07:00</lastmod>
+      <lastmod>2019-09-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -70,8 +70,37 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/tags/</loc>
-      <lastmod>2019-07-15T00:00:00+07:00</lastmod>
+      <lastmod>2019-09-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/discourse/</loc>
+      <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/parser/</loc>
+      <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/acl19tutorial/</loc>
+      <lastmod>2019-07-15T00:00:00+07:00</lastmod>
     </url>
     
   
@@ -313,16 +342,6 @@
     
       <loc>https://ntunlpsg.github.io/project/coherence/n-coh-acl18/</loc>
       <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/discourse/</loc>
-      <lastmod>2018-04-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -702,16 +721,6 @@
     
       <loc>https://ntunlpsg.github.io/project/topic-segmenter/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/demo/</loc>
-      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

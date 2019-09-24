@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>discourse</title>
+      <link>https://ntunlpsg.github.io/tags/discourse/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/discourse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parser</title>
+      <link>https://ntunlpsg.github.io/tags/parser/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/parser/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>acl-2019</title>
@@ -58,30 +76,12 @@
     </item>
     
     <item>
-      <title>discourse</title>
-      <link>https://ntunlpsg.github.io/tags/discourse/</link>
-      <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/discourse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Content tagged as &#39;Academic&#39;</title>
       <link>https://ntunlpsg.github.io/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/tags/academic/</guid>
       <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
-      <title>demo</title>
-      <link>https://ntunlpsg.github.io/tags/demo/</link>
-      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/demo/</guid>
-      <description></description>
     </item>
     
     <item>

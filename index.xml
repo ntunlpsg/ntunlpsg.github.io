@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -43,6 +43,42 @@
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Pointer Net Parsing</title>
+      <link>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</guid>
+      <description>
+
+&lt;p&gt;This is the source code of our depedency parser proposed in paper &amp;ldquo;Hierarchical Pointer Net Parsing&amp;rdquo; accepted by EMNLP 2019.
+Git Repository: &lt;a href=&#34;https://github.com/ntunlp/ptrnet-depparser.git&#34; target=&#34;_blank&#34;&gt;https://github.com/ntunlp/ptrnet-depparser.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
+
+&lt;p&gt;Python 2.7, PyTorch &amp;gt;=0.3.0, Gensim &amp;gt;= 0.12.0&lt;/p&gt;
+
+&lt;h1 id=&#34;models&#34;&gt;Models&lt;/h1&gt;
+
+&lt;p&gt;We have implemented the below models in this project, which can be found in ./neuronlp2/models/parsing2.py:
+- &lt;strong&gt;HPtrNetPSTGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.
+- &lt;strong&gt;HPtrNetPSTSGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling, parent and previous step. Use SGate described in the paper.
+- &lt;strong&gt;HPtrNetPSGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling and parent. Use Gate described in the paper.&lt;/p&gt;
+
+&lt;h1 id=&#34;data-format&#34;&gt;Data Format&lt;/h1&gt;
+
+&lt;p&gt;For CoNLL-x format, the schema is:
+ID, FORM, LEMMA, CPOSTAG, POSTAG, MORPH-FEATURES, HEAD, DEPREL, PHEAD, PDEPREL&lt;/p&gt;
+
+&lt;h1 id=&#34;running-experiments&#34;&gt;Running Experiments&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Update ./examples/run_HPtrNetParser.sh to select the model you want to test, for example &lt;code&gt;MODELNAME=HPtrNetPSTGate&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Run command &lt;code&gt;bash ./examples/run_HPtrNetParser.sh&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
@@ -237,23 +273,6 @@
 &lt;h1 id=&#34;licence&#34;&gt;Licence&lt;/h1&gt;
 
 &lt;p&gt;Creative Commons Public Licenses.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Malay-English Neural Machine Translation System.</title>
-      <link>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</guid>
-      <description>&lt;p&gt;This is a tool to translate an English sentence into Malay and vice versa. Developing a translation tool for low-resource languages like Malay has always been a challenge. The main challenge comes from the fact that machine translation systems typically rely on a huge amount of sentence-parallel data, and creating such datasets is an expensive process. In our work, we collected parallel datasets from various sources including News, OpenSubtitiles (OPUS), Ted talks, and Youtube video. Therefore, our corpus is quite generic and covers both texts and conversations.&lt;/p&gt;
-
-&lt;p&gt;We used various state of the art deep &lt;strong&gt;Neural Machine Translation&lt;/strong&gt; (NMT) architecture for training our model. More specifically we use both &lt;strong&gt;seq2seq&lt;/strong&gt; and &lt;strong&gt;transformer-net&lt;/strong&gt; architecture for finding our best model. For pre-processing and post-processing datasets we used various tools of &lt;strong&gt;moses&lt;/strong&gt;. To train our model we used &lt;strong&gt;OpenNMT-py&lt;/strong&gt; framework which is very standard in the NMT community for it&amp;rsquo;s robust and modular implementation.&lt;/p&gt;
-
-&lt;p&gt;Currently the live demo can only be accessed from inside NTU network.
-&lt;form action=&#34;http://172.21.145.63:4200&#34;&gt;
-    &lt;input type=&#34;submit&#34; value=&#34;The link of the demo&#34; /&gt;
-&lt;/form&gt;&lt;/p&gt;
 </description>
     </item>
     
