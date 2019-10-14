@@ -302,10 +302,15 @@ Git Repository: <a href="https://github.com/ntunlp/ptrnet-depparser.git" target=
 
 <h1 id="models">Models</h1>
 
-<p>We have implemented the below models in this project, which can be found in ./neuronlp2/models/parsing2.py:
-- <strong>HPtrNetPSTGate</strong>: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.
-- <strong>HPtrNetPSTSGate</strong>: In each step, decoder receives hidden states from sibling, parent and previous step. Use SGate described in the paper.
-- <strong>HPtrNetPSGate</strong>: In each step, decoder receives hidden states from sibling and parent. Use Gate described in the paper.</p>
+<p>We have implemented the below models in this project, which can be found in <code>./neuronlp2/models/parsing2.py</code>:</p>
+
+<ul>
+<li><p><strong>HPtrNetPSTGate</strong>: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.</p></li>
+
+<li><p><strong>HPtrNetPSTSGate</strong>: In each step, decoder receives hidden states from sibling, parent and previous step. Use SGate described in the paper.</p></li>
+
+<li><p><strong>HPtrNetPSGate</strong>: In each step, decoder receives hidden states from sibling and parent. Use Gate described in the paper.</p></li>
+</ul>
 
 <h1 id="data-format">Data Format</h1>
 
@@ -318,6 +323,21 @@ ID, FORM, LEMMA, CPOSTAG, POSTAG, MORPH-FEATURES, HEAD, DEPREL, PHEAD, PDEPREL</
 <li>Update ./examples/run_HPtrNetParser.sh to select the model you want to test, for example <code>MODELNAME=HPtrNetPSTGate</code>.</li>
 <li>Run command <code>bash ./examples/run_HPtrNetParser.sh</code>.</li>
 </ol>
+
+<h1 id="citation">Citation</h1>
+
+<p>Please cite our paper if you found the resources in this repository useful.</p>
+
+<pre><code>@inproceedings{liu2019hierarchical,
+    title={Hierarchical Pointer Net Parsing},
+    author={Linlin Liu and Xiang Lin and Shafiq Joty and Simeng Han and Lidong Bing},
+    year={2019},
+    month = {November},
+    address={Hong Kong, China},
+    url={https://arxiv.org/abs/1908.11571},
+    booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
+}
+</code></pre>
 
     </div>
 

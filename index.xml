@@ -62,10 +62,15 @@ Git Repository: &lt;a href=&#34;https://github.com/ntunlp/ptrnet-depparser.git&#
 
 &lt;h1 id=&#34;models&#34;&gt;Models&lt;/h1&gt;
 
-&lt;p&gt;We have implemented the below models in this project, which can be found in ./neuronlp2/models/parsing2.py:
-- &lt;strong&gt;HPtrNetPSTGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.
-- &lt;strong&gt;HPtrNetPSTSGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling, parent and previous step. Use SGate described in the paper.
-- &lt;strong&gt;HPtrNetPSGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling and parent. Use Gate described in the paper.&lt;/p&gt;
+&lt;p&gt;We have implemented the below models in this project, which can be found in &lt;code&gt;./neuronlp2/models/parsing2.py&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;HPtrNetPSTGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;HPtrNetPSTSGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling, parent and previous step. Use SGate described in the paper.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;HPtrNetPSGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling and parent. Use Gate described in the paper.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h1 id=&#34;data-format&#34;&gt;Data Format&lt;/h1&gt;
 
@@ -78,7 +83,49 @@ ID, FORM, LEMMA, CPOSTAG, POSTAG, MORPH-FEATURES, HEAD, DEPREL, PHEAD, PDEPREL&l
 &lt;li&gt;Update ./examples/run_HPtrNetParser.sh to select the model you want to test, for example &lt;code&gt;MODELNAME=HPtrNetPSTGate&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Run command &lt;code&gt;bash ./examples/run_HPtrNetParser.sh&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
+
+&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{liu2019hierarchical,
+    title={Hierarchical Pointer Net Parsing},
+    author={Linlin Liu and Xiang Lin and Shafiq Joty and Simeng Han and Lidong Bing},
+    year={2019},
+    month = {November},
+    address={Hong Kong, China},
+    url={https://arxiv.org/abs/1908.11571},
+    booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
+}
+&lt;/code&gt;&lt;/pre&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>A Unified Neural Coherence Model</title>
+      <link>https://ntunlpsg.github.io/publication/2019_11/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test Suite</title>
+      <link>https://ntunlpsg.github.io/publication/2019_10/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Pointer Net Parsing</title>
+      <link>https://ntunlpsg.github.io/publication/2019_9/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_9/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -211,69 +258,6 @@ ID, FORM, LEMMA, CPOSTAG, POSTAG, MORPH-FEATURES, HEAD, DEPREL, PHEAD, PDEPREL&l
       
       <guid>https://ntunlpsg.github.io/publication/2019_3/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)</title>
-      <link>https://ntunlpsg.github.io/publication/2019_5/</link>
-      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/2019_5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training</title>
-      <link>https://ntunlpsg.github.io/publication/2019_2/</link>
-      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/2019_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unsupervised Word Translation</title>
-      <link>https://ntunlpsg.github.io/project/unsup-word-translation/</link>
-      <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/unsup-word-translation/</guid>
-      <description>
-
-&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
-
-&lt;p&gt;This resource contains the source code of our NAACL-HLT 2019 paper entitled &lt;a href=&#34;https://arxiv.org/pdf/1904.04116&#34; target=&#34;_blank&#34;&gt;Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training&lt;/a&gt;.
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;source-code&#34;&gt;Source code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlpsg/unsup-word-translation&#34; target=&#34;_blank&#34;&gt;Link to source code&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;datasets&#34;&gt;Datasets&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/facebookresearch/MUSE/tree/master/data&#34; target=&#34;_blank&#34;&gt;Conneau et al. (2018) Dataset&lt;/a&gt;: Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/artetxem/vecmap/&#34; target=&#34;_blank&#34;&gt;Dinu-Artexe dataset&lt;/a&gt;: Consists of monolingual embeddings of 300 dimension for English, Italian and Spanish. English and Italian embeddings were trained on WacKy corpora using CBOW, while the Spanish embeddings were trained on WMT News Crawl.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;    @InProceedings{mohiuddin-joty-naacl-19,
-     title=&amp;quot;{Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training}&amp;quot;,
-     author={Tasnim Mohiuddin and Shafiq Joty},
-     booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
-     series    ={NAACL-HLT&#39;19},
-     publisher={Association for Computational Linguistics},
-     address   = {Minneapolis, USA},
-     pages={xx--xx},
-     url = {},
-     year={2019}
-    }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;licence&#34;&gt;Licence&lt;/h1&gt;
-
-&lt;p&gt;Creative Commons Public Licenses.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
