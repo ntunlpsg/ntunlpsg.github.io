@@ -10,24 +10,6 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Selected Publications</title>
-      <link>https://ntunlpsg.github.io/publication/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/publications_selected/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recent Publications</title>
-      <link>https://ntunlpsg.github.io/publication/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0700</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/publications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Recent Posts</title>
       <link>https://ntunlpsg.github.io/post/post/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0700</pubDate>
@@ -257,6 +239,24 @@ ID, FORM, LEMMA, CPOSTAG, POSTAG, MORPH-FEATURES, HEAD, DEPREL, PHEAD, PDEPREL&l
       <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/2019_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)</title>
+      <link>https://ntunlpsg.github.io/publication/2019_5/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training</title>
+      <link>https://ntunlpsg.github.io/publication/2019_2/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_2/</guid>
       <description></description>
     </item>
     
