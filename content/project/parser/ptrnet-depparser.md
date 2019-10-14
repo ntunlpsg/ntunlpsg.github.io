@@ -28,7 +28,7 @@ caption = "[Hierarchical Pointer Net Parsing](https://arxiv.org/abs/1908.11571)"
 
 +++
 
-This is the source code of our depedency parser proposed in paper "Hierarchical Pointer Net Parsing" accepted by EMNLP 2019.
+This is the source code of our dependencys parser proposed in paper "[Hierarchical Pointer Net Parsing](https://arxiv.org/pdf/1908.11571.pdf)" accepted by EMNLP 2019.
 Git Repository: https://github.com/ntunlp/ptrnet-depparser.git
 
 # Requirements

@@ -35,7 +35,7 @@
       <guid>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</guid>
       <description>
 
-&lt;p&gt;This is the source code of our depedency parser proposed in paper &amp;ldquo;Hierarchical Pointer Net Parsing&amp;rdquo; accepted by EMNLP 2019.
+&lt;p&gt;This is the source code of our dependencys parser proposed in paper &amp;ldquo;&lt;a href=&#34;https://arxiv.org/pdf/1908.11571.pdf&#34; target=&#34;_blank&#34;&gt;Hierarchical Pointer Net Parsing&lt;/a&gt;&amp;rdquo; accepted by EMNLP 2019.
 Git Repository: &lt;a href=&#34;https://github.com/ntunlp/ptrnet-depparser.git&#34; target=&#34;_blank&#34;&gt;https://github.com/ntunlp/ptrnet-depparser.git&lt;/a&gt;&lt;/p&gt;
 
 &lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
