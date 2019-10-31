@@ -35,8 +35,6 @@
       <guid>https://ntunlpsg.github.io/project/discomt/eval-anaphora/</guid>
       <description>
 
-&lt;h1 id=&#34;evaluating-pronominal-anaphora-in-machine-translation-an-evaluation-measure-and-a-test-suite&#34;&gt;Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite&lt;/h1&gt;
-
 &lt;p&gt;This repository contains the data and source code of our paper &amp;ldquo;&lt;a href=&#34;https://arxiv.org/abs/1909.00131&#34; target=&#34;_blank&#34;&gt;Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite&lt;/a&gt;&amp;rdquo; in EMNLP-IJCNLP 2019.&lt;/p&gt;
 
 &lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;

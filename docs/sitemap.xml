@@ -51,8 +51,9 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</loc>
-      <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+      <loc>https://ntunlpsg.github.io/tags/</loc>
+      <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -60,9 +61,18 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/tags/</loc>
-      <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+      <loc>https://ntunlpsg.github.io/tags/representation-learning/</loc>
+      <lastmod>2019-10-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</loc>
+      <lastmod>2019-09-24T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -757,16 +767,6 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/tags/question-answering/</loc>
-      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/representation-learning/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

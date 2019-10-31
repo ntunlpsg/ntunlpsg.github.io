@@ -6,14 +6,14 @@ date = "2019-10-30"
 title = "Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite"
 
 # Project summary to display on homepage.
-summary = "An extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for Englisha"
+summary = "An extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["representation-learning"]`
-tags = []
+tags = ["representation-learning"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -28,14 +28,6 @@ caption = ""
 
 +++
 
-
-
-
-
-
-
-
-# Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite
 This repository contains the data and source code of our paper "[Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite](https://arxiv.org/abs/1909.00131)" in EMNLP-IJCNLP 2019.
 
 
