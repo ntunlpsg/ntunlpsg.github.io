@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/tags/representation-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite</title>
+      <link>https://ntunlpsg.github.io/project/discomt/eval-anaphora/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/discomt/eval-anaphora/</guid>
+      <description>An extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English</description>
+    </item>
     
     <item>
       <title>Discourse-informed Sen2Vec</title>
