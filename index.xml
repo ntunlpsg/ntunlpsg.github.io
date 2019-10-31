@@ -75,6 +75,8 @@
 
 &lt;p&gt;The sqlite3 database with the pronoun test suite contains all the samples for all source languages from WMT2011-2017; filter by source language as required. Among other data, each sample provides the source sentence and two previous sentences for context, the equivalent for reference, and also which system translation error it originated from. This test suite is not filtered by the results of the user study to keep it unrestricted; if required, use the pronoun pairs from the keys in the &lt;code&gt;pronoun_pair_list.pkl&lt;/code&gt; dictionary file, and filter using the &lt;code&gt;reference_pronoun&lt;/code&gt; and &lt;code&gt;system_pronoun&lt;/code&gt; fields.&lt;/p&gt;
 
+&lt;p&gt;codes are available &lt;a href=&#34;https://github.com/ntunlp/eval-anaphora&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
 &lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
 
 &lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
