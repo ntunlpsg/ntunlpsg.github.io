@@ -29,7 +29,7 @@ caption = "A unified coherence model."
 +++
 
 ### About
-This resource contains the source code of "[A Unified Neural Coherence Model](https://arxiv.org/abs/1805.02275)" paper (EMNLP-IJCNLP 2019, Hong Kong, China).
+This resource contains the source code of "[A Unified Neural Coherence Model](https://www.aclweb.org/anthology/D19-1231/)" paper (EMNLP-IJCNLP 2019, Hong Kong, China).
 <br>
 ### Source code
 [Link to source code](https://github.com/ntunlpsg/unified-coherence)
