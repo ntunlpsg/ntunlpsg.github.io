@@ -32,7 +32,7 @@ caption = "A unified coherence model."
 This resource contains the source code of "[A Unified Neural Coherence Model](https://www.aclweb.org/anthology/D19-1231/)" paper (EMNLP-IJCNLP 2019, Hong Kong, China).
 <br>
 ### Source code
-[Link to source code](https://github.com/ntunlpsg/unified-coherence)
+[Link to source code](https://github.com/ntunlp/unified-coherence)
 
 ### Datasets
 Regard to WSJ license, we only share the script to generate local and global coherence dataset from the WSJ dataset.
