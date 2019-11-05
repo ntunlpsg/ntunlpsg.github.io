@@ -93,6 +93,54 @@
     </item>
     
     <item>
+      <title>A Unified Neural Coherence Model</title>
+      <link>https://ntunlpsg.github.io/project/coherence/n-coh-emnlp19/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/coherence/n-coh-emnlp19/</guid>
+      <description>
+
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+
+&lt;p&gt;This resource contains the source code of &amp;ldquo;&lt;a href=&#34;https://arxiv.org/abs/1805.02275&#34; target=&#34;_blank&#34;&gt;A Unified Neural Coherence Model&lt;/a&gt;&amp;rdquo; paper (EMNLP-IJCNLP 2019, Hong Kong, China).
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;source-code&#34;&gt;Source code&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlpsg/unified-coherence&#34; target=&#34;_blank&#34;&gt;Link to source code&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;datasets&#34;&gt;Datasets&lt;/h3&gt;
+
+&lt;p&gt;Regard to WSJ license, we only share the script to generate local and global coherence dataset from the WSJ dataset.&lt;/p&gt;
+
+&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+
+&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{moon-etal-2019-unified,
+    title = &amp;quot;A Unified Neural Coherence Model&amp;quot;,
+    author = &amp;quot;Moon, Han Cheol  and
+      Mohiuddin, Tasnim  and
+      Joty, Shafiq  and
+      Xu, Chi&amp;quot;,
+    booktitle = &amp;quot;Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)&amp;quot;,
+    month = nov,
+    year = &amp;quot;2019&amp;quot;,
+    address = &amp;quot;Hong Kong, China&amp;quot;,
+    publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
+    url = &amp;quot;https://www.aclweb.org/anthology/D19-1231&amp;quot;,
+    doi = &amp;quot;10.18653/v1/D19-1231&amp;quot;,
+    pages = &amp;quot;2262--2272&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;licence&#34;&gt;Licence&lt;/h1&gt;
+
+&lt;p&gt;MIT licence.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hierarchical Pointer Net Parsing</title>
       <link>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
@@ -304,15 +352,6 @@ ID, FORM, LEMMA, CPOSTAG, POSTAG, MORPH-FEATURES, HEAD, DEPREL, PHEAD, PDEPREL&l
       <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/2019_3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)</title>
-      <link>https://ntunlpsg.github.io/publication/2019_5/</link>
-      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/2019_5/</guid>
       <description></description>
     </item>
     

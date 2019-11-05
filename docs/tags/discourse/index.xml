@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/tags/discourse/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Unified Neural Coherence Model</title>
+      <link>https://ntunlpsg.github.io/project/coherence/n-coh-emnlp19/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/coherence/n-coh-emnlp19/</guid>
+      <description>A unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework.</description>
+    </item>
     
     <item>
       <title>Hierarchical Pointer Net Parsing</title>
