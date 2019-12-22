@@ -28,6 +28,8 @@ weight = 4
 | | <img class="img-circle" style="width: 150px;" src="./person/sourav.jpeg"> | <img class="img-circle" style="width: 150px;" src="./person/bond.jpg"> | |
 | | [Sourav S Bhowmick](http://www.ntu.edu.sg/home/assourav/)<br> <small>Data Management and Analytics</small> | [Francis Bond](http://www.ntu.edu.sg/home/fcbond/)<br> <small>Natural Language Processing</small>| |
 
+
+
 | Visiting Professor |
 | :---: |
 |<img class="img-circle" style="width: 150px;" src="./person/carenini.jpg">|
@@ -42,6 +44,8 @@ weight = 4
 | Hancheol Moon | [M Saiful Bari](https://sbmaruf.github.io) | [Lin Xiang](https://sites.google.com/view/linxiang/home) |
 | <img class="img-circle" style="width: 150px;" src="./person/linlin.png"> | <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/wang.jpg">|
 |[Linlin Liu](https://sg.linkedin.com/in/linlin-liu-26392846) |[Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [Wang Weishi](https://www.linkedin.com/in/weishi-wang/)|
+| | <img class="img-circle" style="width: 150px;" src="./person/tao.jpg">  | |
+| | Tao Yu | |
 
 
 |Research Assistant |
