@@ -25,13 +25,13 @@ Room No: N4-B1c-17b
 
 
 ---
-##### 2020 Jan-May  | 
+##### 2020 Jan-May  | Transfer Learning
 ##### Time: Thursdays 15:00 - 17:00
 ---
 
 | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 	&nbsp;&nbsp;  &nbsp; 	&nbsp;  Date    | Topic | Content | Presenter(s) | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;Time |
 | :------- |:--- |:--- |:--- | :--- |
-| 23-01-20 | NN Language Model [Paper](https://openreview.net/pdf?id=HklBjCEKvH) | Slide  | Shafiq | <small>15:00 - 17:00 <br>(UTC +8)</small> |
+| 23-01-20 | kNN Language Model [Paper](https://openreview.net/pdf?id=HklBjCEKvH) | Slide  | Shafiq | <small>15:00 - 17:00 <br>(UTC +8)</small> |
 | | | | | |
 | | | | | |
 
