@@ -22,6 +22,19 @@ You can receive announcements about the reading group by joining our mailing lis
 Room No: N4-B1c-17b
 
 ### Schedules
+
+
+---
+##### 2020 Jan-May  | 
+##### Time: Thursdays 15:00 - 17:00
+---
+
+| &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 	&nbsp;&nbsp;  &nbsp; 	&nbsp;  Date    | Topic | Content | Presenter(s) | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;Time |
+| :------- |:--- |:--- |:--- | :--- |
+| 23-01-20 | NN Language Model [Paper](https://openreview.net/pdf?id=HklBjCEKvH) | Slide  | Shafiq | <small>15:00 - 17:00 <br>(UTC +8)</small> |
+| | | | | |
+| | | | | |
+
 ---
 ##### 2019 Jun-Dec  | Deep Learning for Structured Objects and Variational Methods
 ##### Time: Fridays 15:30 - 17:30
@@ -30,9 +43,10 @@ Room No: N4-B1c-17b
 | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; 	&nbsp;&nbsp;  &nbsp; 	&nbsp;  Date    | Topic | Content | Presenter(s) | &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;Time |
 | :------- |:--- |:--- |:--- | :--- |
 | 21-06-19 | GPT [Paper](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf),<br> XLM [Paper](https://arxiv.org/abs/1901.07291),<br> Sparse Transformer [Paper](https://d4mucfpksywv.cloudfront.net/Sparse_Transformer/sparse_transformers.pdf) | [Slide](https://drive.google.com/file/d/1vV3v69el71Sq53IlH3OtWcpsn6o0kCGD/view?usp=sharing), <br> [Slide](https://drive.google.com/file/d/1Fb7ki6zxtnXT2Fd9Xfqt2uwSV1AiL9Du/view?usp=sharing), <br> [Slide](https://drive.google.com/file/d/1f_BLBrIiekUp7vQIfwzKrtyclIyVfb1J/view?usp=sharing)  | Tasnim, <br>Tasnim, <br> Shafiq | <small>15:30-17:30 <br>(UTC +8)</small> |
-| 28-06-19 |Constituicy Parsing [Paper](https://aclweb.org/anthology/P18-1108), <br> Sampling [Paper](https://www.aclweb.org/anthology/N19-1207)  | [Slide](https://drive.google.com/file/d/19gpSq6DluwvECL9aT5AhAaj3O_Jzc2ql/view?usp=sharing) [Slide](https://drive.google.com/file/d/1VxsevwVC1O7aspPQsI5T7uf_RaMfdiRL/view?usp=sharing) | [Lin](https://sites.google.com/view/linxiang/home), <br> [LinLin](https://sg.linkedin.com/in/linlin-liu-26392846) | <small>15:30-17:30 <br>(UTC +8)</small> |
-| 05-07-19| [Transformer-XL](https://arxiv.org/abs/1901.02860) | [Slide](https://drive.google.com/file/d/1n-wE1kBiwnCbb-oQ7JlXtmWB63KwCxoU/view?usp=sharing)| [Saiful](https://sbmaruf.github.io/)|<small>15:30-17:30 <br>(UTC +8)</small> |
-| 12-07-19| [XL-Net](https://arxiv.org/abs/1906.08237) | [Slide](https://drive.google.com/file/d/1Ls9tSH2WqhlQrY4ppcMwNmRmpFwSFFlj/view?usp=sharing)| [Phi](https://www.linkedin.com/in/xuanphinguyen/)|<small>15:30-17:30 <br>(UTC +8)</small> |
+| 28-06-19 |Constituicy Parsing [Paper](https://aclweb.org/anthology/P18-1108), <br> Sampling [Paper](https://www.aclweb.org/anthology/N19-1207)  | [Slide](https://drive.google.com/file/d/19gpSq6DluwvECL9aT5AhAaj3O_Jzc2ql/view?usp=sharing) [Slide](https://drive.google.com/file/d/1VxsevwVC1O7aspPQsI5T7uf_RaMfdiRL/view?usp=sharing) | Lin, <br> LinLin | <small>15:30-17:30 <br>(UTC +8)</small> |
+| 05-07-19| [Transformer-XL](https://arxiv.org/abs/1901.02860) | [Slide](https://drive.google.com/file/d/1n-wE1kBiwnCbb-oQ7JlXtmWB63KwCxoU/view?usp=sharing)| Saiful|<small>15:30-17:30 <br>(UTC +8)</small> |
+| 12-07-19| [XL-Net](https://arxiv.org/abs/1906.08237) | [Slide](https://drive.google.com/file/d/1Ls9tSH2WqhlQrY4ppcMwNmRmpFwSFFlj/view?usp=sharing)| Phi|<small>15:30-17:30 <br>(UTC +8)</small> |
+| 20-12-19| Mixture models for diverse MT [Paper](https://arxiv.org/pdf/1902.07816.pdf), <br> NTG with unlikelihood training [Paper](https://openreview.net/pdf?id=SJeYe0NtvH)  | [Slide](https://drive.google.com/file/d/1VF6uF5g8GTNnG8tqeEDZuMFnPL6c3Bk0/view?usp=sharing), <br> [Slide](https://drive.google.com/open?id=1-ZHDH0LeVRJ3acjz4YfxD043xDfb4N-H) | Phi, <br> Han|<small>15:30-17:30 <br>(UTC +8)</small> |
 | | | | | |
 
 
