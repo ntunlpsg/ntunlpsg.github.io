@@ -39,7 +39,7 @@ weight = 4
 |Postdoc and Ph.D. | | |
 |:---: | :---: | :---: |
 | <img class="img-circle" style="width: 150px;" src="./person/tasnim.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/prathyusha.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/thomas.jpg"> |
-| [Tasnim Mohiuddin](https://taasnim.github.io/) | [Prathyusha Jwalapuram](https://pjwalapuram.in) | Nguyen Thanh Tung |
+| [Tasnim Mohiuddin](https://taasnim.github.io/) | [Prathyusha Jwalapuram](https://pjwalapuram.com) | Nguyen Thanh Tung |
 |<img class="img-circle" style="width: 150px;" src="./person/han.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/saiful.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/LinXiang.jpg"> |
 | [Hancheol Moon](https://han8931.github.io/) | [M Saiful Bari](https://sbmaruf.github.io) | [Lin Xiang](https://sites.google.com/view/linxiang/home) |
 | <img class="img-circle" style="width: 150px;" src="./person/linlin.png"> | <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/wang.jpg">|
