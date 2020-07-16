@@ -55,6 +55,33 @@
     </item>
     
     <item>
+      <title>Differentiable Window for Dynamic Local Attention</title>
+      <link>https://ntunlpsg.github.io/publication/dynamic-attention/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/dynamic-attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Constituency Parsing by Pointing</title>
+      <link>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resurrecting Submodularity for Neural Text Generation</title>
+      <link>https://ntunlpsg.github.io/publication/submod_summ/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/submod_summ/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading</title>
       <link>https://ntunlpsg.github.io/publication/emt/</link>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
@@ -100,189 +127,20 @@
     </item>
     
     <item>
+      <title>Can Your Context-Aware MT System Pass the DiP Benchmark Tests? : Evaluation Benchmarks for Discourse Phenomena in  Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/benchmark/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/benchmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Zero-Resource Cross-Lingual Named Entity Recognition</title>
       <link>https://ntunlpsg.github.io/publication/maruf_aaai20/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/maruf_aaai20/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite</title>
-      <link>https://ntunlpsg.github.io/project/discomt/eval-anaphora/</link>
-      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/discomt/eval-anaphora/</guid>
-      <description>
-
-&lt;p&gt;This repository contains the data and source code of our paper &amp;ldquo;&lt;a href=&#34;https://arxiv.org/abs/1909.00131&#34; target=&#34;_blank&#34;&gt;Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite&lt;/a&gt;&amp;rdquo; in EMNLP-IJCNLP 2019.&lt;/p&gt;
-
-&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;* PyTorch 0.4 or higher
-* Python 3
-* AllenNLP
-* SQLite3
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;datasets-training-development-testing&#34;&gt;Datasets - Training/Development/Testing&lt;/h3&gt;
-
-&lt;p&gt;The training data consists of system translations vs. reference text from WMT 2011-15. There are two versions of the development data: one with unique system translations vs. reference, and one with unique noisy sentences vs. reference. Both are from WMT2014. The test data is the data used for the user studies in French, German, Russian and Chinese. Both the original database and the processed pickle files are provided.&lt;/p&gt;
-
-&lt;p&gt;Development and test data are uploaded here. The training data and a trained model are available at the following link: &lt;a href=&#34;https://www.dropbox.com/sh/ol66hb2t3jcdeny/AADrfqm7fH1Cq8uiIvzcUuUra?dl=0&#34; target=&#34;_blank&#34;&gt;https://www.dropbox.com/sh/ol66hb2t3jcdeny/AADrfqm7fH1Cq8uiIvzcUuUra?dl=0&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-run&#34;&gt;How To Run&lt;/h2&gt;
-
-&lt;p&gt;You can use your own data from any other MT translations to train the evaluation measure. For training, ensure that the pickle file is serialized (each dictionary sample is written individually) and contains the data required; alternately, you can make corresponding changes in the code. Other paramaters can also be changed in &lt;code&gt;train.py&lt;/code&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Training: &lt;br&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;python train.py [training_data] [dev_data]
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Testing: &lt;br&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;python test_trained_model.py [model] [test_data]
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;user-study&#34;&gt;User Study&lt;/h2&gt;
-
-&lt;p&gt;Both the study data and the anonymized user responses for each language are provided. The Chinese/English data is separated; both these studies use the same data (English study done without source language) for comparison. The pickle file &lt;code&gt;pronoun_pair_list.pkl&lt;/code&gt; contains the pronoun pairs of reference and error pronouns after filtering based on agreement (agreements and counts of responses included).&lt;/p&gt;
-
-&lt;h3 id=&#34;test-suite&#34;&gt;Test Suite&lt;/h3&gt;
-
-&lt;p&gt;The sqlite3 database with the pronoun test suite contains all the samples for all source languages from WMT2011-2017; filter by source language as required. Among other data, each sample provides the source sentence and two previous sentences for context, the equivalent for reference, and also which system translation error it originated from. This test suite is not filtered by the results of the user study to keep it unrestricted; if required, use the pronoun pairs from the keys in the &lt;code&gt;pronoun_pair_list.pkl&lt;/code&gt; dictionary file, and filter using the &lt;code&gt;reference_pronoun&lt;/code&gt; and &lt;code&gt;system_pronoun&lt;/code&gt; fields.&lt;/p&gt;
-
-&lt;p&gt;codes are available &lt;a href=&#34;https://github.com/ntunlp/eval-anaphora&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@inproceedings{EvalAnaphora,
-  title={Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test Suite},
-  author={Prathyusha Jwalapuram and Shafiq Joty and Irina Temnikova and Preslav Nakov},
-  booktitle={EMNLP-IJCNLP},
-  year={2019}
-
-}	
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Unified Neural Coherence Model</title>
-      <link>https://ntunlpsg.github.io/project/coherence/n-coh-emnlp19/</link>
-      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/coherence/n-coh-emnlp19/</guid>
-      <description>
-
-&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
-
-&lt;p&gt;This resource contains the source code of &amp;ldquo;&lt;a href=&#34;https://www.aclweb.org/anthology/D19-1231/&#34; target=&#34;_blank&#34;&gt;A Unified Neural Coherence Model&lt;/a&gt;&amp;rdquo; paper (EMNLP-IJCNLP 2019, Hong Kong, China).
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;source-code&#34;&gt;Source code&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/taasnim/unified-coherence-model&#34; target=&#34;_blank&#34;&gt;Link to source code&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;datasets&#34;&gt;Datasets&lt;/h3&gt;
-
-&lt;p&gt;Regard to WSJ license, we only share the script to generate local and global coherence dataset from the WSJ dataset.&lt;/p&gt;
-
-&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
-
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@inproceedings{moon-etal-2019-unified,
-    title = &amp;quot;A Unified Neural Coherence Model&amp;quot;,
-    author = &amp;quot;Moon, Han Cheol  and
-      Mohiuddin, Tasnim  and
-      Joty, Shafiq  and
-      Xu, Chi&amp;quot;,
-    booktitle = &amp;quot;Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)&amp;quot;,
-    month = nov,
-    year = &amp;quot;2019&amp;quot;,
-    address = &amp;quot;Hong Kong, China&amp;quot;,
-    publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
-    url = &amp;quot;https://www.aclweb.org/anthology/D19-1231&amp;quot;,
-    doi = &amp;quot;10.18653/v1/D19-1231&amp;quot;,
-    pages = &amp;quot;2262--2272&amp;quot;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;licence&#34;&gt;Licence&lt;/h1&gt;
-
-&lt;p&gt;MIT licence.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hierarchical Pointer Net Parsing</title>
-      <link>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</guid>
-      <description>
-
-&lt;p&gt;This is the source code of our dependency parser proposed in paper &amp;ldquo;&lt;a href=&#34;https://arxiv.org/pdf/1908.11571.pdf&#34; target=&#34;_blank&#34;&gt;Hierarchical Pointer Net Parsing&lt;/a&gt;&amp;rdquo; accepted by EMNLP 2019.
-Git Repository: &lt;a href=&#34;https://github.com/ntunlp/ptrnet-depparser.git&#34; target=&#34;_blank&#34;&gt;https://github.com/ntunlp/ptrnet-depparser.git&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
-
-&lt;p&gt;Python 2.7, PyTorch &amp;gt;=0.3.0, Gensim &amp;gt;= 0.12.0&lt;/p&gt;
-
-&lt;h1 id=&#34;models&#34;&gt;Models&lt;/h1&gt;
-
-&lt;p&gt;We have implemented the below models in this project, which can be found in &lt;code&gt;./neuronlp2/models/parsing2.py&lt;/code&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;HPtrNetPSTGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;HPtrNetPSTSGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling, parent and previous step. Use SGate described in the paper.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;HPtrNetPSGate&lt;/strong&gt;: In each step, decoder receives hidden states from sibling and parent. Use Gate described in the paper.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;data-format&#34;&gt;Data Format&lt;/h1&gt;
-
-&lt;p&gt;For CoNLL-x format, the schema is:
-ID, FORM, LEMMA, CPOSTAG, POSTAG, MORPH-FEATURES, HEAD, DEPREL, PHEAD, PDEPREL&lt;/p&gt;
-
-&lt;h1 id=&#34;running-experiments&#34;&gt;Running Experiments&lt;/h1&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Update ./examples/run_HPtrNetParser.sh to select the model you want to test, for example &lt;code&gt;MODELNAME=HPtrNetPSTGate&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Run command &lt;code&gt;bash ./examples/run_HPtrNetParser.sh&lt;/code&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
-
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@inproceedings{liu2019hierarchical,
-    title={Hierarchical Pointer Net Parsing},
-    author={Linlin Liu and Xiang Lin and Shafiq Joty and Simeng Han and Lidong Bing},
-    year={2019},
-    month = {November},
-    address={Hong Kong, China},
-    url={https://arxiv.org/abs/1908.11571},
-    booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing},
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Unified Neural Coherence Model</title>
-      <link>https://ntunlpsg.github.io/publication/2019_11/</link>
-      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/2019_11/</guid>
       <description></description>
     </item>
     

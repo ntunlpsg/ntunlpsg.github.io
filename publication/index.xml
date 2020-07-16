@@ -40,6 +40,33 @@
     </item>
     
     <item>
+      <title>Differentiable Window for Dynamic Local Attention</title>
+      <link>https://ntunlpsg.github.io/publication/dynamic-attention/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/dynamic-attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Constituency Parsing by Pointing</title>
+      <link>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resurrecting Submodularity for Neural Text Generation</title>
+      <link>https://ntunlpsg.github.io/publication/submod_summ/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/submod_summ/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading</title>
       <link>https://ntunlpsg.github.io/publication/emt/</link>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
@@ -81,6 +108,15 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/samson_preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Your Context-Aware MT System Pass the DiP Benchmark Tests? : Evaluation Benchmarks for Discourse Phenomena in  Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/benchmark/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/benchmark/</guid>
       <description></description>
     </item>
     
