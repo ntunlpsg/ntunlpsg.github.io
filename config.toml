@@ -11,7 +11,7 @@ title = "NTU-NLP"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "ntunlp &copy; 2020"
 
 theme = "academic"
 enableEmoji = true
@@ -62,11 +62,12 @@ defaultContentLanguageInSubdir = false
   #avatar = "ntunlp_final.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   avatar = "ntunlp_final.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "srjoty@ntu.edu.sg"
-  address = "Multimedia and Interactive Computing Lab (MICL) lab, School of Computer science and Engineering, Nanyang Technological University"
+  address = "50 Nanyang Ave, Singapore 639798. Block N4, N4-B1C-17</br>Multimedia and Interactive Computing Lab (MICL)</br>School of Computer science and Engineering</br> Nanyang Technological University"
   office_hours = "Monday - Friday, email for appointment"
   phone = "(+65)6904 1107"
   # skype = ""
   # telegram = ""
+  content_add = "Content Request (Only for the members of NTU-NLP)"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
@@ -270,15 +271,15 @@ defaultContentLanguageInSubdir = false
   url = "post/reading-group"
   weight = 5
 
-[[menu.main]]
-  name = "News"
-  url = "post/news"
-  weight = 6
+#[[menu.main]]
+#  name = "News"
+#  url = "post/news"
+#  weight = 6
 
-[[menu.main]]
-  name = "Talks"
-  url = "post/talk"
-  weight = 7
+#[[menu.main]]
+#  name = "Talks"
+#  url = "post/talk"
+#  weight = 7
 
 #[[menu.main]]
 #  name = "Resources"

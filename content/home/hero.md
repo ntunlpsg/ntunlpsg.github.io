@@ -20,8 +20,8 @@ weight = 1
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
 [cta]
-  url = "./post/news"
-  label = '<i class="fa fa-clipboard"></i> News'
+  url = "https://github.com/ntunlp"
+  label = '<i class="fa fa-github"></i> Github'
 [cta1]
   url = "./post/reding-group"
   label = '<i class="fa fa-book"></i> Reading group'
