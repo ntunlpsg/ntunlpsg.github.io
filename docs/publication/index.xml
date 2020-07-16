@@ -13,6 +13,123 @@
     
     
     <item>
+      <title>An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks</title>
+      <link>https://ntunlpsg.github.io/publication/majing_tist20/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/majing_tist20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational agents in healthcare: a scoping review and conceptual analysis</title>
+      <link>https://ntunlpsg.github.io/publication/cat_jmir20/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/cat_jmir20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MultiMix: A Robust Data Augmentation Strategy for Cross-Lingual NLP</title>
+      <link>https://ntunlpsg.github.io/publication/multimix/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/multimix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differentiable Window for Dynamic Local Attention</title>
+      <link>https://ntunlpsg.github.io/publication/dynamic-attention/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/dynamic-attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Constituency Parsing by Pointing</title>
+      <link>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resurrecting Submodularity for Neural Text Generation</title>
+      <link>https://ntunlpsg.github.io/publication/submod_summ/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/submod_summ/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading</title>
+      <link>https://ntunlpsg.github.io/publication/emt/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/emt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding It at Another Side: A Viewpoint-Adapted Matching Encoder for Change Captioning</title>
+      <link>https://ntunlpsg.github.io/publication/shi_eccv2020/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/shi_eccv2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>It&#39;s &#39;Morphin&#39; Time! Combating Linguistic Discrimination with Inflectional Perturbations</title>
+      <link>https://ntunlpsg.github.io/publication/samson_acl2020/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/samson_acl2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VD-BERT: A Unified Vision and Dialog Transformer with BERT</title>
+      <link>https://ntunlpsg.github.io/publication/vd-bert/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/vd-bert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mind Your Inflections! Improving NLP for Non-Standard English with Base-Inflection Encoding</title>
+      <link>https://ntunlpsg.github.io/publication/samson_preprint/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/samson_preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Your Context-Aware MT System Pass the DiP Benchmark Tests? : Evaluation Benchmarks for Discourse Phenomena in  Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/benchmark/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/benchmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zero-Resource Cross-Lingual Named Entity Recognition</title>
+      <link>https://ntunlpsg.github.io/publication/maruf_aaai20/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/maruf_aaai20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A Unified Neural Coherence Model</title>
       <link>https://ntunlpsg.github.io/publication/2019_11/</link>
       <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>

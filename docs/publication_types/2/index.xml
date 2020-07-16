@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks</title>
+      <link>https://ntunlpsg.github.io/publication/majing_tist20/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/majing_tist20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational agents in healthcare: a scoping review and conceptual analysis</title>
+      <link>https://ntunlpsg.github.io/publication/cat_jmir20/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/cat_jmir20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach</title>
