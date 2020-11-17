@@ -255,9 +255,7 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<h1 id="lnmap">LNMap</h1>
-
-<p>This repository contains the code of our paper <a href="https://www.aclweb.org/anthology/2020.emnlp-main.215/" target="_blank">LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space</a> (EMNLP 2020).</p>
+<p>This resource contains the source code of our NAACL-HLT 2019 paper entitled <a href="https://www.aclweb.org/anthology/2020.emnlp-main.215/" target="_blank">LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space</a> (EMNLP 2020).</p>
 
 <p align="center">
 <img src="https://taasnim.github.io/img/lnmap/model.png" width="800">
@@ -265,66 +263,16 @@
 
 <hr />
 
-<h2 id="requirements">Requirements</h2>
+<h3 id="source-code">Source code</h3>
+
+<p><a href="https://github.com/taasnim/lnmap" target="_blank">Link to source code</a></p>
+
+<h3 id="datasets">Datasets</h3>
 
 <ul>
-<li>Python 3.6 or higher with NumPy/SciPy</li>
-<li>PyTorch 1.4 or higher</li>
-<li>tqdm</li>
-<li>jsbeautifier</li>
+<li><a href="https://github.com/facebookresearch/MUSE/tree/master/data" target="_blank">Conneau et al. (2018) Dataset</a>: Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs.</li>
+<li><a href="https://github.com/artetxem/vecmap/" target="_blank">Dinu-Artexe dataset</a>: Consists of monolingual embeddings of 300 dimension for English, Italian and Spanish. English and Italian embeddings were trained on WacKy corpora using CBOW, while the Spanish embeddings were trained on WMT News Crawl.</li>
 </ul>
-
-<h2 id="get-datasets">Get Datasets</h2>
-
-<h3 id="1-get-monolingual-word-embeddings">1. Get Monolingual Word Embeddings</h3>
-
-<h3 id="2-get-evaluation-datasets">2. Get evaluation datasets</h3>
-
-<p>We evaluate our models on two popularly used datasets: <a href="https://github.com/facebookresearch/MUSE" target="_blank">MUSE (Conneau et al., 2018)</a> and <a href="https://github.com/artetxem/vecmap/" target="_blank">VecMap (Dinu et al., 2015)</a>. Please visit the respective repository for downloading the datasets.</p>
-
-<h2 id="how-to-run">How to run</h2>
-
-<p>To run En&lt;-&gt;Bn model on a single GPU:</p>
-
-<pre><code>export CUDA_VISIBLE_DEVICES=&quot;0&quot;
-
-src_lang=&quot;en&quot;
-tgt_lang=&quot;bn&quot;
-dataset=&quot;muse&quot;
-sup_dict_size=1000
-autoenc_dim=350
-seed=1000
-
-root_project_folder=&quot;./dumped&quot; 
-project_folder=$root_project_folder&quot;/&quot;$dataset
-
-folder_address=&quot;sup-dict-&quot;$sup_dict_size&quot;/&quot;$autoenc_dim&quot;-&quot;$autoenc_dim
-folder_address=$folder_address&quot;/&quot;$src_lang&quot;-&quot;$tgt_lang
-folder_address=$folder_address&quot;--sup_dict-&quot;$sup_dict_size
-folder_address=$folder_address&quot;--seed-&quot;$seed
-OUT_ADDRESS=$project_folder&quot;/&quot;$folder_address
-            
-mkdir -p $OUT_ADDRESS
-
-python -u lnmap.py \
-    --src_lang $src_lang \
-    --tgt_lang $tgt_lang \
-    --src_emb &quot;path/to/word-embeddings/folder/wiki.&quot;$src_lang&quot;.vec&quot; \
-    --tgt_emb &quot;path/to/word-embeddings/folder/wiki.&quot;$tgt_lang&quot;.vec&quot; \
-    --sup_dict_size $sup_dict_size \
-    --emb_dim_autoenc_A $autoenc_dim \
-    --emb_dim_autoenc_B $autoenc_dim \
-    --dico_train_path &quot;path/to/train-dictionary/folder/&quot; \
-    --dico_eval_path &quot;path/to/eval-dictionary/folder/&quot; \
-    --exp_path $OUT_ADDRESS\
-    --seed $seed \
-    --nonlinear_autoenc True \
-    --nonlinear_mapper True \
-    --dataset $dataset
-            
-</code></pre>
-
-<p>You will get the word translation accuracies at 3 different precision (1, 5, 10) for EN-BN and Bn-EN.</p>
 
 <h2 id="citation">Citation</h2>
 
