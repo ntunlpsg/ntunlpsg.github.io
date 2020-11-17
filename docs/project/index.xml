@@ -136,6 +136,15 @@ Installation Required for the discourse segmenter:
     </item>
     
     <item>
+      <title>LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space</title>
+      <link>https://ntunlpsg.github.io/project/lnmap/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/lnmap/</guid>
+      <description>This paper shows with a semi-supervised algorithm that BLI is more suitable through Non-Linear Mapping (specially for low resource languages).</description>
+    </item>
+    
+    <item>
       <title>Neural Domain Adaptation Model for Machine Translation</title>
       <link>https://ntunlpsg.github.io/project/neural-domain-adaptation-model-for-machine-translation/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
