@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -15,10 +13,14 @@
   
   
   
-  <meta name="description" content="">
+    
+      
+    
+  
+  <meta name="description" content="This paper shows with a semi-supervised algorithm that BLI is more suitable through Non-Linear Mapping (specially for low resource languages).">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/tags/deep-learning/">
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/lnmap/">
 
   
 
@@ -34,13 +36,6 @@
   
     
   
-  
-    
-    
-      
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-      
-    
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
@@ -72,15 +67,15 @@
   
 
   
-  <link rel="alternate" href="https://ntunlpsg.github.io/tags/deep-learning/index.xml" type="application/rss+xml" title="NTU-NLP">
-  <link rel="feed" href="https://ntunlpsg.github.io/tags/deep-learning/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="alternate" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="feed" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ntunlpsg.github.io/tags/deep-learning/">
+  <link rel="canonical" href="https://ntunlpsg.github.io/project/lnmap/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -88,17 +83,19 @@
   <meta property="twitter:creator" content="@ntunlpsg">
   
   <meta property="og:site_name" content="NTU-NLP">
-  <meta property="og:url" content="https://ntunlpsg.github.io/tags/deep-learning/">
-  <meta property="og:title" content="deep-learning | NTU-NLP">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="https://ntunlpsg.github.io/project/lnmap/">
+  <meta property="og:title" content="LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space | NTU-NLP">
+  <meta property="og:description" content="This paper shows with a semi-supervised algorithm that BLI is more suitable through Non-Linear Mapping (specially for low resource languages)."><meta property="og:image" content="https://ntunlpsg.github.io/img/lnmap.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2019-04-04T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2016-04-28T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2016-04-28T00:00:00&#43;00:00">
   
 
   
 
-  <title>deep-learning | NTU-NLP</title>
+  <title>LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space | NTU-NLP</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -232,49 +229,157 @@
 </nav>
 
 
-
-
-
-<div class="universal-wrapper">
-
-  <h1>deep-learning</h1>
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
-
+<div class="article-header">
+  <img src="/img/lnmap.png" class="article-banner" itemprop="image">
   
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/project/unsup-word-translation/">Unsupervised Word Translation</a></h2>
-    <div class="article-style">
-      
-      Adversarial Autoencoder with Cycle Consistency and Improved Training
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/">Malay-English Neural Machine Translation System.</a></h2>
-    <div class="article-style">
-      
-      A demo of malay english Machine translation system.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/project/lnmap/">LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space</a></h2>
-    <div class="article-style">
-      
-      This paper shows with a semi-supervised algorithm that BLI is more suitable through Non-Linear Mapping (specially for low resource languages).
-      
-    </div>
-  </div>
-  
-
-  
-
-
 </div>
+
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="lnmap">LNMap</h1>
+
+<p>This repository contains the code of our paper <a href="https://www.aclweb.org/anthology/2020.emnlp-main.215/" target="_blank">LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space</a> (EMNLP 2020).</p>
+
+<p align="center">
+<img src="https://taasnim.github.io/img/lnmap/model.png" width="800">
+</p>
+
+<hr />
+
+<h2 id="requirements">Requirements</h2>
+
+<ul>
+<li>Python 3.6 or higher with NumPy/SciPy</li>
+<li>PyTorch 1.4 or higher</li>
+<li>tqdm</li>
+<li>jsbeautifier</li>
+</ul>
+
+<h2 id="get-datasets">Get Datasets</h2>
+
+<h3 id="1-get-monolingual-word-embeddings">1. Get Monolingual Word Embeddings</h3>
+
+<h3 id="2-get-evaluation-datasets">2. Get evaluation datasets</h3>
+
+<p>We evaluate our models on two popularly used datasets: <a href="https://github.com/facebookresearch/MUSE" target="_blank">MUSE (Conneau et al., 2018)</a> and <a href="https://github.com/artetxem/vecmap/" target="_blank">VecMap (Dinu et al., 2015)</a>. Please visit the respective repository for downloading the datasets.</p>
+
+<h2 id="how-to-run">How to run</h2>
+
+<p>To run En&lt;-&gt;Bn model on a single GPU:</p>
+
+<pre><code>export CUDA_VISIBLE_DEVICES=&quot;0&quot;
+
+src_lang=&quot;en&quot;
+tgt_lang=&quot;bn&quot;
+dataset=&quot;muse&quot;
+sup_dict_size=1000
+autoenc_dim=350
+seed=1000
+
+root_project_folder=&quot;./dumped&quot; 
+project_folder=$root_project_folder&quot;/&quot;$dataset
+
+folder_address=&quot;sup-dict-&quot;$sup_dict_size&quot;/&quot;$autoenc_dim&quot;-&quot;$autoenc_dim
+folder_address=$folder_address&quot;/&quot;$src_lang&quot;-&quot;$tgt_lang
+folder_address=$folder_address&quot;--sup_dict-&quot;$sup_dict_size
+folder_address=$folder_address&quot;--seed-&quot;$seed
+OUT_ADDRESS=$project_folder&quot;/&quot;$folder_address
+            
+mkdir -p $OUT_ADDRESS
+
+python -u lnmap.py \
+    --src_lang $src_lang \
+    --tgt_lang $tgt_lang \
+    --src_emb &quot;path/to/word-embeddings/folder/wiki.&quot;$src_lang&quot;.vec&quot; \
+    --tgt_emb &quot;path/to/word-embeddings/folder/wiki.&quot;$tgt_lang&quot;.vec&quot; \
+    --sup_dict_size $sup_dict_size \
+    --emb_dim_autoenc_A $autoenc_dim \
+    --emb_dim_autoenc_B $autoenc_dim \
+    --dico_train_path &quot;path/to/train-dictionary/folder/&quot; \
+    --dico_eval_path &quot;path/to/eval-dictionary/folder/&quot; \
+    --exp_path $OUT_ADDRESS\
+    --seed $seed \
+    --nonlinear_autoenc True \
+    --nonlinear_mapper True \
+    --dataset $dataset
+            
+</code></pre>
+
+<p>You will get the word translation accuracies at 3 different precision (1, 5, 10) for EN-BN and Bn-EN.</p>
+
+<h2 id="citation">Citation</h2>
+
+<p>Please cite our paper if you found the resources in this repository useful.</p>
+
+<pre><code class="language-bibtex">@inproceedings{mohiuddin-etal-2020-lnmap,
+    title = &quot;{LNM}ap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space&quot;,
+    author = &quot;Mohiuddin, Tasnim  and
+      Bari, M Saiful  and
+      Joty, Shafiq&quot;,
+    booktitle = &quot;Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)&quot;,
+    month = nov,
+    year = &quot;2020&quot;,
+    address = &quot;Online&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+    url = &quot;https://www.aclweb.org/anthology/2020.emnlp-main.215&quot;,
+    pages = &quot;2712--2723&quot;
+}
+</code></pre>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/deep-learning">deep-learning</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -341,19 +446,6 @@
 
     
     
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
 
     
     
@@ -367,6 +459,4 @@
 
   </body>
 </html>
-
-
 
