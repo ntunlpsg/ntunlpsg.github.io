@@ -29,7 +29,7 @@ caption = ""
 +++
 
 
-This resource contains the source code of our NAACL-HLT 2019 paper entitled [LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space](https://www.aclweb.org/anthology/2020.emnlp-main.215/) (EMNLP 2020).
+This resource contains the source code of our EMNLP-2020 paper entitled [LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space](https://www.aclweb.org/anthology/2020.emnlp-main.215/).
 
 <p align="center">
 <img src="https://taasnim.github.io/img/lnmap/model.png" width="800">
@@ -38,7 +38,7 @@ This resource contains the source code of our NAACL-HLT 2019 paper entitled [LNM
 --------------------------------------------------------------------------------
 
 ### Source code
-[Link to source code](https://github.com/ntunlpsg/unsup-word-translation)
+[Link to source code](https://github.com/taasnim/lnmap)
 
 ### Datasets
 * [Conneau et al. (2018) Dataset](https://github.com/facebookresearch/MUSE/tree/master/data): Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs.
