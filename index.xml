@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -24,6 +24,15 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pronoun-Targeted Fine-tuning for NMT with Hybrid Losses</title>
+      <link>https://ntunlpsg.github.io/publication/pronoun-finetune/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/pronoun-finetune/</guid>
       <description></description>
     </item>
     
@@ -132,15 +141,6 @@
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/benchmark/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zero-Resource Cross-Lingual Named Entity Recognition</title>
-      <link>https://ntunlpsg.github.io/publication/maruf_aaai20/</link>
-      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/maruf_aaai20/</guid>
       <description></description>
     </item>
     
