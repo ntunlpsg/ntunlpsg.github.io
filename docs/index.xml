@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -24,6 +24,33 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-model Back-translated Distillation for Unsupervised Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/cross-model-back-translation/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/cross-model-back-translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Diversification: A Simple Strategy For Neural Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/data_diverse/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/data_diverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</title>
+      <link>https://ntunlpsg.github.io/publication/daga/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/daga/</guid>
       <description></description>
     </item>
     
@@ -114,33 +141,6 @@
       <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/shi_eccv2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>It&#39;s &#39;Morphin&#39; Time! Combating Linguistic Discrimination with Inflectional Perturbations</title>
-      <link>https://ntunlpsg.github.io/publication/samson_acl2020/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/samson_acl2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VD-BERT: A Unified Vision and Dialog Transformer with BERT</title>
-      <link>https://ntunlpsg.github.io/publication/vd-bert/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/vd-bert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mind Your Inflections! Improving NLP for Non-Standard English with Base-Inflection Encoding</title>
-      <link>https://ntunlpsg.github.io/publication/samson_preprint/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/samson_preprint/</guid>
       <description></description>
     </item>
     

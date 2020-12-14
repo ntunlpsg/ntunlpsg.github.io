@@ -13,6 +13,33 @@
     
     
     <item>
+      <title>Cross-model Back-translated Distillation for Unsupervised Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/cross-model-back-translation/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/cross-model-back-translation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Diversification: A Simple Strategy For Neural Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/data_diverse/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/data_diverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</title>
+      <link>https://ntunlpsg.github.io/publication/daga/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/daga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Online Conversation Disentanglement with Pointer Networks</title>
       <link>https://ntunlpsg.github.io/publication/conversationdisentangle/</link>
       <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
@@ -135,6 +162,15 @@
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/benchmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree-Structured Attention with Hierarchical Accumulation</title>
+      <link>https://ntunlpsg.github.io/publication/tree_transformer/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/tree_transformer/</guid>
       <description></description>
     </item>
     
