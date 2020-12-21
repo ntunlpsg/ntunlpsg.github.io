@@ -45,5 +45,14 @@ Installation Required for the discourse segmenter:
  Charniak&amp;rsquo;s reranking parser. Put it in Tools/CharniakParserRerank and install it. Taggers from UIUC. Download POS tagger and shallow chunker [LBJPOS.jar, LBJChunk.jar, LBJ2.jar, LBJ2Library.jar] and put these in Tools/UIUC_TOOLs/ Install scikit-learn and scipy (instructions) Install java if not installed (instructions for Ubuntu) Make sure the Tools/SPADE_UTILS/bin/edubreak is set to executable.</description>
     </item>
     
+    <item>
+      <title>Efficient Constituency Parsing by Pointing</title>
+      <link>https://ntunlpsg.github.io/project/ptr-constituency-parser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/ptr-constituency-parser/</guid>
+      <description>This resource contains the source code of our ACL-2020 paper entitled &lt;a href=&#34;https://arxiv.org/abs/2006.13557&#34; target=&#34;_blank&#34;&gt;Efficient Constituency Parsing by Pointing&lt;/a&gt;</description>
+    </item>
+    
   </channel>
 </rss>

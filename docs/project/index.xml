@@ -202,5 +202,23 @@ Publications Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali. Doma
       <description>Online Demo Figure 1 shows the model architecture of SegBot. For EDU segmentation, the units in the input $ U0 \ to \ U8 $ are words in a sentence. Formally, given an input sequence $ U = (U_1, U_2, &amp;hellip; , U_N) $ of length $N$, we get its distributed representations $ X = (x_1, x_2, &amp;hellip; , x_N $ by looking up the corresponding embedding matrix, where $x_n \in R^k$ is the representation for the unit $U_n$ with $K$ being the dimensions.</description>
     </item>
     
+    <item>
+      <title>Differentiable Window for Dynamic Local Attention]</title>
+      <link>https://ntunlpsg.github.io/project/dynamic-attention/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/dynamic-attention/</guid>
+      <description>This resource contains the source code of our ACL-2020 paper entitled &lt;a href=&#34;https://arxiv.org/abs/2006.13561&#34; target=&#34;_blank&#34;&gt;Differentiable Window for Dynamic Local Attention&lt;/a&gt;</description>
+    </item>
+    
+    <item>
+      <title>Efficient Constituency Parsing by Pointing</title>
+      <link>https://ntunlpsg.github.io/project/ptr-constituency-parser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/ptr-constituency-parser/</guid>
+      <description>This resource contains the source code of our ACL-2020 paper entitled &lt;a href=&#34;https://arxiv.org/abs/2006.13557&#34; target=&#34;_blank&#34;&gt;Efficient Constituency Parsing by Pointing&lt;/a&gt;</description>
+    </item>
+    
   </channel>
 </rss>
