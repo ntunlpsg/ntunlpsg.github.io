@@ -44,10 +44,10 @@ weight = 4
 | [Hancheol Moon](https://han8931.github.io/) | [M Saiful Bari](https://sbmaruf.github.io) | [Lin Xiang](https://shawnlimn.github.io) |
 | <img class="img-circle" style="width: 150px;" src="./person/linlin.png"> | <img class="img-circle" style="width: 150px;" src="./person/phi.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/wang.jpg">|
 |[Linlin Liu](https://sg.linkedin.com/in/linlin-liu-26392846) |[Xuan Phi Nguyen](https://www.linkedin.com/in/xuanphinguyen/) | [Wang Weishi](https://www.linkedin.com/in/weishi-wang/)|
-|<img class="img-circle" style="width: 150px;" src="./person/tao.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/ruochen.jpg">  | <img class="img-circle" style="width: 150px;" src="./person/ravaut.jpg">|
-| Tao Yu | [Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/)  | [Mathieu RAVAUT](https://www.linkedin.com/in/mathieuravaut/) |
-|<img class="img-circle" style="width: 150px;" src="./person/Chen.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/ChengweiQin.jpeg">  | |
-| [Hailin Chen](https://www.linkedin.com/in/chenhailin/) | [Chengwei Qin](https://www.linkedin.com/in/chengwei-qin-3401a1107)  |  |
+| <img class="img-circle" style="width: 150px;" src="./person/bosheng.jpeg"> | <img class="img-circle" style="width: 150px;" src="./person/tao.jpg">  | <img class="img-circle" style="width: 150px;" src="./person/ruochen.jpg"> |
+| [Ding Bosheng](https://www.linkedin.com/in/ding-bosheng-58b3b262/) | Tao Yu  | [Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/) |
+| <img class="img-circle" style="width: 150px;" src="./person/ravaut.jpg"> | <img class="img-circle" style="width: 150px;" src="./person/Chen.jpg">  | <img class="img-circle" style="width: 150px;" src="./person/ChengweiQin.jpeg"> |
+| [Mathieu RAVAUT](https://www.linkedin.com/in/mathieuravaut/)  | [Hailin Chen](https://www.linkedin.com/in/chenhailin/)  | [Chengwei Qin](https://www.linkedin.com/in/chengwei-qin-3401a1107) |
 
 
 |Research Assistant |
