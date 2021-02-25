@@ -13,29 +13,11 @@
     
     
     <item>
-      <title>acl-2019</title>
-      <link>https://ntunlpsg.github.io/tags/acl-2019/</link>
+      <title>Data-Augmentation</title>
+      <link>https://ntunlpsg.github.io/tags/data-augmentation/</link>
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/acl-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>discourse-analysis</title>
-      <link>https://ntunlpsg.github.io/tags/discourse-analysis/</link>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/discourse-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>discourse-applications</title>
-      <link>https://ntunlpsg.github.io/tags/discourse-applications/</link>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/discourse-applications/</guid>
+      <guid>https://ntunlpsg.github.io/tags/data-augmentation/</guid>
       <description></description>
     </item>
     
@@ -63,6 +45,33 @@
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/tags/parser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acl-2019</title>
+      <link>https://ntunlpsg.github.io/tags/acl-2019/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/acl-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>discourse-analysis</title>
+      <link>https://ntunlpsg.github.io/tags/discourse-analysis/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/discourse-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>discourse-applications</title>
+      <link>https://ntunlpsg.github.io/tags/discourse-applications/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/discourse-applications/</guid>
       <description></description>
     </item>
     
