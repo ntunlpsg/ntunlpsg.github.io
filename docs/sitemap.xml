@@ -31,16 +31,6 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/tags/data-augmentation/</loc>
-      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/</loc>
       <lastmod>2021-02-24T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -62,6 +52,16 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/tags/</loc>
+      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/deep-learning/</loc>
       <lastmod>2021-02-24T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
@@ -469,16 +469,6 @@
     
       <loc>https://ntunlpsg.github.io/project/unsup-word-translation/</loc>
       <lastmod>2019-04-04T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/deep-learning/</loc>
-      <lastmod>2019-04-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
