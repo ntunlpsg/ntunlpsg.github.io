@@ -35,6 +35,8 @@
       <guid>https://ntunlpsg.github.io/project/daga/</guid>
       <description>
 
+&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlp/daga&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
 &lt;h1 id=&#34;daga&#34;&gt;DAGA&lt;/h1&gt;
 
 &lt;p&gt;This is the source code of our method proposed in paper &amp;ldquo;&lt;a href=&#34;https://www.aclweb.org/anthology/2020.emnlp-main.488/&#34; target=&#34;_blank&#34;&gt;DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&lt;/a&gt;&amp;rdquo; accepted by EMNLP 2020.&lt;/p&gt;
