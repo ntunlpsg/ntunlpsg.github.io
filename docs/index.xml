@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Feb 2021 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -25,6 +25,113 @@
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</title>
+      <link>https://ntunlpsg.github.io/project/daga/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/daga/</guid>
+      <description>
+
+&lt;h1 id=&#34;daga&#34;&gt;DAGA&lt;/h1&gt;
+
+&lt;p&gt;This is the source code of our method proposed in paper &amp;ldquo;&lt;a href=&#34;https://www.aclweb.org/anthology/2020.emnlp-main.488/&#34; target=&#34;_blank&#34;&gt;DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&lt;/a&gt;&amp;rdquo; accepted by EMNLP 2020.&lt;/p&gt;
+
+&lt;h1 id=&#34;examples&#34;&gt;Examples&lt;/h1&gt;
+
+&lt;h2 id=&#34;flair-seq-tagger-sequense-tagging-model&#34;&gt;flair_seq_tagger: sequense tagging model&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;cd flair_seq_tagger;
+
+python train_tagger.py \
+  --data_dir PATH/TO/TRAIN_DIR \
+  --train_file  train.txt \
+  --dev_file  dev.txt \
+  --data_columns text ner \
+  --model_dir ./model \
+  --comment_symbol &amp;quot;__label__&amp;quot; \
+  --embeddings_file PATH/TO/emb \
+  --optim adam \
+  --learning_rate 0.001 --min_learning_rate 0.00001 \
+  --patience 2 \
+  --max_epochs 100 \
+  --hidden_size 512 \
+  --mini_batch_size 32 \
+  --gpuid 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;lstm-lm-lstm-language-model&#34;&gt;lstm-lm: LSTM language model&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;train lstm-lm on linearized sequences&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd lstm-lm;
+
+python train.py \
+--train_file PATH/TO/train.linearized.txt \
+--valid_file PATH/TO/dev.linearized.txt \
+--model_file PATH/TO/model.pt \
+--emb_dim 300 \
+--rnn_size 512 \
+--gpuid 0 
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;generate linearized sequences&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd lstm-lm;
+
+python generate.py \
+--model_file PATH/TO/model.pt \
+--out_file PATH/TO/out.txt \
+--num_sentences 10000 \
+--temperature 1.0 \
+--seed 3435 \
+--max_sent_length 32 \
+--gpuid 0
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tools-tools-for-data-processing&#34;&gt;tools: tools for data processing&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;preprocess.py: sequence linearization&lt;/li&gt;
+&lt;li&gt;line2cols.py: convert linearized sequence back to two-column format&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;flair_seq_tagger/requirements.txt&lt;/li&gt;
+&lt;li&gt;lstm-lm/requirements.txt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
+
+&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{ding-etal-2020-daga,
+    title = &amp;quot;{DAGA}: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&amp;quot;,
+    author = &amp;quot;Ding, Bosheng  and
+      Liu, Linlin  and
+      Bing, Lidong  and
+      Kruengkrai, Canasai  and
+      Nguyen, Thien Hai  and
+      Joty, Shafiq  and
+      Si, Luo  and
+      Miao, Chunyan&amp;quot;,
+    booktitle = &amp;quot;Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)&amp;quot;,
+    month = nov,
+    year = &amp;quot;2020&amp;quot;,
+    address = &amp;quot;Online&amp;quot;,
+    publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
+    url = &amp;quot;https://www.aclweb.org/anthology/2020.emnlp-main.488&amp;quot;,
+    doi = &amp;quot;10.18653/v1/2020.emnlp-main.488&amp;quot;,
+    pages = &amp;quot;6045--6057&amp;quot;,
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -132,15 +239,6 @@
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/emt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Finding It at Another Side: A Viewpoint-Adapted Matching Encoder for Change Captioning</title>
-      <link>https://ntunlpsg.github.io/publication/shi_eccv2020/</link>
-      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/shi_eccv2020/</guid>
       <description></description>
     </item>
     
