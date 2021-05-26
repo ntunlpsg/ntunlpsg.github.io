@@ -37,12 +37,88 @@
     </item>
     
     <item>
+      <title>Cross-model Back-translated Distillation for Unsupervised Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/cbd_icml_2021/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/cbd_icml_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AugVic: Exploiting BiText Vicinity for Low-Resource NMT</title>
       <link>https://ntunlpsg.github.io/publication/augvic/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/augvic/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>RST Parsing from Scratch</title>
+      <link>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</guid>
+      <description>
+
+&lt;h1 id=&#34;rst-parsing-from-scratch&#34;&gt;RST Parsing from Scratch&lt;/h1&gt;
+
+&lt;p&gt;This repository contains the source code of our paper &lt;a href=&#34;https://arxiv.org/abs/2105.10861&#34; target=&#34;_blank&#34;&gt;RST Parsing from Scratch&lt;/a&gt; in NAACL 2021.&lt;/p&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;python&lt;/code&gt;: 3.7&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pytorch&lt;/code&gt;: 1.4&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;transformers&lt;/code&gt;: 3.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;To train a discourse parser:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./*_train.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To predict discourse tree:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./*_predict.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;data-format&#34;&gt;Data Format&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For end-to-end parsing from scratch (no sentence guidance):
+we need to create the data with dummy edu_break and doc_structure. Refer to &lt;code&gt;create_sample_dummy_format_data.py&lt;/code&gt; and &lt;code&gt;dummy_format_data/sample_rawtext_data_format&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For other parsing models:
+Refer to &lt;code&gt;create_sample_dummy_format_data.py&lt;/code&gt; and &lt;code&gt;dummy_format_data/sample_full_data_format&lt;/code&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+
+&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{nguyen-etal-2021-rst-scratch,
+title = &amp;quot;RST Parsing from Scratch&amp;quot;,
+author = &amp;quot;Nguyen, Thanh-Tung  and
+  Nguyen, Xuan-Phi  and
+  Joty, Shafiq  and
+  Li, Xiaoli&amp;quot;,
+booktitle = &amp;quot;Proceedings of the 2021 Conference of the North {A}merican Chapter 
+of the Association for Computational Linguistics: Human Language Technologies, 
+Volume 1 (Long and Short Papers)&amp;quot;,
+month = jun,
+year = &amp;quot;2021&amp;quot;,
+address = &amp;quot;Online&amp;quot;,
+publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
+url = &amp;quot;https://arxiv.org/abs/2105.10861&amp;quot;,
+doi = &amp;quot;&amp;quot;,
+pages = &amp;quot;xx--xx&amp;quot;,}
+}   
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -224,15 +300,6 @@ python generate.py \
     </item>
     
     <item>
-      <title>Cross-model Back-translated Distillation for Unsupervised Machine Translation</title>
-      <link>https://ntunlpsg.github.io/publication/cross-model-back-translation/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/cross-model-back-translation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Data Diversification: A Simple Strategy For Neural Machine Translation</title>
       <link>https://ntunlpsg.github.io/publication/data_diverse/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
@@ -283,15 +350,6 @@ python generate.py \
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/cat_jmir20/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MultiMix: A Robust Data Augmentation Strategy for Cross-Lingual NLP</title>
-      <link>https://ntunlpsg.github.io/publication/multimix/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/multimix/</guid>
       <description></description>
     </item>
     
