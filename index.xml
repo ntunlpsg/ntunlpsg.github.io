@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Fri, 16 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -24,6 +24,33 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation</title>
+      <link>https://ntunlpsg.github.io/publication/scalegrad/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/scalegrad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AugVic: Exploiting BiText Vicinity for Low-Resource NMT</title>
+      <link>https://ntunlpsg.github.io/publication/augvic/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/augvic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP</title>
+      <link>https://ntunlpsg.github.io/publication/uxla/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/uxla/</guid>
       <description></description>
     </item>
     
@@ -265,33 +292,6 @@ python generate.py \
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/multimix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differentiable Window for Dynamic Local Attention</title>
-      <link>https://ntunlpsg.github.io/publication/dynamic-attention/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/dynamic-attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Efficient Constituency Parsing by Pointing</title>
-      <link>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Resurrecting Submodularity for Neural Text Generation</title>
-      <link>https://ntunlpsg.github.io/publication/submod_summ/</link>
-      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/submod_summ/</guid>
       <description></description>
     </item>
     
