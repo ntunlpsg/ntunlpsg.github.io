@@ -22,8 +22,9 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/project/daga/</loc>
-      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
+      <loc>https://ntunlpsg.github.io/publication_types/1/</loc>
+      <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -32,8 +33,27 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/</loc>
-      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
+      <lastmod>2021-05-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/publication_types/</loc>
+      <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/publication/scalegrad/</loc>
+      <lastmod>2021-05-20T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -42,7 +62,7 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/project/</loc>
-      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
+      <lastmod>2021-04-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -51,9 +71,37 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/project/coherence/coh-eval/</loc>
+      <lastmod>2021-04-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/tags/</loc>
-      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
+      <lastmod>2021-04-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/discourse/</loc>
+      <lastmod>2021-04-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/daga/</loc>
+      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -71,28 +119,8 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/publication_types/1/</loc>
-      <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/publication/cross-model-back-translation/</loc>
       <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/publication_types/</loc>
-      <lastmod>2020-12-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -293,16 +321,6 @@
     
       <loc>https://ntunlpsg.github.io/project/coherence/n-coh-emnlp19/</loc>
       <lastmod>2019-10-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/discourse/</loc>
-      <lastmod>2019-10-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
