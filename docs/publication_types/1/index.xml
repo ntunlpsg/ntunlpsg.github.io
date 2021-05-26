@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>RST Parsing from Scratch</title>
+      <link>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP</title>
       <link>https://ntunlpsg.github.io/publication/uxla/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
@@ -819,15 +828,6 @@
       <pubDate>Sat, 15 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/2008_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RST Parsing from Scratch</title>
-      <link>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</guid>
       <description></description>
     </item>
     
