@@ -37,6 +37,24 @@
     </item>
     
     <item>
+      <title>AugVic: Exploiting BiText Vicinity for Low-Resource NMT</title>
+      <link>https://ntunlpsg.github.io/publication/augvic/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/augvic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP</title>
+      <link>https://ntunlpsg.github.io/publication/uxla/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/uxla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks</title>
       <link>https://ntunlpsg.github.io/project/coherence/coh-eval/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
@@ -274,24 +292,6 @@ python generate.py \
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/multimix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differentiable Window for Dynamic Local Attention</title>
-      <link>https://ntunlpsg.github.io/publication/dynamic-attention/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/dynamic-attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Efficient Constituency Parsing by Pointing</title>
-      <link>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</link>
-      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</guid>
       <description></description>
     </item>
     

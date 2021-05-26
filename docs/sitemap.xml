@@ -61,6 +61,24 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/publication/augvic/</loc>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/publication/uxla/</loc>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/project/</loc>
       <lastmod>2021-04-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -1379,6 +1397,14 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/project/ptr-constituency-parser/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</loc>
     </url>
     
   
