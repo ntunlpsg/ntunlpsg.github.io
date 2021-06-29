@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -25,6 +25,84 @@
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>NTU-NLP: Monthly NLP Talks</title>
+      <link>https://ntunlpsg.github.io/post/monthly-nlp-talk/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/monthly-nlp-talk/</guid>
+      <description>
+
+&lt;p&gt;The NTU-NLP group will be hosting a series of talks, featuring local NLP researchers and scientists. The seminars will be organized monthly. The goal is to create a platform for local NLP/ML enthusiasts to share their work and to encourage collaborations across local universities and organizations.&lt;/p&gt;
+
+&lt;p&gt;Ph.D&amp;rsquo;s, Postdocs, and company scientists are all welcome to participate. &lt;strong&gt;Interested Speakers&lt;/strong&gt; please send their inquiry to ruochen002@e.ntu.edu.sg.&lt;/p&gt;
+
+&lt;h3 id=&#34;subscription&#34;&gt;Subscription&lt;/h3&gt;
+
+&lt;p&gt;To subscribe to a mailing list of upcoming talks, please follow either of the steps:
+- Please go to &lt;a href=&#34;http://groups.google.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Google Groups&lt;/strong&gt;&lt;/a&gt; and search &amp;ldquo;ntu-nlp-sg-seminar&amp;rdquo; under &lt;strong&gt;All groups and messages&lt;/strong&gt; tab.
+- Or email with subject &lt;strong&gt;ntu-nlp-sg-seminar&lt;/strong&gt; to &lt;a href=&#34;mailto:ntunlpsg@gmail.com&#34; target=&#34;_blank&#34;&gt;ntunlpsg@gmail.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+
+&lt;h3 id=&#34;time-span-style-color-red-tba-span&#34;&gt;Time: &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; &lt;center&gt; Nguyen Tanh Tung &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;organizing-team&#34;&gt;Organizing Team&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/shafiq.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ruochen.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ravaut.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://raihanjoty.github.io/&#34; target=&#34;_blank&#34;&gt;Shafiq Joty&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/esther-ruochen-zhao-855357150/&#34; target=&#34;_blank&#34;&gt;Ruochen Zhao&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/mathieuravaut/&#34; target=&#34;_blank&#34;&gt;Mathieu RAVAUT&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ruochen.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/saiful.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/LinXiang.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://www.linkedin.com/in/chenhailin/&#34; target=&#34;_blank&#34;&gt;Hailin Chen&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://sbmaruf.github.io&#34; target=&#34;_blank&#34;&gt;M Saiful Bari&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;a href=&#34;https://shawnlimn.github.io&#34; target=&#34;_blank&#34;&gt;Lin Xiang&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
     </item>
     
     <item>
@@ -341,15 +419,6 @@ python generate.py \
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/pronoun-finetune/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks</title>
-      <link>https://ntunlpsg.github.io/publication/majing_tist20/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/majing_tist20/</guid>
       <description></description>
     </item>
     
