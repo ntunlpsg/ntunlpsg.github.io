@@ -26,8 +26,8 @@ weight = 1
   url = "./post/reding-group"
   label = '<i class="fa fa-book"></i> Reading group'
 [cta2]
-  url = "./post/reding-group"
-  label = '<i class="fa fa-book"></i> Reading group'
+  url = "./post/monthly-nlp-talk/"
+  label = '<i class="fa fa-book"></i> Monthly NLP Talks'
 
 
 +++

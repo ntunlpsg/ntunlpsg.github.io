@@ -26,8 +26,11 @@ url('{{ printf "img/%s" $header.overlay_img | absURL}}');
     {{ if $page.Params.cta.url }}
     <p><a href="{{ $page.Params.cta.url }}" class="btn btn-light btn-outline btn-large">{{ $page.Params.cta.label | safeHTML}}</a></p>
     {{ end }}
-	{{ if $page.Params.cta1.url }}
+	  {{ if $page.Params.cta1.url }}
 		<p><a href="{{ $page.Params.cta1.url }}" class="btn btn-light btn-outline btn-large">{{ $page.Params.cta1.label | safeHTML}}</a></p>
+		{{ end }}
+    {{ if $page.Params.cta2.url }}
+		<p></p><a href="{{ $page.Params.cta2.url }}" class="btn btn-light btn-outline btn-large">{{ $page.Params.cta2.label | safeHTML}}</a></p>
 		{{ end }}
   </div>
 

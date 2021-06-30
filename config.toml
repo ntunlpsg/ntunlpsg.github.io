@@ -276,10 +276,10 @@ defaultContentLanguageInSubdir = false
 #  url = "post/news"
 #  weight = 6
 
-#[[menu.main]]
-#  name = "Talks"
-#  url = "post/talk"
-#  weight = 7
+[[menu.main]]
+  name = "Talks"
+  url = "./post/monthly-nlp-talk/"
+  weight = 7
 
 #[[menu.main]]
 #  name = "Resources"
