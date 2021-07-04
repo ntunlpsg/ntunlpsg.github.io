@@ -33,6 +33,6 @@ To subscribe to a mailing list of upcoming talks, please follow either of the st
 || | |
 |:---: | :---: | :---: |
 |<img class="img-circle" style="width: 80px;" src="../../person/shafiq.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/ruochen.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/ravaut.jpg"> |
-| [Shafiq Joty](https://raihanjoty.github.io/)|[Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/)| [Mathieu RAVAUT](https://www.linkedin.com/in/mathieuravaut/) |
+| [Shafiq Joty](https://raihanjoty.github.io/)|[Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/)| [Mathieu RAVAUT](https://www.linkedin.com/in/mravox/) |
 | <img class="img-circle" style="width: 80px;" src="../../person/Chen.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/saiful.jpg">  | <img class="img-circle" style="width: 80px;" src="../../person/LinXiang.jpg"> |
 | [Hailin Chen](https://www.linkedin.com/in/chenhailin/)  | [M Saiful Bari](https://sbmaruf.github.io) |[Lin Xiang](https://shawnlimn.github.io)|
