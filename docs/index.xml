@@ -47,7 +47,7 @@
 
 &lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
 
-&lt;h3 id=&#34;time-span-style-color-red-tba-span&#34;&gt;Time: &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/h3&gt;
+&lt;!-- ### Time: &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; --&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -59,8 +59,8 @@
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; &lt;center&gt; Nguyen Tanh Tung &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt; 4:30 - 5:30 (UTC +8) &lt;br&gt; 12 July, 2021 &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; &lt;center&gt; Thanh-Tung Nguyen &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
