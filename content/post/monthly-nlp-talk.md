@@ -26,7 +26,7 @@ To subscribe to a mailing list of upcoming talks, please follow either of the st
 <!-- ### Time: <span style="color:red">TBA</span> -->
 | Date | Description |
 | ------ | ----------- |
-|  <span style="color:red"> 4:30 - 5:30 (UTC +8) <br> 12 July, 2021 </span>  |  <img class="img-circle" style="width: 180px;" src="../../person/thomas.jpg"> <br> <center> Thanh-Tung Nguyen <br> Ph.D. Candidate, NTU. <br> [Linkedin](https://www.linkedin.com/in/tungngthanh/) \|  [Google Scholar](https://scholar.google.com/citations?user=NkKC6zYAAAAJ&hl=en) \| [Website](https://tungngthanh.github.io/) <br> Research topic: Parsing, RNN, Machine Translation <br> |
+|  <span style="color:red"> 4:30 - 5:30 (UTC +8) <br> 12 July, 2021 </span>  |  <img class="img-circle" style="width: 180px;" src="../../person/thomas.jpg"> <br> <center> Thanh-Tung Nguyen <br> Ph.D. Candidate, NTU. <br> [Linkedin](https://www.linkedin.com/in/tungngthanh/) \|  [Google Scholar](https://scholar.google.com/citations?user=NkKC6zYAAAAJ&hl=en) \| [Website](https://tungngthanh.github.io/) <br> Research topic: Parsing, RNN, Machine Translation <br> [Talk Details](../../talk/thomas) |
 
 
 ## Organizing Team
