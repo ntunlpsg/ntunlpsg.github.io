@@ -1,7 +1,7 @@
 +++
 title = "NTU-NLP: Monthly NLP Talks"
 date = 2021-06-29
-lastmod = 2021-06-29
+lastmod = 2021-07-05
 draft = false
 
 summary = "Series of talks by Singapore NLP/ML enthusiasts."
@@ -13,26 +13,35 @@ caption = "Image credit: [**NTU Hive**](https://www.dezeen.com/2015/03/10/thomas
 
 The NTU-NLP group will be hosting a series of talks, featuring local NLP researchers and scientists. The seminars will be organized monthly. The goal is to create a platform for local NLP/ML enthusiasts to share their work and to encourage collaborations across local universities and organizations.
 
-Ph.D's, Postdocs, and company scientists are all welcome to participate. **Interested Speakers** please send their inquiry to ruochen002@e.ntu.edu.sg.
+Ph.D's, Postdocs, and company scientists are all welcome to participate. **Interested Speakers** please send their inquiry to `ruochen002@e.ntu.edu.sg`.
 
-### Subscription
+## Subscription
 
 To subscribe to a mailing list of upcoming talks, please follow either of the steps:
+
 - Please go to [**Google Groups**](http://groups.google.com) and search "ntu-nlp-sg-seminar" under **All groups and messages** tab.
-- Or email with subject **ntu-nlp-sg-seminar** to <ntunlpsg@gmail.com>.
+
+- Email with subject **ntu-nlp-sg-seminar** to <ntunlpsg@gmail.com>.
 
 
 ## Schedule
 <!-- ### Time: <span style="color:red">TBA</span> -->
-| Date | Description |
-|:------: | ----------- |
-|  <p> <center>  <span style="color:red"> 12 July, 2021 <br> 4:30 - 5:30 (UTC +8) </span>  </center>  </p> |  <img class="img-circle" style="width: 180px;" src="../../person/thomas.jpg"> <br> <center> Thanh-Tung Nguyen <br> Ph.D. Candidate, NTU. <br> [Linkedin](https://www.linkedin.com/in/tungngthanh/) \|  [Google Scholar](https://scholar.google.com/citations?user=NkKC6zYAAAAJ&hl=en) \| [Website](https://tungngthanh.github.io/) <br> Research topic: Parsing, RNN, Machine Translation <br> [Talk Details](../../talk/thomas) |
+| <center> Date </center> | <center>Description </center>|
+|:------: | :-----------: |
+|  <br> <br> <br> <br> <br> <p align="center"> 12 July, 2021 <br> 4:30 - 5:30 PM <br> (UTC +8) </p> |  <img class="img-circle" style="width: 180px;" src="../../person/thomas.jpg"> <br> Thanh-Tung Nguyen <br> Ph.D. Candidate, NTU. <br> [Linkedin](https://www.linkedin.com/in/tungngthanh/) \|  [Google Scholar](https://scholar.google.com/citations?user=NkKC6zYAAAAJ&hl=en) \| [Website](https://tungngthanh.github.io/) <br> Research topic: Parsing, RNN, Machine Translation <br> [Talk Details](../../talk/thomas) |
 
 
 ## Organizing Team
-|| | |
-|:---: | :---: | :---: |
+<!-- | | | |
+| :---: | :---: | :---: |
 |<img class="img-circle" style="width: 80px;" src="../../person/shafiq.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/ruochen.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/ravaut.jpg"> |
-| [Shafiq Joty](https://raihanjoty.github.io/)|[Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/)| [Mathieu RAVAUT](https://www.linkedin.com/in/mravox/) |
-| <img class="img-circle" style="width: 80px;" src="../../person/Chen.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/saiful.jpg">  | <img class="img-circle" style="width: 80px;" src="../../person/LinXiang.jpg"> |
-| [Hailin Chen](https://www.linkedin.com/in/chenhailin/)  | [M Saiful Bari](https://sbmaruf.github.io) |[Lin Xiang](https://shawnlimn.github.io)|
+| [Shafiq Joty](https://raihanjoty.github.io/) | [Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/) | [Mathieu RAVAUT](https://www.linkedin.com/in/mravox/) |
+| <img class="img-circle" style="width: 80px;" src="../../person/Chen.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/saiful.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/LinXiang.jpg"> |
+| [Hailin Chen](https://www.linkedin.com/in/chenhailin/) | [M Saiful Bari](https://sbmaruf.github.io) | [Lin Xiang](https://shawnlimn.github.io) | -->
+
+
+| | | | | | |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+|<img class="img-circle" style="width: 80px;" src="../../person/shafiq.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/ruochen.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/ravaut.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/Chen.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/saiful.jpg"> | <img class="img-circle" style="width: 80px;" src="../../person/LinXiang.jpg"> |
+| <small> [Shafiq Joty](https://raihanjoty.github.io/) </small> | <small> [Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/) </small>| <small>[Mathieu RAVAUT](https://www.linkedin.com/in/mravox/)</small> | <small>[Hailin Chen](https://www.linkedin.com/in/chenhailin/)</small> | <small>[M Saiful Bari](https://sbmaruf.github.io) | <small>[Lin Xiang](https://shawnlimn.github.io) </small>|
+
