@@ -21,7 +21,7 @@ To subscribe to a mailing list of upcoming talks, please follow either of the st
 
 - Please go to [**Google Groups**](http://groups.google.com) and search "ntu-nlp-sg-seminar" under **All groups and messages** tab.
 
-- Email with subject **ntu-nlp-sg-seminar** to <ntunlpsg@gmail.com>.
+- Email with subject **ntu-nlp-sg-seminar** to `ntunlpsg@gmail.com`.
 
 
 ## Schedule
