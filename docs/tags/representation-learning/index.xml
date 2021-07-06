@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>representation-learning on NTU-NLP</title>
+    <title>Representation-learning on NTU-NLP</title>
     <link>https://ntunlpsg.github.io/tags/representation-learning/</link>
-    <description>Recent content in representation-learning on NTU-NLP</description>
+    <description>Recent content in Representation-learning on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
@@ -18,7 +18,8 @@
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/discomt/eval-anaphora/</guid>
-      <description>An extensive, targeted dataset that can be used as a test suite for pronoun translation, covering multiple source languages and different pronoun errors drawn from real system translations, for English</description>
+      <description>This repository contains the data and source code of our paper &amp;ldquo;Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite&amp;rdquo; in EMNLP-IJCNLP 2019.
+Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP * SQLite3  Datasets - Training/Development/Testing The training data consists of system translations vs. reference text from WMT 2011-15. There are two versions of the development data: one with unique system translations vs.</description>
     </item>
     
     <item>
@@ -27,7 +28,9 @@
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/discourse-info-sen2vec/</guid>
-      <description>CON-S2V: A Generic Framework for Incorporating</description>
+      <description>About This resource contains the source code of CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences. paper.
+Source code Link to source code
+Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and Update  Copy the sen2vec_environment.yml file into anaconda/envs folder Get into anaconda/envs folder. Run the following command:  conda env create -f sen2vec_environment.yml  Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command.</description>
     </item>
     
     <item>

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.41" />
   
 
   
@@ -341,24 +341,24 @@ Implementation of the standard evaluation metrics as described in <a href="http:
 
 <ul>
 <li>Extract Set.tar.gz.</li>
-
-<li><p>Run the perl script:</p>
+<li>Run the perl script:</li>
+</ul>
 
 <pre><code>Perl ParsingAccuracyMeasuresDocLevelForSystems.pl path_to_sys_dir path_to_gold_dir res.out
-</code></pre></li>
-</ul>
+</code></pre>
 
 <p>The main perl script takes three arguments:</p>
 
 <ol>
-<li><p>Path to the directory with the system annotations: The filenames should end with *. doc_dis, but you can change the code according to your need. Here is where you need to change:</p>
+<li>Path to the directory with the system annotations: The filenames should end with *. doc_dis, but you can change the code according to your need. Here is where you need to change:</li>
+</ol>
 
 <pre><code>my @canFiles = grep /\w+\.doc_dis/, readdir(DIR);
-</code></pre></li>
+</code></pre>
 
-<li><p>Path to the Directory with the gold annotations: It assumes that the file names are the same as the system outputs (e.g., *.doc_dis).</p></li>
-
-<li><p>The name of the output file: In the output file, it shows the results for the individual documents as well as the summary.</p></li>
+<ol>
+<li>Path to the Directory with the gold annotations: It assumes that the file names are the same as the system outputs (e.g., *.doc_dis).</li>
+<li>The name of the output file: In the output file, it shows the results for the individual documents as well as the summary.</li>
 </ol>
 
 <p>A sample output file is attached. The parsed documents should have the same format as RST-DT.</p>
