@@ -139,15 +139,6 @@
     </item>
     
     <item>
-      <title>Resurrecting Submodularity for Neural Text Generation</title>
-      <link>https://ntunlpsg.github.io/publication/submod_summ/</link>
-      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/submod_summ/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading</title>
       <link>https://ntunlpsg.github.io/publication/emt/</link>
       <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
@@ -928,6 +919,15 @@
       
       <guid>https://ntunlpsg.github.io/publication/2008_2/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ntunlpsg.github.io/publication/submod_summ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/submod_summ/</guid>
+      <description>+++ abstract = &amp;ldquo;Submodularity is a desirable property for a variety of objectives in content selection where the current neural encoder-decoder framework is deficient. We propose diminishing attentions, a class of novel attention mechanisms that exploit the properties of submodular functions. The resulting attention module offers an architecturally simple yet empirically effective method to improve the coverage of neural text generation. We run on three directed text generation tasks with different levels of recovering rate, across two modalities, three neural model architectures and two training strategy variations.</description>
     </item>
     
   </channel>

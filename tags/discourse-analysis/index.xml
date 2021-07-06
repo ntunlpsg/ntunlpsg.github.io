@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>discourse-analysis on NTU-NLP</title>
+    <title>Discourse-analysis on NTU-NLP</title>
     <link>https://ntunlpsg.github.io/tags/discourse-analysis/</link>
-    <description>Recent content in discourse-analysis on NTU-NLP</description>
+    <description>Recent content in Discourse-analysis on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
@@ -18,7 +18,10 @@
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</guid>
-      <description>A novel top-down end-to-end formulation of document level discourse parsing in the Rhetorical Structure Theory (RST) framework.</description>
+      <description>RST Parsing from Scratch This repository contains the source code of our paper RST Parsing from Scratch in NAACL 2021.
+Requirements  python: 3.7 pytorch: 1.4 transformers: 3.0  Usage To train a discourse parser:
+./*_train.sh  To predict discourse tree:
+./*_predict.sh  Data Format  For end-to-end parsing from scratch (no sentence guidance): we need to create the data with dummy edu_break and doc_structure. Refer to create_sample_dummy_format_data.py and dummy_format_data/sample_rawtext_data_format For other parsing models: Refer to create_sample_dummy_format_data.</description>
     </item>
     
     <item>
@@ -27,7 +30,9 @@
       <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/acl19tutorial/</guid>
-      <description>Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many NLP applications.</description>
+      <description>Time: 28 July 9:00 - 12:30  Location: TBA 
+Slides: Part-1, Part-2
+   Tutors              Shafiq Joty Giuseppe Carenini Raymond T Ng Gabriel Murray    Tutorial Abstract Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many downstream applications. This involves identifying the topic structure, the coherence structure, the coreference structure, and the conversation structure for conversational discourse.</description>
     </item>
     
     <item>
@@ -36,7 +41,9 @@
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0800</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/icdmtutorial/</guid>
-      <description>Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many text mining applications.</description>
+      <description>Time: 18 Nov 3:40 - 5:40 Location: Virgo IV (Resort World Sentosa), Singapore. 
+Slides: Part-1, Part-2
+   Tutors              Shafiq Joty Giuseppe Carenini Raymond T Ng Gabriel Murray    Tutorial Abstract Discourse processing is a suite of Natural Language Processing (NLP) tasks to uncover linguistic structures from texts at several levels, which can support many text mining applications.</description>
     </item>
     
   </channel>
