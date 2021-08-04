@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -15,10 +13,14 @@
   
   
   
-  <meta name="description" content="">
+    
+      
+    
+  
+  <meta name="description" content="A data augmentation method for NER.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/tags/deep-learning/">
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/mulda/">
 
   
 
@@ -34,13 +36,6 @@
   
     
   
-  
-    
-    
-      
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-      
-    
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
@@ -72,15 +67,15 @@
   
 
   
-  <link rel="alternate" href="https://ntunlpsg.github.io/tags/deep-learning/index.xml" type="application/rss+xml" title="NTU-NLP">
-  <link rel="feed" href="https://ntunlpsg.github.io/tags/deep-learning/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="alternate" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="feed" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ntunlpsg.github.io/tags/deep-learning/">
+  <link rel="canonical" href="https://ntunlpsg.github.io/project/mulda/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -88,17 +83,19 @@
   <meta property="twitter:creator" content="@ntunlpsg">
   
   <meta property="og:site_name" content="NTU-NLP">
-  <meta property="og:url" content="https://ntunlpsg.github.io/tags/deep-learning/">
-  <meta property="og:title" content="deep-learning | NTU-NLP">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="https://ntunlpsg.github.io/project/mulda/">
+  <meta property="og:title" content="MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER | NTU-NLP">
+  <meta property="og:description" content="A data augmentation method for NER.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2021-08-04T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2021-08-04T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2021-08-04T00:00:00&#43;00:00">
   
 
   
 
-  <title>deep-learning | NTU-NLP</title>
+  <title>MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER | NTU-NLP</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -251,67 +248,139 @@
 </nav>
 
 
-
-
-
-<div class="universal-wrapper">
-
-  <h1>deep-learning</h1>
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
 
-  
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/project/mulda/">MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER</a></h2>
-    <div class="article-style">
-      
-      A data augmentation method for NER.
-      
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
     </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/project/daga/">DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</a></h2>
-    <div class="article-style">
-      
-      Data augmentation for low resource tagging.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/project/unsup-word-translation/">Unsupervised Word Translation</a></h2>
-    <div class="article-style">
-      
-      Adversarial Autoencoder with Cycle Consistency and Improved Training
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/">Malay-English Neural Machine Translation System.</a></h2>
-    <div class="article-style">
-      
-      A demo of malay english Machine translation system.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/project/lnmap/">LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space</a></h2>
-    <div class="article-style">
-      
-      This paper shows with a semi-supervised algorithm that BLI is more suitable through Non-Linear Mapping (specially for low resource languages).
-      
-    </div>
-  </div>
-  
 
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="mulda">MulDA</h1>
+
+<p>This <a href="https://github.com/ntunlp/mulda.git" target="_blank">repository</a> contains the source code and data used in our paper &ldquo;MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER&rdquo; accepted by ACL-IJCNLP 2021.</p>
+
+<h2 id="data">Data</h2>
+
+<p>The data generated using our labeled sequence translation method can be found in the &ldquo;data&rdquo; directory.</p>
+
+<h2 id="labled-sequence-translation">Labled Sequence Translation</h2>
+
+<pre><code>cd code/translate; python translate.py
+</code></pre>
+
+<h2 id="lstm-lm-multiilngual-lstm-language-model">lstm-lm: multiilngual LSTM language model</h2>
+
+<ul>
+<li><p>train lstm-lm on linearized sequences</p>
+
+<pre><code>cd code/lstm-lm;
+
+python train.py \
+--train_file PATH/TO/train.linearized.txt \
+--valid_file PATH/TO/dev.linearized.txt \
+--model_file PATH/TO/model.pt \
+--emb_dim 300 \
+--rnn_size 512 \
+--gpuid 0 
+</code></pre></li>
+
+<li><p>generate linearized sequences</p>
+
+<pre><code>cd code/lstm-lm;
+
+python generate.py \
+--model_file PATH/TO/model.pt \
+--out_file PATH/TO/out.txt \
+--num_sentences 10000 \
+--temperature 1.0 \
+--seed 3435 \
+--max_sent_length 32 \
+--gpuid 0
+</code></pre></li>
+</ul>
+
+<h2 id="tools-tools-for-data-processing">tools: tools for data processing</h2>
+
+<ul>
+<li>tools/preprocess.py: sequence linearization</li>
+<li>tools/line2cols.py: convert linearized sequence back to two-column format</li>
+</ul>
+
+<h1 id="requirements">Requirements</h1>
+
+<ul>
+<li>code/lstm-lm/requirements.txt</li>
+</ul>
+
+<h1 id="citation">Citation</h1>
+
+<p>Please cite our paper if you found the resources in this repository useful.</p>
+
+<pre><code>@inproceedings{liu-etal-2021-mulda,
+    title = &quot;MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER&quot;,
+    author = &quot;Liu Linlin  and
+      Ding, Bosheng  and
+      Bing, Lidong  and
+      Joty, Shafiq  and
+      Si, Luo  and
+      Miao, Chunyan&quot;,
+    booktitle = &quot;Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL'21)&quot;,
+    month = aug,
+    year = &quot;2021&quot;,
+    address = &quot;Online&quot;,
+    publisher = &quot;Association for Computational Linguistics&quot;,
+}
+</code></pre>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
   
-
-
+  <a class="btn btn-primary btn-outline" href="/tags/deep-learning">deep-learning</a>
+  
 </div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -378,19 +447,6 @@
 
     
     
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
 
     
     
@@ -404,6 +460,4 @@
 
   </body>
 </html>
-
-
 

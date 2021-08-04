@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Aug 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER</title>
+      <link>https://ntunlpsg.github.io/project/mulda/</link>
+      <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/mulda/</guid>
+      <description>A data augmentation method for NER.</description>
+    </item>
     
     <item>
       <title>RST Parsing from Scratch</title>

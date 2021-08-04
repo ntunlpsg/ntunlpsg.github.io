@@ -22,8 +22,47 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/project/mulda/</loc>
+      <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/</loc>
-      <lastmod>2021-07-05T00:00:00+08:00</lastmod>
+      <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/</loc>
+      <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/</loc>
+      <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/deep-learning/</loc>
+      <lastmod>2021-08-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -97,16 +136,6 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/project/</loc>
-      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</loc>
       <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     </url>
@@ -118,16 +147,6 @@
     
       <loc>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</loc>
       <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/</loc>
-      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -195,16 +214,6 @@
     
       <loc>https://ntunlpsg.github.io/project/daga/</loc>
       <lastmod>2021-02-24T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/deep-learning/</loc>
-      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
