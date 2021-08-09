@@ -29,6 +29,7 @@ To subscribe to a mailing list of upcoming talks, please follow either of the st
 | <center> Date </center> | <center>Description </center>|
 |:------: | :-----------: |
 |  <br> <br> <br> <br> <br> <p align="center"> 12 July, 2021 <br> 4:30 - 5:30 PM <br> (UTC +8) </p> |  <img class="img-circle" style="width: 180px;" src="../../person/thomas.jpg"> <br> Thanh-Tung Nguyen (Thomas) <br> Ph.D. Candidate, NTU. <br> [Linkedin](https://www.linkedin.com/in/tungngthanh/) \|  [Google Scholar](https://scholar.google.com/citations?user=NkKC6zYAAAAJ&hl=en) \| [Website](https://tungngthanh.github.io/) <br> Research topic: Parsing, RNN, Machine Translation <br> [Talk Details](../../talk/thomas)<br> [Registration Link](https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a)|
+|  <br> <br> <br> <br> <br> <p align="center"> 16 August, 2021 <br> 2:00 - 3:00 PM <br> (UTC +8) </p> |  <img class="img-circle" style="width: 180px;" src="../../person/liangming.jpeg"> <br> Liangming Pan <br> Ph.D. Candidate, NUS. <br> [Website](http://www.liangmingpan.com/) \|  [Google Scholar](https://scholar.google.com/citations?user=JcjjOTUAAAAJ&hl=en&oi=ao) <br> Research topic: Text Generation, Knowledge Graph, Multi-media Learning <br> [Talk Details](../../talk/liangming)<br> |
 
 
 ## Organizing Team
