@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NTU-NLP on NTU-NLP</title>
@@ -6,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Wed, 04 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -28,7 +29,6 @@
     </item>
     
     <item>
-<<<<<<< HEAD
       <title>Towards Generating Human-like Deep Questions</title>
       <link>https://ntunlpsg.github.io/talk/liangming/</link>
       <pubDate>Mon, 09 Aug 2021 00:00:00 +0800</pubDate>
@@ -41,91 +41,6 @@
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Liangming Pan (潘亮铭) is a 4th-year Computer Science Ph.D. student at the National University of Singapore, jointly advised by Prof. Min-Yen Kan and Prof. Tat-Seng Chua. Before joining NUS, he received Master’s degree from the School of Computer Science at Tsinghua University in June 2017, working with Prof. Juanzi Li and Prof. Jie Tang. He obtained his Bachelor’s degree from Beihang University (2010 - 2014). He joined the UC Santa Barbara Natural Language Processing Group as a visiting Ph.D. student from July 2020 to May 2021, supervised by Prof. William Wang.&lt;/p&gt;
 
 &lt;p&gt;His broad research interests include knowledge bases, natural language processing, and data mining. To be specific, his research topics include neural question generation, quesiton answering, and text style transfer.&lt;/p&gt;
-=======
-      <title>MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER</title>
-      <link>https://ntunlpsg.github.io/project/mulda/</link>
-      <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/mulda/</guid>
-      <description>
-
-&lt;h1 id=&#34;mulda&#34;&gt;MulDA&lt;/h1&gt;
-
-&lt;p&gt;This &lt;a href=&#34;https://github.com/ntunlp/mulda.git&#34; target=&#34;_blank&#34;&gt;repository&lt;/a&gt; contains the source code and data used in our paper &amp;ldquo;MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER&amp;rdquo; accepted by ACL-IJCNLP-2021.&lt;/p&gt;
-
-&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
-
-&lt;p&gt;The data generated using our labeled sequence translation method can be found in the &amp;ldquo;data&amp;rdquo; directory.&lt;/p&gt;
-
-&lt;h2 id=&#34;labled-sequence-translation&#34;&gt;Labled Sequence Translation&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;cd code/translate; python translate.py
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;lstm-lm-multiilngual-lstm-language-model&#34;&gt;lstm-lm: multiilngual LSTM language model&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;train lstm-lm on linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd code/lstm-lm;
-
-python train.py \
---train_file PATH/TO/train.linearized.txt \
---valid_file PATH/TO/dev.linearized.txt \
---model_file PATH/TO/model.pt \
---emb_dim 300 \
---rnn_size 512 \
---gpuid 0 
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;generate linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd code/lstm-lm;
-
-python generate.py \
---model_file PATH/TO/model.pt \
---out_file PATH/TO/out.txt \
---num_sentences 10000 \
---temperature 1.0 \
---seed 3435 \
---max_sent_length 32 \
---gpuid 0
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tools-tools-for-data-processing&#34;&gt;tools: tools for data processing&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;tools/preprocess.py: sequence linearization&lt;/li&gt;
-&lt;li&gt;tools/line2cols.py: convert linearized sequence back to two-column format&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;code/lstm-lm/requirements.txt&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
-
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@inproceedings{liu-etal-2021-mulda,
-    title = &amp;quot;MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER&amp;quot;,
-    author = &amp;quot;Liu Linlin  and
-      Ding, Bosheng  and
-      Bing, Lidong  and
-      Joty, Shafiq  and
-      Si, Luo  and
-      Miao, Chunyan&amp;quot;,
-    booktitle = &amp;quot;Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL&#39;21)&amp;quot;,
-    month = aug,
-    year = &amp;quot;2021&amp;quot;,
-    address = &amp;quot;Online&amp;quot;,
-    publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
-}
-&lt;/code&gt;&lt;/pre&gt;
->>>>>>> fbd0f5bbd92cc6ed70dc88a9170a1483c8e47d89
 </description>
     </item>
     
@@ -446,72 +361,67 @@ python train_tagger.py \
 &lt;h2 id=&#34;lstm-lm-lstm-language-model&#34;&gt;lstm-lm: LSTM language model&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;train lstm-lm on linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd lstm-lm;
-
-python train.py \
---train_file PATH/TO/train.linearized.txt \
---valid_file PATH/TO/dev.linearized.txt \
---model_file PATH/TO/model.pt \
---emb_dim 300 \
---rnn_size 512 \
---gpuid 0 
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;generate linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd lstm-lm;
-
-python generate.py \
---model_file PATH/TO/model.pt \
---out_file PATH/TO/out.txt \
---num_sentences 10000 \
---temperature 1.0 \
---seed 3435 \
---max_sent_length 32 \
---gpuid 0
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;train lstm-lm on linearized sequences
+```
+cd lstm-lm;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;tools-tools-for-data-processing&#34;&gt;tools: tools for data processing&lt;/h2&gt;
+&lt;p&gt;python train.py &lt;br /&gt;
+  &amp;ndash;train_file PATH/TO/train.linearized.txt &lt;br /&gt;
+  &amp;ndash;valid_file PATH/TO/dev.linearized.txt &lt;br /&gt;
+  &amp;ndash;model_file PATH/TO/model.pt &lt;br /&gt;
+  &amp;ndash;emb_dim 300 &lt;br /&gt;
+  &amp;ndash;rnn_size 512 &lt;br /&gt;
+  &amp;ndash;gpuid 0&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;preprocess.py: sequence linearization&lt;/li&gt;
-&lt;li&gt;line2cols.py: convert linearized sequence back to two-column format&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;
+- generate linearized sequences
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
+&lt;p&gt;cd lstm-lm;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;flair_seq_tagger/requirements.txt&lt;/li&gt;
-&lt;li&gt;lstm-lm/requirements.txt&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;python generate.py &lt;br /&gt;
+  &amp;ndash;model_file PATH/TO/model.pt &lt;br /&gt;
+  &amp;ndash;out_file PATH/TO/out.txt &lt;br /&gt;
+  &amp;ndash;num_sentences 10000 &lt;br /&gt;
+  &amp;ndash;temperature 1.0 &lt;br /&gt;
+  &amp;ndash;seed 3435 &lt;br /&gt;
+  &amp;ndash;max_sent_length 32 &lt;br /&gt;
+  &amp;ndash;gpuid 0&lt;/p&gt;
 
-&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;
+## tools: tools for data processing
+- preprocess.py: sequence linearization
+- line2cols.py: convert linearized sequence back to two-column format
 
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+# Requirements
+- flair\_seq\_tagger/requirements.txt
+- lstm-lm/requirements.txt
 
-&lt;pre&gt;&lt;code&gt;@inproceedings{ding-etal-2020-daga,
-    title = &amp;quot;{DAGA}: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&amp;quot;,
-    author = &amp;quot;Ding, Bosheng  and
+# Citation
+Please cite our paper if you found the resources in this repository useful.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;@inproceedings{ding-etal-2020-daga,
+    title = &amp;ldquo;{DAGA}: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&amp;rdquo;,
+    author = &amp;ldquo;Ding, Bosheng  and
       Liu, Linlin  and
       Bing, Lidong  and
       Kruengkrai, Canasai  and
       Nguyen, Thien Hai  and
       Joty, Shafiq  and
       Si, Luo  and
-      Miao, Chunyan&amp;quot;,
-    booktitle = &amp;quot;Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)&amp;quot;,
+      Miao, Chunyan&amp;rdquo;,
+    booktitle = &amp;ldquo;Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)&amp;rdquo;,
     month = nov,
-    year = &amp;quot;2020&amp;quot;,
-    address = &amp;quot;Online&amp;quot;,
-    publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
-    url = &amp;quot;https://www.aclweb.org/anthology/2020.emnlp-main.488&amp;quot;,
-    doi = &amp;quot;10.18653/v1/2020.emnlp-main.488&amp;quot;,
-    pages = &amp;quot;6045--6057&amp;quot;,
+    year = &amp;ldquo;2020&amp;rdquo;,
+    address = &amp;ldquo;Online&amp;rdquo;,
+    publisher = &amp;ldquo;Association for Computational Linguistics&amp;rdquo;,
+    url = &amp;ldquo;&lt;a href=&#34;https://www.aclweb.org/anthology/2020.emnlp-main.488&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://www.aclweb.org/anthology/2020.emnlp-main.488&amp;quot;&lt;/a&gt;,
+    doi = &amp;ldquo;10.18653/v1/2020.emnlp-main.488&amp;rdquo;,
+    pages = &amp;ldquo;6045&amp;ndash;6057&amp;rdquo;,
 }
-&lt;/code&gt;&lt;/pre&gt;
+```&lt;/p&gt;
 </description>
     </item>
     

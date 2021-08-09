@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.55.6" />
+  <meta name="generator" content="Hugo 0.41" />
   
 
   
@@ -17,7 +17,10 @@
       
     
   
-  <meta name="description" content="A novel top-down end-to-end formulation of document level discourse parsing in the Rhetorical Structure Theory (RST) framework.">
+  <meta name="description" content="RST Parsing from Scratch This repository contains the source code of our paper RST Parsing from Scratch in NAACL 2021.
+Requirements  python: 3.7 pytorch: 1.4 transformers: 3.0  Usage To train a discourse parser:
+./*_train.sh  To predict discourse tree:
+./*_predict.sh  Data Format  For end-to-end parsing from scratch (no sentence guidance): we need to create the data with dummy edu_break and doc_structure. Refer to create_sample_dummy_format_data.py and dummy_format_data/sample_rawtext_data_format For other parsing models: Refer to create_sample_dummy_format_data.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/">
@@ -85,7 +88,10 @@
   <meta property="og:site_name" content="NTU-NLP">
   <meta property="og:url" content="https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/">
   <meta property="og:title" content="RST Parsing from Scratch | NTU-NLP">
-  <meta property="og:description" content="A novel top-down end-to-end formulation of document level discourse parsing in the Rhetorical Structure Theory (RST) framework."><meta property="og:image" content="https://ntunlpsg.github.io/img/naacl21-rst-parsing-model.png">
+  <meta property="og:description" content="RST Parsing from Scratch This repository contains the source code of our paper RST Parsing from Scratch in NAACL 2021.
+Requirements  python: 3.7 pytorch: 1.4 transformers: 3.0  Usage To train a discourse parser:
+./*_train.sh  To predict discourse tree:
+./*_predict.sh  Data Format  For end-to-end parsing from scratch (no sentence guidance): we need to create the data with dummy edu_break and doc_structure. Refer to create_sample_dummy_format_data.py and dummy_format_data/sample_rawtext_data_format For other parsing models: Refer to create_sample_dummy_format_data."><meta property="og:image" content="https://ntunlpsg.github.io/img/naacl21-rst-parsing-model.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2021-05-01T00:00:00&#43;00:00">
