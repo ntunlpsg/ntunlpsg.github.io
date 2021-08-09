@@ -29,6 +29,22 @@
     </item>
     
     <item>
+      <title>Towards Generating Human-like Deep Questions</title>
+      <link>https://ntunlpsg.github.io/talk/liangming/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/liangming/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; &lt;center&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Liangming Pan (潘亮铭) is a 4th-year Computer Science Ph.D. student at the National University of Singapore, jointly advised by Prof. Min-Yen Kan and Prof. Tat-Seng Chua. Before joining NUS, he received Master’s degree from the School of Computer Science at Tsinghua University in June 2017, working with Prof. Juanzi Li and Prof. Jie Tang. He obtained his Bachelor’s degree from Beihang University (2010 - 2014). He joined the UC Santa Barbara Natural Language Processing Group as a visiting Ph.D. student from July 2020 to May 2021, supervised by Prof. William Wang.&lt;/p&gt;
+
+&lt;p&gt;His broad research interests include knowledge bases, natural language processing, and data mining. To be specific, his research topics include neural question generation, quesiton answering, and text style transfer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Structured Pointing Networks for Natural Language Understanding</title>
       <link>https://ntunlpsg.github.io/talk/thomas/</link>
       <pubDate>Sun, 04 Jul 2021 00:00:00 +0800</pubDate>
@@ -80,6 +96,11 @@
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 16 August, 2021 &lt;br&gt; 2:00 - 3:00 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt; &lt;a href=&#34;../../talk/liangming&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -419,15 +440,6 @@ Please cite our paper if you found the resources in this repository useful.
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/daga/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Online Conversation Disentanglement with Pointer Networks</title>
-      <link>https://ntunlpsg.github.io/publication/conversationdisentangle/</link>
-      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/conversationdisentangle/</guid>
       <description></description>
     </item>
     
