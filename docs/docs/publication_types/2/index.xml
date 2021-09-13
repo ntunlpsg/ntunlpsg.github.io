@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/publication_types/2/</link>
+    <description>Recent content in 2 on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks</title>
+      <link>https://ntunlpsg.github.io/publication/majing_tist20/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/majing_tist20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational agents in healthcare: a scoping review and conceptual analysis</title>
+      <link>https://ntunlpsg.github.io/publication/cat_jmir20/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/cat_jmir20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach</title>
+      <link>https://ntunlpsg.github.io/publication/j_9/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation Using Neural Network Joint Model</title>
+      <link>https://ntunlpsg.github.io/publication/j_2/</link>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Translation Evaluation with Neural Networks</title>
+      <link>https://ntunlpsg.github.io/publication/j_3/</link>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discourse Structure in Machine Translation Evaluation</title>
+      <link>https://ntunlpsg.github.io/publication/j_1/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sleep Quality Prediction From Wearable Data Using Deep Learning</title>
+      <link>https://ntunlpsg.github.io/publication/j_4/</link>
+      <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CODRA: A Novel Discriminative Framework for Rhetorical Analysis</title>
+      <link>https://ntunlpsg.github.io/publication/j_5/</link>
+      <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topic Segmentation and Labeling in Asynchronous Conversations</title>
+      <link>https://ntunlpsg.github.io/publication/j_6/</link>
+      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving graph-based random walks for complex question answering using syntactic, shallow semantic and extended string subsequence kernels</title>
+      <link>https://ntunlpsg.github.io/publication/j_8/</link>
+      <pubDate>Tue, 01 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex Question Answering: Unsupervised Learning Approaches and Experiments</title>
+      <link>https://ntunlpsg.github.io/publication/j_7/</link>
+      <pubDate>Thu, 28 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_7/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/post/</link>
+    <description>Recent content in Posts on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://ntunlpsg.github.io/post/post/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NTU-NLP: Monthly NLP Talks</title>
+      <link>https://ntunlpsg.github.io/post/monthly-nlp-talk/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/monthly-nlp-talk/</guid>
+      <description>The NTU-NLP group will be hosting a series of talks, featuring local NLP researchers and scientists. The seminars will be organized monthly. The goal is to create a platform for local NLP/ML enthusiasts to share their work and to encourage collaborations across local universities and organizations.
+Ph.D&amp;rsquo;s, Postdocs, and company scientists are all welcome to participate. Interested Speakers please send their inquiry to ruochen002@e.ntu.edu.sg.
+Subscription To subscribe to a mailing list of upcoming talks, please follow either of the steps:</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://ntunlpsg.github.io/post/news/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/news/</guid>
+      <description>2018    &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;      30 May, 2018 Prof. Giuseppe Carenini from UBC gave a talk at NTU on text summarization. link   21 Apr, 2018 Two long papers got accepted at ACL-2018.   15 Mar, 2018 NLP in the Era of Big Data, Deep Learning, and Post Truth workshop at ESSLLI 2018.</description>
+    </item>
+    
+    <item>
+      <title>Reading group</title>
+      <link>https://ntunlpsg.github.io/post/reading-group/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/reading-group/</guid>
+      <description>Introduction The Natural Language Processing (NLP) reading group meets regularly (usually weekly) to discuss research topics on a particular sub-field of NLP.
+Subscription You can receive announcements about the reading group by joining our mailing list. To join the mailing list, please use an academic email address and send an email to ntunlpsg@gmail.com with a subject &amp;ldquo;subscribe ntu-nlp&amp;rdquo;. If you use a non-academic email address, we would have to verify it which could delay your subscription process.</description>
+    </item>
+    
+    <item>
+      <title>Reading group</title>
+      <link>https://ntunlpsg.github.io/post/reding-group/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/reding-group/</guid>
+      <description>Introduction The Natural Language Processing (NLP) reading group meets regularly (usually weekly) to discuss research topics on a particular sub-field of NLP.
+Subscription You can receive announcements about the reading group by joining our mailing list. To join the mailing list, please use an academic email address and send an email to ntunlpsg@gmail.com with a subject &amp;ldquo;subscribe ntu-nlp&amp;rdquo;. If you use a non-academic email address, we would have to verify it which could delay your subscription process.</description>
+    </item>
+    
+    <item>
+      <title>Talk</title>
+      <link>https://ntunlpsg.github.io/post/talk/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/talk/</guid>
+      <description> 2018    &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;      30 May, 2018 Prof. Giuseppe Carenini from UBC gave a talk at NTU on text summarization. link    </description>
+    </item>
+    
+  </channel>
+</rss>
