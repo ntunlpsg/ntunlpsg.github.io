@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/tags/misc/</link>
+    <description>Recent content in Misc on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/tags/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Learning for Crisis Computing</title>
+      <link>https://ntunlpsg.github.io/project/crisis-computing/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/crisis-computing/</guid>
+      <description>About This repository will host Python implementation of a number of deep neural networks classifiers for the classification of crisis-related data on Twitter.
+ Requirementes:
+python 2.7 numpy, scikit-learn keras, tensorflow or theano backend  Dataset and Pre-process A sample of tweet data (data/sample.csv) is a .csv format with three columns
+First, we need to pre-process tweets data: remove urls, special characters, lowercasing… - python data_helpers/preprocess.py data/sample.csv Split pre-processed data (data/sample_prccd.</description>
+    </item>
+    
+  </channel>
+</rss>
