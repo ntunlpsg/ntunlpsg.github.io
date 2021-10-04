@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-lingual on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/tags/multi-lingual/</link>
+    <description>Recent content in Multi-lingual on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Fri, 07 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/tags/multi-lingual/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Malay-English Neural Machine Translation System.</title>
+      <link>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</guid>
+      <description>This is a tool to translate an English sentence into Malay and vice versa. Developing a translation tool for low-resource languages like Malay has always been a challenge. The main challenge comes from the fact that machine translation systems typically rely on a huge amount of sentence-parallel data, and creating such datasets is an expensive process. In our work, we collected parallel datasets from various sources including News, OpenSubtitiles (OPUS), Ted talks, and Youtube video.</description>
+    </item>
+    
+    <item>
+      <title>Neural Domain Adaptation Model for Machine Translation</title>
+      <link>https://ntunlpsg.github.io/project/neural-domain-adaptation-model-for-machine-translation/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/neural-domain-adaptation-model-for-machine-translation/</guid>
+      <description>About This resource contain the source code of Domain adaptation using neural network joint model paper.
+Source code Link to github
+Publications Shafiq Joty, Nadir Durrani, Hassan Sajjad, and Ahmed Abdelali. Domain Adaptation Using Neural Network Joint Model. In Computer Speech &amp;amp; Language (Special Issue on Deep Learning for Machine Translation) : pages 161-179, 2017.
+@article{joty-durrani-sajjad-abdelali-csl-17, title=&amp;quot;{Domain Adaptation Using Neural Network Joint Model}&amp;quot;, author={Shafiq Joty and Nadir Durrani and Hassan Sajjad and Ahmed Abdelali}, journal = {Computer Speech &amp;amp; Language}, volume={45}, publisher={Elsevier}, pages={161-179}, year={2017}, doi = {https://doi.</description>
+    </item>
+    
+  </channel>
+</rss>

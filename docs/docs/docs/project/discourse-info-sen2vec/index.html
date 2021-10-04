@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.41" />
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="About This resource contains the source code of CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences. paper.
+Source code Link to source code
+Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and Update  Copy the sen2vec_environment.yml file into anaconda/envs folder Get into anaconda/envs folder. Run the following command:  conda env create -f sen2vec_environment.yml  Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/discourse-info-sen2vec/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-115450637-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="feed" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://ntunlpsg.github.io/project/discourse-info-sen2vec/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ntunlpsg">
+  <meta property="twitter:creator" content="@ntunlpsg">
+  
+  <meta property="og:site_name" content="NTU-NLP">
+  <meta property="og:url" content="https://ntunlpsg.github.io/project/discourse-info-sen2vec/">
+  <meta property="og:title" content="Discourse-informed Sen2Vec | NTU-NLP">
+  <meta property="og:description" content="About This resource contains the source code of CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences. paper.
+Source code Link to source code
+Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and Update  Copy the sen2vec_environment.yml file into anaconda/envs folder Get into anaconda/envs folder. Run the following command:  conda env create -f sen2vec_environment.yml  Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command."><meta property="og:image" content="https://ntunlpsg.github.io/img/sen2vec.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2016-04-28T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2016-04-28T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Discourse-informed Sen2Vec | NTU-NLP</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/ntunlp_final.png" alt="NTU-NLP"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#people">
+            
+            <span>People</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/publication/">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/resources/">
+            
+            <span>Resources</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/post/reading-group">
+            
+            <span>Reading Group</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/post/monthly-nlp-talk/">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  <img src="/img/sen2vec.png" class="article-banner" itemprop="image">
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Discourse-informed Sen2Vec</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h3 id="about">About</h3>
+
+<p>This resource contains the source code of <a href="https://raihanjoty.github.io/papers/saha-joty-hasan-ecml-17.pdf" target="_blank">CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences.</a> paper.</p>
+
+<h3 id="source-code">Source code</h3>
+
+<p><a href="https://github.com/tksaha/con-s2v/tree/jointlearning" target="_blank">Link to source code</a></p>
+
+<h3 id="requirements">Requirements</h3>
+
+<ul>
+<li><a href="https://www.continuum.io/downloads" target="_blank">Anaconda with Python 3.5</a></li>
+<li><a href="http://www.berouge.com/Pages/DownloadROUGE.aspx" target="_blank">ROUGE-1.5.5</a></li>
+</ul>
+
+<h3 id="python-environment-setup-and-update">Python Environment setup and Update</h3>
+
+<ol>
+<li>Copy the sen2vec_environment.yml file into anaconda/envs folder</li>
+<li>Get into anaconda/envs folder.</li>
+<li>Run the following command:</li>
+</ol>
+
+<pre><code>conda env create -f sen2vec_environment.yml
+</code></pre>
+
+<p>Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command.</p>
+
+<pre><code>source activate sen2vec
+</code></pre>
+
+<p>If you have added more packages into the environment, you
+can update the .yml file using the following command:</p>
+
+<pre><code>conda env export &gt; sen2vec_environment.yml
+</code></pre>
+
+<h3 id="rouge-environment-setup">ROUGE Environment setup</h3>
+
+<p>Please go to the ROUGE directory and run the following command to check whether
+the provided perl script will work or not:</p>
+
+<pre><code>./ROUGE-1.5.5.pl 
+</code></pre>
+
+<p>If it shows the options for running the script, then you are fine. However, if it shows
+you haven&rsquo;t have XML::DOM installed then please type following command to install
+it:</p>
+
+<pre><code>cpan XML::DOM
+</code></pre>
+
+<p>Here, CPAN stands for Comprehensive Perl Archive Network.</p>
+
+<h3 id="database-creation-and-update">Database Creation and update</h3>
+
+<p>If you have already installed <a href="http://postgresapp.com/" target="_blank">postgresql</a>, then
+you can create a table with the following command for the newsgroup [news] dataset:</p>
+
+<pre><code>psql -c &quot;create database news&quot;
+</code></pre>
+
+<p>After creating the database, use pg_restore to create the schemas which is agnostic to
+the dataset:</p>
+
+<pre><code>pg_restore --jobs=3 --exit-on-error --no-owner --dbname=news sql_dump.dump
+</code></pre>
+
+<p>or</p>
+
+<pre><code>pg_restore --jobs=3 -n public --exit-on-error --no-owner --dbname=news sql_dump.dump
+</code></pre>
+
+<p>We are assuming that either you are using <code>postgres</code> as the username or any other username
+which already has all the required privileges. To change the password for the <code>postgres</code> user,
+use the following command-</p>
+
+<pre><code>psql -h localhost -d news -U postgres -w
+\password
+</code></pre>
+
+<p>If you have made any changes to the database, you can updated the dump
+file using following command (schema only):</p>
+
+<p>[You may need to set peer authentication: <a href="http://stackoverflow.com/questions/10430645/how-can-i-get-pg-dump-to-authenticate-properly" target="_blank">Peer authentication</a>]</p>
+
+<pre><code>sudo -u postgres pg_dump -s --no-owner -FC news &gt;sql-dump.dump 
+</code></pre>
+
+<p>To dump the data of a particular table from the database:</p>
+
+<pre><code>sudo -u postgres pg_dump --data-only -t summary news --no-owner -Fc &gt; news_summary.dump
+</code></pre>
+
+<h3 id="setting-environment-variables">Setting Environment Variables</h3>
+
+<p>Set the dataset folder path and the connection string in the environment.sh file properly and
+then run the following command-</p>
+
+<pre><code>source environment.sh #Unix, os-x
+</code></pre>
+
+<h3 id="creating-executable-for-word2vec-mikolov-s-implementation">Creating Executable for Word2Vec (Mikolov&rsquo;s Implementation)</h3>
+
+<p>Please go to the word2vec code directory inside the project and
+type the following command for creating executable:</p>
+
+<pre><code>make clean
+make
+</code></pre>
+
+<h3 id="installation-of-theano-for-skip-thought">Installation of Theano for Skip-Thought</h3>
+
+<pre><code>pip install theano
+sudo apt install nvidia-cuda-toolkit
+</code></pre>
+
+<h3 id="installation-of-keras-sequential-api">Installation of Keras (Sequential API)</h3>
+
+<pre><code>pip install keras
+</code></pre>
+
+<p>To change the backend to <code>theano</code> please change the default configuration
+in ~/.keras/keras.json</p>
+
+<pre><code>{
+    &quot;image_dim_ordering&quot;: &quot;tf&quot;,
+    &quot;epsilon&quot;: 1e-07,
+    &quot;floatx&quot;: &quot;float32&quot;,
+    &quot;backend&quot;: &quot;theano&quot;
+}
+</code></pre>
+
+<h3 id="downloading-the-c-phrase-vectors">Downloading the {C-PHRASE} vectors:</h3>
+
+<p>Please download the C-Phrase vectors from <a href="http://clic.cimec.unitn.it/composes/cphrase-vectors.html" target="_blank">C-Phrase link</a> and
+join the files using following commands:</p>
+
+<pre><code>cat cphrase.txt.zip_* &gt; cphrase.txt.zip 
+sed -i  '1 i\174814 300'  cphrase.txt  # converting into word2vec format
+</code></pre>
+
+<h3 id="downloading-glove-pretrained-vectors-for-sdae">Downloading GLove Pretrained Vectors for SDAE:</h3>
+
+<p>Please download the vectors from <a href="http://nlp.stanford.edu/projects/glove/" target="_blank">Glove link</a> and then append
+a line in the first line using following command:</p>
+
+<pre><code>sed -i '1 i\400000 300' glove.6B.300d.txt
+</code></pre>
+
+<h3 id="running-the-project">Running the Project</h3>
+
+<p>Run sen2vec with -h argument to see all possible options:</p>
+
+<pre><code>python sen2vec -h
+usage: sen2vec [-h] -dataset DATASET -ld LD
+
+Sen2Vec
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -dataset DATASET, --dataset DATASET
+                        Please enter dataset to work on [reuter, news]
+  -ld LD, --ld LD       Load into Database [0, 1]
+  
+  -pd PD, --pd PD       Prepare Data [0, 1]
+  
+  -rbase RBASE, --rbase RBASE       Run the Baselines [0, 1]
+  
+  -gs GS, --gs GS       Generate Summary [0, 1]
+</code></pre>
+
+<p>For example, you can run for the news dataset using the following command-</p>
+
+<pre><code>python sen2vec -dataset news -ld 1 -pd 1 -rbase 1 -gs 1
+</code></pre>
+
+<h3 id="publications">Publications</h3>
+
+<p>Tanay Saha, Shafiq Joty, Naeemul Hassan, and Mohammad Hasan. Regularized and Retrofitted models for Learning Sentence Representation with Context . In Proceedings of the 26th ACM International Conference on Information and Knowledge Management (CIKM&rsquo;17) , pages xx-xx, 2017.</p>
+
+<pre><code>@InProceedings{saha-joty-hassan-hasan-cikm-17,
+  author    = {Tanay Saha and Shafiq Joty and Naeemul Hassan and Mohammad Hasan},
+  title     = {Regularized and Retrofitted models for Learning Sentence Representation with Context},
+  booktitle = {Proceedings of the 26th ACM International Conference on Information and Knowledge Management},
+  month     = {November},
+  year      = {2017},
+  series    = {CIKM'17},
+  address   = {Singapore},
+  publisher = {ACM},
+  pages     = {xx--xx},
+  url       = {papers/saha-joty-hassan-hasan-cikm-17.pdf},
+}
+</code></pre>
+
+<hr />
+
+<p>Tanay Kumar Saha, Shafiq Joty, Mohammad Al Hasan. CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec. In Proceedings of the European Conference on Machine Learning (ECML-PKDD-2017), Macedonia, Skopje, 2017</p>
+
+<pre><code>@InProceedings{saha-joty-hasan-ecml-17,
+  author    = {Tanay Saha and Shafiq Joty and Mohammad Hasan},
+  title     = {CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec},
+  booktitle = {Proceedings of The European Conference on Machine Learning &amp; 
+Principles and Practice of knowledge discovery in databases},
+  month     = {September},
+  year      = {2017},
+  series    = {ECML-PKDD'17},
+  address   = {Macedonia, Skopje},
+  publisher = {Springer},
+  pages     = {xx--xx},
+  url       = {papers/saha-joty-hasan-ecml-17.pdf}
+</code></pre>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/representation-learning">representation-learning</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/discourse">discourse</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      ntunlp &copy; 2020 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>discourse-parsing on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/tags/discourse-parsing/</link>
+    <description>Recent content in discourse-parsing on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    
+	<atom:link href="https://ntunlpsg.github.io/tags/discourse-parsing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RST Parsing from Scratch</title>
+      <link>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</guid>
+      <description>A novel top-down end-to-end formulation of document level discourse parsing in the Rhetorical Structure Theory (RST) framework.</description>
+    </item>
+    
+  </channel>
+</rss>
