@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/publication_types/</link>
+    <description>Recent content in Publication_types on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1</title>
+      <link>https://ntunlpsg.github.io/publication_types/1/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication_types/1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://ntunlpsg.github.io/publication_types/2/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication_types/2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

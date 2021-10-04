@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/home/</link>
+    <description>Recent content in Homes on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NTU-NLP</title>
+      <link>https://ntunlpsg.github.io/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/home/hero/</guid>
+      <description>NLP Research @ NTU Latest release   --- (function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })();
+function GetLatestReleaseInfo() { $.getJSON(&amp;lsquo;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&amp;lsquo;#academic-release&amp;rsquo;).text(&amp;lsquo;Latest release &amp;rsquo; + release.name);
+});
+}</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ntunlpsg.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/home/about/</guid>
+      <description>Welcome! We are the Natural Language Processing (NLP) Research Group at the Nanyang Technological University (NTU). Our work covers all aspects of NLP research, ranging from core NLP tasks to key downstream applications, and new machine learning methods. We collaborate with other research groups at NTU including computer vision, data mining, information retrieval, linguistics, and medical school, and also with external partners from academia and industry.</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>https://ntunlpsg.github.io/home/people/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/home/people/</guid>
+      <description>Faculty        Shafiq Joty
+Natural Language Processing       Affiliated Faculty              Jianfei Cai
+Computer Vision Sun Aixin
+Information Retrieval Gao Cong
+Data Mining Andrea Nanetti Digital Humanities          Sourav S Bhowmick
+Data Management and Analytics Francis Bond</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://ntunlpsg.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
