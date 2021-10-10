@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Wed, 04 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -25,6 +25,20 @@
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Generating Human-like Deep Questions</title>
+      <link>https://ntunlpsg.github.io/talk/liangming/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/liangming/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; &lt;center&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Liangming Pan is a fourth year Computer Science Ph.D. student at National University of Singapore, jointly advised by Prof. Min-Yen Kan and Prof. Tat-Seng Chua. He was also a visiting Ph.D. student at UC Santa Barbara in 2020. Prior to joining NUS, he received a Master degree from School of Computer Science at Tsinghua University. His board research interests include knowledge base, natural language processing, and data mining. His Ph.D. research topics focus on natural language generation with deep reasoning, including neural question generation, and text style transfer. He has published several research papers in top-ranked conferences including ACL, COLING, and NAACL. He has also won the Research Achievement Award and the Dean&amp;rsquo;s Graduate Award from NUS School of Computing.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -165,7 +179,12 @@ python generate.py \
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 16 August, 2021 &lt;br&gt; 2:00 - 3:00 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt; &lt;a href=&#34;../../talk/liangming&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,v1_XYvcKHUiL5HYlH8upQQ,dcx2ACSf_k-3a8mWBEdqgw,gAgX1m0VUEO6SVNHt7wv1g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/CAJJJOoS-q4&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -501,15 +520,6 @@ python generate.py \
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/data_diverse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</title>
-      <link>https://ntunlpsg.github.io/publication/daga/</link>
-      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/daga/</guid>
       <description></description>
     </item>
     
