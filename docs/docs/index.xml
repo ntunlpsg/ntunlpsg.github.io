@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NTU-NLP on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/</link>
+    <description>Recent content in NTU-NLP on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://ntunlpsg.github.io/post/post/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://ntunlpsg.github.io/resources/list/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/resources/list/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DVD: A Diagnostic Dataset for Multi-step Reasoning in Video Grounded Dialogue</title>
+      <link>https://ntunlpsg.github.io/talk/henry/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/henry/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; &lt;center&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Hung Le is a Ph.D. candidate in Computer Science at Singapore Management University, advised by Prof. Steven Hoi and Dr. Nancy Chen. His research interest lies in natural language processing and machine learning, including research in non-autoregressive dialogue state tracking, task-oriented dialogues, and video-grounded dialogues. His research work has been published in ACL, ICLR, EMNLP, and AAAI. Hung is awarded the Computer and Information Science Scholarship by A*STAR Singapore and is a recipient of the Presidential Doctoral Fellowship from 2019 to 2021.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Towards Generating Human-like Deep Questions</title>
+      <link>https://ntunlpsg.github.io/talk/liangming/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/liangming/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; &lt;center&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Liangming Pan is a fourth year Computer Science Ph.D. student at National University of Singapore, jointly advised by Prof. Min-Yen Kan and Prof. Tat-Seng Chua. He was also a visiting Ph.D. student at UC Santa Barbara in 2020. Prior to joining NUS, he received a Master degree from School of Computer Science at Tsinghua University. His board research interests include knowledge base, natural language processing, and data mining. His Ph.D. research topics focus on natural language generation with deep reasoning, including neural question generation, and text style transfer. He has published several research papers in top-ranked conferences including ACL, COLING, and NAACL. He has also won the Research Achievement Award and the Dean&amp;rsquo;s Graduate Award from NUS School of Computing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Structured Pointing Networks for Natural Language Understanding</title>
+      <link>https://ntunlpsg.github.io/talk/thomas/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/thomas/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; &lt;center&gt; Thanh-Tung Nguyen &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Thomas is a Ph.D candidate in &lt;a href=&#34;https://ntunlpsg.github.io/&#34; target=&#34;_blank&#34;&gt;NLP Research Group&lt;/a&gt; at the &lt;a href=&#34;https://www.ntu.edu.sg/&#34; target=&#34;_blank&#34;&gt;Nanyang Technological University (NTU)&lt;/a&gt;. He is also affiliated with the Machine Intellection Department (previously was Data Analytics &amp;amp; Deep Learning 2.0 Department) of Institution for Infocomm Research (I2R). His research involves various aspects of NLP, especially NLP tools and NLP applications. Thomas will join I2R to work on the Collaborative AI project after his graduation.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NTU-NLP: Monthly NLP Talks</title>
+      <link>https://ntunlpsg.github.io/post/monthly-nlp-talk/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/post/monthly-nlp-talk/</guid>
+      <description>
+
+&lt;p&gt;The NTU-NLP group will be hosting a series of talks, featuring local NLP researchers and scientists. The seminars will be organized monthly. The goal is to create a platform for local NLP/ML enthusiasts to share their work and to encourage collaborations across local universities and organizations.&lt;/p&gt;
+
+&lt;p&gt;Ph.D&amp;rsquo;s, Postdocs, and company scientists are all welcome to participate. &lt;strong&gt;Interested Speakers&lt;/strong&gt; please send their inquiry to &lt;code&gt;ruochen002@e.ntu.edu.sg&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;subscription&#34;&gt;Subscription&lt;/h2&gt;
+
+&lt;p&gt;To subscribe to a mailing list of upcoming talks, please follow either of the steps:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Please go to &lt;a href=&#34;http://groups.google.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Google Groups&lt;/strong&gt;&lt;/a&gt; and search &amp;ldquo;ntu-nlp-sg-seminar&amp;rdquo; under &lt;strong&gt;All groups and messages&lt;/strong&gt; tab.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Email with subject &lt;strong&gt;ntu-nlp-sg-seminar&lt;/strong&gt; to &lt;code&gt;ntunlpsg@gmail.com&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+
+&lt;!-- ### Time: &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; --&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;center&gt; Date &lt;/center&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;center&gt;Description &lt;/center&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 16 August, 2021 &lt;br&gt; 2:00 - 3:00 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt; &lt;a href=&#34;../../talk/liangming&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,v1_XYvcKHUiL5HYlH8upQQ,dcx2ACSf_k-3a8mWBEdqgw,gAgX1m0VUEO6SVNHt7wv1g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/CAJJJOoS-q4&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 13 September, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU. &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt; &lt;a href=&#34;../../talk/henry&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,85H58boEIUi55Ji9ruGeIg,Qe-QTrzJSE-B569L2e8Rhg,8SgWAxByEUie0twEcIce3g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rjEFtYNmoMs&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;organizing-team&#34;&gt;Organizing Team&lt;/h2&gt;
+
+&lt;!-- | | | |
+| :---: | :---: | :---: |
+|&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/shafiq.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ruochen.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ravaut.jpg&#34;&gt; |
+| [Shafiq Joty](https://raihanjoty.github.io/) | [Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/) | [Mathieu RAVAUT](https://www.linkedin.com/in/mravox/) |
+| &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/Chen.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/saiful.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/LinXiang.jpg&#34;&gt; |
+| [Hailin Chen](https://www.linkedin.com/in/chenhailin/) | [M Saiful Bari](https://sbmaruf.github.io) | [Lin Xiang](https://shawnlimn.github.io) | --&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/shafiq.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ruochen.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ravaut.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/Chen.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/saiful.jpg&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/LinXiang.jpg&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;small&gt; &lt;a href=&#34;https://raihanjoty.github.io/&#34; target=&#34;_blank&#34;&gt;Shafiq Joty&lt;/a&gt; &lt;/small&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;small&gt; &lt;a href=&#34;https://www.linkedin.com/in/esther-ruochen-zhao-855357150/&#34; target=&#34;_blank&#34;&gt;Ruochen Zhao&lt;/a&gt; &lt;/small&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://www.linkedin.com/in/mravox/&#34; target=&#34;_blank&#34;&gt;Mathieu RAVAUT&lt;/a&gt;&lt;/small&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://www.linkedin.com/in/chenhailin/&#34; target=&#34;_blank&#34;&gt;Hailin Chen&lt;/a&gt;&lt;/small&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://sbmaruf.github.io&#34; target=&#34;_blank&#34;&gt;M Saiful Bari&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://shawnlimn.github.io&#34; target=&#34;_blank&#34;&gt;Lin Xiang&lt;/a&gt; &lt;/small&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation</title>
+      <link>https://ntunlpsg.github.io/publication/scalegrad/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/scalegrad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-model Back-translated Distillation for Unsupervised Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/cbd_icml_2021/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/cbd_icml_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AugVic: Exploiting BiText Vicinity for Low-Resource NMT</title>
+      <link>https://ntunlpsg.github.io/publication/augvic/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/augvic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RST Parsing from Scratch</title>
+      <link>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</guid>
+      <description>
+
+&lt;h1 id=&#34;rst-parsing-from-scratch&#34;&gt;RST Parsing from Scratch&lt;/h1&gt;
+
+&lt;p&gt;This repository contains the source code of our paper &lt;a href=&#34;https://arxiv.org/abs/2105.10861&#34; target=&#34;_blank&#34;&gt;RST Parsing from Scratch&lt;/a&gt; in NAACL 2021.&lt;/p&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;python&lt;/code&gt;: 3.7&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pytorch&lt;/code&gt;: 1.4&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;transformers&lt;/code&gt;: 3.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+
+&lt;p&gt;To train a discourse parser:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./*_train.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To predict discourse tree:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./*_predict.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;data-format&#34;&gt;Data Format&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For end-to-end parsing from scratch (no sentence guidance):
+we need to create the data with dummy edu_break and doc_structure. Refer to &lt;code&gt;create_sample_dummy_format_data.py&lt;/code&gt; and &lt;code&gt;dummy_format_data/sample_rawtext_data_format&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For other parsing models:
+Refer to &lt;code&gt;create_sample_dummy_format_data.py&lt;/code&gt; and &lt;code&gt;dummy_format_data/sample_full_data_format&lt;/code&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+
+&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{nguyen-etal-2021-rst-scratch,
+title = &amp;quot;RST Parsing from Scratch&amp;quot;,
+author = &amp;quot;Nguyen, Thanh-Tung  and
+  Nguyen, Xuan-Phi  and
+  Joty, Shafiq  and
+  Li, Xiaoli&amp;quot;,
+booktitle = &amp;quot;Proceedings of the 2021 Conference of the North {A}merican Chapter 
+of the Association for Computational Linguistics: Human Language Technologies, 
+Volume 1 (Long and Short Papers)&amp;quot;,
+month = jun,
+year = &amp;quot;2021&amp;quot;,
+address = &amp;quot;Online&amp;quot;,
+publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
+url = &amp;quot;https://arxiv.org/abs/2105.10861&amp;quot;,
+doi = &amp;quot;&amp;quot;,
+pages = &amp;quot;xx--xx&amp;quot;,}
+}   
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>RST Parsing from Scratch</title>
+      <link>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP</title>
+      <link>https://ntunlpsg.github.io/publication/uxla/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/uxla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks</title>
+      <link>https://ntunlpsg.github.io/project/coherence/coh-eval/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/coherence/coh-eval/</guid>
+      <description>
+
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+
+&lt;p&gt;This resource contains the information regarding code and data used for evaluation in &amp;ldquo;&lt;a href=&#34;https://arxiv.org/pdf/2004.14626.pdf&#34; target=&#34;_blank&#34;&gt;Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks&lt;/a&gt;&amp;rdquo; paper (EACL 2021).
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;source-code-of-evaluated-coherence-models&#34;&gt;Source code of evaluated coherence models&lt;/h3&gt;
+
+&lt;p&gt;We benchmark the performance of five coherence models. For each of the coherence models, we conducted experiments with publicly available codes from the respective authors. Links are given below:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/melsner/browncoherence/&#34; target=&#34;_blank&#34;&gt;Entity Grid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/datienguyen/cnn_coherence&#34; target=&#34;_blank&#34;&gt;Neural Entity Grid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/taasnim/conv-coherence&#34; target=&#34;_blank&#34;&gt;Lexicalized Neural Entity Grid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/BorealisAI/cross_domain_coherence&#34; target=&#34;_blank&#34;&gt;Transferable Neural Model&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/taasnim/unified-coherence-model&#34; target=&#34;_blank&#34;&gt;Unified Neural Model&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;datasets&#34;&gt;Datasets&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Machine Translation Evaluation Dataset: We use the reference and the system translations provided by WMT2017-2018 as our test data, under the assumption that the reference translations are more coherent than the system translations. This results in a testset of 20,680 reference-system translation document-pairs.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Abstractive Summarization Evaluation Dataset: We use the CNN/DM dataset for this task. We collect the reference summaries from the CNN/DM testset as well as the summaries generated by the four representative abstractive summarization systems: Pointer-Generator, BertSumExtAbs(BSEA), UniLM, and SENECA.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Extractive Summarization Evaluation Dataset: The dataset from  Barzilay  and  Lapata(2008) provides 16 sets of summaries where each set corresponds to a multi-document cluster and contains summaries generated by 5 systems and 1 human.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Next Utterance Ranking Evaluation Dataset: We evaluated the coherence models on both datasets of the &lt;a href=&#34;https://github.com/dstc8-track2/NOESIS-II/}{https://github.com/dstc8-track2/NOESIS-II/&#34; target=&#34;_blank&#34;&gt;DSTC8 response selection track&lt;/a&gt;, i.e., the Advising and Ubuntu datasets. The former contains two-party dialogs that simulate a discussion between a student and an academic advisor, while the latter consists of multi-party conversations extracted from the Ubuntu IRC channel.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The datasets can be found in this &lt;a href=&#34;https://drive.google.com/drive/folders/1qaGafR6eJZUtnpNT4CUj-Gdwlwlt9ZSV?usp=sharing&#34; target=&#34;_blank&#34;&gt;LINK&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
+
+&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+@inproceedings{mohiuddin-etal-2021-rethinking,
+      title={Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks}, 
+      author={Tasnim Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq Joty},
+      year={2021},,
+    booktitle = &amp;quot;Proceedings of the 16th Annual Meeting of the European chapter of the Association for Computational Linguistics (EACL) 2021&amp;quot;,
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;licence&#34;&gt;Licence&lt;/h1&gt;
+
+&lt;p&gt;MIT licence.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</title>
+      <link>https://ntunlpsg.github.io/project/daga/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/daga/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlp/daga&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;daga&#34;&gt;DAGA&lt;/h1&gt;
+
+&lt;p&gt;This is the source code of our method proposed in paper &amp;ldquo;&lt;a href=&#34;https://www.aclweb.org/anthology/2020.emnlp-main.488/&#34; target=&#34;_blank&#34;&gt;DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&lt;/a&gt;&amp;rdquo; accepted by EMNLP 2020.&lt;/p&gt;
+
+&lt;h1 id=&#34;examples&#34;&gt;Examples&lt;/h1&gt;
+
+&lt;h2 id=&#34;flair-seq-tagger-sequense-tagging-model&#34;&gt;flair_seq_tagger: sequense tagging model&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;cd flair_seq_tagger;
+
+python train_tagger.py \
+  --data_dir PATH/TO/TRAIN_DIR \
+  --train_file  train.txt \
+  --dev_file  dev.txt \
+  --data_columns text ner \
+  --model_dir ./model \
+  --comment_symbol &amp;quot;__label__&amp;quot; \
+  --embeddings_file PATH/TO/emb \
+  --optim adam \
+  --learning_rate 0.001 --min_learning_rate 0.00001 \
+  --patience 2 \
+  --max_epochs 100 \
+  --hidden_size 512 \
+  --mini_batch_size 32 \
+  --gpuid 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;lstm-lm-lstm-language-model&#34;&gt;lstm-lm: LSTM language model&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;train lstm-lm on linearized sequences
+```
+cd lstm-lm;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;python train.py &lt;br /&gt;
+  &amp;ndash;train_file PATH/TO/train.linearized.txt &lt;br /&gt;
+  &amp;ndash;valid_file PATH/TO/dev.linearized.txt &lt;br /&gt;
+  &amp;ndash;model_file PATH/TO/model.pt &lt;br /&gt;
+  &amp;ndash;emb_dim 300 &lt;br /&gt;
+  &amp;ndash;rnn_size 512 &lt;br /&gt;
+  &amp;ndash;gpuid 0&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+- generate linearized sequences
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;cd lstm-lm;&lt;/p&gt;
+
+&lt;p&gt;python generate.py &lt;br /&gt;
+  &amp;ndash;model_file PATH/TO/model.pt &lt;br /&gt;
+  &amp;ndash;out_file PATH/TO/out.txt &lt;br /&gt;
+  &amp;ndash;num_sentences 10000 &lt;br /&gt;
+  &amp;ndash;temperature 1.0 &lt;br /&gt;
+  &amp;ndash;seed 3435 &lt;br /&gt;
+  &amp;ndash;max_sent_length 32 &lt;br /&gt;
+  &amp;ndash;gpuid 0&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+## tools: tools for data processing
+- preprocess.py: sequence linearization
+- line2cols.py: convert linearized sequence back to two-column format
+
+# Requirements
+- flair\_seq\_tagger/requirements.txt
+- lstm-lm/requirements.txt
+
+# Citation
+Please cite our paper if you found the resources in this repository useful.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;@inproceedings{ding-etal-2020-daga,
+    title = &amp;ldquo;{DAGA}: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&amp;rdquo;,
+    author = &amp;ldquo;Ding, Bosheng  and
+      Liu, Linlin  and
+      Bing, Lidong  and
+      Kruengkrai, Canasai  and
+      Nguyen, Thien Hai  and
+      Joty, Shafiq  and
+      Si, Luo  and
+      Miao, Chunyan&amp;rdquo;,
+    booktitle = &amp;ldquo;Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)&amp;rdquo;,
+    month = nov,
+    year = &amp;ldquo;2020&amp;rdquo;,
+    address = &amp;ldquo;Online&amp;rdquo;,
+    publisher = &amp;ldquo;Association for Computational Linguistics&amp;rdquo;,
+    url = &amp;ldquo;&lt;a href=&#34;https://www.aclweb.org/anthology/2020.emnlp-main.488&amp;quot;&#34; target=&#34;_blank&#34;&gt;https://www.aclweb.org/anthology/2020.emnlp-main.488&amp;quot;&lt;/a&gt;,
+    doi = &amp;ldquo;10.18653/v1/2020.emnlp-main.488&amp;rdquo;,
+    pages = &amp;ldquo;6045&amp;ndash;6057&amp;rdquo;,
+}
+```&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Diversification: A Simple Strategy For Neural Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/data_diverse/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/data_diverse/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parser on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/tags/parser/</link>
+    <description>Recent content in Parser on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/tags/parser/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RST Parsing from Scratch</title>
+      <link>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</guid>
+      <description>RST Parsing from Scratch This repository contains the source code of our paper RST Parsing from Scratch in NAACL 2021.
+Requirements  python: 3.7 pytorch: 1.4 transformers: 3.0  Usage To train a discourse parser:
+./*_train.sh  To predict discourse tree:
+./*_predict.sh  Data Format  For end-to-end parsing from scratch (no sentence guidance): we need to create the data with dummy edu_break and doc_structure. Refer to create_sample_dummy_format_data.py and dummy_format_data/sample_rawtext_data_format For other parsing models: Refer to create_sample_dummy_format_data.</description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Pointer Net Parsing</title>
+      <link>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</guid>
+      <description>This is the source code of our dependency parser proposed in paper &amp;ldquo;Hierarchical Pointer Net Parsing&amp;rdquo; accepted by EMNLP 2019. Git Repository: https://github.com/ntunlp/ptrnet-depparser.git
+Requirements Python 2.7, PyTorch &amp;gt;=0.3.0, Gensim &amp;gt;= 0.12.0
+Models We have implemented the below models in this project, which can be found in ./neuronlp2/models/parsing2.py:
+ HPtrNetPSTGate: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.
+ HPtrNetPSTSGate: In each step, decoder receives hidden states from sibling, parent and previous step.</description>
+    </item>
+    
+    <item>
+      <title>A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</title>
+      <link>https://ntunlpsg.github.io/project/parser/pointer-net-parser/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/parser/pointer-net-parser/</guid>
+      <description>This repository contains the source code of our paper &amp;ldquo;A Unified Linear-Time Framework for Sentence-Level Discourse Parsing&amp;rdquo; in ACL 2019.
+ Getting Started These instructions will help you to run our unified discourse parser based on RST dataset.
+Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train and evaluate the model with the standard RST Discourse Treebank (RST-DT) corpus. * Segmenter: we utilize all 7673 sentences for training and 991 sentences for testing.</description>
+    </item>
+    
+    <item>
+      <title>Discourse Parser for English</title>
+      <link>https://ntunlpsg.github.io/project/parser/parser/</link>
+      <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/parser/parser/</guid>
+      <description>About This package includes:
+ A discourse segmenter A discourse parser Evaluation metrics for discourse parsing  Download Document-level Discourse Parser for English
+Demo Link
+Installation Required for the discourse segmenter:
+ Charniak&amp;rsquo;s reranking parser. Put it in Tools/CharniakParserRerank and install it. Taggers from UIUC. Download POS tagger and shallow chunker [LBJPOS.jar, LBJChunk.jar, LBJ2.jar, LBJ2Library.jar] and put these in Tools/UIUC_TOOLs/ Install scikit-learn and scipy (instructions) Install java if not installed (instructions for Ubuntu) Make sure the Tools/SPADE_UTILS/bin/edubreak is set to executable.</description>
+    </item>
+    
+    <item>
+      <title>Efficient Constituency Parsing by Pointing</title>
+      <link>https://ntunlpsg.github.io/project/ptr-constituency-parser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/ptr-constituency-parser/</guid>
+      <description>Efficient Constituency Parsing by Pointing This resource contains the source code of our ACL-2020 paper entitled Efficient Constituency Parsing by Pointing
+Source code Code
+Running Experiments For english parsing, run command
+bash ./run_en.sh
+For other parsing, run command
+bash ./run_spmrl.sh
+Citation Please cite our paper if you found the resources in this repository useful.
+@inproceedings{nguyen-etal-2020-efficient, title = &amp;quot;Efficient Constituency Parsing by Pointing&amp;quot;, author = &amp;quot;Nguyen, Thanh-Tung and Nguyen, Xuan-Phi and Joty, Shafiq and Li, Xiaoli&amp;quot;, booktitle = &amp;quot;Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics&amp;quot;, month = jul, year = &amp;quot;2020&amp;quot;, address = &amp;quot;Online&amp;quot;, publisher = &amp;quot;Association for Computational Linguistics&amp;quot;, url = &amp;quot;https://www.</description>
+    </item>
+    
+  </channel>
+</rss>

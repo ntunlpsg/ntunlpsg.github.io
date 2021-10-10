@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/publication/</link>
+    <description>Recent content in Publications on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation</title>
+      <link>https://ntunlpsg.github.io/publication/scalegrad/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/scalegrad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-model Back-translated Distillation for Unsupervised Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/cbd_icml_2021/</link>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/cbd_icml_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AugVic: Exploiting BiText Vicinity for Low-Resource NMT</title>
+      <link>https://ntunlpsg.github.io/publication/augvic/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/augvic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RST Parsing from Scratch</title>
+      <link>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP</title>
+      <link>https://ntunlpsg.github.io/publication/uxla/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/uxla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Diversification: A Simple Strategy For Neural Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/data_diverse/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/data_diverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</title>
+      <link>https://ntunlpsg.github.io/publication/daga/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/daga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Conversation Disentanglement with Pointer Networks</title>
+      <link>https://ntunlpsg.github.io/publication/conversationdisentangle/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/conversationdisentangle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pronoun-Targeted Fine-tuning for NMT with Hybrid Losses</title>
+      <link>https://ntunlpsg.github.io/publication/pronoun-finetune/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/pronoun-finetune/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Attention-based Rumor Detection Model with Tree-structured Recursive Neural Networks</title>
+      <link>https://ntunlpsg.github.io/publication/majing_tist20/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/majing_tist20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conversational agents in healthcare: a scoping review and conceptual analysis</title>
+      <link>https://ntunlpsg.github.io/publication/cat_jmir20/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/cat_jmir20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MultiMix: A Robust Data Augmentation Strategy for Cross-Lingual NLP</title>
+      <link>https://ntunlpsg.github.io/publication/multimix/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/multimix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Differentiable Window for Dynamic Local Attention</title>
+      <link>https://ntunlpsg.github.io/publication/dynamic-attention/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/dynamic-attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Constituency Parsing by Pointing</title>
+      <link>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EMT: Explicit Memory Tracker with Coarse-to-Fine Reasoning for Conversational Machine Reading</title>
+      <link>https://ntunlpsg.github.io/publication/emt/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/emt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding It at Another Side: A Viewpoint-Adapted Matching Encoder for Change Captioning</title>
+      <link>https://ntunlpsg.github.io/publication/shi_eccv2020/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/shi_eccv2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>It&#39;s &#39;Morphin&#39; Time! Combating Linguistic Discrimination with Inflectional Perturbations</title>
+      <link>https://ntunlpsg.github.io/publication/samson_acl2020/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/samson_acl2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VD-BERT: A Unified Vision and Dialog Transformer with BERT</title>
+      <link>https://ntunlpsg.github.io/publication/vd-bert/</link>
+      <pubDate>Sat, 09 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/vd-bert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mind Your Inflections! Improving NLP for Non-Standard English with Base-Inflection Encoding</title>
+      <link>https://ntunlpsg.github.io/publication/samson_preprint/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/samson_preprint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Your Context-Aware MT System Pass the DiP Benchmark Tests? : Evaluation Benchmarks for Discourse Phenomena in  Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/benchmark/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/benchmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tree-Structured Attention with Hierarchical Accumulation</title>
+      <link>https://ntunlpsg.github.io/publication/tree_transformer/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/tree_transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zero-Resource Cross-Lingual Named Entity Recognition</title>
+      <link>https://ntunlpsg.github.io/publication/maruf_aaai20/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/maruf_aaai20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Unified Neural Coherence Model</title>
+      <link>https://ntunlpsg.github.io/publication/2019_11/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test Suite</title>
+      <link>https://ntunlpsg.github.io/publication/2019_10/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hierarchical Pointer Net Parsing</title>
+      <link>https://ntunlpsg.github.io/publication/2019_9/</link>
+      <pubDate>Tue, 13 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</title>
+      <link>https://ntunlpsg.github.io/publication/2019_7/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentence-Level Evidence Embedding for End-to-End Claim Verification with Hierarchical Attention Networks</title>
+      <link>https://ntunlpsg.github.io/publication/2019_8/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unpaired Image Captioning via Scene Graph Alignments</title>
+      <link>https://ntunlpsg.github.io/publication/2019_6/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Fatorial Deep Markov Model For Unsupervised Disentangled Representation Learning From Speech</title>
+      <link>https://ntunlpsg.github.io/publication/2019_4/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptation of Hierarchical Structured Models for Speech Act Recognition in Asynchronous Conversation.</title>
+      <link>https://ntunlpsg.github.io/publication/2019_1/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Unsupervised Representation Learning for Activity Time-Series</title>
+      <link>https://ntunlpsg.github.io/publication/2019_3/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NEURON: Query Execution Plan Meets Natural Language Processing For Augmenting DB Education (Demo)</title>
+      <link>https://ntunlpsg.github.io/publication/2019_5/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training</title>
+      <link>https://ntunlpsg.github.io/publication/2019_2/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2019_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aspect-based Neural Recommender</title>
+      <link>https://ntunlpsg.github.io/publication/2018_10/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach</title>
+      <link>https://ntunlpsg.github.io/publication/2018_5/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Multitask Learning for Community Question Answering Using Task-Specific Embeddings </title>
+      <link>https://ntunlpsg.github.io/publication/2018_11/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SegBot: A Generic Neural Text Segmentation Model with Pointer Network</title>
+      <link>https://ntunlpsg.github.io/publication/2018_4/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Representations of Tuples for Entity Resolution</title>
+      <link>https://ntunlpsg.github.io/publication/2018_9/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unpaired Image Captioning by Language Pivoting.</title>
+      <link>https://ntunlpsg.github.io/publication/2018_8/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VQA-E: Explaining, Elaborating, and Enhancing Your Answers for Visual Questions.</title>
+      <link>https://ntunlpsg.github.io/publication/2018_7/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Graph Based Semi-supervised Learning with Convolutional Neural Networks to Classify Crisis Related Tweets</title>
+      <link>https://ntunlpsg.github.io/publication/2018_3/</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation with Adversarial Training and Graph Embeddings</title>
+      <link>https://ntunlpsg.github.io/publication/2018_6/</link>
+      <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speech Act Modeling of Written Asynchronous Conversations: A Neural CRF Approach</title>
+      <link>https://ntunlpsg.github.io/publication/j_9/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sentiment Analysis by Capsules</title>
+      <link>https://ntunlpsg.github.io/publication/2018_2_ai/</link>
+      <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_2_ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models</title>
+      <link>https://ntunlpsg.github.io/publication/2018_1/</link>
+      <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2018_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec</title>
+      <link>https://ntunlpsg.github.io/publication/2017_2/</link>
+      <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2017_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Domain Adaptation Using Neural Network Joint Model</title>
+      <link>https://ntunlpsg.github.io/publication/j_2/</link>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Translation Evaluation with Neural Networks</title>
+      <link>https://ntunlpsg.github.io/publication/j_3/</link>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-Language Question Re-ranking</title>
+      <link>https://ntunlpsg.github.io/publication/2017_5/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2017_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discourse Structure in Machine Translation Evaluation</title>
+      <link>https://ntunlpsg.github.io/publication/j_1/</link>
+      <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Neural Local Coherence Model</title>
+      <link>https://ntunlpsg.github.io/publication/2017_1/</link>
+      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2017_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-language Learning with Adversarial Neural Networks: Application to Community Question Answering</title>
+      <link>https://ntunlpsg.github.io/publication/2017_3/</link>
+      <pubDate>Fri, 04 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2017_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Classification of Crisis-Related Data on Social Networks using Convolutional Neural Networks</title>
+      <link>https://ntunlpsg.github.io/publication/2017_6/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2017_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CQAVis: Visual Text Analytics for Community Question Answering</title>
+      <link>https://ntunlpsg.github.io/publication/2017_4/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2017_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Deep Fusion Model for Domain Adaptation in Phrase-based MT</title>
+      <link>https://ntunlpsg.github.io/publication/2016_3/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2016_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Interactive System for Exploring Community Question Answering Forums</title>
+      <link>https://ntunlpsg.github.io/publication/2016_4/</link>
+      <pubDate>Fri, 16 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2016_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sleep Quality Prediction From Wearable Data Using Deep Learning</title>
+      <link>https://ntunlpsg.github.io/publication/j_4/</link>
+      <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Applications of Online Deep Learning for Crisis Response Using Social Media Information</title>
+      <link>https://ntunlpsg.github.io/publication/2016_6/</link>
+      <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2016_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models</title>
+      <link>https://ntunlpsg.github.io/publication/2016_1/</link>
+      <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2016_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint Learning with Global Inference for Comment Classification in Community Question Answering</title>
+      <link>https://ntunlpsg.github.io/publication/2016_2/</link>
+      <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2016_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ConvKN at SemEval-2016 Task 3: Answer and Question Selection for Question Answering on Arabic and English Fora</title>
+      <link>https://ntunlpsg.github.io/publication/2016_5/</link>
+      <pubDate>Mon, 13 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2016_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Joint Models for Domain Adaptation in Statistical Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/2015_6/</link>
+      <pubDate>Fri, 16 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2015_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CODRA: A Novel Discriminative Framework for Rhetorical Analysis</title>
+      <link>https://ntunlpsg.github.io/publication/j_5/</link>
+      <pubDate>Fri, 25 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fine-grained Opinion Mining with Recurrent Neural Networks and Word Embeddings</title>
+      <link>https://ntunlpsg.github.io/publication/2015_2/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2015_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Global Thread-level Inference for Comment Classification in Community Question Answering</title>
+      <link>https://ntunlpsg.github.io/publication/2015_3/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2015_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to Avoid Unwanted Pregnancies: Domain Adaptation using Neural Network Models</title>
+      <link>https://ntunlpsg.github.io/publication/2015_1/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2015_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thread-level Information for Comment Classification in Community Question Answering</title>
+      <link>https://ntunlpsg.github.io/publication/2015_5/</link>
+      <pubDate>Mon, 21 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2015_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pairwise Neural Machine Translation Evaluation</title>
+      <link>https://ntunlpsg.github.io/publication/2015_4/</link>
+      <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2015_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QCRI: Answer Selection for Community Question Answering - Experiments for Arabic and English</title>
+      <link>https://ntunlpsg.github.io/publication/2015_7/</link>
+      <pubDate>Fri, 05 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2015_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Differentiate Better from Worse Translations.</title>
+      <link>https://ntunlpsg.github.io/publication/2014_2/</link>
+      <pubDate>Tue, 28 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2014_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Kernels for Semantic Parsing.</title>
+      <link>https://ntunlpsg.github.io/publication/2014_3/</link>
+      <pubDate>Tue, 28 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2014_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Study of Using Syntactic and Semantic Structures for Concept Segmentation and Labeling.</title>
+      <link>https://ntunlpsg.github.io/publication/2014_5/</link>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2014_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DiscoTK: Using Discourse Structure for Machine Translation Evaluation.</title>
+      <link>https://ntunlpsg.github.io/publication/2014_6/</link>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2014_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interactive Exploration of Asynchronous Conversations: Applying a User-centered Approach to Design a Visual Text Analytic System.</title>
+      <link>https://ntunlpsg.github.io/publication/2014_7/</link>
+      <pubDate>Fri, 27 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2014_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Discourse Structure Improves Machine Translation Evaluation.</title>
+      <link>https://ntunlpsg.github.io/publication/2014_4/</link>
+      <pubDate>Wed, 25 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2014_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discriminative Reranking of Discourse Parses Using Tree Kernels.</title>
+      <link>https://ntunlpsg.github.io/publication/2014_1/</link>
+      <pubDate>Mon, 28 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2014_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dialogue Act Recognition in Synchronous and Asynchronous Conversations.</title>
+      <link>https://ntunlpsg.github.io/publication/2013_3/</link>
+      <pubDate>Sat, 24 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2013_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Combining Intra- and Multi-sentential Rhetorical Parsing for Document-level Discourse Analysis.</title>
+      <link>https://ntunlpsg.github.io/publication/2013_1/</link>
+      <pubDate>Fri, 09 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2013_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topic Segmentation and Labeling in Asynchronous Conversations</title>
+      <link>https://ntunlpsg.github.io/publication/j_6/</link>
+      <pubDate>Thu, 25 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Topic Labeling with Phrase Entailment and Aggregation.</title>
+      <link>https://ntunlpsg.github.io/publication/2013_2/</link>
+      <pubDate>Wed, 12 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2013_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Novel Discriminative Framework for Sentence-Level Discourse Analysis.</title>
+      <link>https://ntunlpsg.github.io/publication/2012_1/</link>
+      <pubDate>Tue, 14 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2012_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Topic Labeling in Asynchronous Conversations.</title>
+      <link>https://ntunlpsg.github.io/publication/2012_2/</link>
+      <pubDate>Fri, 11 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2012_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting Informative Blog Comments using Tree Structured Conditional Random Fields.</title>
+      <link>https://ntunlpsg.github.io/publication/2012_3/</link>
+      <pubDate>Fri, 11 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2012_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving graph-based random walks for complex question answering using syntactic, shallow semantic and extended string subsequence kernels</title>
+      <link>https://ntunlpsg.github.io/publication/j_8/</link>
+      <pubDate>Tue, 01 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Modeling of Dialog Acts in Asynchronous Conversations.</title>
+      <link>https://ntunlpsg.github.io/publication/2011_1/</link>
+      <pubDate>Fri, 22 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2011_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised Topic Segmentation of Email Conversations.</title>
+      <link>https://ntunlpsg.github.io/publication/2011_2/</link>
+      <pubDate>Thu, 21 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2011_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Conversational Features to Detect High-Quality Blog Comments.</title>
+      <link>https://ntunlpsg.github.io/publication/2011_3/</link>
+      <pubDate>Fri, 27 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2011_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Conversation Structure in Unsupervised Topic Segmentation for Emails.</title>
+      <link>https://ntunlpsg.github.io/publication/2010_1/</link>
+      <pubDate>Mon, 11 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2010_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Conversation Features for Finding Topics in Emails.</title>
+      <link>https://ntunlpsg.github.io/publication/2010_2/</link>
+      <pubDate>Thu, 15 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2010_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding Topics in Emails: Is LDA enough?</title>
+      <link>https://ntunlpsg.github.io/publication/2009_1/</link>
+      <pubDate>Tue, 29 Dec 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2009_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised Approaches to Complex Question Answering.</title>
+      <link>https://ntunlpsg.github.io/publication/2009_4/</link>
+      <pubDate>Sun, 20 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2009_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Do Automatic Annotation Techniques Have Any Impact on Supervised Complex Question Answering?</title>
+      <link>https://ntunlpsg.github.io/publication/2009_2/</link>
+      <pubDate>Tue, 25 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2009_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex Question Answering: Unsupervised Learning Approaches and Experiments</title>
+      <link>https://ntunlpsg.github.io/publication/j_7/</link>
+      <pubDate>Thu, 28 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/j_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A SVM-Based Ensemble Approach to Multi-Document Summarization.</title>
+      <link>https://ntunlpsg.github.io/publication/2009_3/</link>
+      <pubDate>Sat, 23 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2009_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selecting Sentences for Answering Complex Questions. </title>
+      <link>https://ntunlpsg.github.io/publication/2008_4/</link>
+      <pubDate>Sat, 29 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2008_4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Answering Complex Questions Using Query-focused Summarization Technique.</title>
+      <link>https://ntunlpsg.github.io/publication/2008_6/</link>
+      <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2008_6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Syntactic and Shallow Semantic Kernels to Improve Random Walks for Complex Question Answering.</title>
+      <link>https://ntunlpsg.github.io/publication/2008_5/</link>
+      <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2008_5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Approach for Selecting Sentences in Query-based Summarization.</title>
+      <link>https://ntunlpsg.github.io/publication/2008_7/</link>
+      <pubDate>Tue, 25 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2008_7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Improving the Performance of the Random Walk Model for Answering Complex Questions.</title>
+      <link>https://ntunlpsg.github.io/publication/2008_3/</link>
+      <pubDate>Sat, 15 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2008_3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The University of British Columbia at TAC 2008.</title>
+      <link>https://ntunlpsg.github.io/publication/2008_1/</link>
+      <pubDate>Sat, 15 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2008_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UofL at TAC 2008 Update Summarization and Question Answering.</title>
+      <link>https://ntunlpsg.github.io/publication/2008_2/</link>
+      <pubDate>Sat, 15 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/2008_2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ntunlpsg.github.io/publication/submod_summ/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/submod_summ/</guid>
+      <description>+++ abstract = &amp;ldquo;Submodularity is a desirable property for a variety of objectives in content selection where the current neural encoder-decoder framework is deficient. We propose diminishing attentions, a class of novel attention mechanisms that exploit the properties of submodular functions. The resulting attention module offers an architecturally simple yet empirically effective method to improve the coverage of neural text generation. We run on three directed text generation tasks with different levels of recovering rate, across two modalities, three neural model architectures and two training strategy variations.</description>
+    </item>
+    
+  </channel>
+</rss>
