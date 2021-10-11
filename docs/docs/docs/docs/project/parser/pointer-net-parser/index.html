@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.41" />
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="This repository contains the source code of our paper &ldquo;A Unified Linear-Time Framework for Sentence-Level Discourse Parsing&rdquo; in ACL 2019.
+ Getting Started These instructions will help you to run our unified discourse parser based on RST dataset.
+Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train and evaluate the model with the standard RST Discourse Treebank (RST-DT) corpus. * Segmenter: we utilize all 7673 sentences for training and 991 sentences for testing.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/parser/pointer-net-parser/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-115450637-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="feed" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://ntunlpsg.github.io/project/parser/pointer-net-parser/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ntunlpsg">
+  <meta property="twitter:creator" content="@ntunlpsg">
+  
+  <meta property="og:site_name" content="NTU-NLP">
+  <meta property="og:url" content="https://ntunlpsg.github.io/project/parser/pointer-net-parser/">
+  <meta property="og:title" content="A Unified Linear-Time Framework for Sentence-Level Discourse Parsing | NTU-NLP">
+  <meta property="og:description" content="This repository contains the source code of our paper &ldquo;A Unified Linear-Time Framework for Sentence-Level Discourse Parsing&rdquo; in ACL 2019.
+ Getting Started These instructions will help you to run our unified discourse parser based on RST dataset.
+Prerequisites * PyTorch 0.4 or higher * Python 3 * AllenNLP  Dataset We train and evaluate the model with the standard RST Discourse Treebank (RST-DT) corpus. * Segmenter: we utilize all 7673 sentences for training and 991 sentences for testing."><meta property="og:image" content="https://ntunlpsg.github.io/img/Parser.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2016-04-28T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2016-04-28T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>A Unified Linear-Time Framework for Sentence-Level Discourse Parsing | NTU-NLP</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/ntunlp_final.png" alt="NTU-NLP"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#people">
+            
+            <span>People</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/publication/">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/resources/">
+            
+            <span>Resources</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/post/reading-group">
+            
+            <span>Reading Group</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/post/monthly-nlp-talk/">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  <img src="/img/Parser.png" class="article-banner" itemprop="image">
+  <span class="article-header-caption"><a href="https://arxiv.org/abs/1905.05682" target="_blank">A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</a></span>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>This repository contains the source code of our paper &ldquo;<a href="https://arxiv.org/abs/1905.05682" target="_blank">A Unified Linear-Time Framework for Sentence-Level Discourse Parsing</a>&rdquo; in ACL 2019.</p>
+
+<form action="https://github.com/ntunlpsg/UnifiedParser_RST">
+    <input type="submit" value="Github" />
+</form>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>These instructions will help you to run our unified discourse parser based on RST dataset.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<pre><code>* PyTorch 0.4 or higher
+* Python 3
+* AllenNLP
+</code></pre>
+
+<h3 id="dataset">Dataset</h3>
+
+<p>We train and evaluate the model with the standard RST Discourse Treebank (RST-DT) corpus.
+* Segmenter: we utilize all 7673 sentences for training and 991 sentences for testing.
+* Parser: we extract sentence-level DTs from a document-level DT by finding the subtrees that span over the respective sentences. This gives 7321 sentence-level DTs for training, 951 for testing, and 1114 for getting hu- man agreements.</p>
+
+<h3 id="data-format">Data format</h3>
+
+<h4 id="example">Example</h4>
+
+<ul>
+<li><p><code>Sentence</code>: (Input sentences should be tokenizaed first. &lsquo;[]&rsquo; denotes the EDU boundary tokens.) <br></p>
+
+<ul>
+<li>Although the [report,] which has [released] before the stock market [opened,] didn&rsquo;t trigger the 190.58 point drop in the Dow Jones Industrial [Average,] analysts [said] it did play a role in the market&rsquo;s [decline.]  <br></li>
+</ul></li>
+
+<li><p><code>EDU_Breaks</code>: (The indexes of the EDU boundary words, including the last word of the sentence.) <br></p>
+
+<ul>
+<li>[2, 5, 10, 22, 24, 33] <br></li>
+</ul></li>
+
+<li><p><code>Gold Discourse Tree structure</code>: (The output of the parser also holds for the format.) <br></p>
+
+<ul>
+<li>(1:Satellite=Contrast:4,5:Nucleus=span:6) (1:Nucleus=Same-Unit:3,4:Nucleus=Same-Unite:4) (5:Satellite=Attribution:5,6:Nucleus=span:6) (1:Satellite=span:1,2:Nucleus=Elaboration:3) (2:Nucleus=span:2,3:Satellite=Temporal:3) <br></li>
+</ul></li>
+
+<li><p><code>Parsing_Label</code> (This should accord with Top-Down Depth-First manner. e.g., There are 6 EDUs in this case. At the first decoding step, the parser will predict 4th (index 3) EDU as the break position such that two new splits (EDU1-EDU4 and EDU5-EDU6) are generated. <br></p>
+
+<ul>
+<li>[3, 2, 0, 1, 4] <br></li>
+</ul></li>
+
+<li><p><code>Relation_Label</code> (In all we have 39 relations in our model. Each time two newly splits are created, the classifier would predict the corresponding relation label between them.) <br></p>
+
+<ul>
+<li>[3, 17, 5, 30, 21] <br>
+<br /></li>
+</ul></li>
+
+<li><p>For training, you will need to prepare <code>decoder_input_index</code> as the decoder input and corresponding <code>parent_index</code>, <code>sibling_index</code> as the partial tree information.</p>
+
+<ul>
+<li>decoder_input_index: [ 0 , 0 , 0 , 1 , 4 ] - to take the first EDU as the representation of text span to be parsed. or [ 5 , 3 , 2 , 2 , 5 ] - to take the last EDU as the representation of text span to be parsed.</li>
+<li>parent_index: [ 0 , 5 , 4 , 3 , 6 ]</li>
+<li>sibling_index: [ 99 , 99 , 99 , 0 , 4 ]  - &lsquo;99&rsquo; denotes empty siblings.</li>
+</ul></li>
+</ul>
+
+<h2 id="how-to-run">How To Run</h2>
+
+<ul>
+<li><p>Parser: <br></p>
+
+<pre><code>cd Parser/
+python train.py
+</code></pre>
+
+<p>You can also control any other arguments. Please refer to <code>main.py</code>. By default, the parser will use the same parameters as described in the paper.</p></li>
+
+<li><p>Segmenter: <br>
+To be released..</p></li>
+</ul>
+
+<form action="https://github.com/ntunlpsg/UnifiedParser_RST">
+    <input type="submit" value="Github" />
+</form>
+
+<h2 id="citation">Citation</h2>
+
+<p>Please cite our paper if you found the resources in this repository useful.</p>
+
+<pre><code>@inproceedings{Xiang19,
+	Address     = {Florence, Italy},
+	Author      = {Xiang Lin and Shafiq Joty and Prathyusha Jwalapuram and M Saiful Bari},
+	Booktitle   = {Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+	Numpages    = {9},
+	Publisher   = {ACL},
+	Series      = {ACL '19},
+        pages       = {xx--xx},
+	Title       = {{A Unified Linear-Time Framework for Sentence-Level Discourse Parsing}},
+	Year        = {2019},
+	url         = {https://arxiv.org/abs/1905.05682}
+}	
+</code></pre>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/discourse">discourse</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/parser">parser</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      ntunlp &copy; 2020 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

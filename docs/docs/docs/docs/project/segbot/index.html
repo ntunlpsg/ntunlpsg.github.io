@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.41" />
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Online Demo Figure 1 shows the model architecture of SegBot. For EDU segmentation, the units in the input $ U0 \ to \ U8 $ are words in a sentence. Formally, given an input sequence $ U = (U_1, U_2, &hellip; , U_N) $ of length $N$, we get its distributed representations $ X = (x_1, x_2, &hellip; , x_N $ by looking up the corresponding embedding matrix, where $x_n \in R^k$ is the representation for the unit $U_n$ with $K$ being the dimensions.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/segbot/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-115450637-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="feed" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://ntunlpsg.github.io/project/segbot/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ntunlpsg">
+  <meta property="twitter:creator" content="@ntunlpsg">
+  
+  <meta property="og:site_name" content="NTU-NLP">
+  <meta property="og:url" content="https://ntunlpsg.github.io/project/segbot/">
+  <meta property="og:title" content="SegBot: A Generic Neural Text Segmentation Model with Pointer Network | NTU-NLP">
+  <meta property="og:description" content="Online Demo Figure 1 shows the model architecture of SegBot. For EDU segmentation, the units in the input $ U0 \ to \ U8 $ are words in a sentence. Formally, given an input sequence $ U = (U_1, U_2, &hellip; , U_N) $ of length $N$, we get its distributed representations $ X = (x_1, x_2, &hellip; , x_N $ by looking up the corresponding embedding matrix, where $x_n \in R^k$ is the representation for the unit $U_n$ with $K$ being the dimensions."><meta property="og:image" content="https://ntunlpsg.github.io/img/segbot.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2016-04-18T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2016-04-18T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>SegBot: A Generic Neural Text Segmentation Model with Pointer Network | NTU-NLP</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/ntunlp_final.png" alt="NTU-NLP"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#people">
+            
+            <span>People</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/publication/">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/resources/">
+            
+            <span>Resources</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/post/reading-group">
+            
+            <span>Reading Group</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/post/monthly-nlp-talk/">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+<div class="article-header">
+  <img src="/img/segbot.png" class="article-banner" itemprop="image">
+  <span class="article-header-caption">Figure 1: Model Architecture of SEGBOT. Input sequence: U1,U2,&hellip;,U8. Identified boundaries: U3, U6, and U8.</span>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">SegBot: A Generic Neural Text Segmentation Model with Pointer Network</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="online-demo-http-138-197-118-157-8000-segbot"><a href="http://138.197.118.157:8000/segbot/" target="_blank">Online Demo</a></h2>
+
+<p>Figure 1 shows the model architecture of SegBot. For EDU segmentation, the units in the input $ U0 \ to \ U8 $ are words in a sentence. Formally, given an input sequence $ U = (U_1, U_2, &hellip; , U_N) $  of length $N$, we get its distributed representations $ X = (x_1, x_2, &hellip; , x_N $ by looking up the corresponding embedding matrix, where $x_n \in R^k$  is the representation for the unit $U_n$ with $K$ being the dimensions. Our ultimate goal is to split the input sequence into contiguous segments by identifying the boundaries (e.g. $U2$, $U6$, and $U8$ in Figure 1). SEGBOT consists of three components: encoding phase, decoding phase and pointing phase.</p>
+
+<h2 id="1-encoding-phase">1. Encoding Phase:</h2>
+
+<p>We encode the input sequence  $\boldsymbol{X}=(\boldsymbol{x}_1,\boldsymbol{x}_2, \ldots, \boldsymbol{x}_N)$ using a RNN. RNNs capture sequential dependencies, and with hidden cells like long short-term memory (LSTM) and gated recurrent unit (GRU), it can capture long distance dependencies without running into the problems of gradient vanishing or explosion. In our model, we use GRU to encode input sequences, which is similar to LSTM but is computationally cheaper. The GRU activations at time step $n$  are computed as follows:</p>
+
+<p><img src="../eq1seg.png"></p>
+
+<p>where $\sigma()$  is the sigmoid function,  $tanh()$  is the hyperbolic tangent function, ⊙
+ is the element-wise multiplication, $z_n$ is update gate vector, $r_n$ is reset gate vector,
+$n_n$ is the new gate vector, and $h_n$ is the hidden state at time step $n$. $W$,$R$,$b$  are the parameters of the encoder that we need to learn. We use a bi-directional GRU (BiGRU) network to memorize past and future information in the input sequence. Specifically, each hidden state of BiGRU is formalized as:</p>
+
+<p>$$\boldsymbol{h}_n =\overrightarrow {\boldsymbol{h}}_n \oplus \overleftarrow {\boldsymbol{h}}_n$$</p>
+
+<p>where ⊕  indicates concatenation operation,  $\overrightarrow {\boldsymbol{h}}_n$ and $\overleftarrow {\boldsymbol{h}}_n$  are hidden states of forward (left-to-right) and backward (right-to-left) GRUs, respectively. Assuming the size of the GRU layer is  H
+, the encoder yields hidden states in $\boldsymbol{h} \in \mathbb{R}^{N \times 2H}$</p>
+
+<h2 id="2-decoding-phase">2. Decoding Phase:</h2>
+
+<p>Since the number of boundaries in the output vary with the input, it is natural to use RNN-based models to decode the output. At each step, the decoder takes a start unit (i.e., start of a segment)  $U_m$ in the input sequence as input and transforms it to its distributed representation $x_m$ by looking up the corresponding embedding matrix. It then passes $x_m$
+through a GRU-based (unidirectional) hidden layer. Formally, the decoder hidden state at time step $m$ is computed by:</p>
+
+<p>$$\boldsymbol{d}_m = GRU(\boldsymbol{x}_m,\boldsymbol{\theta})$$</p>
+
+<p>where $\theta$ are the parameters in the hidden layer of the decoder, which has the same form as described by Equations (1) &ndash; (4). If the input sequence contains $M$ boundaries, the decoder produces hidden states in $d \in R^{M*H} with $H$ being the dimensions of the hidden layer.</p>
+
+<h2 id="3-pointing-phase">3. Pointing Phase:</h2>
+
+<p>At each step, the output layer of our decoder computes a distribution over the possible positions in the input sequence for a possible segment boundary. For example, considering Figure 1, as the decoder starts with input $U0$, it computes an output distribution over all positions ($U0$ to $U8$) in the input sequence. Then, for $U$ as input, it computes an output distribution over positions $U4$ to $U8$, and finally for $U7$ as input, it computes a distribution over $U7$ to $U8$. Note that unlike traditional seq2seq models (e.g., the ones used in neural machine translation), where the output vocabulary is fixed, in our case the number of possible positions in the input sequence changes at each decoding step. To deal with this, we use a pointing mechanism in our decoder. Recall that $h \in R^{N×2H}$ and  $d ∈
+R ^{M×H}$ are the hidden states in the encoder and the decoder, respectively. We use an attention mechanism to compute the distribution over the possible positions in the input sequence at decoding step $m$:</p>
+
+<p>$$u^m_j = \boldsymbol{v}^T \tanh (\boldsymbol{W}_1 \boldsymbol{h}_j +\boldsymbol{W}_2 \boldsymbol{d}_m), ~~for~ j \in (m, \ldots, M)$$</p>
+
+<p>$$p(y_m|\boldsymbol{x}_m) = \textrm{softmax}(\boldsymbol{u}^m)$$</p>
+
+<p>where $j \in [m,M]$ indicates a possible position in the input sequence, and softmax normalizes $u^m_j$ indicating the probability that the unit $U_j$ is a boundary given the start unit $U_m$.</p>
+
+<h2 id="4-model-training">4. Model Training</h2>
+
+<p>We use teacher forcing to train our model by supplying the ground-truth start units to decoder RNNs. This mechanism forces the RNNs to stay close to the ground-truth start units and segment boundaries. The loss function $\mathcal{L}$ is the negative log likelihood of boundary distribution over the whole training set $\mathcal{D}$, and can be written as:</p>
+
+<p>$$ \mathcal{L}(\boldsymbol{\omega}) = \sum_{\mathcal{D}}  \sum^M_m \log p(y_m|\boldsymbol{x}_m;\boldsymbol{\omega}) + \frac{\lambda}{2} ||\boldsymbol{\omega}||_2^2 $$</p>
+
+<p>where $\omega$ are the trainable parameters of the model (encoder and decoder), and $\lambda$  is the strength of $L2$ regularization. When using the RNN decoder for prediction on test examples, the ground-truth boundaries are not available. Similar to traditional language models, we feed the input symbols based on the decoded symbol at the previous step, e.g., we feed $U4$ after predicting a boundary at $U3$ in Figure 1.</p>
+
+<p>If you use the technique of this resource please cite.</p>
+
+<pre><code>@InProceedings{li-sun-joty-ijcai-18,
+ author    = {Jing Li and Aixin Sun and Shafiq Joty},
+ title     = {SegBot: A Generic Neural Text Segmentation Model with Pointer Network},
+ booktitle = {Proceedings of the 27th International Joint Conference on Artificial Intelligence and the 23rd European Conference on Artificial Intelligence},
+ month     = {July},
+ year      = {2018},
+ series    = {IJCAI-ECAI-2018},
+ address   = {Stockholm, Sweden},
+ publisher = {},
+ pages     = {xx -- xx},
+ url       = {http://138.197.118.157:8000/segbot/}
+}
+</code></pre>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/representation-learning">representation-learning</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      ntunlp &copy; 2020 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
