@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>multi-lingual on NTU-NLP</title>
+    <title>Multi-lingual on NTU-NLP</title>
     <link>https://ntunlpsg.github.io/tags/multi-lingual/</link>
-    <description>Recent content in multi-lingual on NTU-NLP</description>
+    <description>Recent content in Multi-lingual on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
@@ -18,7 +18,7 @@
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</guid>
-      <description>A demo of malay english Machine translation system.</description>
+      <description>This is a tool to translate an English sentence into Malay and vice versa. Developing a translation tool for low-resource languages like Malay has always been a challenge. The main challenge comes from the fact that machine translation systems typically rely on a huge amount of sentence-parallel data, and creating such datasets is an expensive process. In our work, we collected parallel datasets from various sources including News, OpenSubtitiles (OPUS), Ted talks, and Youtube video.</description>
     </item>
     
     <item>
