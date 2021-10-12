@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Parser on NTU-NLP</title>
+    <title>parser on NTU-NLP</title>
     <link>https://ntunlpsg.github.io/tags/parser/</link>
-    <description>Recent content in Parser on NTU-NLP</description>
+    <description>Recent content in parser on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
@@ -18,10 +18,7 @@
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</guid>
-      <description>RST Parsing from Scratch This repository contains the source code of our paper RST Parsing from Scratch in NAACL 2021.
-Requirements  python: 3.7 pytorch: 1.4 transformers: 3.0  Usage To train a discourse parser:
-./*_train.sh  To predict discourse tree:
-./*_predict.sh  Data Format  For end-to-end parsing from scratch (no sentence guidance): we need to create the data with dummy edu_break and doc_structure. Refer to create_sample_dummy_format_data.py and dummy_format_data/sample_rawtext_data_format For other parsing models: Refer to create_sample_dummy_format_data.</description>
+      <description>A novel top-down end-to-end formulation of document level discourse parsing in the Rhetorical Structure Theory (RST) framework.</description>
     </item>
     
     <item>
@@ -30,11 +27,7 @@ Requirements  python: 3.7 pytorch: 1.4 transformers: 3.0  Usage To train a disco
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</guid>
-      <description>This is the source code of our dependency parser proposed in paper &amp;ldquo;Hierarchical Pointer Net Parsing&amp;rdquo; accepted by EMNLP 2019. Git Repository: https://github.com/ntunlp/ptrnet-depparser.git
-Requirements Python 2.7, PyTorch &amp;gt;=0.3.0, Gensim &amp;gt;= 0.12.0
-Models We have implemented the below models in this project, which can be found in ./neuronlp2/models/parsing2.py:
- HPtrNetPSTGate: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.
- HPtrNetPSTSGate: In each step, decoder receives hidden states from sibling, parent and previous step.</description>
+      <description>A hierarchical pointer network parsers applied to dependency and sentence-level discourse parsing tasks.</description>
     </item>
     
     <item>
@@ -67,14 +60,7 @@ Installation Required for the discourse segmenter:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/ptr-constituency-parser/</guid>
-      <description>Efficient Constituency Parsing by Pointing This resource contains the source code of our ACL-2020 paper entitled Efficient Constituency Parsing by Pointing
-Source code Code
-Running Experiments For english parsing, run command
-bash ./run_en.sh
-For other parsing, run command
-bash ./run_spmrl.sh
-Citation Please cite our paper if you found the resources in this repository useful.
-@inproceedings{nguyen-etal-2020-efficient, title = &amp;quot;Efficient Constituency Parsing by Pointing&amp;quot;, author = &amp;quot;Nguyen, Thanh-Tung and Nguyen, Xuan-Phi and Joty, Shafiq and Li, Xiaoli&amp;quot;, booktitle = &amp;quot;Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics&amp;quot;, month = jul, year = &amp;quot;2020&amp;quot;, address = &amp;quot;Online&amp;quot;, publisher = &amp;quot;Association for Computational Linguistics&amp;quot;, url = &amp;quot;https://www.</description>
+      <description>This resource contains the source code of our ACL-2020 paper entitled &lt;a href=&#34;https://arxiv.org/abs/2006.13557&#34; target=&#34;_blank&#34;&gt;Efficient Constituency Parsing by Pointing&lt;/a&gt;</description>
     </item>
     
   </channel>
