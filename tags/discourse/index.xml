@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>discourse on NTU-NLP</title>
+    <title>Discourse on NTU-NLP</title>
     <link>https://ntunlpsg.github.io/tags/discourse/</link>
-    <description>Recent content in discourse on NTU-NLP</description>
+    <description>Recent content in Discourse on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
@@ -18,7 +18,8 @@
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/coherence/coh-eval/</guid>
-      <description>Coherence models are typically evaluated only on synthetic tasks, which may not be representative of their performance in downstream applications. To investigate how representative the synthetic tasks are of downstream use cases, we conduct experiments on benchmarking well-known traditional and neural coherence models on synthetic sentence ordering tasks, and contrast this with their performance on three downstream applications: coherence evaluation for MT and summarization, and next utterance prediction in retrieval-based dialog.</description>
+      <description>About This resource contains the information regarding code and data used for evaluation in &amp;ldquo;Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks&amp;rdquo; paper (EACL 2021). Source code of evaluated coherence models We benchmark the performance of five coherence models. For each of the coherence models, we conducted experiments with publicly available codes from the respective authors. Links are given below:
+ Entity Grid Neural Entity Grid Lexicalized Neural Entity Grid Transferable Neural Model Unified Neural Model  Datasets  Machine Translation Evaluation Dataset: We use the reference and the system translations provided by WMT2017-2018 as our test data, under the assumption that the reference translations are more coherent than the system translations.</description>
     </item>
     
     <item>
@@ -27,7 +28,10 @@
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/coherence/n-coh-emnlp19/</guid>
-      <description>A unified coherence model that incorporates sentence grammar, inter-sentence coherence relations, and global coherence patterns into a common neural framework.</description>
+      <description>About This resource contains the source code of &amp;ldquo;A Unified Neural Coherence Model&amp;rdquo; paper (EMNLP-IJCNLP 2019, Hong Kong, China). Source code Link to source code
+Datasets Regard to WSJ license, we only share the script to generate local and global coherence dataset from the WSJ dataset.
+Citation Please cite our paper if you found the resources in this repository useful.
+@inproceedings{moon-etal-2019-unified, title = &amp;quot;A Unified Neural Coherence Model&amp;quot;, author = &amp;quot;Moon, Han Cheol and Mohiuddin, Tasnim and Joty, Shafiq and Xu, Chi&amp;quot;, booktitle = &amp;quot;Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)&amp;quot;, month = nov, year = &amp;quot;2019&amp;quot;, address = &amp;quot;Hong Kong, China&amp;quot;, publisher = &amp;quot;Association for Computational Linguistics&amp;quot;, url = &amp;quot;https://www.</description>
     </item>
     
     <item>
@@ -36,7 +40,11 @@
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/parser/ptrnet-depparser/</guid>
-      <description>A hierarchical pointer network parsers applied to dependency and sentence-level discourse parsing tasks.</description>
+      <description>This is the source code of our dependency parser proposed in paper &amp;ldquo;Hierarchical Pointer Net Parsing&amp;rdquo; accepted by EMNLP 2019. Git Repository: https://github.com/ntunlp/ptrnet-depparser.git
+Requirements Python 2.7, PyTorch &amp;gt;=0.3.0, Gensim &amp;gt;= 0.12.0
+Models We have implemented the below models in this project, which can be found in ./neuronlp2/models/parsing2.py:
+ HPtrNetPSTGate: In each step, decoder receives hidden states from sibling, parent and previous step. Use Gate described in the paper.
+ HPtrNetPSTSGate: In each step, decoder receives hidden states from sibling, parent and previous step.</description>
     </item>
     
     <item>
@@ -45,7 +53,10 @@
       <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/coherence/n-coh-acl18/</guid>
-      <description>A neural approach for modeling coherence of asynchronus conversation</description>
+      <description>About This resource contains the source code of &amp;ldquo;Coherence Modeling of Asynchronus Conversations: A Neural Entity Grid Approach&amp;rdquo; paper. Source code Link to source code
+Datasets Regard to WSJ and CNET license, we only provide entity grid files extracted using BrownCoherence toolkit.
+Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2018 paper.
+ @InProceedings{joty-mohiuddin-nguyen-acl-18, title=&amp;quot;{Coherence Modeling of Asynchronous Conversations: A Neural Entity Grid Approach}&amp;quot;, author={Tasnim Mohiuddin and Shafiq Joty and Dat Nguyen}, booktitle = {Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics}, series ={ACL&#39;18}, publisher={Association for Computational Linguistics}, address = {Melbourne, Australia}, pages={xx--xx}, url = {}, year={2018} }  Licence MIT licence.</description>
     </item>
     
     <item>
@@ -78,7 +89,9 @@ Installation Required for the discourse segmenter:
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/discourse-info-sen2vec/</guid>
-      <description>CON-S2V: A Generic Framework for Incorporating</description>
+      <description>About This resource contains the source code of CON-S2V: A Generic Framework for Incorporating Extra-Sentential Context into Sen2Vec Latent Representation for the sentences. paper.
+Source code Link to source code
+Requirements  Anaconda with Python 3.5 ROUGE-1.5.5  Python Environment setup and Update  Copy the sen2vec_environment.yml file into anaconda/envs folder Get into anaconda/envs folder. Run the following command:  conda env create -f sen2vec_environment.yml  Now, you have successfully installed sen2vec environment and now you can activate the environment using the following command.</description>
     </item>
     
     <item>
@@ -87,7 +100,9 @@ Installation Required for the discourse segmenter:
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/coherence/n-coh-acl17/</guid>
-      <description>Neural coherence for monologue</description>
+      <description>About This resource contains the source code of &amp;ldquo;A Neural Local Coherence Model&amp;rdquo; paper. Source code Link to source code
+Citation If you use the entity grid files (including permutations) and the code, please refer to our ACL 2017 paper.
+@inproceedings{tiennguyen2017, author = {Tien Nguyen, Dat and Joty, Shafiq}, title = {A Neural Local Coherence Model}, booktitle = {Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, month = {July}, year = {2017}, address = {Vancouver, Canada}, publisher = {Association for Computational Linguistics}, pages = {1320--1330}, url = {http://aclweb.</description>
     </item>
     
     <item>
@@ -96,7 +111,8 @@ Installation Required for the discourse segmenter:
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/speech-act/</guid>
-      <description>This resource addresses the problem of speech act recognition in written asynchronous conversations</description>
+      <description>About This resource includes,
+ A bi-directional LSTM for speech act recognition (theano, keras) A global CRF model for thread-level inference (Matlab) Tensorflow implementation of all the models presented in the Journal version. Tensorflow implementation of all the models presented in the NAACL-HLT 2019 paper. A web demo.  Related publications  Shafiq Joty and Enamul Hoque. 2016. Speech Act Modeling of Written Asynchronous Conversations with Task-Specific Embeddings and Conditional Structured Models.</description>
     </item>
     
     <item>
@@ -105,7 +121,7 @@ Installation Required for the discourse segmenter:
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/topic-segmenter/</guid>
-      <description>This parser builds a discourse tree by applying an optimal parsing algorithm to probabilities inferred from two Conditional Random Fields: one for intra-sentential parsing and the other for multi-sentential parsing.</description>
+      <description>Topic Segmentation and Labeling in Asynchronous Conversations Topic segmentation and labeling is often considered a prerequisite for higher-level conversation analysis and has been shown to be useful in many Natural Language Processing (NLP) applications. We present two new corpora of email and blog conversations annotated with topics, and evaluate annotator reliability for the segmentation and labeling tasks in these asynchronous conversations. We propose a complete computational framework for topic segmentation and labeling in asynchronous conversations.</description>
     </item>
     
   </channel>
