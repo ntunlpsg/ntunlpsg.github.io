@@ -1,0 +1,19 @@
++++
+abstract = "We present a novel approach to learn distributed representation of sentences from unlabeled data by modeling both content and context of a sentence. The content model learns sentence representation by predicting its words. On the other hand, the context model comprises a neighbor prediction component and a regularizer to model distributional and proximity hypotheses, respectively. We propose an online algorithm to train the model components jointly. We evaluate the models in a setup, where contextual information is available. The experimental results on tasks involving classification, clustering, and ranking of sentences show that our model outperforms the best existing models by a wide margin across multiple datasets." 
+authors = ["Jiuxiang Gu", "Jianfei Cai", "Shafiq Joty", "Li Niu", "Gang Wang"]
+date = "2018-02-05"
+image = ""
+image_preview = ""
+math = false
+publication_types = ["1"]
+selected = true
+publication = "In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR-2018), Salt Lake City, Utah, United States."
+title = "Look, Imagine and Match: Improving Textual-Visual Cross-Modal Retrieval with Generative Models"
+url_code = ""
+url_dataset = ""
+url_pdf = ""
+url_slides = ""
+url_video = ""
++++
+
+

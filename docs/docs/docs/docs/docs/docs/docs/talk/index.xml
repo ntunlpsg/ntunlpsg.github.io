@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DVD: A Diagnostic Dataset for Multi-step Reasoning in Video Grounded Dialogue</title>
+      <link>https://ntunlpsg.github.io/talk/henry/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/henry/</guid>
+      <description>Speaker:
+ Henry Hung Le Ph.D. Candidate, SMU Website | Google Scholar Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues Bio: Hung Le is a Ph.D. candidate in Computer Science at Singapore Management University, advised by Prof. Steven Hoi and Dr. Nancy Chen. His research interest lies in natural language processing and machine learning, including research in non-autoregressive dialogue state tracking, task-oriented dialogues, and video-grounded dialogues. His research work has been published in ACL, ICLR, EMNLP, and AAAI.</description>
+    </item>
+    
+    <item>
+      <title>Towards Generating Human-like Deep Questions</title>
+      <link>https://ntunlpsg.github.io/talk/liangming/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/liangming/</guid>
+      <description>Speaker:
+ Liangming Pan Ph.D. Candidate, NUS. Website | Google Scholar Research topic: Text Generation, Knowledge Graph, Multi-media Learning Bio: Liangming Pan is a fourth year Computer Science Ph.D. student at National University of Singapore, jointly advised by Prof. Min-Yen Kan and Prof. Tat-Seng Chua. He was also a visiting Ph.D. student at UC Santa Barbara in 2020. Prior to joining NUS, he received a Master degree from School of Computer Science at Tsinghua University.</description>
+    </item>
+    
+    <item>
+      <title>Structured Pointing Networks for Natural Language Understanding</title>
+      <link>https://ntunlpsg.github.io/talk/thomas/</link>
+      <pubDate>Sun, 04 Jul 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/thomas/</guid>
+      <description>Speaker:
+ Thanh-Tung Nguyen Ph.D. Candidate, NTU. Linkedin | Google Scholar | Website Research topic: Parsing, RNN, Machine Translation Bio: Thomas is a Ph.D candidate in NLP Research Group at the Nanyang Technological University (NTU). He is also affiliated with the Machine Intellection Department (previously was Data Analytics &amp;amp; Deep Learning 2.0 Department) of Institution for Infocomm Research (I2R). His research involves various aspects of NLP, especially NLP tools and NLP applications.</description>
+    </item>
+    
+    <item>
+      <title>Exploring a Rich Design Space for Text Summarization</title>
+      <link>https://ntunlpsg.github.io/talk/giuseppecarenini/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/giuseppecarenini/</guid>
+      <description>Speaker: Prof. Giuseppe Carenini
+Bio: Giuseppe Carenini is a Professor in Computer Science at UBC (Vancouver, Canada). Giuseppe has broad interdisciplinary interests. His work on natural language processing and information visualization to support decision making has been published in over 100 peer-reviewed papers (including best paper at UMAP-14 and ACM-TiiS-14). Dr. Carenini was the area chair for “Sentiment Analysis, Opinion Mining, and Text Classification” of ACL 2009, the area chair for “Summarization and Generation” of NAACL 2012, the Program Co-Chair for IUI 2015, and the Program Co-Chair for SigDial 2016.</description>
+    </item>
+    
+  </channel>
+</rss>
