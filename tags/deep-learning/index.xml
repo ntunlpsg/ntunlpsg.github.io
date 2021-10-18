@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>deep-learning on NTU-NLP</title>
+    <title>Deep-learning on NTU-NLP</title>
     <link>https://ntunlpsg.github.io/tags/deep-learning/</link>
-    <description>Recent content in deep-learning on NTU-NLP</description>
+    <description>Recent content in Deep-learning on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
@@ -18,7 +18,9 @@
       <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/mulda/</guid>
-      <description>A data augmentation method for NER.</description>
+      <description>MulDA This repository contains the source code and data used in our paper &amp;ldquo;MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER&amp;rdquo; accepted by ACL-IJCNLP-2021.
+Data The data generated using our labeled sequence translation method can be found in the &amp;ldquo;data&amp;rdquo; directory.
+Labled Sequence Translation cd code/translate; python translate.py  lstm-lm: multiilngual LSTM language model  train lstm-lm on linearized sequences ``` cd code/lstm-lm;  python train.py &amp;ndash;train_file PATH/TO/train.</description>
     </item>
     
     <item>
@@ -27,7 +29,9 @@
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/daga/</guid>
-      <description>Data augmentation for low resource tagging.</description>
+      <description>Github
+DAGA This is the source code of our method proposed in paper &amp;ldquo;DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&amp;rdquo; accepted by EMNLP 2020.
+Examples flair_seq_tagger: sequense tagging model cd flair_seq_tagger; python train_tagger.py \ --data_dir PATH/TO/TRAIN_DIR \ --train_file train.txt \ --dev_file dev.txt \ --data_columns text ner \ --model_dir ./model \ --comment_symbol &amp;quot;__label__&amp;quot; \ --embeddings_file PATH/TO/emb \ --optim adam \ --learning_rate 0.001 --min_learning_rate 0.00001 \ --patience 2 \ --max_epochs 100 \ --hidden_size 512 \ --mini_batch_size 32 \ --gpuid 0  lstm-lm: LSTM language model  train lstm-lm on linearized sequences ``` cd lstm-lm;  python train.</description>
     </item>
     
     <item>
@@ -36,7 +40,8 @@
       <pubDate>Thu, 04 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/unsup-word-translation/</guid>
-      <description>Adversarial Autoencoder with Cycle Consistency and Improved Training</description>
+      <description>About This resource contains the source code of our NAACL-HLT 2019 paper entitled Revisiting Adversarial Autoencoder for Unsupervised Word Translation with Cycle Consistency and Improved Training. Source code Link to source code
+Datasets  Conneau et al. (2018) Dataset: Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs. Dinu-Artexe dataset: Consists of monolingual embeddings of 300 dimension for English, Italian and Spanish.</description>
     </item>
     
     <item>
@@ -45,7 +50,7 @@
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</guid>
-      <description>A demo of malay english Machine translation system.</description>
+      <description>This is a tool to translate an English sentence into Malay and vice versa. Developing a translation tool for low-resource languages like Malay has always been a challenge. The main challenge comes from the fact that machine translation systems typically rely on a huge amount of sentence-parallel data, and creating such datasets is an expensive process. In our work, we collected parallel datasets from various sources including News, OpenSubtitiles (OPUS), Ted talks, and Youtube video.</description>
     </item>
     
     <item>
@@ -54,7 +59,9 @@
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/lnmap/</guid>
-      <description>This paper shows with a semi-supervised algorithm that BLI is more suitable through Non-Linear Mapping (specially for low resource languages).</description>
+      <description>This resource contains the source code of our EMNLP-2020 paper entitled LNMap: Departures from Isomorphic Assumption in Bilingual Lexicon Induction Through Non-Linear Mapping in Latent Space.
+Source code Link to source code
+Datasets  Conneau et al. (2018) Dataset: Consists of FastText monolingual embeddings of 300 dimensions trained on Wikipedia monolingual corpus and gold dictionaries for 110 language pairs. Dinu-Artexe dataset: Consists of monolingual embeddings of 300 dimension for English, Italian and Spanish.</description>
     </item>
     
   </channel>

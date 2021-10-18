@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>NTU-NLP on NTU-NLP</title>
@@ -6,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -25,6 +26,34 @@
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Representation learning with few human annotations</title>
+      <link>https://ntunlpsg.github.io/talk/junnan/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/junnan/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/junnan.jpeg&#34;&gt; &lt;br&gt; &lt;center&gt; Junnan Li &lt;br&gt; Senior Research Scientist, Salesforce Research Asia, Singapore &lt;br&gt; &lt;a href=&#34;https://sites.google.com/site/junnanlics&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=MuUhwi0AAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Self-supervised Learning, Semi-supervised Learning, Weakly-supervised Learning, Transfer Learning, Vision and Language &lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,0yaa_CtqpkmQRFdwoSF_TA,qy_q0roFTkGX10G2Zo7mPg,sUdmKIvuBkqsqwmxDcrTJQ?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Junnan Li is currently a senior research scientist at Salesforce Research Asia. He obtained his PhD at the National University of Singapore in 2019. He has published in many top-tier venues in machine learning and computer vision, such as NeurIPS, ICLR, CVPR, ICCV, etc. His main research interests include self-supervised learning, semi-supervised learning, weakly-supervised learning, and vision-language learning. His ultimate research goal is to build general-purpose models that can self-learn without human involvement.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DVD: A Diagnostic Dataset for Multi-step Reasoning in Video Grounded Dialogue</title>
+      <link>https://ntunlpsg.github.io/talk/henry/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/henry/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; &lt;center&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Hung Le is a Ph.D. candidate in Computer Science at Singapore Management University, advised by Prof. Steven Hoi and Dr. Nancy Chen. His research interest lies in natural language processing and machine learning, including research in non-autoregressive dialogue state tracking, task-oriented dialogues, and video-grounded dialogues. His research work has been published in ACL, ICLR, EMNLP, and AAAI. Hung is awarded the Computer and Information Science Scholarship by A*STAR Singapore and is a recipient of the Presidential Doctoral Fellowship from 2019 to 2021.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -65,66 +94,61 @@
 &lt;h2 id=&#34;lstm-lm-multiilngual-lstm-language-model&#34;&gt;lstm-lm: multiilngual LSTM language model&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;train lstm-lm on linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd code/lstm-lm;
-
-python train.py \
---train_file PATH/TO/train.linearized.txt \
---valid_file PATH/TO/dev.linearized.txt \
---model_file PATH/TO/model.pt \
---emb_dim 300 \
---rnn_size 512 \
---gpuid 0 
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;generate linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd code/lstm-lm;
-
-python generate.py \
---model_file PATH/TO/model.pt \
---out_file PATH/TO/out.txt \
---num_sentences 10000 \
---temperature 1.0 \
---seed 3435 \
---max_sent_length 32 \
---gpuid 0
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;train lstm-lm on linearized sequences
+```
+cd code/lstm-lm;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;tools-tools-for-data-processing&#34;&gt;tools: tools for data processing&lt;/h2&gt;
+&lt;p&gt;python train.py &lt;br /&gt;
+  &amp;ndash;train_file PATH/TO/train.linearized.txt &lt;br /&gt;
+  &amp;ndash;valid_file PATH/TO/dev.linearized.txt &lt;br /&gt;
+  &amp;ndash;model_file PATH/TO/model.pt &lt;br /&gt;
+  &amp;ndash;emb_dim 300 &lt;br /&gt;
+  &amp;ndash;rnn_size 512 &lt;br /&gt;
+  &amp;ndash;gpuid 0&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;tools/preprocess.py: sequence linearization&lt;/li&gt;
-&lt;li&gt;tools/line2cols.py: convert linearized sequence back to two-column format&lt;/li&gt;
-&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;
+- generate linearized sequences
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
+&lt;p&gt;cd code/lstm-lm;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;code/lstm-lm/requirements.txt&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;python generate.py &lt;br /&gt;
+  &amp;ndash;model_file PATH/TO/model.pt &lt;br /&gt;
+  &amp;ndash;out_file PATH/TO/out.txt &lt;br /&gt;
+  &amp;ndash;num_sentences 10000 &lt;br /&gt;
+  &amp;ndash;temperature 1.0 &lt;br /&gt;
+  &amp;ndash;seed 3435 &lt;br /&gt;
+  &amp;ndash;max_sent_length 32 &lt;br /&gt;
+  &amp;ndash;gpuid 0&lt;/p&gt;
 
-&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;
+## tools: tools for data processing
+- tools/preprocess.py: sequence linearization
+- tools/line2cols.py: convert linearized sequence back to two-column format
 
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+# Requirements
+- code/lstm-lm/requirements.txt
 
-&lt;pre&gt;&lt;code&gt;@inproceedings{liu-etal-2021-mulda,
-    title = &amp;quot;MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER&amp;quot;,
-    author = &amp;quot;Liu Linlin  and
+# Citation
+Please cite our paper if you found the resources in this repository useful.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;@inproceedings{liu-etal-2021-mulda,
+    title = &amp;ldquo;MulDA: A Multilingual Data Augmentation Framework for Low-Resource Cross-Lingual NER&amp;rdquo;,
+    author = &amp;ldquo;Liu Linlin  and
       Ding, Bosheng  and
       Bing, Lidong  and
       Joty, Shafiq  and
       Si, Luo  and
-      Miao, Chunyan&amp;quot;,
-    booktitle = &amp;quot;Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL&#39;21)&amp;quot;,
+      Miao, Chunyan&amp;rdquo;,
+    booktitle = &amp;ldquo;Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics (ACL&amp;rsquo;21)&amp;rdquo;,
     month = aug,
-    year = &amp;quot;2021&amp;quot;,
-    address = &amp;quot;Online&amp;quot;,
-    publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
+    year = &amp;ldquo;2021&amp;rdquo;,
+    address = &amp;ldquo;Online&amp;rdquo;,
+    publisher = &amp;ldquo;Association for Computational Linguistics&amp;rdquo;,
 }
-&lt;/code&gt;&lt;/pre&gt;
+```&lt;/p&gt;
 </description>
     </item>
     
@@ -178,13 +202,23 @@ python generate.py \
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 11 October, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/junnan.jpeg&#34;&gt; &lt;br&gt; Junnan Li &lt;br&gt; Senior Research Scientist, Salesforce Research Asia, Singapore &lt;br&gt; &lt;a href=&#34;https://sites.google.com/site/junnanlics&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=MuUhwi0AAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic:  Self-supervised Learning, Semi-supervised Learning, Weakly-supervised Learning, Transfer Learning, Vision and Language &lt;br&gt; &lt;a href=&#34;../../talk/junnan&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,0yaa_CtqpkmQRFdwoSF_TA,qy_q0roFTkGX10G2Zo7mPg,sUdmKIvuBkqsqwmxDcrTJQ?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/t3EyTMvFCAE&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 13 September, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU. &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt; &lt;a href=&#34;../../talk/henry&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,85H58boEIUi55Ji9ruGeIg,Qe-QTrzJSE-B569L2e8Rhg,8SgWAxByEUie0twEcIce3g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rjEFtYNmoMs&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 16 August, 2021 &lt;br&gt; 2:00 - 3:00 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt; &lt;a href=&#34;../../talk/liangming&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,v1_XYvcKHUiL5HYlH8upQQ,dcx2ACSf_k-3a8mWBEdqgw,gAgX1m0VUEO6SVNHt7wv1g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/CAJJJOoS-q4&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -403,124 +437,6 @@ pages = &amp;quot;xx--xx&amp;quot;,}
 
 &lt;p&gt;MIT licence.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</title>
-      <link>https://ntunlpsg.github.io/project/daga/</link>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/daga/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlp/daga&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;daga&#34;&gt;DAGA&lt;/h1&gt;
-
-&lt;p&gt;This is the source code of our method proposed in paper &amp;ldquo;&lt;a href=&#34;https://www.aclweb.org/anthology/2020.emnlp-main.488/&#34; target=&#34;_blank&#34;&gt;DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&lt;/a&gt;&amp;rdquo; accepted by EMNLP 2020.&lt;/p&gt;
-
-&lt;h1 id=&#34;examples&#34;&gt;Examples&lt;/h1&gt;
-
-&lt;h2 id=&#34;flair-seq-tagger-sequense-tagging-model&#34;&gt;flair_seq_tagger: sequense tagging model&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;cd flair_seq_tagger;
-
-python train_tagger.py \
-  --data_dir PATH/TO/TRAIN_DIR \
-  --train_file  train.txt \
-  --dev_file  dev.txt \
-  --data_columns text ner \
-  --model_dir ./model \
-  --comment_symbol &amp;quot;__label__&amp;quot; \
-  --embeddings_file PATH/TO/emb \
-  --optim adam \
-  --learning_rate 0.001 --min_learning_rate 0.00001 \
-  --patience 2 \
-  --max_epochs 100 \
-  --hidden_size 512 \
-  --mini_batch_size 32 \
-  --gpuid 0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;lstm-lm-lstm-language-model&#34;&gt;lstm-lm: LSTM language model&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;train lstm-lm on linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd lstm-lm;
-
-python train.py \
---train_file PATH/TO/train.linearized.txt \
---valid_file PATH/TO/dev.linearized.txt \
---model_file PATH/TO/model.pt \
---emb_dim 300 \
---rnn_size 512 \
---gpuid 0 
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;generate linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd lstm-lm;
-
-python generate.py \
---model_file PATH/TO/model.pt \
---out_file PATH/TO/out.txt \
---num_sentences 10000 \
---temperature 1.0 \
---seed 3435 \
---max_sent_length 32 \
---gpuid 0
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tools-tools-for-data-processing&#34;&gt;tools: tools for data processing&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;preprocess.py: sequence linearization&lt;/li&gt;
-&lt;li&gt;line2cols.py: convert linearized sequence back to two-column format&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;flair_seq_tagger/requirements.txt&lt;/li&gt;
-&lt;li&gt;lstm-lm/requirements.txt&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
-
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@inproceedings{ding-etal-2020-daga,
-    title = &amp;quot;{DAGA}: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&amp;quot;,
-    author = &amp;quot;Ding, Bosheng  and
-      Liu, Linlin  and
-      Bing, Lidong  and
-      Kruengkrai, Canasai  and
-      Nguyen, Thien Hai  and
-      Joty, Shafiq  and
-      Si, Luo  and
-      Miao, Chunyan&amp;quot;,
-    booktitle = &amp;quot;Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)&amp;quot;,
-    month = nov,
-    year = &amp;quot;2020&amp;quot;,
-    address = &amp;quot;Online&amp;quot;,
-    publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
-    url = &amp;quot;https://www.aclweb.org/anthology/2020.emnlp-main.488&amp;quot;,
-    doi = &amp;quot;10.18653/v1/2020.emnlp-main.488&amp;quot;,
-    pages = &amp;quot;6045--6057&amp;quot;,
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data Diversification: A Simple Strategy For Neural Machine Translation</title>
-      <link>https://ntunlpsg.github.io/publication/data_diverse/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/data_diverse/</guid>
-      <description></description>
     </item>
     
   </channel>
