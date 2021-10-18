@@ -29,20 +29,6 @@
     </item>
     
     <item>
-      <title>Representation learning with few human annotations</title>
-      <link>https://ntunlpsg.github.io/talk/junnan/</link>
-      <pubDate>Sun, 03 Oct 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/talk/junnan/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/junnan.jpeg&#34;&gt; &lt;br&gt; &lt;center&gt; Junnan Li &lt;br&gt; Senior Research Scientist, Salesforce Research Asia, Singapore &lt;br&gt; &lt;a href=&#34;https://sites.google.com/site/junnanlics&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=MuUhwi0AAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Self-supervised Learning, Semi-supervised Learning, Weakly-supervised Learning, Transfer Learning, Vision and Language &lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,0yaa_CtqpkmQRFdwoSF_TA,qy_q0roFTkGX10G2Zo7mPg,sUdmKIvuBkqsqwmxDcrTJQ?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Junnan Li is currently a senior research scientist at Salesforce Research Asia. He obtained his PhD at the National University of Singapore in 2019. He has published in many top-tier venues in machine learning and computer vision, such as NeurIPS, ICLR, CVPR, ICCV, etc. His main research interests include self-supervised learning, semi-supervised learning, weakly-supervised learning, and vision-language learning. His ultimate research goal is to build general-purpose models that can self-learn without human involvement.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>DVD: A Diagnostic Dataset for Multi-step Reasoning in Video Grounded Dialogue</title>
       <link>https://ntunlpsg.github.io/talk/henry/</link>
       <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
@@ -120,13 +106,8 @@
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 11 October, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/junnan.jpeg&#34;&gt; &lt;br&gt; Junnan Li &lt;br&gt; Senior Research Scientist, Salesforce Research Asia, Singapore &lt;br&gt; &lt;a href=&#34;https://sites.google.com/site/junnanlics&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=MuUhwi0AAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic:  Self-supervised Learning, Semi-supervised Learning, Weakly-supervised Learning, Transfer Learning, Vision and Language &lt;br&gt; &lt;a href=&#34;../../talk/junnan&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,0yaa_CtqpkmQRFdwoSF_TA,qy_q0roFTkGX10G2Zo7mPg,sUdmKIvuBkqsqwmxDcrTJQ?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 13 September, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU. &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt; &lt;a href=&#34;../../talk/henry&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,85H58boEIUi55Ji9ruGeIg,Qe-QTrzJSE-B569L2e8Rhg,8SgWAxByEUie0twEcIce3g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rjEFtYNmoMs&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -135,8 +116,8 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 13 September, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU. &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt; &lt;a href=&#34;../../talk/henry&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,85H58boEIUi55Ji9ruGeIg,Qe-QTrzJSE-B569L2e8Rhg,8SgWAxByEUie0twEcIce3g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rjEFtYNmoMs&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -459,6 +440,15 @@ Please cite our paper if you found the resources in this repository useful.
 }
 ```&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Data Diversification: A Simple Strategy For Neural Machine Translation</title>
+      <link>https://ntunlpsg.github.io/publication/data_diverse/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/data_diverse/</guid>
+      <description></description>
     </item>
     
   </channel>

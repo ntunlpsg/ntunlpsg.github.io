@@ -6,7 +6,7 @@ time_end = 2021-08-16T15:00:00
 abstract = "Question Generation (QG) concerns the task of automatically generating questions from various inputs such as raw text, database, or semantic representation. People have the ability to ask deep questions about events, evaluation, opinions, synthesis, or reasons, usually in the form of Why, Why-not, How, What-if, which requires an in-depth understanding of the input source and the ability to reason over disjoint relevant contexts. Learning to ask such deep questions has broad application in future intelligent systems, such as dialog systems, online education, intelligent search, among others. This talk will introduce our recent research on generating deep questions that demand high cognitive skills, including questions that require multi-hop reasoning and questions that exhibit certain human-desired properties, such as being answerable by the passage. We will also introduce how deep question generation benefit two practical applications: multi-hop question answering, and fact verification."
 event = "NTU-NLP: Monthly NLP Talks"
 event_url = ""
-location = "Teams Meeting"
+location = "Zoom Meeting"
 
 # Is this a selected talk? (true/false)
 selected = false
