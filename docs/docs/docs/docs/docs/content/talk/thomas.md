@@ -6,7 +6,7 @@ time_end = 2021-07-12T17:30:00
 abstract = "Natural Language Understanding (NLU) is a subfield in Natural Language Processing (NLP) that deals with machine comprehension of the structure and meaning of human languages. It requires utilizing the relevant context to get the true meanings of the text and how the components of the text are connected with each other to form the structure. Notably, NLU involves finding such linguistic structures and contextual interpretation at the sentence and the document (discourse) level. With the success of deep learning, computers can understand human languages by calculating the relative importance among the inputs to point to the relevant part in the input  and then performing inference on those representations. With this technological advancement, this talk tackles the NLU problems in two aspects: building better language tools to analyze natural language in terms of explicit representations of the syntax and discourse structures and developing better less-human-effort language modules for many downstream problems."
 event = "NTU-NLP: Monthly NLP Talks"
 event_url = ""
-location = "Zoom Meeting"
+location = "Teams Meeting"
 
 # Is this a selected talk? (true/false)
 selected = false
