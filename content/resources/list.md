@@ -31,18 +31,15 @@ filter_default = 0
 [[filter]]
   name = "All"
   tag = "*"
-[[filter]]  
+[[filter]]
   name = "discourse-analysis"
   tag = ".discourse"
-[[filter]]  
+[[filter]]
   name = "representation-learning"
   tag = ".representation-learning"
 [[filter]]
   name = "question-answering"
   tag = ".question-answering"
-#[[filter]]
-#  name = "demo"
-#  tag = ".demo"
 [[filter]]
   name = "multi-lingual"
   tag = ".multi-lingual"
@@ -55,8 +52,26 @@ filter_default = 0
 [[filter]]
   name = "parser"
   tag = ".parser"
-
-
-
+[[filter]]
+  name = "neural-machine-translation"
+  tag = ".neural-machine-translation"
+[[filter]]
+  name = "unsupervised"
+  tag = ".unsupervised"
+[[filter]]
+  name = "tree-structures"
+  tag = ".tree-structures"
+[[filter]]
+  name = "text-generation"
+  tag = ".text-generation"
+[[filter]]
+  name = "coherence"
+  tag = ".coherence"
+[[filter]]
+  name = "evaluation"
+  tag = ".evaluation"
+[[filter]]
+  name = "self-supervision"
+  tag = ".self-supervision"
 +++
 
