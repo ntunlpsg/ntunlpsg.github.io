@@ -13,6 +13,27 @@
     
     
     <item>
+      <title>Representation learning with few human annotations</title>
+      <link>https://ntunlpsg.github.io/talk/junnan/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/junnan/</guid>
+      <description>Speaker:
+ Junnan Li Senior Research Scientist, Salesforce Research Asia, Singapore Website | Google Scholar Research topic: Self-supervised Learning, Semi-supervised Learning, Weakly-supervised Learning, Transfer Learning, Vision and Language Registration Link
+Bio: Junnan Li is currently a senior research scientist at Salesforce Research Asia. He obtained his PhD at the National University of Singapore in 2019. He has published in many top-tier venues in machine learning and computer vision, such as NeurIPS, ICLR, CVPR, ICCV, etc.</description>
+    </item>
+    
+    <item>
+      <title>DVD: A Diagnostic Dataset for Multi-step Reasoning in Video Grounded Dialogue</title>
+      <link>https://ntunlpsg.github.io/talk/henry/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/henry/</guid>
+      <description>Speaker:
+ Henry Hung Le Ph.D. Candidate, SMU Website | Google Scholar Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues Bio: Hung Le is a Ph.D. candidate in Computer Science at Singapore Management University, advised by Prof. Steven Hoi and Dr. Nancy Chen. His research interest lies in natural language processing and machine learning, including research in non-autoregressive dialogue state tracking, task-oriented dialogues, and video-grounded dialogues. His research work has been published in ACL, ICLR, EMNLP, and AAAI.</description>
+    </item>
+    
+    <item>
       <title>Towards Generating Human-like Deep Questions</title>
       <link>https://ntunlpsg.github.io/talk/liangming/</link>
       <pubDate>Mon, 09 Aug 2021 00:00:00 +0800</pubDate>

@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.55.6" />
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="A simple way to boost many NMT tasks by using multiple backward and forward models.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/data_diverse/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-115450637-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="feed" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://ntunlpsg.github.io/project/data_diverse/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@ntunlpsg">
+  <meta property="twitter:creator" content="@ntunlpsg">
+  
+  <meta property="og:site_name" content="NTU-NLP">
+  <meta property="og:url" content="https://ntunlpsg.github.io/project/data_diverse/">
+  <meta property="og:title" content="Data Diversification: A Simple Strategy For Neural Machine Translation | NTU-NLP">
+  <meta property="og:description" content="A simple way to boost many NMT tasks by using multiple backward and forward models.">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  <title>Data Diversification: A Simple Strategy For Neural Machine Translation | NTU-NLP</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/ntunlp_final.png" alt="NTU-NLP"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#people">
+            
+            <span>People</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/publication/">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/resources/">
+            
+            <span>Resources</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/post/reading-group">
+            
+            <span>Reading Group</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/post/monthly-nlp-talk/">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Data Diversification: A Simple Strategy For Neural Machine Translation</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h4 id="accepted-as-conference-paper-at-34th-conference-on-neural-information-processing-systems-neurips-2020-vancouver-canada-2020">Accepted as conference paper at 34th Conference on Neural Information Processing Systems (NeurIPS 2020), Vancouver, Canada, 2020</h4>
+
+<h4 id="authors-xuan-phi-nguyen-shafiq-joty-wu-kui-ai-ti-aw">Authors: Xuan-Phi Nguyen, Shafiq Joty, Wu Kui, Ai Ti Aw</h4>
+
+<p><a href="https://nxphi47.github.io/publications/2019-data-diversification/" target="_blank">Github</a></p>
+
+<p>Paper link: <a href="https://arxiv.org/abs/1911.01986" target="_blank">https://arxiv.org/abs/1911.01986</a></p>
+
+<h1 id="citation">Citation</h1>
+
+<p>Please cite as:</p>
+
+<pre><code class="language-bibtex">@incollection{nguyen2020data,
+title = {Data Diversification: A Simple Strategy For Neural Machine Translation},
+author = {Xuan-Phi Nguyen and Shafiq Joty and Wu Kui and Ai Ti Aw},
+booktitle = {Advances in Neural Information Processing Systems 32},
+year = {2020},
+publisher = {Curran Associates, Inc.},
+}
+</code></pre>
+
+<h2 id="pretrained-models">Pretrained Models</h2>
+
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Description</th>
+<th>Dataset</th>
+<th>Download</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>WMT'16 En-De</code></td>
+<td>Transformer</td>
+<td><a href="https://drive.google.com/uc?export=download&amp;id=0B_bZck-ksdkpM25jRUN2X2UxMm8" target="_blank">WMT16 English-German</a></td>
+<td>model:  <a href="https://drive.google.com/file/d/1dpUPmVvLZKiUHWeqo0_0-ox2yjGb109e/view?usp=sharing" target="_blank">download (.tar.gz)</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="instruction-to-train-wmt-english-german">Instruction To train WMT English-German</h2>
+
+<p><strong>Step 1</strong>: Follow instruction from <a href="https://github.com/pytorch/fairseq/tree/master/examples/translation" target="_blank">Fairseq</a> to create
+the WMT&rsquo;14 Dataset.</p>
+
+<p>Save the processed data as <code>data_fairseq/translate_ende_wmt16_bpe32k</code></p>
+
+<p>Save the raw data (which contains the file train.tok.clean.bpe.32000.en) to <code>raw_data/wmt_ende</code></p>
+
+<p><strong>Step 2</strong>: copy the same data to <code>data_fairseq/translate_deen_wmt16_bpe32k</code> for De-En</p>
+
+<pre><code class="language-bash">cp -r data_fairseq/translate_ende_wmt16_bpe32k data_fairseq/translate_deen_wmt16_bpe32k
+</code></pre>
+
+<p><strong>Step 3</strong>: Train forward models. Step 3-4 can be done all in parallel, if you have more than 8 GPUs, you can run all 6 models at once.</p>
+
+<pre><code class="language-bash">export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+export seed_prefix=100
+export problem=translate_ende_wmt16_bpe32k
+export model_name=big_tfm_baseline_df3584_s${seed_prefix}
+export data_dir=`pwd`/data_fairseq/$problem
+
+for index in {1..3}
+do
+export model_dir=train_fairseq/${problem}/${model_name}/model_${index}
+fairseq-train \
+    ${data_dir} \
+    -s en -t de \
+    --arch transformer_vaswani_wmt_en_de_big --share-all-embeddings \
+    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm 0.0 \
+    --lr 0.001 --lr-scheduler inverse_sqrt --warmup-updates 4000 --warmup-init-lr 1e-07 \
+    --dropout 0.3 --attention-dropout 0.1 --weight-decay 0.0 \
+    --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
+    --max-update 43000 \
+    --keep-last-epochs 10 \
+    --save-dir ${model_dir} \
+    --ddp-backend no_c10d \
+    --seed ${seed_prefix}${index} \
+    --max-tokens 3584 \
+    --fp16 --update-freq 16 --log-interval 10000 --no-progress-bar
+done
+</code></pre>
+
+<p><strong>Step 4</strong>: Train backward models</p>
+
+<pre><code class="language-bash">export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+export seed_prefix=101
+export problem=translate_deen_wmt16_bpe32k
+export model_name=big_tfm_baseline_df3584_s${seed_prefix}
+export data_dir=`pwd`/data_fairseq/$problem
+
+for index in {1..3}
+do
+export model_dir=train_fairseq/${problem}/${model_name}/model_${index}
+fairseq-train \
+    ${data_dir} \
+    -s de -t en \
+    --arch transformer_vaswani_wmt_en_de_big --share-all-embeddings \
+    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm 0.0 \
+    --lr 0.001 --lr-scheduler inverse_sqrt --warmup-updates 4000 --warmup-init-lr 1e-07 \
+    --dropout 0.3 --attention-dropout 0.1 --weight-decay 0.0 \
+    --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
+    --max-update 43000 \
+    --keep-last-epochs 10 \
+    --save-dir ${model_dir} \
+    --ddp-backend no_c10d \
+    --seed ${seed_prefix}${index} \
+    --max-tokens 3584 \
+    --fp16 --update-freq 16 --log-interval 10000 --no-progress-bar
+done
+</code></pre>
+
+<p><strong>Step 5</strong>: Inference forward models</p>
+
+<pre><code class="language-bash">export CUDA_VISIBLE_DEVICES=0
+export seed_prefix=100
+export problem=translate_ende_wmt16_bpe32k
+export model_name=big_tfm_baseline_df3584_s${seed_prefix}
+export data_dir=`pwd`/data_fairseq/$problem
+export beam=5
+export lenpen=0.6
+export round=1
+
+for index in {1..3}
+do
+export model_dir=train_fairseq/${problem}/${model_name}/model_${index}
+export best_file=$model_dir/checkpoint_best.pt
+export gen_out=$model_dir/infer_train_b${beam}_lp${lenpen}
+fairseq-generate ${data_dir} \
+    -s en -t de \
+    --path ${best_file} \
+    --gen-subset train \
+    --max-tokens ${infer_bsz} --beam ${beam}  --lenpen ${lenpen} | dd of=$gen_out
+grep ^S ${gen_out} | cut -f2- &gt; $gen_out.en
+grep ^H ${gen_out} | cut -f3- &gt; $gen_out.de
+done
+
+</code></pre>
+
+<p><strong>Step 6</strong>: Inference backward models</p>
+
+<pre><code class="language-bash">export CUDA_VISIBLE_DEVICES=0
+export seed_prefix=101
+export problem=translate_deen_wmt16_bpe32k
+export model_name=big_tfm_baseline_df3584_s${seed_prefix}
+export data_dir=`pwd`/data_fairseq/$problem
+export beam=5
+export lenpen=0.6
+export round=1
+
+for index in {1..3}
+do
+export model_dir=train_fairseq/${problem}/${model_name}/model_${index}
+export best_file=$model_dir/checkpoint_best.pt
+export gen_out=$model_dir/infer_train_b${beam}_lp${lenpen}
+fairseq-generate ${data_dir} \
+    -s de -t en \
+    --path ${best_file} \
+    --gen-subset train \
+    --max-tokens ${infer_bsz} --beam ${beam}  --lenpen ${lenpen} | dd of=$gen_out
+grep ^S ${gen_out} | cut -f2- &gt; $gen_out.de
+grep ^H ${gen_out} | cut -f3- &gt; $gen_out.en
+done
+
+</code></pre>
+
+<p><strong>Step 7</strong>: Merge and filter duplicates with the original dataset</p>
+
+<pre><code class="language-bash">
+export ori=raw_data/wmt_ende/train.tok.clean.bpe.32000
+export bw_prefix=train_fairseq/translate_deen_wmt16_bpe32k/big_tfm_baseline_df3584_s101/model_
+export fw_prefix=train_fairseq/translate_ende_wmt16_bpe32k/big_tfm_baseline_df3584_s100/model_
+export prefix=
+for i in {1..3}
+do
+  export prefix=$bw_prefix$i/infer_train_b5_lp0.6:$prefix
+done
+for i in {1..3}
+do
+  export prefix=$fw_prefix$i/infer_train_b5_lp0.6:$prefix
+done
+
+mkdir -p raw_data/aug_ende_wmt16_bpe32k_s3_r1
+python -u combine_corpus.py --src en --tgt de --ori $ori --hypos $prefix --dir raw_data/aug_ende_wmt16_bpe32k_s3_r1 --out train
+
+export out=data_fairseq/translate_ende_aug_b5_r1_s3_nodup_wmt16_bpe32k
+# Copy the original data to new augmented data. We keep the valid/test set the same, only change the train set
+cp -r data_fairseq/translate_ende_wmt16_bpe32k $out
+
+fairseq-preprocess --source-lang en --target-lang de \
+  --trainpref raw_data/aug_ende_wmt16_bpe32k_s3_r1/train \
+  --destdir $out \
+  --nwordssrc 0 --nwordstgt 0 \
+  --workers 16 \
+  --srcdict $out/dict.en.txt --tgtdict $out/dict.de.txt
+
+# This should report around 27M sentences
+</code></pre>
+
+<p><strong>Step 8</strong>: Train final models</p>
+
+<pre><code class="language-bash">export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
+export seed_prefix=200
+export problem=translate_ende_aug_b5_r1_s3_nodup_wmt16_bpe32k
+export model_name=big_tfm_baseline_df3584_s${seed_prefix}
+export data_dir=`pwd`/data_fairseq/$problem
+export index=1
+export model_dir=train_fairseq/${problem}/${model_name}/model_${index}
+fairseq-train \
+    ${data_dir} \
+    -s en -t de \
+    --arch transformer_vaswani_wmt_en_de_big --share-all-embeddings \
+    --optimizer adam --adam-betas '(0.9, 0.98)' --clip-norm 0.0 \
+    --lr 0.001 --lr-scheduler inverse_sqrt --warmup-updates 4000 --warmup-init-lr 1e-07 \
+    --dropout 0.3 --attention-dropout 0.1 --weight-decay 0.0 \
+    --criterion label_smoothed_cross_entropy --label-smoothing 0.1 \
+    --max-update 43000 \
+    --keep-last-epochs 10 \
+    --save-dir ${model_dir} \
+    --ddp-backend no_c10d \
+    --seed ${seed_prefix}${index} \
+    --max-tokens 3584 \
+    --fp16 --update-freq 16 --log-interval 10000 --no-progress-bar
+
+export avg_checkpoint=$model_dir/checkpoint_avg5.pt
+
+# average checkpoints
+python average_checkpoints.py \
+        --inputs ${model_dir} \
+        --num-epoch-checkpoints 5 \
+        --checkpoint-upper-bound 10000 \
+        --output ${avg_checkpoint}
+
+export gen_out=$model_dir/infer.test.avg5.b5.lp0.6
+export ref=${gen_out}.ref
+export hypo=${gen_out}.hypo
+export ref_atat=${ref}.atat
+export hypo_atat=${hypo}.atat
+export beam=5
+export lenpen=0.6
+echo &quot;Finish generating averaged, start generating samples&quot;
+fairseq-generate ${data_dir} \
+-s en -t de \
+--gen-subset test \
+--path ${avg_checkpoint} \
+--max-tokens 2048 \
+--beam ${beam}  \
+--lenpen ${lenpen} \
+--remove-bpe | dd of=${gen_out}
+grep ^T ${gen_out} | cut -f2- &gt; ${ref}
+grep ^H ${gen_out} | cut -f3- &gt; ${hypo}
+
+perl -ple 's{(\S)-(\S)}{$1 ##AT##-##AT## $2}g' &lt; ${hypo} &gt; ${hypo_atat}
+perl -ple 's{(\S)-(\S)}{$1 ##AT##-##AT## $2}g' &lt; ${ref} &gt; ${ref_atat}
+echo &quot;------ Score BLEU ------------&quot;
+$(which fairseq-score) --sys ${hypo_atat} --ref ${ref_atat}
+# expected: BLEU4 = 30.7 
+</code></pre>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/machine-learning">machine-learning</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/neural-machine-translation">neural-machine-translation</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      ntunlp &copy; 2020 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

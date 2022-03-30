@@ -23,8 +23,132 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/</loc>
-      <lastmod>2021-08-09T00:00:00+08:00</lastmod>
+      <lastmod>2022-03-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/</loc>
+      <lastmod>2022-03-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/scalegrad/</loc>
+      <lastmod>2022-03-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/</loc>
+      <lastmod>2022-03-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/text-generation/</loc>
+      <lastmod>2022-03-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/lfpt5/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/rethink-coherence-paradigm/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/coherence/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/evaluation/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/representation-learning/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/self-supervision/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/talk/junnan/</loc>
+      <lastmod>2021-10-03T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/asr/</loc>
+      <lastmod>2021-09-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/talk/henry/</loc>
+      <lastmod>2021-09-06T00:00:00+08:00</lastmod>
     </url>
     
   
@@ -43,26 +167,6 @@
     
       <loc>https://ntunlpsg.github.io/project/mulda/</loc>
       <lastmod>2021-08-04T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/project/</loc>
-      <lastmod>2021-08-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/</loc>
-      <lastmod>2021-08-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -404,16 +508,6 @@
     
       <loc>https://ntunlpsg.github.io/project/discomt/eval-anaphora/</loc>
       <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/representation-learning/</loc>
-      <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -1452,6 +1546,30 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/project/swav/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/cross_model_back_translated/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/data_diverse/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/project/dynamic-attention/</loc>
     </url>
     
@@ -1461,6 +1579,14 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/project/ptr-constituency-parser/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/tree_transformer/</loc>
     </url>
     
   
@@ -1478,6 +1604,42 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/tags/context-modeling/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/machine-learning/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/neural-machine-translation/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/tree-structures/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/unsupervised/</loc>
       <priority>0</priority>
     </url>
     

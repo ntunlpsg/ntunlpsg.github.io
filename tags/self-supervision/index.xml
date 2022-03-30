@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>self-supervision on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/tags/self-supervision/</link>
+    <description>Recent content in self-supervision on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Thu, 10 Mar 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ntunlpsg.github.io/tags/self-supervision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling</title>
+      <link>https://ntunlpsg.github.io/project/rethink-coherence-paradigm/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/rethink-coherence-paradigm/</guid>
+      <description>We show empirically that increasing the density of negative samples improves the basic model, and using a global negative queue further improves and stabilizes the model while training with hard negative samples.</description>
+    </item>
+    
+  </channel>
+</rss>

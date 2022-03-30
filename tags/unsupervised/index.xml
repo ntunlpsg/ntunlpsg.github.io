@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unsupervised on NTU-NLP</title>
+    <link>https://ntunlpsg.github.io/tags/unsupervised/</link>
+    <description>Recent content in unsupervised on NTU-NLP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>ntunlp &amp;copy; 2020</copyright>
+    
+	<atom:link href="https://ntunlpsg.github.io/tags/unsupervised/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contrastive Clustering to Mine Pseudo Parallel Data for Unsupervised Translation</title>
+      <link>https://ntunlpsg.github.io/project/swav/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/swav/</guid>
+      <description>Fully unsupervised mining method that can built synthetic parallel data for unsupervised machine translation.</description>
+    </item>
+    
+    <item>
+      <title>Cross-model Back-translated Distillation for Unsupervised Machine Translation</title>
+      <link>https://ntunlpsg.github.io/project/cross_model_back_translated/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/cross_model_back_translated/</guid>
+      <description>A novel strategy to improve unsupervised MT by using back-translation with multiple models.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 30 Mar 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -25,6 +25,369 @@
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation</title>
+      <link>https://ntunlpsg.github.io/project/scalegrad/</link>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/scalegrad/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/shawnlimn/ScaleGrad&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Source code for &lt;a href=&#34;http://proceedings.mlr.press/v139/lin21b/lin21b.pdf&#34; target=&#34;_blank&#34;&gt;Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Xiang Lin, Simeng Han and Shafiq Joty&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Accepted at 38th International Conference on Machine Learning (&lt;strong&gt;ICML&amp;rsquo;21&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;The repo is adapted from &lt;a href=&#34;https://github.com/facebookresearch/unlikelihood_training/&#34; target=&#34;_blank&#34;&gt;Neural Unlikelihood Training&lt;/a&gt;. You could either follow the original repo or the instruction below to finish installing the dependencies.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;h3 id=&#34;dependencies&#34;&gt;Dependencies&lt;/h3&gt;
+
+&lt;p&gt;The implementation is a custom &lt;a href=&#34;https://github.com/pytorch/fairseq&#34; target=&#34;_blank&#34;&gt;fairseq&lt;/a&gt; module. Download and install fairseq:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://github.com/pytorch/fairseq.git
+cd fairseq
+pip install --editable .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Install other dependencies:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install nltk
+pip install pytorch-transformers  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;installing-the-a-customised-module-for-scaegrad&#34;&gt;&amp;lsquo;Installing&amp;rsquo; the a customised module for ScaeGrad&lt;/h3&gt;
+
+&lt;p&gt;Copy the &lt;code&gt;custom&lt;/code&gt; directory in this repo into the &lt;code&gt;fairseq&lt;/code&gt; repo that you downloaded above:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;export FAIRSEQ_DIR=/path/to/fairseq
+export SCALEGRAD_DIR=/path/to/ScaleGrad
+
+cp -r $SCALEGRAD_DIR/custom $FAIRSEQ_DIR/fairseq
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;finetuning-gpt-2-for-language-modeling-and-auto-completion&#34;&gt;Finetuning GPT-2 for Language Modeling and Auto Completion&lt;/h2&gt;
+
+&lt;p&gt;We assume that you are in the &lt;code&gt;fairseq&lt;/code&gt; base directory.&lt;/p&gt;
+
+&lt;h3 id=&#34;dataset&#34;&gt;Dataset&lt;/h3&gt;
+
+&lt;p&gt;Download and unpack the BPE-tokenized WikiText:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;wget https://dl.fbaipublicfiles.com/unlikelihood/wikitext-103-bpe_v0.tar.gz
+tar -xzvf wikitext-103-bpe_v0.tar.gz
+mv wikitext-103-bpe_v0 data-bin/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;finetuning-with-scalegrad-mle&#34;&gt;Finetuning with ScaleGrad/MLE:&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;gamma&lt;/code&gt; is the only hyper-parameter needed to be pre-determined. &lt;code&gt;gamma=1&lt;/code&gt; is equivalent to performing MLE finetuning. In our paper, we experimented with three different choices from {0.2,0.5,0.8}.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;python fairseq/custom/gpt2/run_gpt2.py  \
+--data-base ./data-bin/wikitext-103-bpe_v0    \
+--output-dir ./checkpoint/gpt-2   \
+--eval-split valid    \
+--train-n-steps 35000   \
+--validate-every 1000    \
+--mode train \
+--train-batch-size 300    \
+--gamma 0.2 \
+--learning-rate 2e-5 \
+--seed 60 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;evaluation&#34;&gt;Evaluation&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;python fairseq/custom/gpt2/run_gpt2.py  \
+    --data-base ./data-bin/wikitext-103-bpe_v0 \
+    --output-dir ./checkpoint/gpt2/sg_output \
+    --eval-split test \
+    --model-load-dir ./checkpoint/gpt2/sg/best \
+    --mode eval-both
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We used a single GTX 2080Ti gpu.&lt;/p&gt;
+
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+
+&lt;p&gt;Please cite our work if you found the resources in this repository useful:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@InProceedings{lin-2021-straight,
+  title = 	 {Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation},
+  author =       {Lin, Xiang and Han, Simeng and Joty, Shafiq},
+  booktitle = 	 {Proceedings of the 38th International Conference on Machine Learning},
+  pages = 	 {6642--6653},
+  year = 	 {2021},
+  editor = 	 {Meila, Marina and Zhang, Tong},
+  volume = 	 {139},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {18--24 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v139/lin21b/lin21b.pdf},
+  url = 	 {http://proceedings.mlr.press/v139/lin21b.html},
+  abstract = 	 {}
+}
+
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LFPT5: A Unified Framework for Lifelong Few-shot Language Learning Based on Prompt Tuning of T5 </title>
+      <link>https://ntunlpsg.github.io/project/lfpt5/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/lfpt5/</guid>
+      <description>
+
+&lt;p&gt;The repo is the source code for &lt;a href=&#34;https://openreview.net/forum?id=HCRVf71PMF&#34; target=&#34;_blank&#34;&gt;LFPT5: A Unified Framework for Lifelong Few-shot Language Learning Based on Prompt Tuning of T5&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash;Chengwei Qin, Shafiq Joty&lt;/p&gt;
+
+&lt;p&gt;Accepted at 10th  International Conference on Learning Representations (ICLR&amp;rsquo;22).&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;h3 id=&#34;1-download-the-code&#34;&gt;1. Download the code&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone git@github.com:qcwthu/Lifelong-Fewshot-Language-Learning.git
+cd Lifelong-Fewshot-Language-Learning
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;2-install-dependencies&#34;&gt;2. Install dependencies&lt;/h3&gt;
+
+&lt;h4 id=&#34;2-1-create-conda-environment&#34;&gt;2.1. Create conda environment&lt;/h4&gt;
+
+&lt;p&gt;For NER &amp;amp; Classification:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;conda create --name lfll_1 python=3.9.4
+conda activate lfll_1
+pip install gpustat
+pip install tensorflow==2.5.0
+pip install seqeval==1.2.2
+pip install matplotlib==3.3.4
+pip install numpy==1.19.5
+pip install torch==1.7.1+cu110 -f https://download.pytorch.org/whl/torch_stable.html
+cd transformers; pip install .; cd ..
+pip install fairscale==0.3.7
+pip install datasets==1.11.0
+pip install sentencepiece==0.1.95
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For Summarization &amp;amp; Different task types:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;conda create --name lfll_2 python=3.9.4
+conda activate lfll_2
+conda instal matplotlib=3.5.0
+pip install scikit-learn==1.0.2
+pip install gpustat
+pip install tensorflow==2.5.0
+pip install seqeval==1.2.2
+pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+cd transformers; pip install .; cd ..
+pip install fairscale==0.4.4
+pip install datasets==1.17.0
+pip install sentencepiece==0.1.96
+pip install more_itertools==8.12.0
+pip install rouge-score==0.0.4
+pip install rouge==1.0.1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;2-2-download-lm-adapted-t5-model&#34;&gt;2.2. Download LM-adapted T5 model&lt;/h4&gt;
+
+&lt;p&gt;To run lifelong few-shot language learning with prompt tuning, you should download the LM-adapted T5 model from &lt;a href=&#34;https://github.com/google-research/text-to-text-transfer-transformer/blob/main/released_checkpoints.md#lm-adapted-t511lm100k&#34; target=&#34;_blank&#34;&gt;LM-Adapted: t5.1.1.lm100k&lt;/a&gt;. Then you should use &lt;code&gt;convertmodel.py&lt;/code&gt; to convert Tensorflow checkpoint to Pytorch checkpoint.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir lm_adapted_t5model
+cd lm_adapted_t5model
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then you should follow &lt;a href=&#34;https://cloud.google.com/storage/docs/gsutil_install&#34; target=&#34;_blank&#34;&gt;gsutil_install&lt;/a&gt; to install gsutil.&lt;/p&gt;
+
+&lt;p&gt;After installing gsutil, run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gsutil -m cp \
+  &amp;quot;gs://t5-data/pretrained_models/t5.1.1.lm100k.large/checkpoint&amp;quot; \
+  &amp;quot;gs://t5-data/pretrained_models/t5.1.1.lm100k.large/model-info.txt&amp;quot; \
+  &amp;quot;gs://t5-data/pretrained_models/t5.1.1.lm100k.large/model.ckpt-1100000.data-00000-of-00004&amp;quot; \
+  &amp;quot;gs://t5-data/pretrained_models/t5.1.1.lm100k.large/model.ckpt-1100000.data-00001-of-00004&amp;quot; \
+  &amp;quot;gs://t5-data/pretrained_models/t5.1.1.lm100k.large/model.ckpt-1100000.data-00002-of-00004&amp;quot; \
+  &amp;quot;gs://t5-data/pretrained_models/t5.1.1.lm100k.large/model.ckpt-1100000.data-00003-of-00004&amp;quot; \
+  &amp;quot;gs://t5-data/pretrained_models/t5.1.1.lm100k.large/model.ckpt-1100000.index&amp;quot; \
+  &amp;quot;gs://t5-data/pretrained_models/t5.1.1.lm100k.large/model.ckpt-1100000.meta&amp;quot; \
+  &amp;quot;gs://t5-data/pretrained_models/t5.1.1.lm100k.large/operative_config.gin&amp;quot; \
+  .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to download LM-adapted T5-large checkpoint &lt;a href=&#34;https://console.cloud.google.com/storage/browser/t5-data/pretrained_models/t5.1.1.lm100k.large;tab=objects?prefix=&amp;amp;forceOnObjectsSortingFiltering=false&#34; target=&#34;_blank&#34;&gt;T5-large TF ckpt&lt;/a&gt;. Finally,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd ..
+mkdir lm_adapted_t5model/torch_ckpt
+python convertmodel.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;3-run-code&#34;&gt;3. Run code&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Remember to change &lt;code&gt;lm_adapted_path&lt;/code&gt; and &lt;code&gt;cache_path&lt;/code&gt; in script files to the right path on your server!!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;lm_adapted_path: the path of lm_adapted t5 model (Pytorch ckpt)
+cache_path: the path of huggingface cache
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;3-1-ner&#34;&gt;3.1. NER:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;cd NER
+bash runall_1.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;3-2-classification&#34;&gt;3.2. Classification&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Classification
+bash Classification.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;3-3-summarization&#34;&gt;3.3. Summarization&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Summarization
+bash Summarization.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;3-4-different-task-types&#34;&gt;3.4. Different task types&lt;/h4&gt;
+
+&lt;p&gt;Without forward knowledge transfer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd DiffType/T5NoContinual
+bash T5NoContinual.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With forward knowledge transfer:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd DiffType/T5WithContinual
+bash T5WithContinual.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+
+&lt;p&gt;If you find our paper or this project helps your research, please kindly consider citing our paper in your publication.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{
+qin2022lfpt,
+title={{LFPT}5: A Unified Framework for Lifelong Few-shot Language Learning Based on Prompt Tuning of T5},
+author={Chengwei Qin and Shafiq Joty},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=HCRVf71PMF}
+}
+
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling</title>
+      <link>https://ntunlpsg.github.io/project/rethink-coherence-paradigm/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/rethink-coherence-paradigm/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/shawnlimn/ScaleGrad&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Code and data for the ACL 2022 paper: &lt;a href=&#34;https://arxiv.org/abs/2110.07198&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2110.07198&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;* Python=3.6
+* Pytorch&amp;gt;=1.10.1
+* Huggingface Transformers=4.13
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;input-data-format&#34;&gt;Input Data Format&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All models require train, dev and test files in pickle format as input. The specific format is:
+
+&lt;ul&gt;
+&lt;li&gt;The pickle file should be a list of dictionaries. Each dictionary has two keys, &amp;lsquo;pos&amp;rsquo; and &amp;lsquo;negs&amp;rsquo; (or &amp;lsquo;neg&amp;rsquo; for pairwise data). &amp;lsquo;pos&amp;rsquo; should contain the` list of sentences from the positive or coherent document, while &amp;lsquo;negs&amp;rsquo; should contain the list of negative documents (e.g. incoherent documents, permutations) which are in turn lists of sentences.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;--data_type&lt;/code&gt; argument should be set to &lt;code&gt;single&lt;/code&gt; or &lt;code&gt;multiple&lt;/code&gt; depending on the number of negatives in the dataset.
+
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;code&gt;single&lt;/code&gt;: [{&amp;lsquo;pos&amp;rsquo;:[&amp;lsquo;aa&amp;rsquo;, &amp;lsquo;bb&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;], &amp;lsquo;neg&amp;rsquo;:[&amp;lsquo;bb&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;]}..{}]&lt;/li&gt;
+&lt;li&gt;e.g. &lt;code&gt;multiple&lt;/code&gt;: [{&amp;lsquo;pos&amp;rsquo;:[&amp;lsquo;aa&amp;rsquo;, &amp;lsquo;bb&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;], &amp;lsquo;negs&amp;rsquo;:[[&amp;lsquo;bb&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;], [&amp;lsquo;cc&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;, &amp;lsquo;bb&amp;rsquo;], [&amp;lsquo;bb&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;]]}..{}]&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;training-the-model&#34;&gt;Training the model&lt;/h3&gt;
+
+&lt;p&gt;Navigate into the model folder that you want to train (pairwise, contrastive or our full hard negative model with momentum encoder).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; CUDA_VISIBLE_DEVICES=x python train.py --train_file [train.pkl] --dev_file [dev.pkl]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Please refer to the &lt;code&gt;args.py&lt;/code&gt; file for all other arguments that can be set. All hyperparameter defaults are set to the values used for experiments in the paper.&lt;/p&gt;
+
+&lt;p&gt;To evaluate the model on a test set, run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; CUDA_VISIBLE_DEVICES=x python eval.py --test_file [test.pkl] --data_type [single,multiple] --pretrained_model [saved_checkpoint.pt]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;evaluation-using-the-coherence-model&#34;&gt;Evaluation using the Coherence Model&lt;/h3&gt;
+
+&lt;p&gt;You can use our trained model to evaluate machine generated text. More details will be updated soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Representation learning with few human annotations</title>
+      <link>https://ntunlpsg.github.io/talk/junnan/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/junnan/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/junnan.jpeg&#34;&gt; &lt;br&gt; &lt;center&gt; Junnan Li &lt;br&gt; Senior Research Scientist, Salesforce Research Asia, Singapore &lt;br&gt; &lt;a href=&#34;https://sites.google.com/site/junnanlics&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=MuUhwi0AAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Self-supervised Learning, Semi-supervised Learning, Weakly-supervised Learning, Transfer Learning, Vision and Language &lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,0yaa_CtqpkmQRFdwoSF_TA,qy_q0roFTkGX10G2Zo7mPg,sUdmKIvuBkqsqwmxDcrTJQ?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Junnan Li is currently a senior research scientist at Salesforce Research Asia. He obtained his PhD at the National University of Singapore in 2019. He has published in many top-tier venues in machine learning and computer vision, such as NeurIPS, ICLR, CVPR, ICCV, etc. His main research interests include self-supervised learning, semi-supervised learning, weakly-supervised learning, and vision-language learning. His ultimate research goal is to build general-purpose models that can self-learn without human involvement.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Unified Speaker Adaptation Approach for ASR</title>
+      <link>https://ntunlpsg.github.io/project/asr/</link>
+      <pubDate>Thu, 09 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/asr/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/zyzpower/gradprune_speaker&#34; target=&#34;_blank&#34;&gt;Follow the github repo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You will find the source code of the paper.&lt;/p&gt;
+
+&lt;p&gt;This is the source code of our method proposed in paper &amp;ldquo;A Unified Speaker Adaptation Approach for ASR&amp;rdquo; accepted by EMNLP 2021.&lt;/p&gt;
+
+&lt;p&gt;We use the transformer model in Espnet toolkit as the model architecture, and the gradual pruning is achieved by editing code in espnet/espnet/asr/pytorch_backend/asr.py.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DVD: A Diagnostic Dataset for Multi-step Reasoning in Video Grounded Dialogue</title>
+      <link>https://ntunlpsg.github.io/talk/henry/</link>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/talk/henry/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; &lt;center&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Hung Le is a Ph.D. candidate in Computer Science at Singapore Management University, advised by Prof. Steven Hoi and Dr. Nancy Chen. His research interest lies in natural language processing and machine learning, including research in non-autoregressive dialogue state tracking, task-oriented dialogues, and video-grounded dialogues. His research work has been published in ACL, ICLR, EMNLP, and AAAI. Hung is awarded the Computer and Information Science Scholarship by A*STAR Singapore and is a recipient of the Presidential Doctoral Fellowship from 2019 to 2021.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -178,13 +541,23 @@ python generate.py \
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 11 October, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/junnan.jpeg&#34;&gt; &lt;br&gt; Junnan Li &lt;br&gt; Senior Research Scientist, Salesforce Research Asia, Singapore &lt;br&gt; &lt;a href=&#34;https://sites.google.com/site/junnanlics&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=MuUhwi0AAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic:  Self-supervised Learning, Semi-supervised Learning, Weakly-supervised Learning, Transfer Learning, Vision and Language &lt;br&gt; &lt;a href=&#34;../../talk/junnan&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,0yaa_CtqpkmQRFdwoSF_TA,qy_q0roFTkGX10G2Zo7mPg,sUdmKIvuBkqsqwmxDcrTJQ?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/t3EyTMvFCAE&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 13 September, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU. &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt; &lt;a href=&#34;../../talk/henry&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,85H58boEIUi55Ji9ruGeIg,Qe-QTrzJSE-B569L2e8Rhg,8SgWAxByEUie0twEcIce3g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rjEFtYNmoMs&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 16 August, 2021 &lt;br&gt; 2:00 - 3:00 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt; &lt;a href=&#34;../../talk/liangming&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,v1_XYvcKHUiL5HYlH8upQQ,dcx2ACSf_k-3a8mWBEdqgw,gAgX1m0VUEO6SVNHt7wv1g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/CAJJJOoS-q4&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -257,269 +630,6 @@ python generate.py \
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/augvic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RST Parsing from Scratch</title>
-      <link>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</guid>
-      <description>
-
-&lt;h1 id=&#34;rst-parsing-from-scratch&#34;&gt;RST Parsing from Scratch&lt;/h1&gt;
-
-&lt;p&gt;This repository contains the source code of our paper &lt;a href=&#34;https://arxiv.org/abs/2105.10861&#34; target=&#34;_blank&#34;&gt;RST Parsing from Scratch&lt;/a&gt; in NAACL 2021.&lt;/p&gt;
-
-&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;python&lt;/code&gt;: 3.7&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pytorch&lt;/code&gt;: 1.4&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;transformers&lt;/code&gt;: 3.0&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-
-&lt;p&gt;To train a discourse parser:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;./*_train.sh
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To predict discourse tree:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;./*_predict.sh
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;data-format&#34;&gt;Data Format&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;For end-to-end parsing from scratch (no sentence guidance):
-we need to create the data with dummy edu_break and doc_structure. Refer to &lt;code&gt;create_sample_dummy_format_data.py&lt;/code&gt; and &lt;code&gt;dummy_format_data/sample_rawtext_data_format&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;For other parsing models:
-Refer to &lt;code&gt;create_sample_dummy_format_data.py&lt;/code&gt; and &lt;code&gt;dummy_format_data/sample_full_data_format&lt;/code&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@inproceedings{nguyen-etal-2021-rst-scratch,
-title = &amp;quot;RST Parsing from Scratch&amp;quot;,
-author = &amp;quot;Nguyen, Thanh-Tung  and
-  Nguyen, Xuan-Phi  and
-  Joty, Shafiq  and
-  Li, Xiaoli&amp;quot;,
-booktitle = &amp;quot;Proceedings of the 2021 Conference of the North {A}merican Chapter 
-of the Association for Computational Linguistics: Human Language Technologies, 
-Volume 1 (Long and Short Papers)&amp;quot;,
-month = jun,
-year = &amp;quot;2021&amp;quot;,
-address = &amp;quot;Online&amp;quot;,
-publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
-url = &amp;quot;https://arxiv.org/abs/2105.10861&amp;quot;,
-doi = &amp;quot;&amp;quot;,
-pages = &amp;quot;xx--xx&amp;quot;,}
-}   
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RST Parsing from Scratch</title>
-      <link>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/naacl21-rst-parsing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP</title>
-      <link>https://ntunlpsg.github.io/publication/uxla/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/uxla/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks</title>
-      <link>https://ntunlpsg.github.io/project/coherence/coh-eval/</link>
-      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/coherence/coh-eval/</guid>
-      <description>
-
-&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
-
-&lt;p&gt;This resource contains the information regarding code and data used for evaluation in &amp;ldquo;&lt;a href=&#34;https://arxiv.org/pdf/2004.14626.pdf&#34; target=&#34;_blank&#34;&gt;Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks&lt;/a&gt;&amp;rdquo; paper (EACL 2021).
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;source-code-of-evaluated-coherence-models&#34;&gt;Source code of evaluated coherence models&lt;/h3&gt;
-
-&lt;p&gt;We benchmark the performance of five coherence models. For each of the coherence models, we conducted experiments with publicly available codes from the respective authors. Links are given below:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://bitbucket.org/melsner/browncoherence/&#34; target=&#34;_blank&#34;&gt;Entity Grid&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/datienguyen/cnn_coherence&#34; target=&#34;_blank&#34;&gt;Neural Entity Grid&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/taasnim/conv-coherence&#34; target=&#34;_blank&#34;&gt;Lexicalized Neural Entity Grid&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/BorealisAI/cross_domain_coherence&#34; target=&#34;_blank&#34;&gt;Transferable Neural Model&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/taasnim/unified-coherence-model&#34; target=&#34;_blank&#34;&gt;Unified Neural Model&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;datasets&#34;&gt;Datasets&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Machine Translation Evaluation Dataset: We use the reference and the system translations provided by WMT2017-2018 as our test data, under the assumption that the reference translations are more coherent than the system translations. This results in a testset of 20,680 reference-system translation document-pairs.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Abstractive Summarization Evaluation Dataset: We use the CNN/DM dataset for this task. We collect the reference summaries from the CNN/DM testset as well as the summaries generated by the four representative abstractive summarization systems: Pointer-Generator, BertSumExtAbs(BSEA), UniLM, and SENECA.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Extractive Summarization Evaluation Dataset: The dataset from  Barzilay  and  Lapata(2008) provides 16 sets of summaries where each set corresponds to a multi-document cluster and contains summaries generated by 5 systems and 1 human.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Next Utterance Ranking Evaluation Dataset: We evaluated the coherence models on both datasets of the &lt;a href=&#34;https://github.com/dstc8-track2/NOESIS-II/}{https://github.com/dstc8-track2/NOESIS-II/&#34; target=&#34;_blank&#34;&gt;DSTC8 response selection track&lt;/a&gt;, i.e., the Advising and Ubuntu datasets. The former contains two-party dialogs that simulate a discussion between a student and an academic advisor, while the latter consists of multi-party conversations extracted from the Ubuntu IRC channel.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The datasets can be found in this &lt;a href=&#34;https://drive.google.com/drive/folders/1qaGafR6eJZUtnpNT4CUj-Gdwlwlt9ZSV?usp=sharing&#34; target=&#34;_blank&#34;&gt;LINK&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;citation&#34;&gt;Citation&lt;/h3&gt;
-
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-@inproceedings{mohiuddin-etal-2021-rethinking,
-      title={Rethinking Coherence Modeling: Synthetic vs. Downstream Tasks}, 
-      author={Tasnim Mohiuddin and Prathyusha Jwalapuram and Xiang Lin and Shafiq Joty},
-      year={2021},,
-    booktitle = &amp;quot;Proceedings of the 16th Annual Meeting of the European chapter of the Association for Computational Linguistics (EACL) 2021&amp;quot;,
-}
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;licence&#34;&gt;Licence&lt;/h1&gt;
-
-&lt;p&gt;MIT licence.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</title>
-      <link>https://ntunlpsg.github.io/project/daga/</link>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/project/daga/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlp/daga&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;daga&#34;&gt;DAGA&lt;/h1&gt;
-
-&lt;p&gt;This is the source code of our method proposed in paper &amp;ldquo;&lt;a href=&#34;https://www.aclweb.org/anthology/2020.emnlp-main.488/&#34; target=&#34;_blank&#34;&gt;DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&lt;/a&gt;&amp;rdquo; accepted by EMNLP 2020.&lt;/p&gt;
-
-&lt;h1 id=&#34;examples&#34;&gt;Examples&lt;/h1&gt;
-
-&lt;h2 id=&#34;flair-seq-tagger-sequense-tagging-model&#34;&gt;flair_seq_tagger: sequense tagging model&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;cd flair_seq_tagger;
-
-python train_tagger.py \
-  --data_dir PATH/TO/TRAIN_DIR \
-  --train_file  train.txt \
-  --dev_file  dev.txt \
-  --data_columns text ner \
-  --model_dir ./model \
-  --comment_symbol &amp;quot;__label__&amp;quot; \
-  --embeddings_file PATH/TO/emb \
-  --optim adam \
-  --learning_rate 0.001 --min_learning_rate 0.00001 \
-  --patience 2 \
-  --max_epochs 100 \
-  --hidden_size 512 \
-  --mini_batch_size 32 \
-  --gpuid 0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;lstm-lm-lstm-language-model&#34;&gt;lstm-lm: LSTM language model&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;train lstm-lm on linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd lstm-lm;
-
-python train.py \
---train_file PATH/TO/train.linearized.txt \
---valid_file PATH/TO/dev.linearized.txt \
---model_file PATH/TO/model.pt \
---emb_dim 300 \
---rnn_size 512 \
---gpuid 0 
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;generate linearized sequences&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;cd lstm-lm;
-
-python generate.py \
---model_file PATH/TO/model.pt \
---out_file PATH/TO/out.txt \
---num_sentences 10000 \
---temperature 1.0 \
---seed 3435 \
---max_sent_length 32 \
---gpuid 0
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;tools-tools-for-data-processing&#34;&gt;tools: tools for data processing&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;preprocess.py: sequence linearization&lt;/li&gt;
-&lt;li&gt;line2cols.py: convert linearized sequence back to two-column format&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;flair_seq_tagger/requirements.txt&lt;/li&gt;
-&lt;li&gt;lstm-lm/requirements.txt&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
-
-&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;@inproceedings{ding-etal-2020-daga,
-    title = &amp;quot;{DAGA}: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&amp;quot;,
-    author = &amp;quot;Ding, Bosheng  and
-      Liu, Linlin  and
-      Bing, Lidong  and
-      Kruengkrai, Canasai  and
-      Nguyen, Thien Hai  and
-      Joty, Shafiq  and
-      Si, Luo  and
-      Miao, Chunyan&amp;quot;,
-    booktitle = &amp;quot;Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)&amp;quot;,
-    month = nov,
-    year = &amp;quot;2020&amp;quot;,
-    address = &amp;quot;Online&amp;quot;,
-    publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
-    url = &amp;quot;https://www.aclweb.org/anthology/2020.emnlp-main.488&amp;quot;,
-    doi = &amp;quot;10.18653/v1/2020.emnlp-main.488&amp;quot;,
-    pages = &amp;quot;6045--6057&amp;quot;,
-}
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data Diversification: A Simple Strategy For Neural Machine Translation</title>
-      <link>https://ntunlpsg.github.io/publication/data_diverse/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/data_diverse/</guid>
       <description></description>
     </item>
     
