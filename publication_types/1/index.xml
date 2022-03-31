@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling</title>
+      <link>https://ntunlpsg.github.io/publication/coherence_paradigm/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/coherence_paradigm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation</title>
       <link>https://ntunlpsg.github.io/publication/scalegrad/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
@@ -837,15 +846,6 @@
       <pubDate>Sat, 15 Nov 2008 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/2008_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling</title>
-      <link>https://ntunlpsg.github.io/publication/coherence_paradigm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/coherence_paradigm/</guid>
       <description></description>
     </item>
     
