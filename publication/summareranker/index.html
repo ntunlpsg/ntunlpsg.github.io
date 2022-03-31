@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -15,10 +13,14 @@
   
   
   
-  <meta name="description" content="">
+    
+      
+    
+  
+  <meta name="description" content="Sequence-to-sequence neural networks have recently achieved great success in abstractive summarization, especially through fine-tuning large pre-trained language models on the downstream dataset. These models are typically decoded with beam search to generate a unique summary. However, the search space is very large, and with the exposure bias, such decoding is not optimal. In this paper, we show that it is possible to directly train a second-stage model performing re-ranking on a set of summary candidates. Our mixture-of-experts SummaReranker learns to select a better candidate and consistently improves the performance of the base model. With a base PEGASUS, we push ROUGE scores by 5.44% on CNN-DailyMail (47.16 ROUGE-1), 1.31% on XSum (48.12 ROUGE-1) and 9.34% on Reddit TIFU (29.83 ROUGE-1), reaching a newstate-of-the-art.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/publication_types/1/">
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/publication/summareranker/">
 
   
 
@@ -72,15 +74,15 @@
   
 
   
-  <link rel="alternate" href="https://ntunlpsg.github.io/publication_types/1/index.xml" type="application/rss+xml" title="NTU-NLP">
-  <link rel="feed" href="https://ntunlpsg.github.io/publication_types/1/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="alternate" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="feed" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ntunlpsg.github.io/publication_types/1/">
+  <link rel="canonical" href="https://ntunlpsg.github.io/publication/summareranker/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -88,17 +90,19 @@
   <meta property="twitter:creator" content="@ntunlpsg">
   
   <meta property="og:site_name" content="NTU-NLP">
-  <meta property="og:url" content="https://ntunlpsg.github.io/publication_types/1/">
-  <meta property="og:title" content="1 | NTU-NLP">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="https://ntunlpsg.github.io/publication/summareranker/">
+  <meta property="og:title" content="SummaReranker: A Multi-Task Mixture-of-Experts Re-ranking Framework for Abstractive Summarization | NTU-NLP">
+  <meta property="og:description" content="Sequence-to-sequence neural networks have recently achieved great success in abstractive summarization, especially through fine-tuning large pre-trained language models on the downstream dataset. These models are typically decoded with beam search to generate a unique summary. However, the search space is very large, and with the exposure bias, such decoding is not optimal. In this paper, we show that it is possible to directly train a second-stage model performing re-ranking on a set of summary candidates. Our mixture-of-experts SummaReranker learns to select a better candidate and consistently improves the performance of the base model. With a base PEGASUS, we push ROUGE scores by 5.44% on CNN-DailyMail (47.16 ROUGE-1), 1.31% on XSum (48.12 ROUGE-1) and 9.34% on Reddit TIFU (29.83 ROUGE-1), reaching a newstate-of-the-art.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2022-03-31T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2022-03-30T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2022-03-30T00:00:00&#43;00:00">
   
 
   
 
-  <title>1 | NTU-NLP</title>
+  <title>SummaReranker: A Multi-Task Mixture-of-Experts Re-ranking Framework for Abstractive Summarization | NTU-NLP</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -250,102 +254,132 @@
   </div>
 </nav>
 
-
-
-
-
-<div class="universal-wrapper">
-
-  <h1>1</h1>
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
-  
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/chart2text/">Chart-to-Text: A Large-Scale Benchmark for Chart Summarization</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/coherence_paradigm/">Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/summareranker/">SummaReranker: A Multi-Task Mixture-of-Experts Re-ranking Framework for Abstractive Summarization</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/scalegrad/">Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/cbd_icml_2021/">Cross-model Back-translated Distillation for Unsupervised Machine Translation</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/augvic/">AugVic: Exploiting BiText Vicinity for Low-Resource NMT</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/naacl21-rst-parsing/">RST Parsing from Scratch</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/uxla/">UXLA: A Robust Unsupervised Data Augmentation Framework for Cross-Lingual NLP</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/data_diverse/">Data Diversification: A Simple Strategy For Neural Machine Translation</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/publication/daga/">DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
 
-  
-<nav>
-  <ul class="pager">
+  <div class="article-container">
+    <h1 itemprop="name">SummaReranker: A Multi-Task Mixture-of-Experts Re-ranking Framework for Abstractive Summarization</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      Mathieu Ravaut, Shafiq Joty, Nancy F. Chen
+      
+    </span>
+    <span class="pull-right">
+      
+
+    </span>
+
     
+
     
-    <li><a href="/publication_types/1/page/2/">&gt;</a></li>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Sequence-to-sequence neural networks have recently achieved great success in abstractive summarization, especially through fine-tuning large pre-trained language models on the downstream dataset. These models are typically decoded with beam search to generate a unique summary. However, the search space is very large, and with the exposure bias, such decoding is not optimal. In this paper, we show that it is possible to directly train a second-stage model performing re-ranking on a set of summary candidates. Our mixture-of-experts SummaReranker learns to select a better candidate and consistently improves the performance of the base model. With a base PEGASUS, we push ROUGE scores by 5.44% on CNN-DailyMail (47.16 ROUGE-1), 1.31% on XSum (48.12 ROUGE-1) and 9.34% on Reddit TIFU (29.83 ROUGE-1), reaching a newstate-of-the-art.</p>
     
-  </ul>
-</nav>
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+          <div class="col-xs-12 col-sm-9">
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+          <div class="col-xs-12 col-sm-9">60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)</div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+          <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+            March, 2022
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-xs-12 col-sm-9">
+
+            
 
 
 
+
+<a class="btn btn-primary btn-outline" href="https://arxiv.org/pdf/2203.06569.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://github.com/ntunlp/SummaReranker" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="visible-xs space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+  </div>
 </div>
+
+
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -438,6 +472,4 @@
 
   </body>
 </html>
-
-
 

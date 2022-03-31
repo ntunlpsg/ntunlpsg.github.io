@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>SummaReranker: A Multi-Task Mixture-of-Experts Re-ranking Framework for Abstractive Summarization</title>
+      <link>https://ntunlpsg.github.io/publication/summareranker/</link>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/publication/summareranker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Straight to the Gradient: Learning to Use Novel Tokens for Neural Text Generation</title>
       <link>https://ntunlpsg.github.io/publication/scalegrad/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
