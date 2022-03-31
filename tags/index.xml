@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Wed, 30 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>coherence</title>
+      <link>https://ntunlpsg.github.io/tags/coherence/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/coherence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evaluation</title>
+      <link>https://ntunlpsg.github.io/tags/evaluation/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/evaluation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-supervision</title>
+      <link>https://ntunlpsg.github.io/tags/self-supervision/</link>
+      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/self-supervision/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>text-generation</title>
@@ -18,15 +45,6 @@
       <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/tags/text-generation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>coherence</title>
-      <link>https://ntunlpsg.github.io/tags/coherence/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/coherence/</guid>
       <description></description>
     </item>
     
@@ -40,29 +58,11 @@
     </item>
     
     <item>
-      <title>evaluation</title>
-      <link>https://ntunlpsg.github.io/tags/evaluation/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/evaluation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>multitask-learning</title>
       <link>https://ntunlpsg.github.io/tags/multitask-learning/</link>
       <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/tags/multitask-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>self-supervision</title>
-      <link>https://ntunlpsg.github.io/tags/self-supervision/</link>
-      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/self-supervision/</guid>
       <description></description>
     </item>
     
