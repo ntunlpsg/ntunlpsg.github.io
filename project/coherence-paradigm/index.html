@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -15,10 +13,14 @@
   
   
   
-  <meta name="description" content="">
+    
+      
+    
+  
+  <meta name="description" content="We show empirically that increasing the density of negative samples improves the basic model, and using a global negative queue further improves and stabilizes the model while training with hard negative samples.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/tags/evaluation/">
+  <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/coherence-paradigm/">
 
   
 
@@ -34,13 +36,6 @@
   
     
   
-  
-    
-    
-      
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-      
-    
   
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
@@ -72,15 +67,15 @@
   
 
   
-  <link rel="alternate" href="https://ntunlpsg.github.io/tags/evaluation/index.xml" type="application/rss+xml" title="NTU-NLP">
-  <link rel="feed" href="https://ntunlpsg.github.io/tags/evaluation/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="alternate" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
+  <link rel="feed" href="https://ntunlpsg.github.io/index.xml" type="application/rss+xml" title="NTU-NLP">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://ntunlpsg.github.io/tags/evaluation/">
+  <link rel="canonical" href="https://ntunlpsg.github.io/project/coherence-paradigm/">
 
   <meta property="twitter:card" content="summary_large_image">
   
@@ -88,17 +83,19 @@
   <meta property="twitter:creator" content="@ntunlpsg">
   
   <meta property="og:site_name" content="NTU-NLP">
-  <meta property="og:url" content="https://ntunlpsg.github.io/tags/evaluation/">
-  <meta property="og:title" content="evaluation | NTU-NLP">
-  <meta property="og:description" content="">
+  <meta property="og:url" content="https://ntunlpsg.github.io/project/coherence-paradigm/">
+  <meta property="og:title" content="Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling | NTU-NLP">
+  <meta property="og:description" content="We show empirically that increasing the density of negative samples improves the basic model, and using a global negative queue further improves and stabilizes the model while training with hard negative samples."><meta property="og:image" content="https://ntunlpsg.github.io/img/rethink-coherence.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2022-03-10T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2022-03-10T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2022-03-10T00:00:00&#43;00:00">
   
 
   
 
-  <title>evaluation | NTU-NLP</title>
+  <title>Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling | NTU-NLP</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -251,31 +248,116 @@
 </nav>
 
 
-
-
-
-<div class="universal-wrapper">
-
-  <h1>evaluation</h1>
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
-
+<div class="article-header">
+  <img src="/img/rethink-coherence.png" class="article-banner" itemprop="image">
   
-  
-  <div>
-    <h2><a href="https://ntunlpsg.github.io/project/coherence-paradigm/">Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling</a></h2>
-    <div class="article-style">
-      
-      We show empirically that increasing the density of negative samples improves the basic model, and using a global negative queue further improves and stabilizes the model while training with hard negative samples.
-      
-    </div>
-  </div>
-  
-
-  
-
-
 </div>
+
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><a href="https://github.com/ntunlp/coherence-paradigm#readme" target="_blank">github</a></p>
+
+<p>Code and data for the ACL 2022 paper: <a href="https://arxiv.org/abs/2110.07198" target="_blank">https://arxiv.org/abs/2110.07198</a></p>
+
+<h3 id="pre-requisites">Pre-requisites</h3>
+
+<pre><code>* Python=3.6
+* Pytorch&gt;=1.10.1
+* Huggingface Transformers=4.13
+</code></pre>
+
+<h3 id="input-data-format">Input Data Format</h3>
+
+<ul>
+<li>All models require train, dev and test files in pickle format as input. The specific format is:
+
+<ul>
+<li>The pickle file should be a list of dictionaries. Each dictionary has two keys, &lsquo;pos&rsquo; and &lsquo;negs&rsquo; (or &lsquo;neg&rsquo; for pairwise data). &lsquo;pos&rsquo; should contain the` list of sentences from the positive or coherent document, while &lsquo;negs&rsquo; should contain the list of negative documents (e.g. incoherent documents, permutations) which are in turn lists of sentences.</li>
+<li>The <code>--data_type</code> argument should be set to <code>single</code> or <code>multiple</code> depending on the number of negatives in the dataset.
+
+<ul>
+<li>e.g. <code>single</code>: [{&lsquo;pos&rsquo;:[&lsquo;aa&rsquo;, &lsquo;bb&rsquo;, &lsquo;cc&rsquo;], &lsquo;neg&rsquo;:[&lsquo;bb&rsquo;, &lsquo;aa&rsquo;, &lsquo;cc&rsquo;]}..{}]</li>
+<li>e.g. <code>multiple</code>: [{&lsquo;pos&rsquo;:[&lsquo;aa&rsquo;, &lsquo;bb&rsquo;, &lsquo;cc&rsquo;], &lsquo;negs&rsquo;:[[&lsquo;bb&rsquo;, &lsquo;aa&rsquo;, &lsquo;cc&rsquo;], [&lsquo;cc&rsquo;, &lsquo;aa&rsquo;, &lsquo;bb&rsquo;], [&lsquo;bb&rsquo;, &lsquo;cc&rsquo;, &lsquo;aa&rsquo;]]}..{}]</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h3 id="training-the-model">Training the model</h3>
+
+<p>Navigate into the model folder that you want to train (pairwise, contrastive or our full hard negative model with momentum encoder).</p>
+
+<pre><code>&gt; CUDA_VISIBLE_DEVICES=x python train.py --train_file [train.pkl] --dev_file [dev.pkl]
+</code></pre>
+
+<p>Please refer to the <code>args.py</code> file for all other arguments that can be set. All hyperparameter defaults are set to the values used for experiments in the paper.</p>
+
+<p>To evaluate the model on a test set, run</p>
+
+<pre><code>&gt; CUDA_VISIBLE_DEVICES=x python eval.py --test_file [test.pkl] --data_type [single,multiple] --pretrained_model [saved_checkpoint.pt]
+</code></pre>
+
+<h3 id="evaluation-using-the-coherence-model">Evaluation using the Coherence Model</h3>
+
+<p>You can use our trained model to evaluate machine generated text. More details will be updated soon.</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/coherence">coherence</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/evaluation">evaluation</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/self-supervision">self-supervision</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -342,19 +424,6 @@
 
     
     
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
 
     
     
@@ -368,6 +437,4 @@
 
   </body>
 </html>
-
-
 
