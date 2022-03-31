@@ -38,57 +38,11 @@
     
     <item>
       <title>Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling</title>
-      <link>https://ntunlpsg.github.io/project/coherence-paradigm/</link>
+      <link>https://ntunlpsg.github.io/publication/coherence_paradigm/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/project/coherence-paradigm/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlp/coherence-paradigm#readme&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Code and data for the ACL 2022 paper: &lt;a href=&#34;https://arxiv.org/abs/2110.07198&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2110.07198&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;* Python=3.6
-* Pytorch&amp;gt;=1.10.1
-* Huggingface Transformers=4.13
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;input-data-format&#34;&gt;Input Data Format&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;All models require train, dev and test files in pickle format as input. The specific format is:
-
-&lt;ul&gt;
-&lt;li&gt;The pickle file should be a list of dictionaries. Each dictionary has two keys, &amp;lsquo;pos&amp;rsquo; and &amp;lsquo;negs&amp;rsquo; (or &amp;lsquo;neg&amp;rsquo; for pairwise data). &amp;lsquo;pos&amp;rsquo; should contain the` list of sentences from the positive or coherent document, while &amp;lsquo;negs&amp;rsquo; should contain the list of negative documents (e.g. incoherent documents, permutations) which are in turn lists of sentences.&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;--data_type&lt;/code&gt; argument should be set to &lt;code&gt;single&lt;/code&gt; or &lt;code&gt;multiple&lt;/code&gt; depending on the number of negatives in the dataset.
-
-&lt;ul&gt;
-&lt;li&gt;e.g. &lt;code&gt;single&lt;/code&gt;: [{&amp;lsquo;pos&amp;rsquo;:[&amp;lsquo;aa&amp;rsquo;, &amp;lsquo;bb&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;], &amp;lsquo;neg&amp;rsquo;:[&amp;lsquo;bb&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;]}..{}]&lt;/li&gt;
-&lt;li&gt;e.g. &lt;code&gt;multiple&lt;/code&gt;: [{&amp;lsquo;pos&amp;rsquo;:[&amp;lsquo;aa&amp;rsquo;, &amp;lsquo;bb&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;], &amp;lsquo;negs&amp;rsquo;:[[&amp;lsquo;bb&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;], [&amp;lsquo;cc&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;, &amp;lsquo;bb&amp;rsquo;], [&amp;lsquo;bb&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;]]}..{}]&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;training-the-model&#34;&gt;Training the model&lt;/h3&gt;
-
-&lt;p&gt;Navigate into the model folder that you want to train (pairwise, contrastive or our full hard negative model with momentum encoder).&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;gt; CUDA_VISIBLE_DEVICES=x python train.py --train_file [train.pkl] --dev_file [dev.pkl]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Please refer to the &lt;code&gt;args.py&lt;/code&gt; file for all other arguments that can be set. All hyperparameter defaults are set to the values used for experiments in the paper.&lt;/p&gt;
-
-&lt;p&gt;To evaluate the model on a test set, run&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;gt; CUDA_VISIBLE_DEVICES=x python eval.py --test_file [test.pkl] --data_type [single,multiple] --pretrained_model [saved_checkpoint.pt]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;evaluation-using-the-coherence-model&#34;&gt;Evaluation using the Coherence Model&lt;/h3&gt;
-
-&lt;p&gt;You can use our trained model to evaluate machine generated text. More details will be updated soon.&lt;/p&gt;
-</description>
+      <guid>https://ntunlpsg.github.io/publication/coherence_paradigm/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -352,6 +306,61 @@ url={https://openreview.net/forum?id=HCRVf71PMF}
 }
 
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rethinking Self-Supervision Objectives for Generalizable Coherence Modeling</title>
+      <link>https://ntunlpsg.github.io/project/coherence-paradigm/</link>
+      <pubDate>Thu, 10 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/coherence-paradigm/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlp/coherence-paradigm#readme&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Code and data for the ACL 2022 paper: &lt;a href=&#34;https://arxiv.org/abs/2110.07198&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2110.07198&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;* Python=3.6
+* Pytorch&amp;gt;=1.10.1
+* Huggingface Transformers=4.13
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;input-data-format&#34;&gt;Input Data Format&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All models require train, dev and test files in pickle format as input. The specific format is:
+
+&lt;ul&gt;
+&lt;li&gt;The pickle file should be a list of dictionaries. Each dictionary has two keys, &amp;lsquo;pos&amp;rsquo; and &amp;lsquo;negs&amp;rsquo; (or &amp;lsquo;neg&amp;rsquo; for pairwise data). &amp;lsquo;pos&amp;rsquo; should contain the` list of sentences from the positive or coherent document, while &amp;lsquo;negs&amp;rsquo; should contain the list of negative documents (e.g. incoherent documents, permutations) which are in turn lists of sentences.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;--data_type&lt;/code&gt; argument should be set to &lt;code&gt;single&lt;/code&gt; or &lt;code&gt;multiple&lt;/code&gt; depending on the number of negatives in the dataset.
+
+&lt;ul&gt;
+&lt;li&gt;e.g. &lt;code&gt;single&lt;/code&gt;: [{&amp;lsquo;pos&amp;rsquo;:[&amp;lsquo;aa&amp;rsquo;, &amp;lsquo;bb&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;], &amp;lsquo;neg&amp;rsquo;:[&amp;lsquo;bb&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;]}..{}]&lt;/li&gt;
+&lt;li&gt;e.g. &lt;code&gt;multiple&lt;/code&gt;: [{&amp;lsquo;pos&amp;rsquo;:[&amp;lsquo;aa&amp;rsquo;, &amp;lsquo;bb&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;], &amp;lsquo;negs&amp;rsquo;:[[&amp;lsquo;bb&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;], [&amp;lsquo;cc&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;, &amp;lsquo;bb&amp;rsquo;], [&amp;lsquo;bb&amp;rsquo;, &amp;lsquo;cc&amp;rsquo;, &amp;lsquo;aa&amp;rsquo;]]}..{}]&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;training-the-model&#34;&gt;Training the model&lt;/h3&gt;
+
+&lt;p&gt;Navigate into the model folder that you want to train (pairwise, contrastive or our full hard negative model with momentum encoder).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; CUDA_VISIBLE_DEVICES=x python train.py --train_file [train.pkl] --dev_file [dev.pkl]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Please refer to the &lt;code&gt;args.py&lt;/code&gt; file for all other arguments that can be set. All hyperparameter defaults are set to the values used for experiments in the paper.&lt;/p&gt;
+
+&lt;p&gt;To evaluate the model on a test set, run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; CUDA_VISIBLE_DEVICES=x python eval.py --test_file [test.pkl] --data_type [single,multiple] --pretrained_model [saved_checkpoint.pt]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;evaluation-using-the-coherence-model&#34;&gt;Evaluation using the Coherence Model&lt;/h3&gt;
+
+&lt;p&gt;You can use our trained model to evaluate machine generated text. More details will be updated soon.&lt;/p&gt;
 </description>
     </item>
     
@@ -621,15 +630,6 @@ python generate.py \
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/publication/scalegrad/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cross-model Back-translated Distillation for Unsupervised Machine Translation</title>
-      <link>https://ntunlpsg.github.io/publication/cbd_icml_2021/</link>
-      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/publication/cbd_icml_2021/</guid>
       <description></description>
     </item>
     

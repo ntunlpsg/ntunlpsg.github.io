@@ -51,16 +51,6 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/project/</loc>
-      <lastmod>2022-03-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/publication_types/</loc>
       <lastmod>2022-03-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -71,7 +61,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/project/coherence-paradigm/</loc>
+      <loc>https://ntunlpsg.github.io/publication/coherence_paradigm/</loc>
       <lastmod>2022-03-31T00:00:00+00:00</lastmod>
     </url>
     
@@ -80,38 +70,8 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/tags/</loc>
-      <lastmod>2022-03-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/coherence/</loc>
-      <lastmod>2022-03-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/evaluation/</loc>
-      <lastmod>2022-03-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/self-supervision/</loc>
-      <lastmod>2022-03-31T00:00:00+00:00</lastmod>
+      <loc>https://ntunlpsg.github.io/project/</loc>
+      <lastmod>2022-03-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -122,6 +82,16 @@
     
       <loc>https://ntunlpsg.github.io/project/scalegrad/</loc>
       <lastmod>2022-03-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/</loc>
+      <lastmod>2022-03-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -148,6 +118,25 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/project/coherence-paradigm/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/coherence/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/tags/continual-learning/</loc>
       <lastmod>2022-03-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -158,7 +147,27 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/tags/evaluation/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/tags/multitask-learning/</loc>
+      <lastmod>2022-03-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/self-supervision/</loc>
       <lastmod>2022-03-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -1608,14 +1617,6 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/project/ptr-constituency-parser/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/publication/coherence_paradigm/</loc>
     </url>
     
   
