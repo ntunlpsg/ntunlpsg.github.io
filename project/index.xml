@@ -85,6 +85,15 @@
     </item>
     
     <item>
+      <title>DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</title>
+      <link>https://ntunlpsg.github.io/project/globalwoz/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/globalwoz/</guid>
+      <description>Data augmentation for low resource tagging.</description>
+    </item>
+    
+    <item>
       <title>Evaluating Pronominal Anaphora in Machine Translation: An Evaluation Measure and a Test-suite</title>
       <link>https://ntunlpsg.github.io/project/discomt/eval-anaphora/</link>
       <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
