@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
@@ -16,6 +15,16 @@
     
       <loc>https://ntunlpsg.github.io/resources/list/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/</loc>
+      <lastmod>2021-10-03T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -68,6 +77,26 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/publication_types/1/</loc>
+      <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/publication_types/</loc>
+      <lastmod>2021-05-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/publication/scalegrad/</loc>
       <lastmod>2021-05-20T00:00:00+00:00</lastmod>
     </url>
@@ -95,6 +124,16 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/project/</loc>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/project/naacl21-rst-parsing-resource/naacl21-rst-parsing-resource/</loc>
       <lastmod>2021-05-01T00:00:00+00:00</lastmod>
     </url>
@@ -113,8 +152,48 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/tags/</loc>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/publication/uxla/</loc>
       <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/discourse-analysis/</loc>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/parser/</loc>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/seq2seq/</loc>
+      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -131,8 +210,28 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/tags/discourse/</loc>
+      <lastmod>2021-04-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/project/daga/</loc>
       <lastmod>2021-02-24T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/deep-learning/</loc>
+      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -169,6 +268,16 @@
     
       <loc>https://ntunlpsg.github.io/publication/pronoun-finetune/</loc>
       <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/publication_types/2/</loc>
+      <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -214,6 +323,15 @@
     
       <loc>https://ntunlpsg.github.io/publication/ptr-constituency-parser/</loc>
       <lastmod>2020-06-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/publication/submod_summ/</loc>
+      <lastmod>2020-06-13T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -302,6 +420,16 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/tags/representation-learning/</loc>
+      <lastmod>2019-10-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/project/coherence/n-coh-emnlp19/</loc>
       <lastmod>2019-10-28T00:00:00+00:00</lastmod>
     </url>
@@ -349,6 +477,26 @@
     
       <loc>https://ntunlpsg.github.io/project/acl19tutorial/</loc>
       <lastmod>2019-07-15T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/acl-2019/</loc>
+      <lastmod>2019-07-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/discourse-applications/</loc>
+      <lastmod>2019-07-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -439,6 +587,16 @@
     
       <loc>https://ntunlpsg.github.io/project/malay-english-neural-machine-translator/</loc>
       <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/multi-lingual/</loc>
+      <lastmod>2018-09-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -689,6 +847,15 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/resources/</loc>
+      <lastmod>2017-01-03T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -726,15 +893,6 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/resources/</loc>
       <lastmod>2017-01-01T00:00:00+08:00</lastmod>
     </url>
     
@@ -898,6 +1056,26 @@
     
       <loc>https://ntunlpsg.github.io/project/topic-segmenter/</loc>
       <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/misc/</loc>
+      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/question-answering/</loc>
+      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -1274,73 +1452,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/publication/submod_summ/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/publication_types/1/</loc>
-      <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/publication_types/2/</loc>
-      <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/acl-2019/</loc>
-      <lastmod>2019-07-15T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/attention/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/context-modeling/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/deep-learning/</loc>
-      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -1357,36 +1469,6 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/tags/discourse/</loc>
-      <lastmod>2021-04-16T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/discourse-analysis/</loc>
-      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/discourse-applications/</loc>
-      <lastmod>2019-07-15T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/project/ptr-constituency-parser/</loc>
     </url>
     
@@ -1395,8 +1477,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/tags/misc/</loc>
-      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+      <loc>https://ntunlpsg.github.io/tags/attention/</loc>
       <priority>0</priority>
     </url>
     
@@ -1405,88 +1486,7 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/tags/multi-lingual/</loc>
-      <lastmod>2018-09-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/parser/</loc>
-      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/project/</loc>
-      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/publication_types/</loc>
-      <lastmod>2021-05-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/question-answering/</loc>
-      <lastmod>2016-04-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/representation-learning/</loc>
-      <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/seq2seq/</loc>
-      <lastmod>2021-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <loc>https://ntunlpsg.github.io/tags/context-modeling/</loc>
       <priority>0</priority>
     </url>
     

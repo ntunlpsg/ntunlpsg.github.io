@@ -7,10 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>discourse-analysis</title>
+      <link>https://ntunlpsg.github.io/tags/discourse-analysis/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/discourse-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parser</title>
+      <link>https://ntunlpsg.github.io/tags/parser/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/parser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seq2seq</title>
+      <link>https://ntunlpsg.github.io/tags/seq2seq/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/seq2seq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>discourse</title>
+      <link>https://ntunlpsg.github.io/tags/discourse/</link>
+      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/discourse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep-learning</title>
+      <link>https://ntunlpsg.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>representation-learning</title>
+      <link>https://ntunlpsg.github.io/tags/representation-learning/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/representation-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acl-2019</title>
+      <link>https://ntunlpsg.github.io/tags/acl-2019/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/acl-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>discourse-applications</title>
+      <link>https://ntunlpsg.github.io/tags/discourse-applications/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/discourse-applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multi-lingual</title>
+      <link>https://ntunlpsg.github.io/tags/multi-lingual/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/multi-lingual/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
@@ -22,70 +103,7 @@
     </item>
     
     <item>
-      <title>Acl-2019</title>
-      <link>https://ntunlpsg.github.io/tags/acl-2019/</link>
-      <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/acl-2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Attention</title>
-      <link>https://ntunlpsg.github.io/tags/attention/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/attention/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Context-modeling</title>
-      <link>https://ntunlpsg.github.io/tags/context-modeling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/context-modeling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep-learning</title>
-      <link>https://ntunlpsg.github.io/tags/deep-learning/</link>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Discourse</title>
-      <link>https://ntunlpsg.github.io/tags/discourse/</link>
-      <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/discourse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Discourse-analysis</title>
-      <link>https://ntunlpsg.github.io/tags/discourse-analysis/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/discourse-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Discourse-applications</title>
-      <link>https://ntunlpsg.github.io/tags/discourse-applications/</link>
-      <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/discourse-applications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Misc</title>
+      <title>misc</title>
       <link>https://ntunlpsg.github.io/tags/misc/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
@@ -94,25 +112,7 @@
     </item>
     
     <item>
-      <title>Multi-lingual</title>
-      <link>https://ntunlpsg.github.io/tags/multi-lingual/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/multi-lingual/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Parser</title>
-      <link>https://ntunlpsg.github.io/tags/parser/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/parser/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Question-answering</title>
+      <title>question-answering</title>
       <link>https://ntunlpsg.github.io/tags/question-answering/</link>
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
@@ -121,20 +121,20 @@
     </item>
     
     <item>
-      <title>Representation-learning</title>
-      <link>https://ntunlpsg.github.io/tags/representation-learning/</link>
-      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <title>attention</title>
+      <link>https://ntunlpsg.github.io/tags/attention/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/representation-learning/</guid>
+      <guid>https://ntunlpsg.github.io/tags/attention/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Seq2seq</title>
-      <link>https://ntunlpsg.github.io/tags/seq2seq/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <title>context-modeling</title>
+      <link>https://ntunlpsg.github.io/tags/context-modeling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ntunlpsg.github.io/tags/seq2seq/</guid>
+      <guid>https://ntunlpsg.github.io/tags/context-modeling/</guid>
       <description></description>
     </item>
     

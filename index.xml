@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -25,6 +25,34 @@
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems</title>
+      <link>https://ntunlpsg.github.io/project/globalwoz/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/globalwoz/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/bosheng2020/globalwoz&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;globalwoz&#34;&gt;GlobalWoZ&lt;/h1&gt;
+
+&lt;p&gt;This is the data of our method proposed in paper &amp;ldquo;&lt;a href=&#34;https://arxiv.org/pdf/2110.07679.pdf&#34; target=&#34;_blank&#34;&gt;GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems&lt;/a&gt;&amp;rdquo; accepted by ACL 2022.&lt;/p&gt;
+
+&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
+
+&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@article{ding2021globalwoz,
+  title={GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems},
+  author={Ding, Bosheng and Hu, Junjie and Bing, Lidong and Aljunied, Sharifah Mahani and Joty, Shafiq and Si, Luo and Miao, Chunyan},
+  journal={arXiv preprint arXiv:2110.07679},
+  year={2021}
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -326,7 +354,11 @@ url={https://openreview.net/forum?id=HCRVf71PMF}
       <guid>https://ntunlpsg.github.io/project/coherence-paradigm/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlp/coherence-paradigm#readme&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;
+    &lt;form action=&#34;https://github.com/ntunlp/coherence-paradigm#readme&#34;&gt;
+        &lt;input style=&#34;width:200px;height:100px;&#34; type=&#34;submit&#34; value=&#34;GitHub&#34; /&gt;
+    &lt;/form&gt;
+&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Code and data for the ACL 2022 paper: &lt;a href=&#34;https://arxiv.org/abs/2110.07198&#34; target=&#34;_blank&#34;&gt;https://arxiv.org/abs/2110.07198&lt;/a&gt;&lt;/p&gt;
 
@@ -529,107 +561,6 @@ python generate.py \
 &lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; &lt;center&gt; Thanh-Tung Nguyen &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Thomas is a Ph.D candidate in &lt;a href=&#34;https://ntunlpsg.github.io/&#34; target=&#34;_blank&#34;&gt;NLP Research Group&lt;/a&gt; at the &lt;a href=&#34;https://www.ntu.edu.sg/&#34; target=&#34;_blank&#34;&gt;Nanyang Technological University (NTU)&lt;/a&gt;. He is also affiliated with the Machine Intellection Department (previously was Data Analytics &amp;amp; Deep Learning 2.0 Department) of Institution for Infocomm Research (I2R). His research involves various aspects of NLP, especially NLP tools and NLP applications. Thomas will join I2R to work on the Collaborative AI project after his graduation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NTU-NLP: Monthly NLP Talks</title>
-      <link>https://ntunlpsg.github.io/post/monthly-nlp-talk/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/post/monthly-nlp-talk/</guid>
-      <description>
-
-&lt;p&gt;The NTU-NLP group will be hosting a series of talks, featuring local NLP researchers and scientists. The seminars will be organized monthly. The goal is to create a platform for local NLP/ML enthusiasts to share their work and to encourage collaborations across local universities and organizations.&lt;/p&gt;
-
-&lt;p&gt;Ph.D&amp;rsquo;s, Postdocs, and company scientists are all welcome to participate. &lt;strong&gt;Interested Speakers&lt;/strong&gt; please send their inquiry to &lt;code&gt;ruochen002@e.ntu.edu.sg&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;subscription&#34;&gt;Subscription&lt;/h2&gt;
-
-&lt;p&gt;To subscribe to a mailing list of upcoming talks, please follow either of the steps:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Please go to &lt;a href=&#34;http://groups.google.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Google Groups&lt;/strong&gt;&lt;/a&gt; and search &amp;ldquo;ntu-nlp-sg-seminar&amp;rdquo; under &lt;strong&gt;All groups and messages&lt;/strong&gt; tab.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Email with subject &lt;strong&gt;ntu-nlp-sg-seminar&lt;/strong&gt; to &lt;code&gt;ntunlpsg@gmail.com&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
-
-&lt;!-- ### Time: &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; --&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;center&gt; Date &lt;/center&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;center&gt;Description &lt;/center&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 11 October, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/junnan.jpeg&#34;&gt; &lt;br&gt; Junnan Li &lt;br&gt; Senior Research Scientist, Salesforce Research Asia, Singapore &lt;br&gt; &lt;a href=&#34;https://sites.google.com/site/junnanlics&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=MuUhwi0AAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic:  Self-supervised Learning, Semi-supervised Learning, Weakly-supervised Learning, Transfer Learning, Vision and Language &lt;br&gt; &lt;a href=&#34;../../talk/junnan&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,0yaa_CtqpkmQRFdwoSF_TA,qy_q0roFTkGX10G2Zo7mPg,sUdmKIvuBkqsqwmxDcrTJQ?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/t3EyTMvFCAE&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 13 September, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU. &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt; &lt;a href=&#34;../../talk/henry&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,85H58boEIUi55Ji9ruGeIg,Qe-QTrzJSE-B569L2e8Rhg,8SgWAxByEUie0twEcIce3g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rjEFtYNmoMs&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 16 August, 2021 &lt;br&gt; 2:00 - 3:00 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt; &lt;a href=&#34;../../talk/liangming&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,v1_XYvcKHUiL5HYlH8upQQ,dcx2ACSf_k-3a8mWBEdqgw,gAgX1m0VUEO6SVNHt7wv1g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/CAJJJOoS-q4&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;organizing-team&#34;&gt;Organizing Team&lt;/h2&gt;
-
-&lt;!-- | | | |
-| :---: | :---: | :---: |
-|&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/shafiq.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ruochen.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ravaut.jpg&#34;&gt; |
-| [Shafiq Joty](https://raihanjoty.github.io/) | [Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/) | [Mathieu RAVAUT](https://www.linkedin.com/in/mravox/) |
-| &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/Chen.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/saiful.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/LinXiang.jpg&#34;&gt; |
-| [Hailin Chen](https://www.linkedin.com/in/chenhailin/) | [M Saiful Bari](https://sbmaruf.github.io) | [Lin Xiang](https://shawnlimn.github.io) | --&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/shafiq.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ruochen.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ravaut.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/Chen.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/saiful.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/LinXiang.jpg&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt; &lt;a href=&#34;https://raihanjoty.github.io/&#34; target=&#34;_blank&#34;&gt;Shafiq Joty&lt;/a&gt; &lt;/small&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt; &lt;a href=&#34;https://www.linkedin.com/in/esther-ruochen-zhao-855357150/&#34; target=&#34;_blank&#34;&gt;Ruochen Zhao&lt;/a&gt; &lt;/small&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://www.linkedin.com/in/mravox/&#34; target=&#34;_blank&#34;&gt;Mathieu RAVAUT&lt;/a&gt;&lt;/small&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://www.linkedin.com/in/chenhailin/&#34; target=&#34;_blank&#34;&gt;Hailin Chen&lt;/a&gt;&lt;/small&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://sbmaruf.github.io&#34; target=&#34;_blank&#34;&gt;M Saiful Bari&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://shawnlimn.github.io&#34; target=&#34;_blank&#34;&gt;Lin Xiang&lt;/a&gt; &lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
 </description>
     </item>
     

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Question-answering on NTU-NLP</title>
+    <title>question-answering on NTU-NLP</title>
     <link>https://ntunlpsg.github.io/tags/question-answering/</link>
-    <description>Recent content in Question-answering on NTU-NLP</description>
+    <description>Recent content in question-answering on NTU-NLP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
@@ -18,11 +18,7 @@
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/project/community-qa/</guid>
-      <description>About This Resource includes:
- A live demonstration of question-answering system. Relevant publications for question-answering system.  Demo link to live Qatar Living system
-This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum. The underlying technology is developed at QCRI and MIT in collaboration with Qatar Living.
-Watch the video to learn more:
-  Relevant publications Enamul Hoque, Shafiq Joty, Lluís Màrquez, and Giuseppe Carenini.</description>
+      <description>This search tool helps you to find good answers to your question by searching through previously asked questions in the Qatarliving forum.</description>
     </item>
     
   </channel>
