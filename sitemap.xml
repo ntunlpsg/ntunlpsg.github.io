@@ -22,6 +22,55 @@
     
     <url>
     
+      <loc>https://ntunlpsg.github.io/project/globalwoz/</loc>
+      <lastmod>2022-05-15T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/</loc>
+      <lastmod>2022-05-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/project/</loc>
+      <lastmod>2022-05-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/</loc>
+      <lastmod>2022-05-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ntunlpsg.github.io/tags/deep-learning/</loc>
+      <lastmod>2022-05-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ntunlpsg.github.io/publication_types/1/</loc>
       <lastmod>2022-03-31T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -34,16 +83,6 @@
     
       <loc>https://ntunlpsg.github.io/publication/chart2text/</loc>
       <lastmod>2022-03-31T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/</loc>
-      <lastmod>2022-03-31T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -70,16 +109,6 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/project/</loc>
-      <lastmod>2022-03-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/project/scalegrad/</loc>
       <lastmod>2022-03-30T00:00:00+00:00</lastmod>
     </url>
@@ -91,16 +120,6 @@
     
       <loc>https://ntunlpsg.github.io/publication/summareranker/</loc>
       <lastmod>2022-03-30T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/tags/</loc>
-      <lastmod>2022-03-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
@@ -241,16 +260,6 @@
     
     <url>
     
-      <loc>https://ntunlpsg.github.io/tags/deep-learning/</loc>
-      <lastmod>2021-08-04T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ntunlpsg.github.io/talk/thomas/</loc>
       <lastmod>2021-07-04T00:00:00+08:00</lastmod>
     </url>
@@ -373,15 +382,6 @@
     <url>
     
       <loc>https://ntunlpsg.github.io/project/daga/</loc>
-      <lastmod>2021-02-24T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ntunlpsg.github.io/project/globalwoz/</loc>
       <lastmod>2021-02-24T00:00:00+08:00</lastmod>
     </url>
     

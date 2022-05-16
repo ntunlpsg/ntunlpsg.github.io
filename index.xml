@@ -6,7 +6,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
-    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -25,6 +25,115 @@
       
       <guid>https://ntunlpsg.github.io/resources/list/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems</title>
+      <link>https://ntunlpsg.github.io/project/globalwoz/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0800</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/globalwoz/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/ntunlp/daga&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;daga&#34;&gt;DAGA&lt;/h1&gt;
+
+&lt;p&gt;This is the source code of our method proposed in paper &amp;ldquo;&lt;a href=&#34;https://www.aclweb.org/anthology/2020.emnlp-main.488/&#34; target=&#34;_blank&#34;&gt;DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&lt;/a&gt;&amp;rdquo; accepted by EMNLP 2020.&lt;/p&gt;
+
+&lt;h1 id=&#34;examples&#34;&gt;Examples&lt;/h1&gt;
+
+&lt;h2 id=&#34;flair-seq-tagger-sequense-tagging-model&#34;&gt;flair_seq_tagger: sequense tagging model&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;cd flair_seq_tagger;
+
+python train_tagger.py \
+  --data_dir PATH/TO/TRAIN_DIR \
+  --train_file  train.txt \
+  --dev_file  dev.txt \
+  --data_columns text ner \
+  --model_dir ./model \
+  --comment_symbol &amp;quot;__label__&amp;quot; \
+  --embeddings_file PATH/TO/emb \
+  --optim adam \
+  --learning_rate 0.001 --min_learning_rate 0.00001 \
+  --patience 2 \
+  --max_epochs 100 \
+  --hidden_size 512 \
+  --mini_batch_size 32 \
+  --gpuid 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;lstm-lm-lstm-language-model&#34;&gt;lstm-lm: LSTM language model&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;train lstm-lm on linearized sequences&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd lstm-lm;
+
+python train.py \
+--train_file PATH/TO/train.linearized.txt \
+--valid_file PATH/TO/dev.linearized.txt \
+--model_file PATH/TO/model.pt \
+--emb_dim 300 \
+--rnn_size 512 \
+--gpuid 0 
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;generate linearized sequences&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd lstm-lm;
+
+python generate.py \
+--model_file PATH/TO/model.pt \
+--out_file PATH/TO/out.txt \
+--num_sentences 10000 \
+--temperature 1.0 \
+--seed 3435 \
+--max_sent_length 32 \
+--gpuid 0
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tools-tools-for-data-processing&#34;&gt;tools: tools for data processing&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;preprocess.py: sequence linearization&lt;/li&gt;
+&lt;li&gt;line2cols.py: convert linearized sequence back to two-column format&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;requirements&#34;&gt;Requirements&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;flair_seq_tagger/requirements.txt&lt;/li&gt;
+&lt;li&gt;lstm-lm/requirements.txt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;citation&#34;&gt;Citation&lt;/h1&gt;
+
+&lt;p&gt;Please cite our paper if you found the resources in this repository useful.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@inproceedings{ding-etal-2020-daga,
+    title = &amp;quot;{DAGA}: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&amp;quot;,
+    author = &amp;quot;Ding, Bosheng  and
+      Liu, Linlin  and
+      Bing, Lidong  and
+      Kruengkrai, Canasai  and
+      Nguyen, Thien Hai  and
+      Joty, Shafiq  and
+      Si, Luo  and
+      Miao, Chunyan&amp;quot;,
+    booktitle = &amp;quot;Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)&amp;quot;,
+    month = nov,
+    year = &amp;quot;2020&amp;quot;,
+    address = &amp;quot;Online&amp;quot;,
+    publisher = &amp;quot;Association for Computational Linguistics&amp;quot;,
+    url = &amp;quot;https://www.aclweb.org/anthology/2020.emnlp-main.488&amp;quot;,
+    doi = &amp;quot;10.18653/v1/2020.emnlp-main.488&amp;quot;,
+    pages = &amp;quot;6045--6057&amp;quot;,
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
@@ -529,107 +638,6 @@ python generate.py \
 &lt;p&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; &lt;center&gt; Thanh-Tung Nguyen &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Bio:&lt;/strong&gt; Thomas is a Ph.D candidate in &lt;a href=&#34;https://ntunlpsg.github.io/&#34; target=&#34;_blank&#34;&gt;NLP Research Group&lt;/a&gt; at the &lt;a href=&#34;https://www.ntu.edu.sg/&#34; target=&#34;_blank&#34;&gt;Nanyang Technological University (NTU)&lt;/a&gt;. He is also affiliated with the Machine Intellection Department (previously was Data Analytics &amp;amp; Deep Learning 2.0 Department) of Institution for Infocomm Research (I2R). His research involves various aspects of NLP, especially NLP tools and NLP applications. Thomas will join I2R to work on the Collaborative AI project after his graduation.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>NTU-NLP: Monthly NLP Talks</title>
-      <link>https://ntunlpsg.github.io/post/monthly-nlp-talk/</link>
-      <pubDate>Tue, 29 Jun 2021 00:00:00 +0800</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/post/monthly-nlp-talk/</guid>
-      <description>
-
-&lt;p&gt;The NTU-NLP group will be hosting a series of talks, featuring local NLP researchers and scientists. The seminars will be organized monthly. The goal is to create a platform for local NLP/ML enthusiasts to share their work and to encourage collaborations across local universities and organizations.&lt;/p&gt;
-
-&lt;p&gt;Ph.D&amp;rsquo;s, Postdocs, and company scientists are all welcome to participate. &lt;strong&gt;Interested Speakers&lt;/strong&gt; please send their inquiry to &lt;code&gt;ruochen002@e.ntu.edu.sg&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;subscription&#34;&gt;Subscription&lt;/h2&gt;
-
-&lt;p&gt;To subscribe to a mailing list of upcoming talks, please follow either of the steps:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Please go to &lt;a href=&#34;http://groups.google.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Google Groups&lt;/strong&gt;&lt;/a&gt; and search &amp;ldquo;ntu-nlp-sg-seminar&amp;rdquo; under &lt;strong&gt;All groups and messages&lt;/strong&gt; tab.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Email with subject &lt;strong&gt;ntu-nlp-sg-seminar&lt;/strong&gt; to &lt;code&gt;ntunlpsg@gmail.com&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
-
-&lt;!-- ### Time: &lt;span style=&#34;color:red&#34;&gt;TBA&lt;/span&gt; --&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;center&gt; Date &lt;/center&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;center&gt;Description &lt;/center&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 11 October, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/junnan.jpeg&#34;&gt; &lt;br&gt; Junnan Li &lt;br&gt; Senior Research Scientist, Salesforce Research Asia, Singapore &lt;br&gt; &lt;a href=&#34;https://sites.google.com/site/junnanlics&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=MuUhwi0AAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic:  Self-supervised Learning, Semi-supervised Learning, Weakly-supervised Learning, Transfer Learning, Vision and Language &lt;br&gt; &lt;a href=&#34;../../talk/junnan&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,0yaa_CtqpkmQRFdwoSF_TA,qy_q0roFTkGX10G2Zo7mPg,sUdmKIvuBkqsqwmxDcrTJQ?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/t3EyTMvFCAE&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 13 September, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/henry.jpeg&#34;&gt; &lt;br&gt; Henry Hung Le &lt;br&gt; Ph.D. Candidate, SMU. &lt;br&gt; &lt;a href=&#34;https://sites.google.com/view/henryle2018/home&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=jnYI1UgAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Conversational AI, Video Understanding, Task-oriented Dialogues &lt;br&gt; &lt;a href=&#34;../../talk/henry&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,85H58boEIUi55Ji9ruGeIg,Qe-QTrzJSE-B569L2e8Rhg,8SgWAxByEUie0twEcIce3g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/rjEFtYNmoMs&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 16 August, 2021 &lt;br&gt; 2:00 - 3:00 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/liangming.jpeg&#34;&gt; &lt;br&gt; Liangming Pan &lt;br&gt; Ph.D. Candidate, NUS. &lt;br&gt; &lt;a href=&#34;http://www.liangmingpan.com/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=JcjjOTUAAAAJ&amp;amp;hl=en&amp;amp;oi=ao&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; &lt;br&gt; Research topic: Text Generation, Knowledge Graph, Multi-media Learning &lt;br&gt; &lt;a href=&#34;../../talk/liangming&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,v1_XYvcKHUiL5HYlH8upQQ,dcx2ACSf_k-3a8mWBEdqgw,gAgX1m0VUEO6SVNHt7wv1g?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt;&lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/CAJJJOoS-q4&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;p align=&#34;center&#34;&gt; 12 July, 2021 &lt;br&gt; 4:30 - 5:30 PM &lt;br&gt; (UTC +8) &lt;/p&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 180px;&#34; src=&#34;../../person/thomas.jpg&#34;&gt; &lt;br&gt; Thanh-Tung Nguyen (Thomas) &lt;br&gt; Ph.D. Candidate, NTU. &lt;br&gt; &lt;a href=&#34;https://www.linkedin.com/in/tungngthanh/&#34; target=&#34;_blank&#34;&gt;Linkedin&lt;/a&gt; |  &lt;a href=&#34;https://scholar.google.com/citations?user=NkKC6zYAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; | &lt;a href=&#34;https://tungngthanh.github.io/&#34; target=&#34;_blank&#34;&gt;Website&lt;/a&gt; &lt;br&gt; Research topic: Parsing, RNN, Machine Translation &lt;br&gt; &lt;a href=&#34;../../talk/thomas&#34;&gt;Talk Details&lt;/a&gt;&lt;br&gt; &lt;a href=&#34;https://teams.microsoft.com/registration/SJPOFSq-K0aPwOF2WpsgSg,mVAApF_uvE2vORk0OJju0w,EfHG1if7WEOly7k9bs3WYQ,FCCJZJ3vzEiY9OmmZMJ9iQ,H0hzNw4NykeFJTivdszM2w,8pP5g8ZiLEaenaJ2y9X3RA?mode=read&amp;amp;tenantId=15ce9348-be2a-462b-8fc0-e1765a9b204a&#34; target=&#34;_blank&#34;&gt;Registration Link&lt;/a&gt; &lt;br&gt; &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/HTKIM9_D71I&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&#34;organizing-team&#34;&gt;Organizing Team&lt;/h2&gt;
-
-&lt;!-- | | | |
-| :---: | :---: | :---: |
-|&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/shafiq.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ruochen.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ravaut.jpg&#34;&gt; |
-| [Shafiq Joty](https://raihanjoty.github.io/) | [Ruochen Zhao](https://www.linkedin.com/in/esther-ruochen-zhao-855357150/) | [Mathieu RAVAUT](https://www.linkedin.com/in/mravox/) |
-| &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/Chen.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/saiful.jpg&#34;&gt; | &lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/LinXiang.jpg&#34;&gt; |
-| [Hailin Chen](https://www.linkedin.com/in/chenhailin/) | [M Saiful Bari](https://sbmaruf.github.io) | [Lin Xiang](https://shawnlimn.github.io) | --&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/shafiq.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ruochen.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/ravaut.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/Chen.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/saiful.jpg&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;img class=&#34;img-circle&#34; style=&#34;width: 80px;&#34; src=&#34;../../person/LinXiang.jpg&#34;&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt; &lt;a href=&#34;https://raihanjoty.github.io/&#34; target=&#34;_blank&#34;&gt;Shafiq Joty&lt;/a&gt; &lt;/small&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt; &lt;a href=&#34;https://www.linkedin.com/in/esther-ruochen-zhao-855357150/&#34; target=&#34;_blank&#34;&gt;Ruochen Zhao&lt;/a&gt; &lt;/small&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://www.linkedin.com/in/mravox/&#34; target=&#34;_blank&#34;&gt;Mathieu RAVAUT&lt;/a&gt;&lt;/small&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://www.linkedin.com/in/chenhailin/&#34; target=&#34;_blank&#34;&gt;Hailin Chen&lt;/a&gt;&lt;/small&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://sbmaruf.github.io&#34; target=&#34;_blank&#34;&gt;M Saiful Bari&lt;/a&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;small&gt;&lt;a href=&#34;https://shawnlimn.github.io&#34; target=&#34;_blank&#34;&gt;Lin Xiang&lt;/a&gt; &lt;/small&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
 </description>
     </item>
     
