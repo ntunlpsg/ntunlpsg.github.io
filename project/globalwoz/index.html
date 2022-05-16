@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Data augmentation for low resource tagging.">
+  <meta name="description" content="Multilingual ToD">
 
   
   <link rel="alternate" hreflang="en-us" href="https://ntunlpsg.github.io/project/globalwoz/">
@@ -85,7 +85,7 @@
   <meta property="og:site_name" content="NTU-NLP">
   <meta property="og:url" content="https://ntunlpsg.github.io/project/globalwoz/">
   <meta property="og:title" content="GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems | NTU-NLP">
-  <meta property="og:description" content="Data augmentation for low resource tagging.">
+  <meta property="og:description" content="Multilingual ToD">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2022-05-15T00:00:00&#43;08:00">
@@ -269,102 +269,21 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<p><a href="https://github.com/ntunlp/daga" target="_blank">Github</a></p>
+<p><a href="https://github.com/bosheng2020/globalwoz" target="_blank">Github</a></p>
 
-<h1 id="daga">DAGA</h1>
+<h1 id="globalwoz">GlobalWoZ</h1>
 
-<p>This is the source code of our method proposed in paper &ldquo;<a href="https://www.aclweb.org/anthology/2020.emnlp-main.488/" target="_blank">DAGA: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks</a>&rdquo; accepted by EMNLP 2020.</p>
-
-<h1 id="examples">Examples</h1>
-
-<h2 id="flair-seq-tagger-sequense-tagging-model">flair_seq_tagger: sequense tagging model</h2>
-
-<pre><code>cd flair_seq_tagger;
-
-python train_tagger.py \
-  --data_dir PATH/TO/TRAIN_DIR \
-  --train_file  train.txt \
-  --dev_file  dev.txt \
-  --data_columns text ner \
-  --model_dir ./model \
-  --comment_symbol &quot;__label__&quot; \
-  --embeddings_file PATH/TO/emb \
-  --optim adam \
-  --learning_rate 0.001 --min_learning_rate 0.00001 \
-  --patience 2 \
-  --max_epochs 100 \
-  --hidden_size 512 \
-  --mini_batch_size 32 \
-  --gpuid 0
-</code></pre>
-
-<h2 id="lstm-lm-lstm-language-model">lstm-lm: LSTM language model</h2>
-
-<ul>
-<li><p>train lstm-lm on linearized sequences</p>
-
-<pre><code>cd lstm-lm;
-
-python train.py \
---train_file PATH/TO/train.linearized.txt \
---valid_file PATH/TO/dev.linearized.txt \
---model_file PATH/TO/model.pt \
---emb_dim 300 \
---rnn_size 512 \
---gpuid 0 
-</code></pre></li>
-
-<li><p>generate linearized sequences</p>
-
-<pre><code>cd lstm-lm;
-
-python generate.py \
---model_file PATH/TO/model.pt \
---out_file PATH/TO/out.txt \
---num_sentences 10000 \
---temperature 1.0 \
---seed 3435 \
---max_sent_length 32 \
---gpuid 0
-</code></pre></li>
-</ul>
-
-<h2 id="tools-tools-for-data-processing">tools: tools for data processing</h2>
-
-<ul>
-<li>preprocess.py: sequence linearization</li>
-<li>line2cols.py: convert linearized sequence back to two-column format</li>
-</ul>
-
-<h1 id="requirements">Requirements</h1>
-
-<ul>
-<li>flair_seq_tagger/requirements.txt</li>
-<li>lstm-lm/requirements.txt</li>
-</ul>
+<p>This is the data of our method proposed in paper &ldquo;<a href="https://arxiv.org/pdf/2110.07679.pdf" target="_blank">GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems</a>&rdquo; accepted by ACL 2022.</p>
 
 <h1 id="citation">Citation</h1>
 
 <p>Please cite our paper if you found the resources in this repository useful.</p>
 
-<pre><code>@inproceedings{ding-etal-2020-daga,
-    title = &quot;{DAGA}: Data Augmentation with a Generation Approach for Low-resource Tagging Tasks&quot;,
-    author = &quot;Ding, Bosheng  and
-      Liu, Linlin  and
-      Bing, Lidong  and
-      Kruengkrai, Canasai  and
-      Nguyen, Thien Hai  and
-      Joty, Shafiq  and
-      Si, Luo  and
-      Miao, Chunyan&quot;,
-    booktitle = &quot;Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)&quot;,
-    month = nov,
-    year = &quot;2020&quot;,
-    address = &quot;Online&quot;,
-    publisher = &quot;Association for Computational Linguistics&quot;,
-    url = &quot;https://www.aclweb.org/anthology/2020.emnlp-main.488&quot;,
-    doi = &quot;10.18653/v1/2020.emnlp-main.488&quot;,
-    pages = &quot;6045--6057&quot;,
+<pre><code>@article{ding2021globalwoz,
+  title={GlobalWoZ: Globalizing MultiWoZ to Develop Multilingual Task-Oriented Dialogue Systems},
+  author={Ding, Bosheng and Hu, Junjie and Bing, Lidong and Aljunied, Sharifah Mahani and Joty, Shafiq and Si, Luo and Miao, Chunyan},
+  journal={arXiv preprint arXiv:2110.07679},
+  year={2021}
 }
 </code></pre>
 
