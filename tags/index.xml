@@ -112,6 +112,33 @@
     </item>
     
     <item>
+      <title>data-augmentation</title>
+      <link>https://ntunlpsg.github.io/tags/data-augmentation/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/data-augmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multi-lingual</title>
+      <link>https://ntunlpsg.github.io/tags/multi-lingual/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/multi-lingual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unsupervised</title>
+      <link>https://ntunlpsg.github.io/tags/unsupervised/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/tags/unsupervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>discourse</title>
       <link>https://ntunlpsg.github.io/tags/discourse/</link>
       <pubDate>Fri, 16 Apr 2021 00:00:00 +0000</pubDate>
@@ -135,15 +162,6 @@
       <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
       
       <guid>https://ntunlpsg.github.io/tags/discourse-applications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>multi-lingual</title>
-      <link>https://ntunlpsg.github.io/tags/multi-lingual/</link>
-      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/multi-lingual/</guid>
       <description></description>
     </item>
     
@@ -216,15 +234,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ntunlpsg.github.io/tags/tree-structures/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>unsupervised</title>
-      <link>https://ntunlpsg.github.io/tags/unsupervised/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ntunlpsg.github.io/tags/unsupervised/</guid>
       <description></description>
     </item>
     

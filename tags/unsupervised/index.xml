@@ -7,9 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>ntunlp &amp;copy; 2020</copyright>
+    <lastBuildDate>Wed, 28 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ntunlpsg.github.io/tags/unsupervised/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UXLA: A Robust Unsupervised Data Augmentation Framework for Zero-Resouce Cross-Lingual NLP</title>
+      <link>https://ntunlpsg.github.io/project/uxla/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/uxla/</guid>
+      <description>We propose UXLA, a novel data augmentation framework for self-supervised learning in zero-resource transfer learning scenarios.</description>
+    </item>
     
     <item>
       <title>Contrastive Clustering to Mine Pseudo Parallel Data for Unsupervised Translation</title>

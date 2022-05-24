@@ -21,5 +21,14 @@
       <description>We show empirically that increasing the density of negative samples improves the basic model, and using a global negative queue further improves and stabilizes the model while training with hard negative samples.</description>
     </item>
     
+    <item>
+      <title>UXLA: A Robust Unsupervised Data Augmentation Framework for Zero-Resouce Cross-Lingual NLP</title>
+      <link>https://ntunlpsg.github.io/project/uxla/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ntunlpsg.github.io/project/uxla/</guid>
+      <description>We propose UXLA, a novel data augmentation framework for self-supervised learning in zero-resource transfer learning scenarios.</description>
+    </item>
+    
   </channel>
 </rss>
